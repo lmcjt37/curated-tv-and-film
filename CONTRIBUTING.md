@@ -8,17 +8,17 @@
 
 ## TV Shows
 
-Title: [TV TITLE HERE]
-Season: [SEASON NUMBER]
-Episode: [EPISODE NUMBER]
-Episode Title: [EPISODE TITLE HERE]
-`[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/{YOUTUBE_VIDEO_ID_HERE}/0.jpg)](https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE})`
+Title: [TV TITLE HERE]<br>
+Season: [SEASON NUMBER]<br>
+Episode: [EPISODE NUMBER]<br>
+Episode Title: [EPISODE TITLE HERE]<br>
+`[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/{YOUTUBE_VIDEO_ID_HERE}/0.jpg)](https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE})`<br>
 IMDB: [IMDB URL HERE]
 
 ## Films
 
-Title: [FILM TITLE HERE]
-`[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/{YOUTUBE_VIDEO_ID_HERE}/0.jpg)](https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE})`
+Title: [FILM TITLE HERE]<br>
+`[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/{YOUTUBE_VIDEO_ID_HERE}/0.jpg)](https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE})`<br>
 IMDB: [IMDB URL HERE]
 
 _Replace any [] or {} tokens with the relevant information stated_
