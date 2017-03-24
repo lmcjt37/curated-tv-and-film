@@ -1,4 +1,4 @@
-# Curated tv and film
+# Curated TV and Film
 
 This is a curated list for modern tv shows and films which show either iconic speeches or scenes. We have carefully picked out these moments, ignoring bias of any opinions or beliefs. Please be aware that because of this, certain links may cause offense.
 
@@ -8,18 +8,18 @@ Feel free to contribute by reading the guidelines - [Contributing](CONTRIBUTING.
 
 ## TV Shows
 
-Title: The Newsroom
-Season: 1
-Episode: 1
-Episode Title: We Just Decided To
-[![The Newsroom - We Just Decided To (S01E01)](https://img.youtube.com/vi/wTjMqda19wk/0.jpg)](https://www.youtube.com/watch?v=wTjMqda19wk)
+Title: The Newsroom<br>
+Season: 1<br>
+Episode: 1<br>
+Episode Title: We Just Decided To<br>
+[![The Newsroom - We Just Decided To (S01E01)](https://img.youtube.com/vi/wTjMqda19wk/0.jpg)](https://www.youtube.com/watch?v=wTjMqda19wk)<br>
 IMDB: http://www.imdb.com/title/tt1870479/
 
-Title: Mr.Robot
-Season: 2
-Episode: 3
-Episode Title: eps2.1_k3rnel-pan1c.ksd
-[![Mr.Robot - eps2.1_k3rnel-pan1c.ksd (S02E03)](https://img.youtube.com/vi/AZeLHD-725o/0.jpg)](https://www.youtube.com/watch?v=AZeLHD-725o)
+Title: Mr.Robot<br>
+Season: 2<br>
+Episode: 3<br>
+Episode Title: eps2.1_k3rnel-pan1c.ksd<br>
+[![Mr.Robot - eps2.1_k3rnel-pan1c.ksd (S02E03)](https://img.youtube.com/vi/AZeLHD-725o/0.jpg)](https://www.youtube.com/watch?v=AZeLHD-725o)<br>
 IMDB: http://www.imdb.com/title/tt4158110/
 
 ## Films
