@@ -1,4 +1,4 @@
-#Contributing
+# Contributing
 
 * Fork the repository
 * Append your changes to the relevant file, following the guide for each section below.
@@ -6,20 +6,20 @@
 * Push
 * Create your Pull Request
 
-##TV Shows
+## TV Shows
 
 Title: [TV TITLE HERE]
 Season: [SEASON NUMBER]
 Episode: [EPISODE NUMBER]
 Episode title: [EPISODE TITLE HERE]
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/{YOUTUBE_VIDEO_ID_HERE}/0.jpg)](https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE})
+`[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/{YOUTUBE_VIDEO_ID_HERE}/0.jpg)](https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE})`
 IMDB: [IMDB URL HERE]
 
 
-##Films
+## Films
 
 Title: [FILM TITLE HERE]
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/{YOUTUBE_VIDEO_ID_HERE}/0.jpg)](https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE})
+`[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/{YOUTUBE_VIDEO_ID_HERE}/0.jpg)](https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE})`
 IMDB: [IMDB URL HERE]
 
 _Replace any [] or {} tokens with the relevant information stated_
