@@ -22,6 +22,13 @@ Episode Title: eps2.1_k3rnel-pan1c.ksd<br>
 [![Mr.Robot - eps2.1_k3rnel-pan1c.ksd (S02E03)](https://img.youtube.com/vi/AZeLHD-725o/0.jpg)](https://www.youtube.com/watch?v=AZeLHD-725o)<br>
 IMDB: http://www.imdb.com/title/tt4158110/
 
+Title: Silicon Valley<br>
+Season: 1<br>
+Episode: 8<br>
+Episode Title: Optimal Tip-To-Top Efficiency<br>
+[![Silicon Valley - Optimal Tip-To-Top Efficiency (S01E08)](https://img.youtube.com/vi/mMeqEDEfniA/0.jpg)](https://www.youtube.com/watch?v=mMeqEDEfniA)<br>
+IMDB: http://www.imdb.com/title/tt2575988/
+
 ## Films
 
 *TBC*
