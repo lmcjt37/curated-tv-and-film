@@ -38,9 +38,13 @@ IMDB: https://www.imdb.com/title/tt4283088/?ref_=ttep_ep9
 
 ## Films
 
+Title: Fight Club (1999)<br>
+[![Fight Club - Ending Scene](https://img.youtube.com/vi/VC6Z_kdQoHw/0.jpg)](https://www.youtube.com/watch?v=VC6Z_kdQoHw)<br>
+IMDB: http://www.imdb.com/title/tt0364569/
+
 Title: Oldboy (2003)<br>
 [![Oldboy - The Corridor Fight Scene](https://img.youtube.com/vi/VwIIDzrVVdc/0.jpg)](https://www.youtube.com/watch?v=VwIIDzrVVdc)<br>
-IMDB: http://www.imdb.com/title/tt0364569/
+IMDB: https://www.imdb.com/title/tt0137523/
 
 Title: Olympus has fallen (2013)<br>
 [![Olympus has fallen - White house attack Scene](https://img.youtube.com/vi/N8WXitDnA_U/0.jpg)](https://www.youtube.com/watch?v=N8WXitDnA_U)<br>
