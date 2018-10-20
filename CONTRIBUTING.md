@@ -21,6 +21,8 @@ Title: [FILM TITLE HERE]<br>
 `[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/{YOUTUBE_VIDEO_ID_HERE}/0.jpg)](https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE})`<br>
 IMDB: [IMDB URL HERE]
 
+## Contributors
+Name: [Name Goes Here] [Place a link here]()
 _Replace any [] or {} tokens with the relevant information stated_
 
 Your PR will be reviewed carefully to see if it fits the bill. Don’t worry too much though, there are no specific guidelines so you should be good
