@@ -29,6 +29,13 @@ Episode Title: Optimal Tip-To-Top Efficiency<br>
 [![Silicon Valley - Optimal Tip-To-Top Efficiency (S01E08)](https://img.youtube.com/vi/mMeqEDEfniA/0.jpg)](https://www.youtube.com/watch?v=mMeqEDEfniA)<br>
 IMDB: http://www.imdb.com/title/tt2575988/
 
+Title: Game of Thrones<br>
+Season: 6<br>
+Episode: 9<br>
+Episode Title: Battle of the Bastards<br>
+[![Game of Thrones - Battle of the Bastards (S06E09)](https://img.youtube.com/vi/m8rURwkvOx0/0.jpg)](https://www.youtube.com/watch?v=m8rURwkvOx0)<br>
+IMDB: https://www.imdb.com/title/tt4283088/?ref_=ttep_ep9
+
 ## Films
 
 Title: Oldboy (2003)<br>
