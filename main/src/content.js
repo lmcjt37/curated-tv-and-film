@@ -65,6 +65,14 @@ var content = [
 		url: "https://www.youtube.com/watch?v=uzeODC-_IHw&t=81",
 		thumbnail: "https://img.youtube.com/vi/uzeODC-_IHw/0.jpg"
 	},
+	{
+		type: "movie",
+		title: "Nausicaä of the Valley of the Wind",
+		year: 1984,
+		imdb: "https://www.imdb.com/title/tt0087544/?ref_=nv_sr_1",
+		url: "http://ghibli-expo.toyama.jp/",
+		thumbnail: "https://studio-ghibli.fandom.com/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind?file=Nausicaa_of_the_Valley_of_the_Wind.jpg"	
+	},
 ];
 
 export default content;
