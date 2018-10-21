@@ -2,6 +2,7 @@ var content = [
 	{
 		type: "tv_show",
 		title: "The Newsroom",
+		description: "Will McAvoy (Jeff Daniels) hits the nail straight on the head in the opening minutes on HBO's new series 'The Newsroom'. He is asked by a college student a simple question during a campus debate. 'What makes America the greatest country in the world?'. Daniels initially goes the politically correct route then at the last minute goes with a honest, bold, straight forward answer that sums up a lot of the worlds problems that so many are afraid to accept because we all want to believe in our system and that it is our system that works. The evidence that is out there today is to the contrary and he discloses such information in his argument. We used to be the worlds best of the best and now we are just pretending. The first step to solving a problem is to admit there is one.",
 		season: 1,
 		episode: 1,
 		episode_title: "We Just Decided To",
@@ -12,6 +13,7 @@ var content = [
 	{
 		type: "tv_show",
 		title: "Mr.Robot",
+		description: "Elliot Alderson's powerful speech about control and the effects that religion and mindless following create.",
 		season: 2,
 		episode: 3,
 		episode_title: "eps2.1_k3rnel-pan1c.ksd",
@@ -22,6 +24,7 @@ var content = [
 	{
 		type: "tv_show",
 		title: "Silicon Valley",
+		description: "The guys start calculating how most efficiently a mass jerk-off session can be carried out, which eventually also leads to a finding a new solution for Pied Piper's problems.",
 		season: 1,
 		episode: 8,
 		episode_title: "Optimal Tip-To-Top Efficiency",
@@ -32,6 +35,7 @@ var content = [
 	{
 		type: "tv_show",
 		title: "Game of Thrones",
+		description: "In Winterfell, Jon Snow, Sansa, Davos and Tormund meet with Ramsay, and Jon Snow proposes a dispute between them instead of sacrificing lives in a battle. Ramsay does not accept and they schedule the battle in the morning. Jon Snow plots a scheme with Davos and Tormund and Sansa warns that Ramsay plays dirty. When both armies are ready to battle, Ramsay brings a surprise.",
 		season: 6,
 		episode: 9,
 		episode_title: "Battle of the Bastards",
@@ -42,6 +46,7 @@ var content = [
 	{
 		type: "movie",
 		title: "Oldboy",
+		description: "The corridor fight scene took seventeen takes in three days to perfect, and was one continuous take -- there was no editing of any sort except for the knife that was stabbed in Oh Dae-su's back, which was computer-generated imagery. Though the scene has often been compared visually to side scrolling beat 'em up video games, director Park Chan-wook has stated that the similarity was unintentional.",
 		year: 2003,
 		imdb: "http://www.imdb.com/title/tt0364569/",
 		url: "https://www.youtube.com/watch?v=VwIIDzrVVdc",
@@ -50,6 +55,7 @@ var content = [
 	{
 		type: "movie",
 		title: "Olympus has fallen",
+		description: "During a diplomatic talk between Korea and the United States, a secret Korean organisation has plotted a takeover of the White House with little resistance due to being caught off guard.",
 		year: 2013,
 		imdb: "https://www.imdb.com/title/tt2302755/",
 		url: "https://www.youtube.com/watch?v=N8WXitDnA_U",
@@ -58,6 +64,7 @@ var content = [
 	{
 		type: "tv_show",
 		title: "Rick and Morty",
+		description: "Rick, still in galactic prison, puts an intricate escape plan into action. Which then leads to a standoff in which he kills the council of Ricks.",
 		season: 3,
 		episode: 1,
 		episode_title: "Rickshank Redemption",
