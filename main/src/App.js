@@ -58,11 +58,12 @@ class App extends Component {
                           <h2>{item.title}{item.year ? (" (" + item.year + ")") : ''}</h2>
                           {item.type === "tv_show" &&
                             <div className="tvshow-details">
-                              <div className="tvshow-details__item"><span>Season:</span> {item.season}</div>
-                              <div className="tvshow-details__item"><span>Episode:</span> {item.episode}</div>
-                              <div className="tvshow-details__item"><span>Episode Title:</span> {item.episode_title}</div>
+                              <div className="details__item"><span>Season:</span> {item.season}</div>
+                              <div className="details__item"><span>Episode:</span> {item.episode}</div>
+                              <div className="details__item"><span>Episode Title:</span> {item.episode_title}</div>
                             </div>
                           }
+                          <div className="item-desc details__item"><span>Description:</span> {item.description}</div>
                           <div className="item-imdb">
                             <span>IMDB:</span><a target="_blank"  rel="noopener noreferrer" href={item.imdb}>{item.imdb}</a>
                           </div>
