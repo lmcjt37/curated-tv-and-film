@@ -65,6 +65,38 @@ var content = [
 		url: "https://www.youtube.com/watch?v=uzeODC-_IHw&t=81",
 		thumbnail: "https://img.youtube.com/vi/uzeODC-_IHw/0.jpg"
 	},
+	{
+		type: "movie",
+		title: "The Martian",
+		year: 2015,
+		imdb: "https://www.imdb.com/title/tt3659388/",
+		url: "https://www.youtube.com/watch?v=ej3ioOneTy8",
+		thumbnail: "https://img.youtube.com/vi/ej3ioOneTy8/0.jpg"
+	},
+	{
+		type: "movie",
+		title: "Inception",
+		year: 2010,
+		imdb: "https://www.imdb.com/title/tt1375666/",
+		url: "https://www.youtube.com/watch?v=8hP9D6kZseM",
+		thumbnail: "https://img.youtube.com/vi/8hP9D6kZseM/0.jpg"
+	},
+	{
+		type: "movie",
+		title: "Into the Wild",
+		year: 2007,
+		imdb: "https://www.imdb.com/title/tt0758758/",
+		url: "https://www.youtube.com/watch?v=g7ArZ7VD-QQ",
+		thumbnail: "https://img.youtube.com/vi/g7ArZ7VD-QQ/0.jpg"
+	},
+	{
+		type: "movie",
+		title: "The Prestige",
+		year: 2006,
+		imdb: "https://www.imdb.com/title/tt0482571/",
+		url: "https://www.youtube.com/watch?v=o4gHCmTQDVI",
+		thumbnail: "https://img.youtube.com/vi/o4gHCmTQDVI/0.jpg"
+	},
 ];
 
 export default content;

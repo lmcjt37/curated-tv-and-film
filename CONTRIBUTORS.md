@@ -9,3 +9,8 @@
 - Role: Contributor
 - Place: Buseck, Germany
 - GitHub: [Wolfy7](https://github.com/Wolfy7)
+
+#### Name: [Meisyarah Dwiastuti](https://github.com/meisyarahd)
+- Role: Contributor
+- Place: Prague, Czech Republic
+- GitHub: [meisyarahd](https://github.com/meisyarahd)
