@@ -1,0 +1,48 @@
+.main-header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.main-header h1 {
+  margin: 0;
+}
+
+.content-filter input {
+  font-size: 18px;
+  padding: 20px 10px;
+}
+
+.content-list {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.content-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.content-list ul li + li {
+  margin-top: 60px;
+}
+
+.item-thumbnail img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 1px 10px 4px rgba(0,0,0,0.2);
+}
+
+.item-imdb {
+  display: block;
+  margin-top: 10px;
+}
+
+.item-imdb a {
+  margin-left: 5px;
+}
+
+.tvshow-details__item + .tvshow-details__item {
+  margin-top: 5px;
+}
