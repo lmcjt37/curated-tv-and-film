@@ -12,6 +12,7 @@
 {
   type: "tv_show",
   title: "{TV_TITLE}",
+  description: "{DESCRIPTION}",
   season: {SEASON_NUMBER},
   episode: {EPISODE_NUMBER},
   episode_title: "{EPISODE_TITLE}",
@@ -27,6 +28,7 @@
 {
   type: "movie",
   title: "{FILM TITLE HERE}",
+  description: "{DESCRIPTION}",
   year: {FILM_YEAR},
   imdb: "{IMDB_URL_HERE}",
   url: "https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE}",
@@ -36,7 +38,7 @@
 
 ## Contributors
 
-If this is your first PR, don't forget to add yourself to the `CONTRIBUTORS.md`. Once your PR has been approved and merged, you will have your name in lights! 
+If this is your first PR, don't forget to add yourself to the `CONTRIBUTORS.md`. Once your PR has been approved and merged, you will have your name in lights!
 
 ```
 #### Name: [FULLNAME](PERSONAL_URL_OR_GITHUB)
