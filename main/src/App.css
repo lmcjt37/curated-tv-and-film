@@ -7,8 +7,12 @@
   margin: 0;
 }
 
+.content-filter {
+  padding: 0 28px;
+}
+
 .content-filter input {
-  font-size: 18px;
+  font-size: 17px;
   padding: 20px 10px;
 }
 
