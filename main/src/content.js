@@ -65,6 +65,16 @@ var content = [
 		url: "https://www.youtube.com/watch?v=uzeODC-_IHw&t=81",
 		thumbnail: "https://img.youtube.com/vi/uzeODC-_IHw/0.jpg"
 	},
+	{
+		type: "tv_show",
+		title: "Breaking Bad",
+		season: 5,
+		episode: 14,
+		episode_title: "Ozymandias",
+		imdb: "https://www.imdb.com/title/tt2301451/",
+		url: "https://www.youtube.com/watch?v=yDmsQcVAo2c",
+		thumbnail: "https://i.ytimg.com/vi/-AN0l-92Spk/hqdefault.jpg"
+	}
 ];
 
 export default content;

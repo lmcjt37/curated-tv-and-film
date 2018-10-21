@@ -9,3 +9,8 @@
 - Role: Contributor
 - Place: Buseck, Germany
 - GitHub: [Wolfy7](https://github.com/Wolfy7)
+
+#### Name: [Yamil Urbina](https://github.com/yamilurbina)
+- Role: Contributor
+- Place: La Paz, Bolivia
+- GitHub: [yamilurbina](https://github.com/yamilurbina)
