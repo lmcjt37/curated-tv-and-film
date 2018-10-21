@@ -44,7 +44,7 @@ var content = [
 		title: "Oldboy",
 		year: 2003,
 		imdb: "http://www.imdb.com/title/tt0364569/",
-		url: "",
+		url: "https://www.youtube.com/watch?v=VwIIDzrVVdc",
 		thumbnail: "https://camo.githubusercontent.com/542cfde27c129a73e8bd5897239ce714f7395207/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f56774949447a72565664632f302e6a7067"
 	},
 	{
@@ -52,8 +52,18 @@ var content = [
 		title: "Olympus has fallen",
 		year: 2013,
 		imdb: "https://www.imdb.com/title/tt2302755/",
-		url: "",
+		url: "https://www.youtube.com/watch?v=N8WXitDnA_U",
 		thumbnail: "https://camo.githubusercontent.com/c4fc2f1db0a033f165f0484ae07424bccd4b8b06/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f4e3857586974446e415f552f302e6a7067"
+	},
+	{
+		type: "tv_show",
+		title: "Rick and Morty",
+		season: 3,
+		episode: 1,
+		episode_title: "Rickshank Redemption",
+		imdb: "https://www.imdb.com/title/tt2861424/",
+		url: "https://www.youtube.com/watch?v=uzeODC-_IHw&t=81",
+		thumbnail: "https://img.youtube.com/vi/uzeODC-_IHw/0.jpg"
 	},
 ];
 
