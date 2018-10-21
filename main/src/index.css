@@ -1,14 +1,181 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-ExtraLight.woff') format('woff');
+  font-weight: 200;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-Light.woff') format('woff');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-Regular.woff') format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-SemiBold.woff') format('woff');
+  font-weight: 600;
+}
+
+/* @font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-ExtraLight.ttf') format('truetype'),
+  url('./fonts/SourceSansPro-ExtraLight.woff') format('woff'),
+  url('./fonts/SourceSansPro-ExtraLight.eot') format('eot');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-Light.ttf') format('truetype'),
+  url('./fonts/SourceSansPro-Light.woff') format('woff'),
+  url('./fonts/SourceSansPro-Light.eot') format('eot');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-Regular.ttf') format('truetype'),
+       url('./fonts/SourceSansPro-Regular.woff') format('woff'),
+       url('./fonts/SourceSansPro-Regular.eot') format('eot');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-SemiBold.ttf') format('truetype'),
+       url('./fonts/SourceSansPro-SemiBold.woff') format('woff'),
+       url('./fonts/SourceSansPro-SemiBold.eot') format('eot');
+  font-weight: 600;
+} */
+
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgb(var(--dark-persian-blue));
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  background: #FAFBFD;
+}
+
+#root {
+  height: 100%;
+}
+
+.rootContainer {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* style guide common character css */
+h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  letter-spacing: -0.6px;
+  line-height: initial;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  line-height: initial;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: initial;
+}
+
+h5 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+h6 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  line-height: initial;
+}
+
+.input {
+  font-family: 'Source Sans Pro';
+  font-size: 1.5rem;
+  letter-spacing: 0.3px;
+  border-radius: 3px;
+  padding: 0 1rem;
+  border: 1px solid rgba(var(--dusk), 0.6);
+}
+
+label, .label {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.6;
+  letter-spacing: 0.4px;
+}
+
+input::placeholder {
+  font-size: 1.3rem;
+  letter-spacing: 0.3px;
+  color:  rgb(var(--bluey-grey));
+}
+
+small {
+  font-size: 1.2rem;
+  font-weight: normal;
+  letter-spacing: 0.2px;
+  color:  rgb(var(--bluey-grey));
+}
+
+.link {
+  color:  rgb(var(--dodger-blue));
+  cursor: pointer;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+          line-clamp: 3;
+  -webkit-box-orient: vertical;
+          box-orient: vertical;
+}
+
+/*base font css*/
+/* if not pwa */
+/* @media only screen and (max-width:1023px) {
+  html {
+    font-size: 9px;
+  }
+  body {
+    font-size: 1.35rem;
+  }
+} */
+
+@media only screen and (min-width:1600px) {
+  html {
+    font-size: 11px;
+  }
+  body {
+    font-size: 1.45rem;
+  }
 }
