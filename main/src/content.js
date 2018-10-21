@@ -70,8 +70,16 @@ var content = [
 		title: "Nausicaä of the Valley of the Wind",
 		year: 1984,
 		imdb: "https://www.imdb.com/title/tt0087544/?ref_=nv_sr_1",
-		url: "http://ghibli-expo.toyama.jp/",
+		url: "https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)",
 		thumbnail: "https://studio-ghibli.fandom.com/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind?file=Nausicaa_of_the_Valley_of_the_Wind.jpg"	
+	},
+	{
+		type: "movie",
+		title: "Spirited Away",
+		year: 2001,
+		imdb: "https://www.imdb.com/title/tt0245429/",
+		url: "https://en.wikipedia.org/wiki/Spirited_Away",
+		thumbnail: "https://www.imdb.com/title/tt0245429/"	
 	},
 ];
 
