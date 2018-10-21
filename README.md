@@ -8,6 +8,6 @@ This is a curated list for modern tv shows and films which show either iconic sp
 
 Feel free to contribute by reading the guidelines - [Contributing](CONTRIBUTING.md)
 
-## contributors
+## Contributors
 
 [Visit here for contributors list](CONTRIBUTORS.md)
