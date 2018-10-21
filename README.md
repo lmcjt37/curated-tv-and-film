@@ -36,6 +36,13 @@ Episode Title: Battle of the Bastards<br>
 [![Game of Thrones - Battle of the Bastards (S06E09)](https://img.youtube.com/vi/m8rURwkvOx0/0.jpg)](https://www.youtube.com/watch?v=m8rURwkvOx0)<br>
 IMDB: https://www.imdb.com/title/tt4283088/?ref_=ttep_ep9
 
+Title: Rick and Morty<br>
+Season: 3<br>
+Episode: 1<br>
+Episode Title: Rickshank Redemption<br>
+[![Rick and Morty Season 3 Episode 1: Rickshank Redemption](https://i.ytimg.com/vi/XTlbsS-vHRs/hqdefault.jpg)](https://youtu.be/uzeODC-_IHw?t=81)<br>
+IMDB: https://www.imdb.com/title/tt2861424/
+
 ## Films
 
 Title: Oldboy (2003)<br>
@@ -45,10 +52,3 @@ IMDB: http://www.imdb.com/title/tt0364569/
 Title: Olympus has fallen (2013)<br>
 [![Olympus has fallen - White house attack Scene](https://img.youtube.com/vi/N8WXitDnA_U/0.jpg)](https://www.youtube.com/watch?v=N8WXitDnA_U)<br>
 IMDB: https://www.imdb.com/title/tt2302755/
-
-Title: Rick and Morty<br>
-Season: 3<br>
-Episode: 1<br>
-Episode Title: Rickshank Redemption<br>
-[![Rick and Morty Season 3 Episode 1: Rickshank Redemption](https://i.ytimg.com/vi/XTlbsS-vHRs/hqdefault.jpg)](https://youtu.be/uzeODC-_IHw?t=81)<br>
-IMDB: https://www.imdb.com/title/tt2861424/
