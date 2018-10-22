@@ -81,6 +81,15 @@ var content = [
 		url: "https://www.youtube.com/watch?v=z7-tkkcC6d0",
 		thumbnail: "https://i.ytimg.com/vi/z7-tkkcC6d0/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCzLzfJ8Lf8inHGhoZszKuUHZQo1w"
 	},
+	{
+		type: "movie",
+		title: "Kill Bill: Vol 1",
+		description: "The Bride (Uma Thurman) must defeat O-Ren Ishii's (Lucy Liu) personal army, The Crazy 88's, before she can strike off the first name on her death list.",
+		year: 2003,
+		imdb: "https://www.imdb.com/title/tt0266697/",
+		url: "https://www.youtube.com/watch?v=_B_1IMstVzs",
+		thumbnail: "https://img.youtube.com/vi/_B_1IMstVzs/0.jpg"
+	},
 ];
 
 export default content;
