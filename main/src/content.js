@@ -89,7 +89,7 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt0266697/",
 		url: "https://www.youtube.com/watch?v=_B_1IMstVzs",
 		thumbnail: "https://img.youtube.com/vi/_B_1IMstVzs/0.jpg"
-	},
+	}
 ];
 
 export default content;
