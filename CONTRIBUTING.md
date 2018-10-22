@@ -6,6 +6,12 @@
 * Push your changes to your repository.
 * Create a Pull Request from your forked repo to the main repo
 
+_Please make sure you include all necessary fields and try to stick to the format given below. Replace any [] or {} tokens with the relevant information stated_
+
+Your PR will be reviewed carefully to see if it fits the bill, with very loose guidelines. The URL format doesn't matter so much as long as the link works and a video or image can be retrieved.
+
+Remember that the video URLs should reference snippets or clips from of your favourite scene from the movie. We aren't hosting trailers or Fan videos.
+
 ## TV Shows
 
 ```
@@ -46,7 +52,3 @@ If this is your first PR, don't forget to add yourself to the `CONTRIBUTORS.md`.
 - Place: {LOCATION}
 - GitHub: [USERNAME](URL)
 ```
-
-_Replace any [] or {} tokens with the relevant information stated_
-
-Your PR will be reviewed carefully to see if it fits the bill. Don’t worry too much though, there are no specific guidelines so you should be good
