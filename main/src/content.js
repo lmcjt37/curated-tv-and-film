@@ -72,6 +72,14 @@ var content = [
 		url: "https://www.youtube.com/watch?v=uzeODC-_IHw&t=81",
 		thumbnail: "https://img.youtube.com/vi/uzeODC-_IHw/0.jpg"
 	},
+	{
+		type: "movie",
+		title: "Kingsman: The Secret Service",
+		year: 2014,
+		imdb: "https://www.imdb.com/title/tt2802144/",
+		url: "https://www.youtube.com/watch?v=z7-tkkcC6d0",
+		thumbnail: "https://i.ytimg.com/vi/z7-tkkcC6d0/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCzLzfJ8Lf8inHGhoZszKuUHZQo1w"
+	},
 ];
 
 export default content;
