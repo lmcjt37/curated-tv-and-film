@@ -73,36 +73,40 @@ var content = [
 		thumbnail: "https://img.youtube.com/vi/uzeODC-_IHw/0.jpg"
 	},
 	{
-		type: "movie",
-		title: "The Martian",
-		year: 2015,
-		imdb: "https://www.imdb.com/title/tt3659388/",
-		url: "https://www.youtube.com/watch?v=ej3ioOneTy8",
-		thumbnail: "https://img.youtube.com/vi/ej3ioOneTy8/0.jpg"
+	  type: "movie",
+	  title: "The Martian",
+	  description: "During a manned mission to Mars, Astronaut Mark Watney is presumed dead after a fierce storm and left behind by his crew. But Watney has survived and finds himself stranded and alone on the hostile planet. With only meager supplies, he must draw upon his ingenuity, wit and spirit to subsist and find a way to signal to Earth that he is alive. --20th Century Fox ",
+	  year: 2015,
+	  imdb: "https://www.imdb.com/title/tt3659388/",
+	  url: "https://www.youtube.com/watch?v=BAoadypFBQ4",
+	  thumbnail: "https://img.youtube.com/vi/BAoadypFBQ4/0.jpg"
 	},
 	{
-		type: "movie",
-		title: "Inception",
-		year: 2010,
-		imdb: "https://www.imdb.com/title/tt1375666/",
-		url: "https://www.youtube.com/watch?v=8hP9D6kZseM",
-		thumbnail: "https://img.youtube.com/vi/8hP9D6kZseM/0.jpg"
+	  type: "movie",
+	  title: "Inception",
+	  description: "Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state, when the mind is at its most vulnerable. Cobb's rare ability has made him a coveted player in this treacherous new world of corporate espionage, but it has also made him an international fugitive and cost him everything he has ever loved. Now Cobb is being offered a chance at redemption. One last job could give him his life back but only if he can accomplish the impossible - inception. --Warner Bros. Pictures"
+	  year: 2010,
+	  imdb: "https://www.imdb.com/title/tt1375666/",
+	  url: "https://www.youtube.com/watch?v=V3-a58Wt2tk",
+	  thumbnail: "https://img.youtube.com/vi/V3-a58Wt2tk/0.jpg"
 	},
 	{
-		type: "movie",
-		title: "Into the Wild",
-		year: 2007,
-		imdb: "https://www.imdb.com/title/tt0758758/",
-		url: "https://www.youtube.com/watch?v=g7ArZ7VD-QQ",
-		thumbnail: "https://img.youtube.com/vi/g7ArZ7VD-QQ/0.jpg"
+	  type: "movie",
+	  title: "Into the Wild",
+	  description: "Christopher McCandless abandons his possessions and travels to Alaska. This is the compilation of the meaningful scenes in the movie."
+	  year: 2007,
+	  imdb: "https://www.imdb.com/title/tt0758758/",
+	  url: "https://www.youtube.com/watch?v=PWRHTFwpRys",
+	  thumbnail: "https://img.youtube.com/vi/PWRHTFwpRys/0.jpg"
 	},
 	{
-		type: "movie",
-		title: "The Prestige",
-		year: 2006,
-		imdb: "https://www.imdb.com/title/tt0482571/",
-		url: "https://www.youtube.com/watch?v=o4gHCmTQDVI",
-		thumbnail: "https://img.youtube.com/vi/o4gHCmTQDVI/0.jpg"
+	  type: "movie",
+	  title: "The Prestige",
+	  description: "The Prestige is a 2006 British-American mystery thriller film directed by Christopher Nolan, from a screenplay adapted by his brother Jonathan from Christopher Priest's 1995 novel of the same name. Its story follows Robert Angier and Alfred Borden, rival stage magicians in London at the end of the 19th century.",
+	  year: 2006,
+	  imdb: "https://www.imdb.com/title/tt0482571/",
+	  url: "https://www.youtube.com/watch?v=j9Ff0ZVXqnM",
+	  thumbnail: "https://img.youtube.com/vi/j9Ff0ZVXqnM/0.jpg"
 	},
 ];
 
