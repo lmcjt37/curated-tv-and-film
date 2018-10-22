@@ -75,6 +75,7 @@ var content = [
 	{
 		type: "movie",
 		title: "Kingsman: The Secret Service",
+		description: "Colin Firth’s character, an impossibly cool secret agent named Harry Hart, ends up in a church participating in a gigantic killing free-for-all. It happens because the main bad guy in the movie, Samuel L. Jackson’s Richmond Valentine, inserts SIM cards into free cellphones he gives away that, when activated, emit a sound that turns everybody within earshot super violent. In a little under four minutes, Harry kills nearly 40 people, some of whom are killed in quick and obvious ways (like shooting them in the head), others of whom are killed in impromptu and gruesome ways (like breaking a wooden rod in half and then stabbing a guy in the chest with it).",
 		year: 2014,
 		imdb: "https://www.imdb.com/title/tt2802144/",
 		url: "https://www.youtube.com/watch?v=z7-tkkcC6d0",
