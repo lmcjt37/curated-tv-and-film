@@ -89,6 +89,15 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt0266697/",
 		url: "https://www.youtube.com/watch?v=_B_1IMstVzs",
 		thumbnail: "https://img.youtube.com/vi/_B_1IMstVzs/0.jpg"
+	},
+	{
+		type: "movie",
+		title: "Fight Club",
+		description: "The movie all comes to a culmination as Tyler Durden and Marla singer watch all of the buildings around them explode.",
+		year: 1999,
+		imdb: "https://www.imdb.com/title/tt0137523/",
+		url: "https://www.youtube.com/watch?v=VC6Z_kdQoHw",
+		thumbnail: "https://img.youtube.com/vi/VC6Z_kdQoHw/0.jpg"
 	}
 ];
 
