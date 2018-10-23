@@ -1,12 +1,8 @@
 # Curated-Tv-and-Flim/react-starter
 
-<<<<<<< HEAD
-Starter template for react.
-=======
 The purpose of the project is to show a curated list of Modern TV shows or Films, where iconic scenes that include speeches, action scenes, classic quotes, etc. These can all be viewed easily and quickly to help in reference. Especially useful in arguments.
 
 These scenes are carefully picked out moments, ignoring bias of any opinions or beliefs. So please be aware that because of this, certain links may cause offense.
->>>>>>> da5ec03c08a77c8b527240ac90efd67aeb23fc51
 
 ## Features
 
@@ -42,9 +38,11 @@ http://localhost:30000/
 
 It automatically recompiles and refreshes the page when files are changed.
 
+## Project structure
 
 The boilerplate structure and files are the same as this repo minus the bin folder, everything else is exactly the same.
 
+```
 *root/main*
 |
 ├── */src/*
@@ -58,3 +56,5 @@ The boilerplate structure and files are the same as this repo minus the bin fold
 │   ├── *index.css* styling
 ├── *package.json* the whole package.json with every dependency and script, nothing is kept hidden
 └── *README.md* this file
+
+```
