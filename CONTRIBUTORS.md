@@ -14,3 +14,8 @@
 - Role: Contributor
 - Place: Paris, France
 - GitHub: [MehdiDr](https://github.com/MehdiDr)
+
+#### Name: [Isânio Moraes](https://github.com/isaniomoraes)
+- Role: Contributor
+- Place: Maringa, Brazil
+- GitHub: [isaniomoraes](https://github.com/isaniomoraes)

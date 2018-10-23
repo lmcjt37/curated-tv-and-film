@@ -89,6 +89,24 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt0266697/",
 		url: "https://www.youtube.com/watch?v=_B_1IMstVzs",
 		thumbnail: "https://img.youtube.com/vi/_B_1IMstVzs/0.jpg"
+	},
+	{
+		type: "movie",
+		title: "Interstellar",
+		description: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+		year: 2014,
+		imdb: "https://www.imdb.com/title/tt0816692/",
+		url: "https://www.youtube.com/watch?v=p3PfKf0ndik",
+		thumbnail: "http://i3.ytimg.com/vi/p3PfKf0ndik/hqdefault.jpg"
+	},
+	{
+		type: "movie",
+		title: "There Will Be Blood",
+		description: "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.",
+		year: 2007,
+		imdb: "https://www.imdb.com/title/tt0469494/",
+		url: "https://www.youtube.com/watch?v=ugTbwvVuLKA",
+		thumbnail: "http://i3.ytimg.com/vi/ugTbwvVuLKA/hqdefault.jpg"
 	}
 ];
 
