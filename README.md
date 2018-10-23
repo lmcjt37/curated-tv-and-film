@@ -7,10 +7,8 @@ These scenes are carefully picked out moments, ignoring bias of any opinions or 
 ## Features
 
 * React and js
-* react-router
 * Stylesheets can be CSS, Grid, Flex, bootstrap.
 * Embedded resources like images or fonts use DataUrls if appropriate
-* A simple flag loads a react component (and dependencies) on demand.
 * Development
   * Development server
   * Optionally Hot Module Replacement development server (LiveReload for Stylesheets and React components enabled)
