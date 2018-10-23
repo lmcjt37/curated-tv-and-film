@@ -31,7 +31,7 @@ npm start
 # wait for the first compilation is successful
 
 # open this url in your browser
-http://localhost:30000/
+http://localhost:3000/
 ```
 
 It automatically recompiles and refreshes the page when files are changed.
