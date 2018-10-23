@@ -14,3 +14,9 @@
 - Role: Contributor
 - Place: Prague, Czech Republic
 - GitHub: [meisyarahd](https://github.com/meisyarahd)
+
+#### Name: [Mehdi Druon](https://github.com/MehdiDr)
+- Role: Contributor
+- Place: Paris, France
+- GitHub: [MehdiDr](https://github.com/MehdiDr)
+
