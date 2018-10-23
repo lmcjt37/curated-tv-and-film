@@ -1,13 +1,54 @@
-# Curated TV and Film
+# Curated-Tv-and-Flim/react-starter
 
-This is a curated list for modern tv shows and films which show either iconic speeches or scenes. We have carefully picked out these moments, ignoring bias of any opinions or beliefs. Please be aware that because of this, certain links may cause offense.
+Starter template for react.
 
-[Curated TV and Films](https://lmcjt37.github.io/curated-tv-and-film/)
+## Features
 
-## Contribution
+* React and js
+* react-router
+* Stylesheets can be CSS, Grid, Flex, bootstrap.
+* Embedded resources like images or fonts use DataUrls if appropriate
+* A simple flag loads a react component (and dependencies) on demand.
+* Development
+  * Development server
+  * Optionally Hot Module Replacement development server (LiveReload for Stylesheets and React components enabled)
 
-Feel free to contribute by reading the guidelines - [Contributing](CONTRIBUTING.md)
+## Local Installation
 
-## Contributors
+Install [node.js](https://nodejs.org)
 
-[Visit here for contributors list](CONTRIBUTORS.md)
+Just clone this repo and change the `origin` git remote.
+
+``` text
+npm install
+```
+
+## Development server
+
+``` text
+# start the webpack-dev-server
+npm start
+# wait for the first compilation is successful
+
+# open this url in your browser
+http://localhost:30000/
+```
+
+It automatically recompiles and refreshes the page when files are changed.
+
+
+The boilerplate structure and files are the same as this repo minus the bin folder, everything else is exactly the same.
+
+*root/main*
+|
+├── */src/*
+│   ├── */_tests_/* contains test environment (Jest + Enzyme)
+│   ├── */fonts/* where font and stuff are stored
+│   ├── *App.js* main layout
+│   ├── *App.css* styling
+│   ├── *index.html* entry point
+│   ├── *index.js* javascript entry point
+│   ├── *content.js* javascript entry point
+│   ├── *index.css* styling
+├── *package.json* the whole package.json with every dependency and script, nothing is kept hidden
+└── *README.md* this file
