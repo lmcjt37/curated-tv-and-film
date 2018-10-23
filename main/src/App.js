@@ -31,14 +31,17 @@ class App extends Component {
 
   render() {
     return (
-      <section className="app container">
-        <header className="main-header">
-          <h1>Curated TV and Film</h1>
-        </header>
-        <main className="main-content">
+      <div className="mainContainer">
+          <div className="headerContainer">
+          <div className="logoContainer">
+            <div className="logoImage">Curated TV and Film</div>
+          </div>
           <div className="content-filter">
             <input type="text" className="form-control" value={this.state.searchString} onChange={this.handleChange} placeholder="Search here"/>
           </div>
+        </div>
+      <section className="app container">
+        <main className="main-content">
           <div className="content-list">
             {this.state.content.length ? (
               <ul>
@@ -46,20 +49,21 @@ class App extends Component {
                   return (
                     <li key={index}>
                       <div className="row">
-                        <div className="item-thumbnail col-md-6">
+                        <div className="item-thumbnail">
                           <a target="_blank"  rel="noopener noreferrer" href={item.url}>
                             <img src={item.thumbnail} alt={item.title}/>
                           </a>
                         </div>
-                        <div className="item-info col-md-6">
+                        <div className="item-info">
                           <h2>{item.title}{item.year ? (" (" + item.year + ")") : ''}</h2>
                           {item.type === "tv_show" &&
                             <div className="tvshow-details">
-                              <div className="tvshow-details__item"><span>Season:</span> {item.season}</div>
-                              <div className="tvshow-details__item"><span>Episode:</span> {item.episode}</div>
-                              <div className="tvshow-details__item"><span>Episode Title:</span> {item.episode_title}</div>
+                              <div className="details__item"><span>Season:</span> {item.season}</div>
+                              <div className="details__item"><span>Episode:</span> {item.episode}</div>
+                              <div className="details__item"><span>Episode Title:</span> {item.episode_title}</div>
                             </div>
                           }
+                          <div className="item-desc details__item"><span>Description:</span> {item.description}</div>
                           <div className="item-imdb">
                             <span>IMDB:</span><a target="_blank"  rel="noopener noreferrer" href={item.imdb}>{item.imdb}</a>
                           </div>
@@ -80,6 +84,7 @@ class App extends Component {
           </div>
         </main>
       </section>
+      </div>
     );
   }
 }
