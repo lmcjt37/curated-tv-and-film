@@ -1,30 +1,50 @@
-# Javascript Node CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-javascript/ for more details
-#
+# https://circleci.com/docs/2.0/sample-config/#sample-configuration-with-sequential-workflow
 version: 2
 jobs:
-  build:
+  build_and_test:
     docker:
       - image: circleci/node:7.10
-
-    working_directory: ~/repo
-
     steps:
       - checkout
-
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "main/package.json" }}
-          # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
-
-      - run: cd main && npm install
-
+      - run:
+          name: Install dependencies
+          command: cd main && npm install
       - save_cache:
           paths:
             - main/node_modules
           key: v1-dependencies-{{ checksum "main/package.json" }}
-        
-      - run: cd main && npm test
-      - run: cd main && npm build
+      - run:
+          name: Run tests
+          command: cd main && npm test
+
+  deploy:
+    docker:
+      - image: circleci/node:7.10
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "main/package.json" }}
+          - v1-dependencies-
+      - run:
+          name: Set git name and email
+          command: git config user.name "$GIT_NAME" && git config --global user.email "$GIT_EMAIL"
+      - run:
+          name: Build and deploy to gh-pages
+          command: cd main && npm run deploy
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build_and_test
+      - deploy:
+          requires:
+            - build_and_test
+          filters:
+            branches:
+              only: master
