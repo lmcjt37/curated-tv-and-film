@@ -7,8 +7,12 @@
   margin: 0;
 }
 
+.content-filter {
+  padding: 0 28px;
+}
+
 .content-filter input {
-  font-size: 18px;
+  font-size: 17px;
   padding: 20px 10px;
 }
 
@@ -41,15 +45,15 @@ ul li{
   margin: 0;
 }
 .item-thumbnail{
+  max-width: 30%;
   padding: 0 2rem;
 }
 .item-thumbnail img {
-  max-width: 100%;
   height: 200px;
 }
 .item-info{
-  max-width: 100%;
-  padding: 2rem;
+  max-width: 70%;
+  padding: 0 2rem;
 }
 
 .item-imdb {
@@ -61,7 +65,7 @@ ul li{
   margin-left: 5px;
 }
 
-.tvshow-details__item + .tvshow-details__item {
+.details__item + .details__item {
   margin-top: 5px;
 }
 
