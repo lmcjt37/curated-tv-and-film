@@ -1,37 +1,53 @@
-# https://circleci.com/docs/2.0/sample-config/#sample-configuration-with-sequential-workflow
+defaults: &defaults
+  #working_directory: ./circleci
+  docker:
+    - image: circleci/node:8
+
 version: 2
 jobs:
-  build_and_test:
-    docker:
-      - image: circleci/node:7.10
+  prepare:
+    <<: *defaults
     steps:
       - checkout
+      # Download and cache dependencies
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "main/package.json" }}
-          - v1-dependencies-
-      - run:
-          name: Install dependencies
-          command: cd main && npm install
+          - v1-dependencies-{{ checksum "package.json" }}
+      - run: npm install
       - save_cache:
           paths:
-            - main/node_modules
-          key: v1-dependencies-{{ checksum "main/package.json" }}
-      - run:
-          name: Run tests
-          command: cd main && npm test
-
-  deploy:
-    docker:
-      - image: circleci/node:7.10
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+      - persist_to_workspace:
+          root: .
+          paths:
+            - node_modules
+  build:
+    <<: *defaults
     steps:
       - checkout
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "main/package.json" }}
-          - v1-dependencies-
-      - run:
-          name: Build and deploy to gh-pages
+      - attach_workspace:
+          at: .
+      - run: npm run build
+      - persist_to_workspace:
+          root: .
+          paths:
+            - build
+  unit:
+    <<: *defaults
+    steps:
+      - checkout
+      - attach_workspace:
+          at: .
+      - run: npm test
+  deploy-github:
+    <<: *defaults
+    steps:
+      - checkout
+      - attach_workspace:
+          at: .
+      - deploy:
+          name: Deploy to GitHub Pages
           command: |
               set -e
               cd main
@@ -61,15 +77,21 @@ jobs:
               cd ..
               rm -rf gh-pages-branch
               echo "Finished GitHub pages Deployment!"
-
+              
 workflows:
   version: 2
-  build_and_test:
+  build_accept_deploy:
     jobs:
-      - build_and_test
-      - deploy:
+      - prepare
+      - build:
           requires:
-            - build_and_test
+            - prepare
+      - unit:
+          requires:
+            - build
+      - deploy-github:
+          requires:
+            - unit
           filters:
             branches:
               only: master
