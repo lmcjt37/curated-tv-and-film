@@ -35,7 +35,6 @@ ul li{
 .content-list ul li{
   box-shadow: 0 2px 5px 0 rgba(224, 227, 231, 0.7);
   background: #FFF;
-  padding: 2rem 0;
 }
 
 .content-list ul li + li {
@@ -43,13 +42,14 @@ ul li{
 }
 .row{
   margin: 0;
+  padding: 2rem;
 }
 .item-thumbnail{
   max-width: 30%;
-  padding: 0 2rem;
+  min-width: 175px;
 }
 .item-thumbnail img {
-  height: 200px;
+  max-width: 100%;
 }
 .item-info{
   max-width: 70%;
@@ -132,4 +132,15 @@ ul li{
   justify-self: center;
   cursor: pointer;
   border-radius: 50%;
+}
+
+@media only screen and (max-width:768px) {
+  .item-thumbnail {
+    min-width: 100%;
+    margin-bottom: 1rem;
+  }
+  .item-info {
+    max-width: 100%;
+    padding: 0;
+  }
 }
