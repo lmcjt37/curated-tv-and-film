@@ -35,7 +35,6 @@ ul li{
 .content-list ul li{
   box-shadow: 0 2px 5px 0 rgba(224, 227, 231, 0.7);
   background: #FFF;
-  padding: 2rem;
 }
 
 .content-list ul li + li {
@@ -43,6 +42,14 @@ ul li{
 }
 .row{
   margin: 0;
+  padding: 2rem;
+}
+.item-thumbnail{
+  max-width: 30%;
+  min-width: 175px;
+}
+.item-thumbnail img {
+  max-width: 100%;
 }
 .item-info{
   max-width: 70%;
@@ -136,11 +143,13 @@ ul li{
 
 @media (max-width: 767px) {
   .item-image {
-    margin-bottom: 15px;
+    min-width: 100%;
+    margin-bottom: 1rem;
   }
 
   .item-info {
     max-width: none;
+    padding: 0;
   }
 
   .logoImage {
