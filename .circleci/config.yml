@@ -1,0 +1,50 @@
+# https://circleci.com/docs/2.0/sample-config/#sample-configuration-with-sequential-workflow
+version: 2
+jobs:
+  build_and_test:
+    docker:
+      - image: circleci/node:7.10
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "main/package.json" }}
+          - v1-dependencies-
+      - run:
+          name: Install dependencies
+          command: cd main && npm install
+      - save_cache:
+          paths:
+            - main/node_modules
+          key: v1-dependencies-{{ checksum "main/package.json" }}
+      - run:
+          name: Run tests
+          command: cd main && npm test
+
+  deploy:
+    docker:
+      - image: circleci/node:7.10
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "main/package.json" }}
+          - v1-dependencies-
+      - run:
+          name: Set git name and email
+          command: git config user.name "$GIT_NAME" && git config --global user.email "$GIT_EMAIL"
+      - run:
+          name: Build and deploy to gh-pages
+          command: cd main && npm run deploy
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build_and_test
+      - deploy:
+          requires:
+            - build_and_test
+          filters:
+            branches:
+              only: master
