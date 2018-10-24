@@ -20,7 +20,7 @@ jobs:
             - main/node_modules
           key: v1-dependencies-{{ checksum "main/package.json" }}
       - persist_to_workspace:
-          root: main/
+          root: .
           paths:
             - main/node_modules
   build:
@@ -28,10 +28,10 @@ jobs:
     steps:
       - checkout
       - attach_workspace:
-          at: main/
+          at: .
       - run: cd main && npm run build
       - persist_to_workspace:
-          root: main/
+          root: .
           paths:
             - main/build
   unit:
@@ -39,14 +39,14 @@ jobs:
     steps:
       - checkout
       - attach_workspace:
-          at: main/
+          at: .
       - run: cd main && npm test
   deploy-github:
     <<: *defaults
     steps:
       - checkout
       - attach_workspace:
-          at: main/
+          at: .
       - deploy:
           name: Deploy to GitHub Pages
           command: |
