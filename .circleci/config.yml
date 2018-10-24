@@ -32,7 +32,7 @@ jobs:
           - v1-dependencies-
       - run:
           name: Set git name and email
-          command: git config user.name "$GIT_NAME" && git config --global user.email "$GIT_EMAIL"
+          command: git config user.name $GIT_NAME && git config user.email $GIT_EMAIL
       - run:
           name: Build and deploy to gh-pages
           command: cd main && npm run deploy
