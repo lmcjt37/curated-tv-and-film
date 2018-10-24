@@ -13,7 +13,7 @@ jobs:
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "package.json" }}
-      - run: npm install
+      - run: cd main && npm install
       - save_cache:
           paths:
             - node_modules
@@ -28,7 +28,7 @@ jobs:
       - checkout
       - attach_workspace:
           at: .
-      - run: npm run build
+      - run: cd main && npm run build
       - persist_to_workspace:
           root: .
           paths:
@@ -39,7 +39,7 @@ jobs:
       - checkout
       - attach_workspace:
           at: .
-      - run: npm test
+      - run: cd main && npm test
   deploy-github:
     <<: *defaults
     steps:
@@ -77,7 +77,7 @@ jobs:
               cd ..
               rm -rf gh-pages-branch
               echo "Finished GitHub pages Deployment!"
-              
+
 workflows:
   version: 2
   build_accept_deploy:
