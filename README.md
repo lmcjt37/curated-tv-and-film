@@ -1,4 +1,4 @@
-# Curated-Tv-and-Flim/react-starter
+# Curated-Tv-and-Flim
 
 The purpose of the project is to show a curated list of Modern TV shows or Films, where iconic scenes that include speeches, action scenes, classic quotes, etc. These can all be viewed easily and quickly to help in reference. Especially useful in arguments.
 
@@ -30,7 +30,7 @@ npm install
 npm start
 # wait for the first compilation is successful
 
-# open this url in your browser
+# open this url in your browser if it doesn't open automatically
 http://localhost:3000/
 ```
 
@@ -56,3 +56,9 @@ The boilerplate structure and files are the same as this repo minus the bin fold
 └── *README.md* this file
 
 ```
+
+## Contribution
+Feel free to contribute by reading the guidelines - [Contributing](CONTRIBUTING.md)
+
+## Contributors
+Visit here for contributors list - [Contributors](CONTRIBUTORS.md)
