@@ -35,6 +35,7 @@ ul li{
 .content-list ul li{
   box-shadow: 0 2px 5px 0 rgba(224, 227, 231, 0.7);
   background: #FFF;
+  padding: 2rem;
 }
 
 .content-list ul li + li {
@@ -145,6 +146,10 @@ ul li{
   .item-image {
     min-width: 100%;
     margin-bottom: 1rem;
+  }
+
+  .item-thumbnail{
+    max-width: 100%;
   }
 
   .item-info {
