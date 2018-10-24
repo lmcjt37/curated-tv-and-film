@@ -14,3 +14,8 @@
 - Role: Contributor
 - Place: Paris, France
 - GitHub: [MehdiDr](https://github.com/MehdiDr)
+
+#### Name: [Lee Connelly](https://github.com/LeeConnelly12)
+- Role: Contributor
+- Place: Coventry, UK
+- GitHub: [LeeConnelly12](https://github.com/LeeConnelly12)
