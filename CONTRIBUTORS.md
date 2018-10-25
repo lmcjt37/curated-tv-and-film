@@ -30,3 +30,8 @@
 - Role: Contributor
 - Place: Rawalpindi, Pakistan
 - GitHub: [Juni4567](https://github.com/Juni4567)
+
+#### Name: [Kndarp Patel](https://github.com/kndarp)
+- Role: Contributor
+- Place: London, UK
+- GitHub: [kndarp](https://github.com/kndarp)
