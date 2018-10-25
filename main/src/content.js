@@ -91,6 +91,17 @@ var content = [
 		thumbnail: "https://img.youtube.com/vi/_B_1IMstVzs/0.jpg"
 	},
 	{
+		type: "tv_show",
+		title: "Breaking Bad",
+		description: "Walt goes on the run. Jesse is taken hostage. Marie convinces Skyler to tell Walter, Jr. the truth.",
+		season: 5,
+		episode: 14,
+		episode_title: "Ozymandias",
+		imdb: "https://www.imdb.com/title/tt2301451/",
+		url: "https://www.youtube.com/watch?v=yDmsQcVAo2c",
+		thumbnail: "https://i.ytimg.com/vi/-AN0l-92Spk/hqdefault.jpg"
+  },
+  {
 		type: "movie",
 		title: "Interstellar",
 		description: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
