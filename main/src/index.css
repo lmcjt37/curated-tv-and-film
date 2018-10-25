@@ -164,6 +164,15 @@ small {
           box-orient: vertical;
 }
 
+.filter-labels{
+  padding: 1rem 1rem 0;
+}
+
+.filter-div{
+  margin: 1em
+}
+
+
 /*base font css*/
 /* if not pwa */
 /* @media only screen and (max-width:1023px) {
