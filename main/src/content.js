@@ -147,7 +147,18 @@ var content = [
 	imdb: "https://www.imdb.com/title/tt1665071/",
 	url: "https://www.youtube.com/watch?v=VaT7IYQgyqo",
 	thumbnail: "https://img.youtube.com/vi/VaT7IYQgyqo/hqdefault.jpg"
-}
+  },
+  {
+	type: "tv_show",
+	title: "Suits",
+	description: "On the run from a drug deal gone bad, Mike Ross, a brilliant college dropout, finds himself a job working with Harvey Specter, one of New York City's best lawyers.",
+	season: 1,
+	episode: 1,
+	episode_title: "Pilot",
+	imdb: "https://www.imdb.com/title/tt1632701/",
+	url: "https://www.youtube.com/watch?v=85z53bAebsI",
+	thumbnail: "https://img.youtube.com/vi/85z53bAebsI/hqdefault.jpg"
+	},
 ];
 
 export default content;
