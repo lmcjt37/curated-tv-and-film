@@ -35,7 +35,7 @@ ul li{
 .content-list ul li{
   box-shadow: 0 2px 5px 0 rgba(224, 227, 231, 0.7);
   background: #FFF;
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
 .content-list ul li + li {
@@ -43,26 +43,26 @@ ul li{
 }
 .row{
   margin: 0;
+  padding: 2rem;
 }
 .item-thumbnail{
   max-width: 30%;
-  padding: 0 2rem;
+  min-width: 175px;
 }
 .item-thumbnail img {
-  height: 200px;
+  max-width: 100%;
 }
 .item-info{
   max-width: 70%;
-  padding: 0 2rem;
+  flex: 1;
 }
-
 .item-imdb {
   display: block;
   margin-top: 10px;
 }
 
-.item-imdb a {
-  margin-left: 5px;
+.item-imdb span {
+  margin-right: 5px;
 }
 
 .details__item + .details__item {
@@ -70,8 +70,6 @@ ul li{
 }
 
 .mainContainer{
-	display: grid;
-	grid-template-rows: 60px 1fr;
 	height: 100%;
 	overflow: hidden;
 }
@@ -82,7 +80,7 @@ ul li{
   box-shadow: 0px 4px 15px rgba(100, 110, 130, 0.1);
 	display: grid;
   grid-template-columns: auto 1fr auto;
-	z-index: 1;
+  z-index: 1;
 }
 
 .logoContainer{
@@ -132,4 +130,63 @@ ul li{
   justify-self: center;
   cursor: pointer;
   border-radius: 50%;
+}
+
+.item-image {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.item-link {
+  display: inline-block;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .item-image {
+    min-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .item-thumbnail{
+    max-width: 100%;
+  }
+
+  .item-info {
+    max-width: none;
+    padding: 0;
+  }
+
+  .logoImage {
+    font-size: 24px;
+  }
+
+  .headerContainer {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .content-list ul li+li {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .item-card {
+    display: flex;
+  }
+
+  .item-thumbnail {
+    margin-right: 30px;
+  }
+
+  .item-image {
+    width: 266px;
+    height: auto;
+  }
+
+  .headerContainer {
+    height: 60px;
+  }
 }

@@ -48,10 +48,10 @@ class App extends Component {
                 {this.state.content.map((item, index) => {
                   return (
                     <li key={index}>
-                      <div className="row">
+                      <div className="item-card">
                         <div className="item-thumbnail">
                           <a target="_blank"  rel="noopener noreferrer" href={item.url}>
-                            <img src={item.thumbnail} alt={item.title}/>
+                            <img src={item.thumbnail} alt={item.title} class="item-image"/>
                           </a>
                         </div>
                         <div className="item-info">
@@ -65,7 +65,7 @@ class App extends Component {
                           }
                           <div className="item-desc details__item"><span>Description:</span> {item.description}</div>
                           <div className="item-imdb">
-                            <span>IMDB:</span><a target="_blank"  rel="noopener noreferrer" href={item.imdb}>{item.imdb}</a>
+                            <span>IMDB:</span><a target="_blank"  rel="noopener noreferrer" href={item.imdb} class="item-link">{item.imdb}</a>
                           </div>
                         </div>
                       </div>

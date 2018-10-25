@@ -19,3 +19,19 @@
 - Role: Contributor
 - Place: La Paz, Bolivia
 - GitHub: [yamilurbina](https://github.com/yamilurbina)
+
+#### Name: [Isânio Moraes](https://github.com/isaniomoraes)
+- Role: Contributor
+- Place: Maringa, Brazil
+- GitHub: [isaniomoraes](https://github.com/isaniomoraes)
+
+#### Name: [Lee Connelly](https://github.com/LeeConnelly12)
+- Role: Contributor
+- Place: Coventry, UK
+- GitHub: [LeeConnelly12](https://github.com/LeeConnelly12)
+
+#### Name: [Junaid Anwar](https://github.com/Juni4567)
+- Role: Contributor
+- Place: Rawalpindi, Pakistan
+- GitHub: [Juni4567](https://github.com/Juni4567)
+
