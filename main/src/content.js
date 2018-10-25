@@ -136,7 +136,18 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt0137523/",
 		url: "https://www.youtube.com/watch?v=VC6Z_kdQoHw",
 		thumbnail: "https://img.youtube.com/vi/VC6Z_kdQoHw/0.jpg"
-  }
+  },
+  {
+	type: "tv_show",
+	title: "Sherlock",
+	description: "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
+	season: 1,
+	episode: 1,
+	episode_title: "A Study in Pink",
+	imdb: "https://www.imdb.com/title/tt1665071/",
+	url: "https://www.youtube.com/watch?v=VaT7IYQgyqo",
+	thumbnail: "https://img.youtube.com/vi/VaT7IYQgyqo/hqdefault.jpg"
+}
 ];
 
 export default content;
