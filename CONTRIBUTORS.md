@@ -9,3 +9,19 @@
 - Role: Contributor
 - Place: Buseck, Germany
 - GitHub: [Wolfy7](https://github.com/Wolfy7)
+
+#### Name: [Mehdi Druon](https://github.com/MehdiDr)
+- Role: Contributor
+- Place: Paris, France
+- GitHub: [MehdiDr](https://github.com/MehdiDr)
+
+#### Name: [Isânio Moraes](https://github.com/isaniomoraes)
+- Role: Contributor
+- Place: Maringa, Brazil
+- GitHub: [isaniomoraes](https://github.com/isaniomoraes)
+
+#### Name: [Lee Connelly](https://github.com/LeeConnelly12)
+- Role: Contributor
+- Place: Coventry, UK
+- GitHub: [LeeConnelly12](https://github.com/LeeConnelly12)
+

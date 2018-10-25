@@ -72,6 +72,42 @@ var content = [
 		url: "https://www.youtube.com/watch?v=uzeODC-_IHw&t=81",
 		thumbnail: "https://img.youtube.com/vi/uzeODC-_IHw/0.jpg"
 	},
+	{
+		type: "movie",
+		title: "Kingsman: The Secret Service",
+		description: "Colin Firth’s character, an impossibly cool secret agent named Harry Hart, ends up in a church participating in a gigantic killing free-for-all. It happens because the main bad guy in the movie, Samuel L. Jackson’s Richmond Valentine, inserts SIM cards into free cellphones he gives away that, when activated, emit a sound that turns everybody within earshot super violent. In a little under four minutes, Harry kills nearly 40 people, some of whom are killed in quick and obvious ways (like shooting them in the head), others of whom are killed in impromptu and gruesome ways (like breaking a wooden rod in half and then stabbing a guy in the chest with it).",
+		year: 2014,
+		imdb: "https://www.imdb.com/title/tt2802144/",
+		url: "https://www.youtube.com/watch?v=z7-tkkcC6d0",
+		thumbnail: "https://i.ytimg.com/vi/z7-tkkcC6d0/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCzLzfJ8Lf8inHGhoZszKuUHZQo1w"
+	},
+	{
+		type: "movie",
+		title: "Kill Bill: Vol 1",
+		description: "The Bride (Uma Thurman) must defeat O-Ren Ishii's (Lucy Liu) personal army, The Crazy 88's, before she can strike off the first name on her death list.",
+		year: 2003,
+		imdb: "https://www.imdb.com/title/tt0266697/",
+		url: "https://www.youtube.com/watch?v=_B_1IMstVzs",
+		thumbnail: "https://img.youtube.com/vi/_B_1IMstVzs/0.jpg"
+	},
+	{
+		type: "movie",
+		title: "Interstellar",
+		description: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+		year: 2014,
+		imdb: "https://www.imdb.com/title/tt0816692/",
+		url: "https://www.youtube.com/watch?v=p3PfKf0ndik",
+		thumbnail: "http://i3.ytimg.com/vi/p3PfKf0ndik/hqdefault.jpg"
+	},
+	{
+		type: "movie",
+		title: "There Will Be Blood",
+		description: "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.",
+		year: 2007,
+		imdb: "https://www.imdb.com/title/tt0469494/",
+		url: "https://www.youtube.com/watch?v=ugTbwvVuLKA",
+		thumbnail: "http://i3.ytimg.com/vi/ugTbwvVuLKA/hqdefault.jpg"
+	}
 ];
 
 export default content;
