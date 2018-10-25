@@ -91,14 +91,43 @@ var content = [
 		thumbnail: "https://img.youtube.com/vi/_B_1IMstVzs/0.jpg"
 	},
 	{
+		type: "tv_show",
+		title: "Breaking Bad",
+		description: "Walt goes on the run. Jesse is taken hostage. Marie convinces Skyler to tell Walter, Jr. the truth.",
+		season: 5,
+		episode: 14,
+		episode_title: "Ozymandias",
+		imdb: "https://www.imdb.com/title/tt2301451/",
+		url: "https://www.youtube.com/watch?v=yDmsQcVAo2c",
+		thumbnail: "https://i.ytimg.com/vi/-AN0l-92Spk/hqdefault.jpg"
+  },
+  {
 		type: "movie",
+		title: "Interstellar",
+		description: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+		year: 2014,
+		imdb: "https://www.imdb.com/title/tt0816692/",
+		url: "https://www.youtube.com/watch?v=p3PfKf0ndik",
+		thumbnail: "http://i3.ytimg.com/vi/p3PfKf0ndik/hqdefault.jpg"
+	},
+	{
+		type: "movie",
+		title: "There Will Be Blood",
+		description: "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.",
+		year: 2007,
+		imdb: "https://www.imdb.com/title/tt0469494/",
+		url: "https://www.youtube.com/watch?v=ugTbwvVuLKA",
+		thumbnail: "http://i3.ytimg.com/vi/ugTbwvVuLKA/hqdefault.jpg"
+	},
+  {
+    type: "movie",
 		title: "Fight Club",
 		description: "The movie all comes to a culmination as Tyler Durden and Marla singer watch all of the buildings around them explode.",
 		year: 1999,
 		imdb: "https://www.imdb.com/title/tt0137523/",
 		url: "https://www.youtube.com/watch?v=VC6Z_kdQoHw",
 		thumbnail: "https://img.youtube.com/vi/VC6Z_kdQoHw/0.jpg"
-	}
+  }
 ];
 
 export default content;
