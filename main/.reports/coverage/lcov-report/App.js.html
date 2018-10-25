@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for App.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="prettify.css" />
+    <link rel="stylesheet" href="base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="index.html">All files</a> App.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">38.46% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>5/13</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">50% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>5/10</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">60% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>3/5</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">38.46% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>5/13</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { Component } from 'react';
+import content from './content.js';
+&nbsp;
+var data = content;
+&nbsp;
+class App extends Component {
+  constructor(props) {
+    super(props);
+&nbsp;
+    this.state = {
+      searchString: "",
+      content: content
+    };
+  }
+&nbsp;
+  handleChange = <span class="fstat-no" title="function not covered" >(e</span>vent) =&gt; {
+    var searchString = <span class="cstat-no" title="statement not covered" >event.target.value;</span>
+<span class="cstat-no" title="statement not covered" >    this.setState({ searchString: searchString });</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    searchString = searchString.trim().toLowerCase();</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    if(searchString.length &gt; 0) {</span>
+      var searchResult = <span class="cstat-no" title="statement not covered" >this.state.content.filter(<span class="fstat-no" title="function not covered" >(e</span>l) =&gt;</span>
+<span class="cstat-no" title="statement not covered" >        el.title.toLowerCase().match(searchString))</span>;
+<span class="cstat-no" title="statement not covered" >      this.setState({ content: searchResult });</span>
+    } else {
+<span class="cstat-no" title="statement not covered" >      this.setState({ content: data });</span>
+    }
+  }
+&nbsp;
+  render() {
+    return (
+      &lt;div className="mainContainer"&gt;
+        &lt;div className="headerContainer"&gt;
+          &lt;div className="logoContainer"&gt;
+            &lt;div className="logoImage"&gt;Curated TV and Film&lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div className="content-filter"&gt;
+            &lt;input type="text" className="form-control" value={this.state.searchString} onChange={this.handleChange} placeholder="Search here"/&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;section className="app container"&gt;
+          &lt;main className="main-content"&gt;
+            &lt;div className="content-list"&gt;
+              {this.state.content.length ? (
+                &lt;ul&gt;
+                  {this.state.content.map((item, index) =&gt; {
+                    return (
+                      &lt;li key={index}&gt;
+                        &lt;div className="item-card"&gt;
+                          &lt;div className="item-thumbnail"&gt;
+                            &lt;a target="_blank" rel="noopener noreferrer" href={item.url}&gt;
+                              &lt;img src={item.thumbnail} alt={item.title} className="item-image"/&gt;
+                            &lt;/a&gt;
+                          &lt;/div&gt;
+                          &lt;div className="item-info"&gt;
+                            &lt;h2&gt;{item.title}{item.year ? (" (" + item.year + ")") : ''}&lt;/h2&gt;
+                            {item.type === "tv_show" &amp;&amp;
+                            &lt;div className="tvshow-details"&gt;
+                              &lt;div className="details__item"&gt;&lt;span&gt;Season:&lt;/span&gt; {item.season}&lt;/div&gt;
+                              &lt;div className="details__item"&gt;&lt;span&gt;Episode:&lt;/span&gt; {item.episode}&lt;/div&gt;
+                              &lt;div className="details__item"&gt;&lt;span&gt;Episode Title:&lt;/span&gt; {item.episode_title}&lt;/div&gt;
+                            &lt;/div&gt;
+                            }
+                            &lt;div className="item-desc details__item"&gt;&lt;span&gt;Description:&lt;/span&gt; {item.description}&lt;/div&gt;
+                            &lt;div className="item-imdb"&gt;
+                              &lt;span&gt;IMDB:&lt;/span&gt;&lt;a target="_blank" rel="noopener noreferrer" href={item.imdb} className="item-link"&gt;{item.imdb}&lt;/a&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/li&gt;
+                    );
+                  })}
+                &lt;/ul&gt;
+              ) : (
+<span class="branch-1 cbranch-no" title="branch not covered" >                this.state.searchString ? (</span>
+                  &lt;p&gt;No search result&lt;/p&gt;
+                ) : (
+                  &lt;p&gt;Can't load the data.&lt;/p&gt;
+                )
+              )
+              }
+            &lt;/div&gt;
+          &lt;/main&gt;
+        &lt;/section&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+&nbsp;
+export default App;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Thu Oct 25 2018 08:42:33 GMT+0530 (IST)
+</div>
+</div>
+<script src="prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="sorter.js"></script>
+</body>
+</html>

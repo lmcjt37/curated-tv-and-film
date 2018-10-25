@@ -28,8 +28,15 @@ npm install
 
 ``` text
 # start the webpack-dev-server
-npm start
+npm run start-dev
+
+# for production
+npm run start
+
 # wait for the first compilation is successful
+
+# test
+npm run test
 
 # open this url in your browser if it doesn't open automatically
 http://localhost:3000/
