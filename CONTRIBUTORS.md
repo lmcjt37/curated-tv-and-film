@@ -25,3 +25,8 @@
 - Place: Coventry, UK
 - GitHub: [LeeConnelly12](https://github.com/LeeConnelly12)
 
+#### Name: [Junaid Anwar](https://github.com/Juni4567)
+
+- Role: Contributor
+- Place: Rawalpindi, Pakistan
+- GitHub: [Juni4567](https://github.com/Juni4567)
