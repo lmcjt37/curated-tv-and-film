@@ -10,7 +10,9 @@ class App extends Component {
 
     this.state = {
       searchString: "",
-      content: content
+      content: content,
+      filterTV: true,
+      filterMovies: true
     }
   }
 
@@ -29,6 +31,10 @@ class App extends Component {
     }
   }
 
+  handleFilter = (event) => {
+    this.setState({ [event.target.name] : event.target.checked});
+  }
+
   render() {
     return (
       <div className="mainContainer">
@@ -39,6 +45,10 @@ class App extends Component {
           <div className="content-filter">
             <input type="text" className="form-control" value={this.state.searchString} onChange={this.handleChange} placeholder="Search here"/>
           </div>
+          <div className='filter-div'>
+              <input type="checkbox" name = "filterMovies" checked={this.state.filterMovies} onChange={this.handleFilter}/><label for='movies' className="filter-labels">Movies</label>
+              <input type="checkbox" name = "filterTV" checked={this.state.filterTV} onChange={this.handleFilter}/><label for='tv' className="filter-labels">TV Series</label>
+          </div>
         </div>
       <section className="app container">
         <main className="main-content">
@@ -46,6 +56,10 @@ class App extends Component {
             {this.state.content.length ? (
               <ul>
                 {this.state.content.map((item, index) => {
+                  if (this.state.filterMovies === false && item.type === "movie") 
+                      return "";
+                  if (this.state.filterTV === false && item.type === "tv_show" )  
+                     return "";
                   return (
                     <li key={index}>
                       <div className="item-card">
