@@ -41,13 +41,10 @@ workflows:
   build_and_test:
     jobs:
       - build_and_test
-          branches:
-            ignore:
-              - gh-pages
+          filters:
+            branches:
+              ignore: gh-pages
       - deploy:
-          branches:
-            ignore:
-              - gh-pages
           requires:
             - build_and_test
           filters:
