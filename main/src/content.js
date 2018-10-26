@@ -167,7 +167,18 @@ var content = [
 	imdb: "https://www.imdb.com/title/tt5013056/",
 	url: "https://www.youtube.com/watch?v=F-eMt3SrfFU",
 	thumbnail: "http://i3.ytimg.com/vi/F-eMt3SrfFU/hqdefault.jpg"
-  }
+  },
+  {
+	type: "tv_show",
+	title: "How I Met Your Mother",
+	description: "It's the year 2030 and an older Ted Mosby is telling the story to his son and daughter about how he met and will eventually marry their mother. This is where we meet for the first time Ted, Lily, Marshall, Barney and Robin.",
+	season: 1,
+	episode: 1,
+	episode_title: "Pilot",
+	imdb: "https://www.imdb.com/title/tt0460649/",
+	url: "https://www.youtube.com/watch?v=JlhveYg7h0k",
+	thumbnail: "https://img.youtube.com/vi/wTjMqda19wk/0.jpg"
+   }
 ];
 
 export default content;
