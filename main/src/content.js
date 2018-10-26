@@ -176,7 +176,7 @@ var content = [
 	episode: 1,
 	episode_title: "Pilot",
 	imdb: "https://www.imdb.com/title/tt0460649/",
-	url: "https://www.youtube.com/watch?v=JlhveYg7h0k",
+	url: "https://www.youtube.com/watch?v=GAx0DYI3los",
 	thumbnail: "https://img.youtube.com/vi/wTjMqda19wk/0.jpg"
    }
 ];
