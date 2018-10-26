@@ -4,7 +4,7 @@ jobs:
   build_and_test:
     docker:
       - image: circleci/node:8
-    working_directory: ~/main
+    working_directory: main
     steps:
       - checkout
       - restore_cache:
@@ -25,7 +25,7 @@ jobs:
   deploy:
     docker:
       - image: circleci/node:8
-    working_directory: ~/main
+    working_directory: main
     steps:
       - checkout
       - restore_cache:
