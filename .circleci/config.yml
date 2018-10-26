@@ -4,7 +4,7 @@ jobs:
   build_and_test:
     docker:
       - image: circleci/node:8
-      working_directory: ~/main
+    working_directory: ~/main
     branches:
       ignore:
         - gh-pages
