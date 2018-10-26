@@ -3,7 +3,7 @@ version: 2
 jobs:
   build_and_test:
     docker:
-      - image: circleci/node:7.10
+      - image: circleci/node:8
     steps:
       - checkout
       - restore_cache:
@@ -23,16 +23,13 @@ jobs:
 
   deploy:
     docker:
-      - image: circleci/node:7.10
+      - image: circleci/node:8
     steps:
       - checkout
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "main/package.json" }}
           - v1-dependencies-
-      - run:
-          name: Set git name and email
-          command: git config user.name "Luke Taylor" && git config user.email "lmcjt@outlook.com"
       - run:
           name: Build and deploy to gh-pages
           command: cd main && npm run deploy
@@ -41,7 +38,10 @@ workflows:
   version: 2
   build_and_test:
     jobs:
-      - build_and_test
+      - build_and_test:
+          filters:
+            branches:
+              ignore: gh-pages
       - deploy:
           requires:
             - build_and_test
