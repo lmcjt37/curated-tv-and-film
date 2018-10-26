@@ -100,8 +100,8 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt2301451/",
 		url: "https://www.youtube.com/watch?v=yDmsQcVAo2c",
 		thumbnail: "https://i.ytimg.com/vi/-AN0l-92Spk/hqdefault.jpg"
-  },
-  {
+	},
+	{
 		type: "movie",
 		title: "Interstellar",
 		description: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
@@ -128,57 +128,68 @@ var content = [
 		url: "https://www.youtube.com/watch?v=d3A3-zSOBT4",
 		thumbnail: "http://i3.ytimg.com/vi/d3A3-zSOBT4/hqdefault.jpg"
 	},
-  {
-    type: "movie",
+	{
+		type: "movie",
 		title: "Fight Club",
 		description: "The movie all comes to a culmination as Tyler Durden and Marla singer watch all of the buildings around them explode.",
 		year: 1999,
 		imdb: "https://www.imdb.com/title/tt0137523/",
 		url: "https://www.youtube.com/watch?v=VC6Z_kdQoHw",
 		thumbnail: "https://img.youtube.com/vi/VC6Z_kdQoHw/0.jpg"
-  },
-  {
-	type: "tv_show",
-	title: "Sherlock",
-	description: "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
-	season: 1,
-	episode: 1,
-	episode_title: "A Study in Pink",
-	imdb: "https://www.imdb.com/title/tt1665071/",
-	url: "https://www.youtube.com/watch?v=VaT7IYQgyqo",
-	thumbnail: "https://img.youtube.com/vi/VaT7IYQgyqo/hqdefault.jpg"
-  },
-  {
-	type: "tv_show",
-	title: "Suits",
-	description: "On the run from a drug deal gone bad, Mike Ross, a brilliant college dropout, finds himself a job working with Harvey Specter, one of New York City's best lawyers.",
-	season: 1,
-	episode: 1,
-	episode_title: "Pilot",
-	imdb: "https://www.imdb.com/title/tt1632701/",
-	url: "https://www.youtube.com/watch?v=85z53bAebsI",
-	thumbnail: "https://img.youtube.com/vi/85z53bAebsI/hqdefault.jpg"
 	},
-  {
-	type: "movie",
-	title: "Dunkirk",
-	description: "Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.",
-	year: 2017,
-	imdb: "https://www.imdb.com/title/tt5013056/",
-	url: "https://www.youtube.com/watch?v=F-eMt3SrfFU",
-	thumbnail: "http://i3.ytimg.com/vi/F-eMt3SrfFU/hqdefault.jpg"
-  },
-  {
-	type: "tv_show",
-	title: "How I Met Your Mother",
-	description: "It's the year 2030 and an older Ted Mosby is telling the story to his son and daughter about how he met and will eventually marry their mother. This is where we meet for the first time Ted, Lily, Marshall, Barney and Robin.",
-	season: 1,
-	episode: 1,
-	episode_title: "Pilot",
-	imdb: "https://www.imdb.com/title/tt0460649/",
-	url: "https://www.youtube.com/watch?v=GAx0DYI3los",
-	thumbnail: "https://img.youtube.com/vi/wTjMqda19wk/0.jpg"
-   }
+	{
+		type: "tv_show",
+		title: "Sherlock",
+		description: "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
+		season: 1,
+		episode: 1,
+		episode_title: "A Study in Pink",
+		imdb: "https://www.imdb.com/title/tt1665071/",
+		url: "https://www.youtube.com/watch?v=VaT7IYQgyqo",
+		thumbnail: "https://img.youtube.com/vi/VaT7IYQgyqo/hqdefault.jpg"
+	},
+	{
+		type: "tv_show",
+		title: "Suits",
+		description: "On the run from a drug deal gone bad, Mike Ross, a brilliant college dropout, finds himself a job working with Harvey Specter, one of New York City's best lawyers.",
+		season: 1,
+		episode: 1,
+		episode_title: "Pilot",
+		imdb: "https://www.imdb.com/title/tt1632701/",
+		url: "https://www.youtube.com/watch?v=85z53bAebsI",
+		thumbnail: "https://img.youtube.com/vi/85z53bAebsI/hqdefault.jpg"
+	},
+	{
+		type: "movie",
+		title: "Dunkirk",
+		description: "Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.",
+		year: 2017,
+		imdb: "https://www.imdb.com/title/tt5013056/",
+		url: "https://www.youtube.com/watch?v=F-eMt3SrfFU",
+		thumbnail: "http://i3.ytimg.com/vi/F-eMt3SrfFU/hqdefault.jpg"
+	},
+	{
+		type: "tv_show",
+		title: "How I Met Your Mother",
+		description: "It's the year 2030 and an older Ted Mosby is telling the story to his son and daughter about how he met and will eventually marry their mother. This is where we meet for the first time Ted, Lily, Marshall, Barney and Robin.",
+		season: 1,
+		episode: 1,
+		episode_title: "Pilot",
+		imdb: "https://www.imdb.com/title/tt0460649/",
+		url: "https://www.youtube.com/watch?v=GAx0DYI3los",
+		thumbnail: "https://img.youtube.com/vi/wTjMqda19wk/0.jpg"
+	},
+	{
+		type: "tv_show",
+		title: "Friends",
+		description: "Rachel Green, Ross Geller, Monica Geller, Joey Tribbiani, Chandler Bing and Phoebe Buffay are six 20 something year-olds, living off of one another in the heart of New York City. Over the course of ten years, this average group of buddies goes through massive mayhem, family trouble, past and future romances, fights, laughs, tears and surprises as they learn what it really means to be a friend.",
+		season: 1,
+		episode: 1,
+		episode_title: "The One Where It All Began",
+		imdb: "https://www.imdb.com/title/tt0108778/",
+		url: "https://www.youtube.com/watch?v=IzfZf1kxxI4",
+		thumbnail: "/friends.jpg"
+	}
 ];
 
 export default content;
