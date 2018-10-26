@@ -178,7 +178,18 @@ var content = [
 	imdb: "https://www.imdb.com/title/tt0460649/",
 	url: "https://www.youtube.com/watch?v=GAx0DYI3los",
 	thumbnail: "https://img.youtube.com/vi/wTjMqda19wk/0.jpg"
-   }
+	},
+  {
+		type: "tv_show",
+		title: "Friends",
+		description: "Rachel Green, Ross Geller, Monica Geller, Joey Tribbiani, Chandler Bing and Phoebe Buffay are six 20 something year-olds, living off of one another in the heart of New York City. Over the course of ten years, this average group of buddies goes through massive mayhem, family trouble, past and future romances, fights, laughs, tears and surprises as they learn what it really means to be a friend.",
+		season: 1,
+		episode: 1,
+		episode_title: "The One Where It All Began",
+		imdb: "https://www.imdb.com/title/tt0108778/",
+		url: "https://www.youtube.com/watch?v=IzfZf1kxxI4",
+		thumbnail: "/friends.jpg"
+	}
 ];
 
 export default content;
