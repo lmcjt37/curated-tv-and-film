@@ -4,37 +4,35 @@ jobs:
   build_and_test:
     docker:
       - image: circleci/node:8
-    working_directory: main
     steps:
       - checkout
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "package.json" }}
+          - v1-dependencies-{{ checksum "main/package.json" }}
           - v1-dependencies-
       - run:
           name: Install dependencies
-          command: npm install
+          command: cd main && npm install
       - save_cache:
           paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
+            - main/node_modules
+          key: v1-dependencies-{{ checksum "main/package.json" }}
       - run:
           name: Run tests
-          command: npm test
+          command: cd main && npm test
 
   deploy:
     docker:
       - image: circleci/node:8
-    working_directory: main
     steps:
       - checkout
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "package.json" }}
+          - v1-dependencies-{{ checksum "main/package.json" }}
           - v1-dependencies-
       - run:
           name: Build and deploy to gh-pages
-          command: npm run deploy
+          command: cd main && npm run deploy
 
 workflows:
   version: 2
