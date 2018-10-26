@@ -5,9 +5,6 @@ jobs:
     docker:
       - image: circleci/node:8
     working_directory: ~/main
-    branches:
-      ignore:
-        - gh-pages
     steps:
       - checkout
       - restore_cache:
@@ -29,9 +26,6 @@ jobs:
     docker:
       - image: circleci/node:8
     working_directory: ~/main
-    branches:
-      ignore:
-        - gh-pages
     steps:
       - checkout
       - restore_cache:
@@ -47,7 +41,13 @@ workflows:
   build_and_test:
     jobs:
       - build_and_test
+          branches:
+            ignore:
+              - gh-pages
       - deploy:
+          branches:
+            ignore:
+              - gh-pages
           requires:
             - build_and_test
           filters:
