@@ -183,7 +183,7 @@ ul li{
 
   .item-image {
     width: 266px;
-    height: 200px;
+    height: auto;
   }
 
   .headerContainer {

@@ -15,6 +15,11 @@
 - Place: Paris, France
 - GitHub: [MehdiDr](https://github.com/MehdiDr)
 
+#### Name: [Yamil Urbina](https://github.com/yamilurbina)
+- Role: Contributor
+- Place: La Paz, Bolivia
+- GitHub: [yamilurbina](https://github.com/yamilurbina)
+
 #### Name: [Isânio Moraes](https://github.com/isaniomoraes)
 - Role: Contributor
 - Place: Maringa, Brazil
@@ -25,3 +30,12 @@
 - Place: Coventry, UK
 - GitHub: [LeeConnelly12](https://github.com/LeeConnelly12)
 
+#### Name: [Junaid Anwar](https://github.com/Juni4567)
+- Role: Contributor
+- Place: Rawalpindi, Pakistan
+- GitHub: [Juni4567](https://github.com/Juni4567)
+
+#### Name: [Kndarp Patel](https://github.com/kndarp)
+- Role: Contributor
+- Place: London, UK
+- GitHub: [kndarp](https://github.com/kndarp)

@@ -91,6 +91,17 @@ var content = [
     thumbnail: "https://img.youtube.com/vi/_B_1IMstVzs/0.jpg"
   },
   {
+    type: "tv_show",
+    title: "Breaking Bad",
+    description: "Walt goes on the run. Jesse is taken hostage. Marie convinces Skyler to tell Walter, Jr. the truth.",
+    season: 5,
+    episode: 14,
+    episode_title: "Ozymandias",
+    imdb: "https://www.imdb.com/title/tt2301451/",
+    url: "https://www.youtube.com/watch?v=yDmsQcVAo2c",
+    thumbnail: "https://i.ytimg.com/vi/-AN0l-92Spk/hqdefault.jpg"
+  },
+  {
     type: "movie",
     title: "Interstellar",
     description: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
@@ -107,6 +118,46 @@ var content = [
     imdb: "https://www.imdb.com/title/tt0469494/",
     url: "https://www.youtube.com/watch?v=ugTbwvVuLKA",
     thumbnail: "http://i3.ytimg.com/vi/ugTbwvVuLKA/hqdefault.jpg"
+  },
+  {
+    type: "movie",
+    title: "Inception",
+    description: "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+    year: 2010,
+    imdb: "https://www.imdb.com/title/tt1375666/",
+    url: "https://www.youtube.com/watch?v=d3A3-zSOBT4",
+    thumbnail: "http://i3.ytimg.com/vi/d3A3-zSOBT4/hqdefault.jpg"
+  },
+  {
+    type: "movie",
+    title: "Fight Club",
+    description: "The movie all comes to a culmination as Tyler Durden and Marla singer watch all of the buildings around them explode.",
+    year: 1999,
+    imdb: "https://www.imdb.com/title/tt0137523/",
+    url: "https://www.youtube.com/watch?v=VC6Z_kdQoHw",
+    thumbnail: "https://img.youtube.com/vi/VC6Z_kdQoHw/0.jpg"
+  },
+  {
+    type: "tv_show",
+    title: "Sherlock",
+    description: "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
+    season: 1,
+    episode: 1,
+    episode_title: "A Study in Pink",
+    imdb: "https://www.imdb.com/title/tt1665071/",
+    url: "https://www.youtube.com/watch?v=VaT7IYQgyqo",
+    thumbnail: "https://img.youtube.com/vi/VaT7IYQgyqo/hqdefault.jpg"
+  },
+  {
+    type: "tv_show",
+    title: "Suits",
+    description: "On the run from a drug deal gone bad, Mike Ross, a brilliant college dropout, finds himself a job working with Harvey Specter, one of New York City's best lawyers.",
+    season: 1,
+    episode: 1,
+    episode_title: "Pilot",
+    imdb: "https://www.imdb.com/title/tt1632701/",
+    url: "https://www.youtube.com/watch?v=85z53bAebsI",
+    thumbnail: "https://img.youtube.com/vi/85z53bAebsI/hqdefault.jpg"
   }
 ];
 
