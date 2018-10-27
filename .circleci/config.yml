@@ -33,31 +33,20 @@ jobs:
       - run:
           name: Build and deploy to gh-pages
           command: |
-            if [[ $CIRCLE_BRANCH == $SOURCE_BRANCH ]]; then
-              git config --global user.email $GH_EMAIL
-              git config --global user.name $GH_NAME
+            git config --global user.email $GH_EMAIL
+            git config --global user.name $GH_NAME
 
-              cd main
+            cd main
 
-              git clone $CIRCLE_REPOSITORY_URL out
+            npm run build
 
-              cd out
-              git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
-              git rm -rf .
-              cd ..
+            mkdir build/.circleci
 
-              npm run build
+            cp -a ../.circleci/. build/.circleci
 
-              cp -a build/. out/.
+            npm run deploy
 
-              mkdir -p out/.circleci && cp -a .circleci/. out/.circleci/.
-              cd out
-
-              git add -A
-              git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}" --allow-empty
-
-              git push origin $TARGET_BRANCH
-            fi
+            echo "Finished delpoying to Github Pages!"
 
 workflows:
   version: 2
