@@ -11,10 +11,10 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/curated-tv-and-film/precache-manifest.96f474829f16f69d43c11ca0a7d706f9.js"
+  "/curated-tv-and-film/precache-manifest.4d1111601a4e98d1824eb40ff5c1ab0d.js"
 );
 
 workbox.clientsClaim();
