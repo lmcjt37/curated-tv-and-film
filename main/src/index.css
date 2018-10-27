@@ -1,24 +1,24 @@
 @font-face {
-  font-family: 'Source Sans Pro';
-  src: url('./fonts/SourceSansPro-ExtraLight.woff') format('woff');
+  font-family: "Source Sans Pro";
+  src: url("./fonts/SourceSansPro-ExtraLight.woff") format("woff");
   font-weight: 200;
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src: url('./fonts/SourceSansPro-Light.woff') format('woff');
+  font-family: "Source Sans Pro";
+  src: url("./fonts/SourceSansPro-Light.woff") format("woff");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src: url('./fonts/SourceSansPro-Regular.woff') format('woff');
+  font-family: "Source Sans Pro";
+  src: url("./fonts/SourceSansPro-Regular.woff") format("woff");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src: url('./fonts/SourceSansPro-SemiBold.woff') format('woff');
+  font-family: "Source Sans Pro";
+  src: url("./fonts/SourceSansPro-SemiBold.woff") format("woff");
   font-weight: 600;
 }
 
@@ -51,7 +51,9 @@
   font-weight: 600;
 } */
 
-*,*:before,*:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -59,13 +61,13 @@ html {
   font-size: 10px;
 }
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: rgb(var(--dark-persian-blue));
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 1.6;
   letter-spacing: 0.3px;
-  background: #FAFBFD;
+  background: #fafbfd;
 }
 
 #root {
@@ -121,7 +123,7 @@ h6 {
 }
 
 .input {
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
   font-size: 1.5rem;
   letter-spacing: 0.3px;
   border-radius: 3px;
@@ -129,7 +131,8 @@ h6 {
   border: 1px solid rgba(var(--dusk), 0.6);
 }
 
-label, .label {
+label,
+.label {
   font-size: 1.3rem;
   font-weight: 300;
   line-height: 1.6;
@@ -139,18 +142,18 @@ label, .label {
 input::placeholder {
   font-size: 1.3rem;
   letter-spacing: 0.3px;
-  color:  rgb(var(--bluey-grey));
+  color: rgb(var(--bluey-grey));
 }
 
 small {
   font-size: 1.2rem;
   font-weight: normal;
   letter-spacing: 0.2px;
-  color:  rgb(var(--bluey-grey));
+  color: rgb(var(--bluey-grey));
 }
 
 .link {
-  color:  rgb(var(--dodger-blue));
+  color: rgb(var(--dodger-blue));
   cursor: pointer;
 }
 
@@ -159,19 +162,18 @@ small {
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 3;
-          line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
-          box-orient: vertical;
+  box-orient: vertical;
 }
 
-.filter-labels{
+.filter-labels {
   padding: 1rem 1rem 0;
 }
 
-.filter-div{
-  margin: 1em
+.filter-div {
+  margin: 1em;
 }
-
 
 /*base font css*/
 /* if not pwa */
@@ -184,7 +186,7 @@ small {
   }
 } */
 
-@media only screen and (min-width:1600px) {
+@media only screen and (min-width: 1600px) {
   html {
     font-size: 11px;
   }
@@ -192,28 +194,16 @@ small {
     font-size: 1.45rem;
   }
 }
-<html>
-<head>
-<style>
-body {
-    background-color: lightblue;
+<html > <head > <style > body {
+  background-color: lightblue;
 }
 
 h1 {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 p {
-    font-family: verdana;
-    font-size: 20px;
+  font-family: verdana;
+  font-size: 20px;
 }
-</style>
-</head>
-<body>
-
-<h1>My First CSS Example</h1>
-<p>This is a paragraph.</p>
-
-</body>
-</html>
