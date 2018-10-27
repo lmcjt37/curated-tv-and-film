@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+
 import './App.css';
 import content from './content.js';
+import icons from './assets/icons';
 
 var data = content;
 
@@ -98,6 +100,25 @@ class App extends Component {
           </div>
         </main>
       </section>
+      <footer id="footer">
+        <div className="container">
+          <ul className="links">
+            <li>
+              <a href="https://github.com/lmcjt37/curated-tv-and-film">
+                <img src={icons.github} alt="Repository" />
+                <span>Repository</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors">
+                <img src={icons.github} alt="Contributors" />
+                <span>Contributors</span>
+              </a>
+            </li>
+          </ul>
+          <p class="version">v0.0.1</p>
+        </div>
+      </footer>
       </div>
     );
   }
