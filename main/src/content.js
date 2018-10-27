@@ -189,6 +189,24 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt0108778/",
 		url: "https://www.youtube.com/watch?v=IzfZf1kxxI4",
 		thumbnail: "./friends.jpg"
+	},
+	{
+		type: "movie",
+		title: "The Godfather",
+		description: "Don Corleone's dialogue - I'll make you an offer you can't refuse",
+		year: 1972,
+		imdb: "https://www.imdb.com/title/tt0068646/",
+		url: "https://www.youtube.com/watch?v=fmX2VzsB25s",
+		thumbnail: "./the-godfather.jpg"
+	},
+	{
+		type: "movie",
+		title: "The Matrix",
+		description: "Neo stops the bullets and agent Smith realises he's got to up his game by like a million.",
+		year: 1999,
+		imdb: "https://www.imdb.com/title/tt0133093/",
+		url: "https://www.youtube.com/watch?v=2oHOv9p9dHQ",
+		thumbnail: "./the-matrix.jpg"
 	}
 ];
 
