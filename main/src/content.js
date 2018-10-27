@@ -188,8 +188,7 @@ var content = [
 		episode_title: "The One Where It All Began",
 		imdb: "https://www.imdb.com/title/tt0108778/",
 		url: "https://www.youtube.com/watch?v=IzfZf1kxxI4",
-		thumbnail: "./assets/friends.jpg"
-	}
+		thumbnail: "./assets/friends.jpg"}
 ];
 
 export default content;
