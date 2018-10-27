@@ -38,7 +38,7 @@ exports[`snapshot changes when input change 1`] = `
       />
       <label
         className="filter-labels"
-        for="movies"
+        htmlFor="movies"
       >
         Movies
       </label>
@@ -50,7 +50,7 @@ exports[`snapshot changes when input change 1`] = `
       />
       <label
         className="filter-labels"
-        for="tv"
+        htmlFor="tv"
       >
         TV Series
       </label>
@@ -80,8 +80,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="The Newsroom"
-                    class="item-image"
-                    src="/the-newsroom.jpg"
+                    className="item-image"
+                    src="./the-newsroom.jpg"
                   />
                 </a>
               </div>
@@ -139,7 +139,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="http://www.imdb.com/title/tt1870479/"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -164,8 +164,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="Mr.Robot"
-                    class="item-image"
-                    src="/mr-robot.jpg"
+                    className="item-image"
+                    src="./mr-robot.jpg"
                   />
                 </a>
               </div>
@@ -223,7 +223,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="http://www.imdb.com/title/tt4158110/"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -248,8 +248,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="Silicon Valley"
-                    class="item-image"
-                    src="/silicon-valley.jpg"
+                    className="item-image"
+                    src="./silicon-valley.jpg"
                   />
                 </a>
               </div>
@@ -307,7 +307,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="http://www.imdb.com/title/tt2575988/"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -332,8 +332,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="Game of Thrones"
-                    class="item-image"
-                    src="/game-of-thrones.jpg"
+                    className="item-image"
+                    src="./game-of-thrones.jpg"
                   />
                 </a>
               </div>
@@ -391,7 +391,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="https://www.imdb.com/title/tt4283088/?ref_=ttep_ep9"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -416,8 +416,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="Oldboy"
-                    class="item-image"
-                    src="/oldboy.jpg"
+                    className="item-image"
+                    src="./oldboy.jpg"
                   />
                 </a>
               </div>
@@ -444,7 +444,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="http://www.imdb.com/title/tt0364569/"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -469,8 +469,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="Olympus has fallen"
-                    class="item-image"
-                    src="/olympus-has-fallen.jpg"
+                    className="item-image"
+                    src="./olympus-has-fallen.jpg"
                   />
                 </a>
               </div>
@@ -497,7 +497,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="https://www.imdb.com/title/tt2302755/"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -522,8 +522,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="Rick and Morty"
-                    class="item-image"
-                    src="/rick-and-morty.jpg"
+                    className="item-image"
+                    src="./rick-and-morty.jpg"
                   />
                 </a>
               </div>
@@ -581,7 +581,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="https://www.imdb.com/title/tt2861424/"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -606,8 +606,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="Kingsman: The Secret Service"
-                    class="item-image"
-                    src="/kingsman-the-secret-service.jpg"
+                    className="item-image"
+                    src="./kingsman-the-secret-service.jpg"
                   />
                 </a>
               </div>
@@ -634,7 +634,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="https://www.imdb.com/title/tt2802144/"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -659,8 +659,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="Kill Bill: Vol 1"
-                    class="item-image"
-                    src="/kill-bill-vol-1.jpg"
+                    className="item-image"
+                    src="./kill-bill-vol-1.jpg"
                   />
                 </a>
               </div>
@@ -687,7 +687,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="https://www.imdb.com/title/tt0266697/"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -712,8 +712,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="Breaking Bad"
-                    class="item-image"
-                    src="/breaking-bad.jpg"
+                    className="item-image"
+                    src="./breaking-bad.jpg"
                   />
                 </a>
               </div>
@@ -771,7 +771,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="https://www.imdb.com/title/tt2301451/"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -796,8 +796,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="Interstellar"
-                    class="item-image"
-                    src="/interstellar.jpg"
+                    className="item-image"
+                    src="./interstellar.jpg"
                   />
                 </a>
               </div>
@@ -824,7 +824,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="https://www.imdb.com/title/tt0816692/"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -849,8 +849,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="There Will Be Blood"
-                    class="item-image"
-                    src="/there-will-be-blood.jpg"
+                    className="item-image"
+                    src="./there-will-be-blood.jpg"
                   />
                 </a>
               </div>
@@ -877,7 +877,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="https://www.imdb.com/title/tt0469494/"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -902,8 +902,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="Inception"
-                    class="item-image"
-                    src="/inception.jpg"
+                    className="item-image"
+                    src="./inception.jpg"
                   />
                 </a>
               </div>
@@ -930,7 +930,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="https://www.imdb.com/title/tt1375666/"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -955,8 +955,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="Fight Club"
-                    class="item-image"
-                    src="/fight-club.jpg"
+                    className="item-image"
+                    src="./fight-club.jpg"
                   />
                 </a>
               </div>
@@ -983,7 +983,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="https://www.imdb.com/title/tt0137523/"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -1008,8 +1008,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="Sherlock"
-                    class="item-image"
-                    src="/sherlock.jpg"
+                    className="item-image"
+                    src="./sherlock.jpg"
                   />
                 </a>
               </div>
@@ -1067,7 +1067,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="https://www.imdb.com/title/tt1665071/"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -1092,8 +1092,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="Suits"
-                    class="item-image"
-                    src="/suits.jpg"
+                    className="item-image"
+                    src="./suits.jpg"
                   />
                 </a>
               </div>
@@ -1151,7 +1151,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="https://www.imdb.com/title/tt1632701/"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -1176,8 +1176,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="Dunkirk"
-                    class="item-image"
-                    src="/dunkirk.jpg"
+                    className="item-image"
+                    src="./dunkirk.jpg"
                   />
                 </a>
               </div>
@@ -1204,7 +1204,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="https://www.imdb.com/title/tt5013056/"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -1229,8 +1229,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="How I Met Your Mother"
-                    class="item-image"
-                    src="/how-i-met-your-mother.jpg"
+                    className="item-image"
+                    src="./how-i-met-your-mother.jpg"
                   />
                 </a>
               </div>
@@ -1288,7 +1288,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="https://www.imdb.com/title/tt0460649/"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -1313,8 +1313,8 @@ exports[`snapshot changes when input change 1`] = `
                 >
                   <img
                     alt="Friends"
-                    class="item-image"
-                    src="/friends.jpg"
+                    className="item-image"
+                    src="./friends.jpg"
                   />
                 </a>
               </div>
@@ -1372,7 +1372,7 @@ exports[`snapshot changes when input change 1`] = `
                     IMDB:
                   </span>
                   <a
-                    class="item-link"
+                    className="item-link"
                     href="https://www.imdb.com/title/tt0108778/"
                     rel="noopener noreferrer"
                     target="_blank"
