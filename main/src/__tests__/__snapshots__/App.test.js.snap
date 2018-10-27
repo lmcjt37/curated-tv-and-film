@@ -1,0 +1,1391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot changes when input change 1`] = `
+<div
+  className="mainContainer"
+>
+  <div
+    className="headerContainer"
+  >
+    <div
+      className="logoContainer"
+    >
+      <div
+        className="logoImage"
+      >
+        Curated TV and Film
+      </div>
+    </div>
+    <div
+      className="content-filter"
+    >
+      <input
+        className="form-control"
+        onChange={[Function]}
+        placeholder="Search here"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="filter-div"
+    >
+      <input
+        checked={true}
+        name="filterMovies"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <label
+        className="filter-labels"
+        for="movies"
+      >
+        Movies
+      </label>
+      <input
+        checked={true}
+        name="filterTV"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <label
+        className="filter-labels"
+        for="tv"
+      >
+        TV Series
+      </label>
+    </div>
+  </div>
+  <section
+    className="app container"
+  >
+    <main
+      className="main-content"
+    >
+      <div
+        className="content-list"
+      >
+        <ul>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=wTjMqda19wk"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The Newsroom"
+                    class="item-image"
+                    src="/the-newsroom.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  The Newsroom
+                  
+                </h2>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    We Just Decided To
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Will McAvoy (Jeff Daniels) hits the nail straight on the head in the opening minutes on HBO's new series 'The Newsroom'. He is asked by a college student a simple question during a campus debate. 'What makes America the greatest country in the world?'. Daniels initially goes the politically correct route then at the last minute goes with a honest, bold, straight forward answer that sums up a lot of the worlds problems that so many are afraid to accept because we all want to believe in our system and that it is our system that works. The evidence that is out there today is to the contrary and he discloses such information in his argument. We used to be the worlds best of the best and now we are just pretending. The first step to solving a problem is to admit there is one.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="http://www.imdb.com/title/tt1870479/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    http://www.imdb.com/title/tt1870479/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=AZeLHD-725o"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Mr.Robot"
+                    class="item-image"
+                    src="/mr-robot.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Mr.Robot
+                  
+                </h2>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    2
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    3
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    eps2.1_k3rnel-pan1c.ksd
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Elliot Alderson's powerful speech about control and the effects that religion and mindless following create.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="http://www.imdb.com/title/tt4158110/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    http://www.imdb.com/title/tt4158110/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=mMeqEDEfniA"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Silicon Valley"
+                    class="item-image"
+                    src="/silicon-valley.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Silicon Valley
+                  
+                </h2>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    8
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    Optimal Tip-To-Top Efficiency
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  The guys start calculating how most efficiently a mass jerk-off session can be carried out, which eventually also leads to a finding a new solution for Pied Piper's problems.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="http://www.imdb.com/title/tt2575988/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    http://www.imdb.com/title/tt2575988/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=m8rURwkvOx0"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Game of Thrones"
+                    class="item-image"
+                    src="/game-of-thrones.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Game of Thrones
+                  
+                </h2>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    6
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    9
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    Battle of the Bastards
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  In Winterfell, Jon Snow, Sansa, Davos and Tormund meet with Ramsay, and Jon Snow proposes a dispute between them instead of sacrificing lives in a battle. Ramsay does not accept and they schedule the battle in the morning. Jon Snow plots a scheme with Davos and Tormund and Sansa warns that Ramsay plays dirty. When both armies are ready to battle, Ramsay brings a surprise.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="https://www.imdb.com/title/tt4283088/?ref_=ttep_ep9"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt4283088/?ref_=ttep_ep9
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=VwIIDzrVVdc"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Oldboy"
+                    class="item-image"
+                    src="/oldboy.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Oldboy
+                   (2003)
+                </h2>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  The corridor fight scene took seventeen takes in three days to perfect, and was one continuous take -- there was no editing of any sort except for the knife that was stabbed in Oh Dae-su's back, which was computer-generated imagery. Though the scene has often been compared visually to side scrolling beat 'em up video games, director Park Chan-wook has stated that the similarity was unintentional.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="http://www.imdb.com/title/tt0364569/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    http://www.imdb.com/title/tt0364569/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=N8WXitDnA_U"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Olympus has fallen"
+                    class="item-image"
+                    src="/olympus-has-fallen.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Olympus has fallen
+                   (2013)
+                </h2>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  During a diplomatic talk between Korea and the United States, a secret Korean organisation has plotted a takeover of the White House with little resistance due to being caught off guard.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="https://www.imdb.com/title/tt2302755/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt2302755/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=uzeODC-_IHw&t=81"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Rick and Morty"
+                    class="item-image"
+                    src="/rick-and-morty.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Rick and Morty
+                  
+                </h2>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    3
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    Rickshank Redemption
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Rick, still in galactic prison, puts an intricate escape plan into action. Which then leads to a standoff in which he kills the council of Ricks.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="https://www.imdb.com/title/tt2861424/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt2861424/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=z7-tkkcC6d0"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Kingsman: The Secret Service"
+                    class="item-image"
+                    src="/kingsman-the-secret-service.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Kingsman: The Secret Service
+                   (2014)
+                </h2>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Colin Firth’s character, an impossibly cool secret agent named Harry Hart, ends up in a church participating in a gigantic killing free-for-all. It happens because the main bad guy in the movie, Samuel L. Jackson’s Richmond Valentine, inserts SIM cards into free cellphones he gives away that, when activated, emit a sound that turns everybody within earshot super violent. In a little under four minutes, Harry kills nearly 40 people, some of whom are killed in quick and obvious ways (like shooting them in the head), others of whom are killed in impromptu and gruesome ways (like breaking a wooden rod in half and then stabbing a guy in the chest with it).
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="https://www.imdb.com/title/tt2802144/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt2802144/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=_B_1IMstVzs"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Kill Bill: Vol 1"
+                    class="item-image"
+                    src="/kill-bill-vol-1.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Kill Bill: Vol 1
+                   (2003)
+                </h2>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  The Bride (Uma Thurman) must defeat O-Ren Ishii's (Lucy Liu) personal army, The Crazy 88's, before she can strike off the first name on her death list.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="https://www.imdb.com/title/tt0266697/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0266697/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=yDmsQcVAo2c"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Breaking Bad"
+                    class="item-image"
+                    src="/breaking-bad.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Breaking Bad
+                  
+                </h2>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    5
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    14
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    Ozymandias
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Walt goes on the run. Jesse is taken hostage. Marie convinces Skyler to tell Walter, Jr. the truth.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="https://www.imdb.com/title/tt2301451/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt2301451/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=p3PfKf0ndik"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Interstellar"
+                    class="item-image"
+                    src="/interstellar.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Interstellar
+                   (2014)
+                </h2>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="https://www.imdb.com/title/tt0816692/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0816692/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=ugTbwvVuLKA"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="There Will Be Blood"
+                    class="item-image"
+                    src="/there-will-be-blood.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  There Will Be Blood
+                   (2007)
+                </h2>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="https://www.imdb.com/title/tt0469494/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0469494/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=d3A3-zSOBT4"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Inception"
+                    class="item-image"
+                    src="/inception.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Inception
+                   (2010)
+                </h2>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="https://www.imdb.com/title/tt1375666/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt1375666/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=VC6Z_kdQoHw"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Fight Club"
+                    class="item-image"
+                    src="/fight-club.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Fight Club
+                   (1999)
+                </h2>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  The movie all comes to a culmination as Tyler Durden and Marla singer watch all of the buildings around them explode.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="https://www.imdb.com/title/tt0137523/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0137523/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=VaT7IYQgyqo"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Sherlock"
+                    class="item-image"
+                    src="/sherlock.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Sherlock
+                  
+                </h2>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    A Study in Pink
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="https://www.imdb.com/title/tt1665071/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt1665071/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=85z53bAebsI"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Suits"
+                    class="item-image"
+                    src="/suits.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Suits
+                  
+                </h2>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    Pilot
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  On the run from a drug deal gone bad, Mike Ross, a brilliant college dropout, finds himself a job working with Harvey Specter, one of New York City's best lawyers.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="https://www.imdb.com/title/tt1632701/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt1632701/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=F-eMt3SrfFU"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Dunkirk"
+                    class="item-image"
+                    src="/dunkirk.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Dunkirk
+                   (2017)
+                </h2>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="https://www.imdb.com/title/tt5013056/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt5013056/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=GAx0DYI3los"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="How I Met Your Mother"
+                    class="item-image"
+                    src="/how-i-met-your-mother.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  How I Met Your Mother
+                  
+                </h2>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    Pilot
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  It's the year 2030 and an older Ted Mosby is telling the story to his son and daughter about how he met and will eventually marry their mother. This is where we meet for the first time Ted, Lily, Marshall, Barney and Robin.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="https://www.imdb.com/title/tt0460649/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0460649/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=IzfZf1kxxI4"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Friends"
+                    class="item-image"
+                    src="/friends.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Friends
+                  
+                </h2>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    The One Where It All Began
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Rachel Green, Ross Geller, Monica Geller, Joey Tribbiani, Chandler Bing and Phoebe Buffay are six 20 something year-olds, living off of one another in the heart of New York City. Over the course of ten years, this average group of buddies goes through massive mayhem, family trouble, past and future romances, fights, laughs, tears and surprises as they learn what it really means to be a friend.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    class="item-link"
+                    href="https://www.imdb.com/title/tt0108778/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0108778/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </section>
+</div>
+`;
