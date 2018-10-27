@@ -49,3 +49,9 @@
 - Role: Contributor
 - Place: Bangalore, India
 - GitHub: [kaashan](https://github.com/kaashan)
+
+#### Name: [Kelvin Mai](https://github.com/kelvin-mai)
+- Role: Contributor
+- Place: Manchester, NH, USA
+- GitHub: [kelvin-mai](https://github.com/kelvin-mai)
+
