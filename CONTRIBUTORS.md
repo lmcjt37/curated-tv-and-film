@@ -44,3 +44,8 @@
 - Role: Contributor
 - Place: London, UK
 - GitHub: [kndarp](https://github.com/kndarp)
+
+#### Name: [Kelvin Mai](https://github.com/kelvin-mai)
+- Role: Contributor
+- Place: Manchester, NH, USA
+- GitHub: [kelvin-mai](https://github.com/kelvin-mai)
