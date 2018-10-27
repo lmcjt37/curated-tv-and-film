@@ -189,6 +189,17 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt0108778/",
 		url: "https://www.youtube.com/watch?v=IzfZf1kxxI4",
 		thumbnail: "./friends.jpg"
+	},
+	{
+		type: "tv_show",
+		title: "House",
+		description: "Gregory House, M.D., often construed as a misanthropic medical genius, heads a team of diagnosticians at the Princeton–Plainsboro Teaching Hospital in New Jersey.",
+		season: 6,
+		episode: 9,
+		episode_title: "Wilson",
+		imdb: "https://www.imdb.com/title/tt0412142/",
+		url: "https://www.youtube.com/watch?v=tLMzEOoSjc4",
+		thumbnail: "./houseShow.jpg"
 	}
 ];
 
