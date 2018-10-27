@@ -42,7 +42,7 @@ jobs:
 
             mkdir build/.circleci
 
-            cp -a ../.circleci/. build/.circleci"
+            cp -a ../.circleci/. build/.circleci
 
             npm run deploy
 
