@@ -1,9 +1,14 @@
 # Contributors
 
 #### Name: [Luke Taylor](https://lmcjt.com/)
-- Role : Owner
+- Role: Owner
 - Place: Derby, UK
 - GitHub: [lmcjt37](https://github.com/lmcjt37)
+
+#### Name: [Tyler McDonald](https://github.com/ManiacalBilby)
+- Role: Contributor
+- Place: Atlanta, GA
+- GitHub: [ManiacalBilby](https://github.com/ManiacalBilby)
 
 #### Name: [André Decher](https://github.com/Wolfy7)
 - Role: Contributor
