@@ -188,7 +188,7 @@ var content = [
 		episode_title: "The One Where It All Began",
 		imdb: "https://www.imdb.com/title/tt0108778/",
 		url: "https://www.youtube.com/watch?v=IzfZf1kxxI4",
-		thumbnail: "./friends.jpg"
+		thumbnail: "./assets/friends.jpg"
 	},
   {
 		type: "movie",
@@ -197,7 +197,7 @@ var content = [
 		year: 1972,
 		imdb: "https://www.imdb.com/title/tt0068646/",
 		url: "https://www.youtube.com/watch?v=fmX2VzsB25s",
-		thumbnail: "./the-godfather.jpg"
+		thumbnail: "./assets/the-godfather.jpg"
 	},
 	{
 		type: "movie",
@@ -206,7 +206,7 @@ var content = [
 		year: 1999,
 		imdb: "https://www.imdb.com/title/tt0133093/",
 		url: "https://www.youtube.com/watch?v=2oHOv9p9dHQ",
-		thumbnail: "./the-matrix.jpg"
+		thumbnail: "./assets/the-matrix.jpg"
 	},
   {
     type: "tv_show",
@@ -217,7 +217,7 @@ var content = [
 		episode_title: "Wilson",
 		imdb: "https://www.imdb.com/title/tt0412142/",
 		url: "https://www.youtube.com/watch?v=tLMzEOoSjc4",
-		thumbnail: "./houseShow.jpg"
+		thumbnail: "./assets/houseShow.jpg"
   },
   {
 		type: "tv_show",
@@ -228,7 +228,7 @@ var content = [
 		episode_title: "Casino Night ",
 		imdb: "https://www.imdb.com/title/tt0800604/",
 		url: "https://www.youtube.com/watch?v=ZymIQU4e1W4",
-		thumbnail: "./the-office.jpg"
+		thumbnail: "./assets/the-office.jpg"
 	},
   {
 		type: "movie",
@@ -237,7 +237,7 @@ var content = [
 		year: 2010,
 		imdb: "https://www.imdb.com/title/tt1037705/",
 		url: "https://www.youtube.com/watch?v=kAMUv22y1og",
-		thumbnail: "./the-book-of-eli.jpg"
+		thumbnail: "./assets/the-book-of-eli.jpg"
 	}
 ];
 

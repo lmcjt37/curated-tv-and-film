@@ -22,35 +22,6 @@
   font-weight: 600;
 }
 
-/* @font-face {
-  font-family: 'Source Sans Pro';
-  src: url('./fonts/SourceSansPro-ExtraLight.ttf') format('truetype'),
-  url('./fonts/SourceSansPro-ExtraLight.woff') format('woff'),
-  url('./fonts/SourceSansPro-ExtraLight.eot') format('eot');
-  font-weight: 200;
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  src: url('./fonts/SourceSansPro-Light.ttf') format('truetype'),
-  url('./fonts/SourceSansPro-Light.woff') format('woff'),
-  url('./fonts/SourceSansPro-Light.eot') format('eot');
-  font-weight: 300;
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  src: url('./fonts/SourceSansPro-Regular.ttf') format('truetype'),
-       url('./fonts/SourceSansPro-Regular.woff') format('woff'),
-       url('./fonts/SourceSansPro-Regular.eot') format('eot');
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  src: url('./fonts/SourceSansPro-SemiBold.ttf') format('truetype'),
-       url('./fonts/SourceSansPro-SemiBold.woff') format('woff'),
-       url('./fonts/SourceSansPro-SemiBold.eot') format('eot');
-  font-weight: 600;
-} */
-
 *,
 *:before,
 *:after {
