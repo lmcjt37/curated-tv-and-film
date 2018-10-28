@@ -110,6 +110,7 @@ ul li {
   max-height: 50px;
   font-size: 28px;
   color: #00daad;
+  cursor: pointer;
 }
 
 .searchContainer {
