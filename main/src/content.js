@@ -1,6 +1,17 @@
 var content = [
 	{
 		type: "tv_show",
+		title: "The Walking Dead",
+		description: "The Saviours have captured Rick and the group. They kneel at the mercy of Negan who makes an example of 2 of the groups members. Not for the faint of heart.",
+		season: 7,
+		episode: 1,
+		episode_title: "The Day Will Come When You Won't Be ",
+		imdb: "https://www.imdb.com/title/tt5164772/",
+		url: "https://www.youtube.com/watch?v=d3LDG5CCOPQ",
+		thumbnail: "./assets/walking-dead-season-7-poster.jpg"
+	},
+	{
+		type: "tv_show",
 		title: "The Newsroom",
 		description: "Will McAvoy (Jeff Daniels) hits the nail straight on the head in the opening minutes on HBO's new series 'The Newsroom'. He is asked by a college student a simple question during a campus debate. 'What makes America the greatest country in the world?'. Daniels initially goes the politically correct route then at the last minute goes with a honest, bold, straight forward answer that sums up a lot of the worlds problems that so many are afraid to accept because we all want to believe in our system and that it is our system that works. The evidence that is out there today is to the contrary and he discloses such information in his argument. We used to be the worlds best of the best and now we are just pretending. The first step to solving a problem is to admit there is one.",
 		season: 1,
