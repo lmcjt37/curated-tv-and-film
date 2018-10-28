@@ -189,7 +189,16 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt0108778/",
 		url: "https://www.youtube.com/watch?v=IzfZf1kxxI4",
 		thumbnail: "./friends.jpg"
-	}
+	},
+	{
+		type: "movie",
+		title: "The book of Eli",
+		description: "A post-apocalyptic tale, in which a lone man fights his way across America in order to protect a sacred book that holds the secrets to saving humankind.",
+		year: 2010,
+		imdb: "https://www.imdb.com/title/tt1037705/",
+		url: "https://www.youtube.com/watch?v=kAMUv22y1og",
+		thumbnail: "./the-book-of-eli.jpg"
+	},
 ];
 
 export default content;
