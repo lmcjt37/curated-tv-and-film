@@ -45,6 +45,11 @@
 - Place: London, UK
 - GitHub: [kndarp](https://github.com/kndarp)
 
+#### Name: [Kashan Hussain](https://github.com/kaashan)
+- Role: Contributor
+- Place: Bangalore, India
+- GitHub: [kaashan](https://github.com/kaashan)
+
 #### Name: [Kelvin Mai](https://github.com/kelvin-mai)
 - Role: Contributor
 - Place: Manchester, NH, USA

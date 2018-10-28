@@ -191,7 +191,25 @@ var content = [
 		thumbnail: "./friends.jpg"
 	},
 	{
-		type: "tv_show",
+		type: "movie",
+		title: "The Godfather",
+		description: "Don Corleone's dialogue - I'll make you an offer you can't refuse",
+		year: 1972,
+		imdb: "https://www.imdb.com/title/tt0068646/",
+		url: "https://www.youtube.com/watch?v=fmX2VzsB25s",
+		thumbnail: "./the-godfather.jpg"
+	},
+	{
+		type: "movie",
+		title: "The Matrix",
+		description: "Neo stops the bullets and agent Smith realises he's got to up his game by like a million.",
+		year: 1999,
+		imdb: "https://www.imdb.com/title/tt0133093/",
+		url: "https://www.youtube.com/watch?v=2oHOv9p9dHQ",
+		thumbnail: "./the-matrix.jpg"
+	},
+  {
+    type: "tv_show",
 		title: "House",
 		description: "Gregory House, M.D., often construed as a misanthropic medical genius, heads a team of diagnosticians at the Princeton–Plainsboro Teaching Hospital in New Jersey.",
 		season: 6,
@@ -200,7 +218,7 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt0412142/",
 		url: "https://www.youtube.com/watch?v=tLMzEOoSjc4",
 		thumbnail: "./houseShow.jpg"
-	}
+  }
 ];
 
 export default content;
