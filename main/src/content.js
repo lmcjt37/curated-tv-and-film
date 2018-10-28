@@ -70,7 +70,7 @@ var content = [
 		episode_title: "Rickshank Redemption",
 		imdb: "https://www.imdb.com/title/tt2861424/",
 		url: "https://www.youtube.com/watch?v=uzeODC-_IHw&t=81",
-		thumbnail: "./assets/rick-morty.png"
+		thumbnail: "./assets/rick-and-morty.jpg"
 	},
 	{
 		type: "movie",
@@ -88,7 +88,7 @@ var content = [
 		year: 2003,
 		imdb: "https://www.imdb.com/title/tt0266697/",
 		url: "https://www.youtube.com/watch?v=_B_1IMstVzs",
-		thumbnail: "./assets/killbill.jpg"
+		thumbnail: "./assets/kill-bill.jpg"
 	},
 	{
 		type: "tv_show",
@@ -157,7 +157,7 @@ var content = [
 		episode_title: "Pilot",
 		imdb: "https://www.imdb.com/title/tt1632701/",
 		url: "https://www.youtube.com/watch?v=85z53bAebsI",
-		thumbnail: "./assets/Suits.jpg"
+		thumbnail: "./assets/suits.jpg"
 	},
 	{
 		type: "movie",
@@ -177,7 +177,7 @@ var content = [
 		episode_title: "Pilot",
 		imdb: "https://www.imdb.com/title/tt0460649/",
 		url: "https://www.youtube.com/watch?v=GAx0DYI3los",
-		thumbnail: "./assets/met-your-mother.jpg"
+		thumbnail: "./assets/how-i-met-your-mother.jpg"
 	},
 	{
 		type: "tv_show",
@@ -217,7 +217,7 @@ var content = [
 		episode_title: "Wilson",
 		imdb: "https://www.imdb.com/title/tt0412142/",
 		url: "https://www.youtube.com/watch?v=tLMzEOoSjc4",
-		thumbnail: "./assets/houseShow.jpg"
+		thumbnail: "./assets/house.jpg"
   },
   {
 		type: "tv_show",
