@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Events, animateScroll as scroll } from 'react-scroll';
 
 import './App.css';
 import content from './content.js';
@@ -15,8 +16,25 @@ class App extends Component {
       content: content,
       filterTV: true,
       filterMovies: true,
-      filterYear: ""
+      filterYear: "",
+      onlyMovies: [],
+      years: []
     }
+
+    this.handleFilter = this.handleFilter.bind(this);
+    this.handleYear = this.handleYear.bind(this);
+  }
+
+  componentDidMount() {
+
+    Events.scrollEvent.register('begin', function() {
+      console.log("begin", arguments);
+    });
+
+    Events.scrollEvent.register('end', function() {
+      console.log("end", arguments);
+    });
+
   }
 
   handleChange = (event) => {
@@ -36,20 +54,43 @@ class App extends Component {
 
   handleYear = (event) => {
     let year = event.target.value;
-    this.setState({filterYear: year});
+    let moviesFilteredByYear = this.state.onlyMovies.filter(movie => movie.year.toString() === year);
+
+    this.setState({
+      filterYear: year,
+      content: moviesFilteredByYear
+    });
   }
 
   handleFilter = (event) => {
-    this.setState({ [event.target.name] : event.target.checked});
-    this.setState({filterYear: ""});
+    this.setState({ 
+      [event.target.name] : event.target.checked,
+      content: data,
+      years: [],
+      filterYear: ''
+    });
+
+    if (!!this.state.filterTV) {
+      let filteredMovide = this.state.content.filter(value => value.type === 'movie');
+      let onlyYears = new Set(filteredMovide.map(movie => movie.year));
+      let years = [...onlyYears].sort((a, b) => b-a);
+      
+      this.setState({
+        onlyMovies: filteredMovide,
+        years
+      });
+    }
   }
 
   goTop = (event) => {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    scroll.scrollToTop();
   }
 
   render() {
+    let optionItems = this.state.years.map((year, index) =>
+      <option key={index} value={year}>{year}</option>
+    );
+
     return (
       <div className="mainContainer">
         <div className="headerContainer">
@@ -61,13 +102,16 @@ class App extends Component {
           </div>
           <div className='filter-div'>
               <input type="checkbox" name = "filterMovies" checked={this.state.filterMovies} onChange={this.handleFilter}/><label htmlFor='movies' className="filter-labels">Movies</label>
-              <input type="checkbox" name = "filterTV" checked={this.state.filterTV} onChange={this.handleFilter}/><label htmlFor='tv' className="filter-labels">TV Series</label>
               {this.state.filterMovies && !this.state.filterTV ? (
-                  <input type="text" name = "filterYear" value={this.state.filterYear} onChange={this.handleYear} placeholder="Year"/>
+                  <select value={this.state.filterYear} onChange={this.handleYear} className="filter-year">
+                    <option disabled value="">- Year -</option>
+                    {optionItems}
+                  </select> 
                 ) : (
                   null
                 )
               }
+              <input type="checkbox" name = "filterTV" checked={this.state.filterTV} onChange={this.handleFilter}/><label htmlFor='tv' className="filter-labels">TV Series</label>
           </div>
         </div>
         <section className="app container">
