@@ -98,6 +98,21 @@ class App extends Component {
           </div>
         </main>
       </section>
+      <footer>
+        <div >
+          <div className="footerContainer row text-center">
+            <div className="col-sm-4">
+              <a href="https://github.com/lmcjt37/curated-tv-and-film" target="_blank">GitHub Repo</a>
+            </div>
+            <div className="col-sm-4">
+              Build v93
+            </div>
+            <div className="col-sm-4">
+              <a href="https://github.com/lmcjt37/curated-tv-and-film/blob/master/CONTRIBUTORS.md" target="_blank">Contributors</a>
+            </div>
+          </div>
+        </div>
+      </footer>
       </div>
     );
   }

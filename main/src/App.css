@@ -89,6 +89,11 @@ ul li {
   z-index: 1;
 }
 
+.footerContainer {
+  box-shadow:  0px -4px 5px 0px rgba(100, 110, 130, 0.1);
+  font-size: 20;
+}
+
 .logoContainer {
   display: grid;
   width: 100%;

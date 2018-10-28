@@ -49,3 +49,8 @@
 - Role: Contributor
 - Place: Manchester, NH, USA
 - GitHub: [kelvin-mai](https://github.com/kelvin-mai)
+
+#### Name: [Jordan Skophammer](https://skophammer.com)
+- Role: Contributor
+- Place: Minneapolis, MN, USA
+- GitHub: [jordan-skophammer](https://github.com:jordan-skophammer)
