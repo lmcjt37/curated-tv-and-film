@@ -12,6 +12,7 @@ exports[`snapshot changes when input change 1`] = `
     >
       <div
         className="logoImage"
+        onClick={[Function]}
       >
         Curated TV and Film
       </div>
@@ -81,7 +82,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="The Newsroom"
                     className="item-image"
-                    src="./the-newsroom.jpg"
+                    src="./assets/the-newsroom.jpg"
                   />
                 </a>
               </div>
@@ -165,7 +166,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Mr.Robot"
                     className="item-image"
-                    src="./mr-robot.jpg"
+                    src="./assets/mr-robot.jpg"
                   />
                 </a>
               </div>
@@ -249,7 +250,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Silicon Valley"
                     className="item-image"
-                    src="./silicon-valley.jpg"
+                    src="./assets/silicon-valley.jpg"
                   />
                 </a>
               </div>
@@ -333,7 +334,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Game of Thrones"
                     className="item-image"
-                    src="./game-of-thrones.jpg"
+                    src="./assets/game-of-thrones.jpg"
                   />
                 </a>
               </div>
@@ -417,7 +418,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Oldboy"
                     className="item-image"
-                    src="./oldboy.jpg"
+                    src="./assets/oldboy.jpg"
                   />
                 </a>
               </div>
@@ -470,7 +471,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Olympus has fallen"
                     className="item-image"
-                    src="./olympus-has-fallen.jpg"
+                    src="./assets/olympus.jpg"
                   />
                 </a>
               </div>
@@ -523,7 +524,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Rick and Morty"
                     className="item-image"
-                    src="./rick-and-morty.jpg"
+                    src="./assets/rick-morty.png"
                   />
                 </a>
               </div>
@@ -607,7 +608,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Kingsman: The Secret Service"
                     className="item-image"
-                    src="./kingsman-the-secret-service.jpg"
+                    src="./assets/kingsman.jpg"
                   />
                 </a>
               </div>
@@ -660,7 +661,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Kill Bill: Vol 1"
                     className="item-image"
-                    src="./kill-bill-vol-1.jpg"
+                    src="./assets/killbill.jpg"
                   />
                 </a>
               </div>
@@ -713,7 +714,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Breaking Bad"
                     className="item-image"
-                    src="./breaking-bad.jpg"
+                    src="./assets/breaking-bad.jpg"
                   />
                 </a>
               </div>
@@ -797,7 +798,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Interstellar"
                     className="item-image"
-                    src="./interstellar.jpg"
+                    src="./assets/interstellar.jpg"
                   />
                 </a>
               </div>
@@ -850,7 +851,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="There Will Be Blood"
                     className="item-image"
-                    src="./there-will-be-blood.jpg"
+                    src="./assets/there-will-be-blood.jpg"
                   />
                 </a>
               </div>
@@ -903,7 +904,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Inception"
                     className="item-image"
-                    src="./inception.jpg"
+                    src="./assets/inception.jpg"
                   />
                 </a>
               </div>
@@ -956,7 +957,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Fight Club"
                     className="item-image"
-                    src="./fight-club.jpg"
+                    src="./assets/fight-club.jpg"
                   />
                 </a>
               </div>
@@ -1009,7 +1010,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Sherlock"
                     className="item-image"
-                    src="./sherlock.jpg"
+                    src="./assets/sherlock.jpg"
                   />
                 </a>
               </div>
@@ -1093,7 +1094,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Suits"
                     className="item-image"
-                    src="./suits.jpg"
+                    src="./assets/Suits.jpg"
                   />
                 </a>
               </div>
@@ -1177,7 +1178,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Dunkirk"
                     className="item-image"
-                    src="./dunkirk.jpg"
+                    src="./assets/dunkirk.jpg"
                   />
                 </a>
               </div>
@@ -1230,7 +1231,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="How I Met Your Mother"
                     className="item-image"
-                    src="./how-i-met-your-mother.jpg"
+                    src="./assets/met-your-mother.jpg"
                   />
                 </a>
               </div>
@@ -1314,7 +1315,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Friends"
                     className="item-image"
-                    src="./friends.jpg"
+                    src="./assets/friends.jpg"
                   />
                 </a>
               </div>
@@ -1383,9 +1384,379 @@ exports[`snapshot changes when input change 1`] = `
               </div>
             </div>
           </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=fmX2VzsB25s"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The Godfather"
+                    className="item-image"
+                    src="./assets/the-godfather.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  The Godfather
+                   (1972)
+                </h2>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Don Corleone's dialogue - I'll make you an offer you can't refuse
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt0068646/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0068646/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=2oHOv9p9dHQ"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The Matrix"
+                    className="item-image"
+                    src="./assets/the-matrix.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  The Matrix
+                   (1999)
+                </h2>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Neo stops the bullets and agent Smith realises he's got to up his game by like a million.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt0133093/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0133093/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=tLMzEOoSjc4"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="House"
+                    className="item-image"
+                    src="./assets/houseShow.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  House
+                  
+                </h2>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    6
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    9
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    Wilson
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Gregory House, M.D., often construed as a misanthropic medical genius, heads a team of diagnosticians at the Princeton–Plainsboro Teaching Hospital in New Jersey.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt0412142/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0412142/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=ZymIQU4e1W4"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The Office"
+                    className="item-image"
+                    src="./assets/the-office.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  The Office
+                  
+                </h2>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    2
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    22
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    Casino Night 
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  The Dunder Mifflin crew holds a casino party at the warehouse and Michael has two dates.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt0800604/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0800604/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=kAMUv22y1og"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The book of Eli"
+                    className="item-image"
+                    src="./assets/the-book-of-eli.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  The book of Eli
+                   (2010)
+                </h2>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  A post-apocalyptic tale, in which a lone man fights his way across America in order to protect a sacred book that holds the secrets to saving humankind.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt1037705/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt1037705/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
     </main>
   </section>
+  <footer
+    id="footer"
+  >
+    <div
+      className="container"
+    >
+      <ul
+        className="links"
+      >
+        <li>
+          <a
+            href="https://github.com/lmcjt37/curated-tv-and-film"
+          >
+            <img
+              alt="Repository"
+              src="github32x32.png"
+            />
+            <span>
+              Repository
+            </span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors"
+          >
+            <img
+              alt="Contributors"
+              src="github32x32.png"
+            />
+            <span>
+              Contributors
+            </span>
+          </a>
+        </li>
+      </ul>
+      <p
+        className="version"
+      >
+        v0.0.1
+      </p>
+    </div>
+  </footer>
 </div>
 `;
