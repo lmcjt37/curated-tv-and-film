@@ -59,3 +59,8 @@
 - Role: Contributor
 - Place: Toronto, ON, Canada
 - GitHub: [shreenaathia](https://github.com/shreenaathia)
+
+#### Name: [Ricardo Barba](https://github.com/Richb17)
+- Role: Contributor
+- Place: San Luis Potosí, Mexico
+- GitHub: [Richb17](https://github.com/Richb17)
