@@ -8,7 +8,7 @@ var content = [
 		episode_title: "We Just Decided To",
 		imdb: "http://www.imdb.com/title/tt1870479/",
 		url: "https://www.youtube.com/watch?v=wTjMqda19wk",
-		thumbnail: "./the-newsroom.jpg"
+		thumbnail: "./assets/the-newsroom.jpg"
 	},
 	{
 		type: "tv_show",
@@ -19,7 +19,7 @@ var content = [
 		episode_title: "eps2.1_k3rnel-pan1c.ksd",
 		imdb: "http://www.imdb.com/title/tt4158110/",
 		url: "https://www.youtube.com/watch?v=AZeLHD-725o",
-		thumbnail: "./mr-robot.jpg"
+		thumbnail: "./assets/mr-robot.jpg"
 	},
 	{
 		type: "tv_show",
@@ -30,7 +30,7 @@ var content = [
 		episode_title: "Optimal Tip-To-Top Efficiency",
 		imdb: "http://www.imdb.com/title/tt2575988/",
 		url: "https://www.youtube.com/watch?v=mMeqEDEfniA",
-		thumbnail: "./silicon-valley.jpg"
+		thumbnail: "./assets/silicon-valley.jpg"
 	},
 	{
 		type: "tv_show",
@@ -41,7 +41,7 @@ var content = [
 		episode_title: "Battle of the Bastards",
 		imdb: "https://www.imdb.com/title/tt4283088/?ref_=ttep_ep9",
 		url: "https://www.youtube.com/watch?v=m8rURwkvOx0",
-		thumbnail: "./game-of-thrones.jpg"
+		thumbnail: "./assets/game-of-thrones.jpg"
 	},
 	{
 		type: "movie",
@@ -50,7 +50,7 @@ var content = [
 		year: 2003,
 		imdb: "http://www.imdb.com/title/tt0364569/",
 		url: "https://www.youtube.com/watch?v=VwIIDzrVVdc",
-		thumbnail: "./oldboy.jpg"
+		thumbnail: "./assets/oldboy.jpg"
 	},
 	{
 		type: "movie",
@@ -59,7 +59,7 @@ var content = [
 		year: 2013,
 		imdb: "https://www.imdb.com/title/tt2302755/",
 		url: "https://www.youtube.com/watch?v=N8WXitDnA_U",
-		thumbnail: "./olympus-has-fallen.jpg"
+		thumbnail: "./assets/olympus.jpg"
 	},
 	{
 		type: "tv_show",
@@ -70,7 +70,7 @@ var content = [
 		episode_title: "Rickshank Redemption",
 		imdb: "https://www.imdb.com/title/tt2861424/",
 		url: "https://www.youtube.com/watch?v=uzeODC-_IHw&t=81",
-		thumbnail: "./rick-and-morty.jpg"
+		thumbnail: "./assets/rick-morty.png"
 	},
 	{
 		type: "movie",
@@ -79,7 +79,7 @@ var content = [
 		year: 2014,
 		imdb: "https://www.imdb.com/title/tt2802144/",
 		url: "https://www.youtube.com/watch?v=z7-tkkcC6d0",
-		thumbnail: "./kingsman-the-secret-service.jpg"
+		thumbnail: "./assets/kingsman.jpg"
 	},
 	{
 		type: "movie",
@@ -88,7 +88,7 @@ var content = [
 		year: 2003,
 		imdb: "https://www.imdb.com/title/tt0266697/",
 		url: "https://www.youtube.com/watch?v=_B_1IMstVzs",
-		thumbnail: "./kill-bill-vol-1.jpg"
+		thumbnail: "./assets/killbill.jpg"
 	},
 	{
 		type: "tv_show",
@@ -99,7 +99,7 @@ var content = [
 		episode_title: "Ozymandias",
 		imdb: "https://www.imdb.com/title/tt2301451/",
 		url: "https://www.youtube.com/watch?v=yDmsQcVAo2c",
-		thumbnail: "./breaking-bad.jpg"
+		thumbnail: "./assets/breaking-bad.jpg"
 	},
 	{
 		type: "movie",
@@ -108,7 +108,7 @@ var content = [
 		year: 2014,
 		imdb: "https://www.imdb.com/title/tt0816692/",
 		url: "https://www.youtube.com/watch?v=p3PfKf0ndik",
-		thumbnail: "./interstellar.jpg"
+		thumbnail: "./assets/interstellar.jpg"
 	},
 	{
 		type: "movie",
@@ -117,7 +117,7 @@ var content = [
 		year: 2007,
 		imdb: "https://www.imdb.com/title/tt0469494/",
 		url: "https://www.youtube.com/watch?v=ugTbwvVuLKA",
-		thumbnail: "./there-will-be-blood.jpg"
+		thumbnail: "./assets/there-will-be-blood.jpg"
 	},
 	{
 		type: "movie",
@@ -126,7 +126,7 @@ var content = [
 		year: 2010,
 		imdb: "https://www.imdb.com/title/tt1375666/",
 		url: "https://www.youtube.com/watch?v=d3A3-zSOBT4",
-		thumbnail: "./inception.jpg"
+		thumbnail: "./assets/inception.jpg"
 	},
 	{
 		type: "movie",
@@ -135,7 +135,7 @@ var content = [
 		year: 1999,
 		imdb: "https://www.imdb.com/title/tt0137523/",
 		url: "https://www.youtube.com/watch?v=VC6Z_kdQoHw",
-		thumbnail: "./fight-club.jpg"
+		thumbnail: "./assets/fight-club.jpg"
 	},
 	{
 		type: "tv_show",
@@ -146,7 +146,7 @@ var content = [
 		episode_title: "A Study in Pink",
 		imdb: "https://www.imdb.com/title/tt1665071/",
 		url: "https://www.youtube.com/watch?v=VaT7IYQgyqo",
-		thumbnail: "./sherlock.jpg"
+		thumbnail: "./assets/sherlock.jpg"
 	},
 	{
 		type: "tv_show",
@@ -157,7 +157,7 @@ var content = [
 		episode_title: "Pilot",
 		imdb: "https://www.imdb.com/title/tt1632701/",
 		url: "https://www.youtube.com/watch?v=85z53bAebsI",
-		thumbnail: "./suits.jpg"
+		thumbnail: "./assets/Suits.jpg"
 	},
 	{
 		type: "movie",
@@ -166,7 +166,7 @@ var content = [
 		year: 2017,
 		imdb: "https://www.imdb.com/title/tt5013056/",
 		url: "https://www.youtube.com/watch?v=F-eMt3SrfFU",
-		thumbnail: "./dunkirk.jpg"
+		thumbnail: "./assets/dunkirk.jpg"
 	},
 	{
 		type: "tv_show",
@@ -177,7 +177,7 @@ var content = [
 		episode_title: "Pilot",
 		imdb: "https://www.imdb.com/title/tt0460649/",
 		url: "https://www.youtube.com/watch?v=GAx0DYI3los",
-		thumbnail: "./how-i-met-your-mother.jpg"
+		thumbnail: "./assets/met-your-mother.jpg"
 	},
 	{
 		type: "tv_show",
