@@ -239,7 +239,7 @@ var content = [
 		url: "https://www.youtube.com/watch?v=kAMUv22y1og",
 		thumbnail: "./assets/the-book-of-eli.jpg"
 	}, 
-	{
+ {
 		type: "movie",
 		title: "Sing Street",
 		description: "A boy growing up in Dublin during the 1980s escapes his strained family life by starting a band to impress the mysterious girl he likes.",
