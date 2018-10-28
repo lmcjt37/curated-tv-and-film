@@ -15,7 +15,7 @@ class App extends Component {
       content: content,
       filterTV: true,
       filterMovies: true,
-      filterYear: ""
+      filterYear: null
     }
   }
 
@@ -35,13 +35,13 @@ class App extends Component {
   }
 
   handleYear = (event) => {
-    let year = event.target.value;
-    this.setState({filterYear: year});
+    let year = parseInt(event.target.value) || null;
+    this.setState({ filterYear: year });
   }
 
   handleFilter = (event) => {
     this.setState({ [event.target.name] : event.target.checked});
-    this.setState({filterYear: ""});
+    this.setState({ filterYear: null });
   }
 
   goTop = (event) => {
@@ -60,10 +60,10 @@ class App extends Component {
             <input type="text" className="form-control" value={this.state.searchString} onChange={this.handleChange} placeholder="Search here" />
           </div>
           <div className='filter-div'>
-              <input type="checkbox" name = "filterMovies" checked={this.state.filterMovies} onChange={this.handleFilter}/><label htmlFor='movies' className="filter-labels">Movies</label>
-              <input type="checkbox" name = "filterTV" checked={this.state.filterTV} onChange={this.handleFilter}/><label htmlFor='tv' className="filter-labels">TV Series</label>
+              <input id="movies" type="checkbox" name = "filterMovies" checked={this.state.filterMovies} onChange={this.handleFilter}/><label htmlFor='movies' className="filter-labels">Movies</label>
+              <input id="tv" type="checkbox" name = "filterTV" checked={this.state.filterTV} onChange={this.handleFilter}/><label htmlFor='tv' className="filter-labels">TV Series</label>
               {this.state.filterMovies && !this.state.filterTV ? (
-                  <input type="text" name = "filterYear" value={this.state.filterYear} onChange={this.handleYear} placeholder="Year"/>
+                  <input type="text" name = "filterYear" value={this.state.filterYear || ""} onChange={this.handleYear} placeholder="Year"/>
                 ) : (
                   null
                 )
@@ -76,10 +76,18 @@ class App extends Component {
               {this.state.content.length ? (
                 <ul>
                   {this.state.content.map((item, index) => {
-                    if (this.state.filterMovies === false && item.type === "movie")
+                    const { 
+                      filterMovies, 
+                      filterTV,
+                      filterYear,   
+                    } = this.state;
+
+                    if (!filterMovies && item.type === "movie")
                       return "";
-                    if (this.state.filterTV === false && item.type === "tv_show")
+                    if (!filterTV && item.type === "tv_show")
                       return "";
+                    if (filterYear && !`${item.year}`.startsWith(filterYear))
+                      return ""
                     return (
                       <li key={index}>
                         <div className="item-card">
