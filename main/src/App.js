@@ -134,7 +134,7 @@ class App extends Component {
               </a>
             </li>
           </ul>
-          <p class="version">v0.0.1</p>
+          <p className="version">v0.0.1</p>
         </div>
       </footer>
       </div>
