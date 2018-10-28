@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+
 import './App.css';
 import content from './content.js';
+import icons from './assets/icons';
 
 var data = content;
 
@@ -12,7 +14,8 @@ class App extends Component {
       searchString: "",
       content: content,
       filterTV: true,
-      filterMovies: true
+      filterMovies: true,
+      filterYear: ""
     }
   }
 
@@ -31,8 +34,14 @@ class App extends Component {
     }
   }
 
+  handleYear = (event) => {
+    let year = event.target.value;
+    this.setState({filterYear: year});
+  }
+
   handleFilter = (event) => {
     this.setState({ [event.target.name] : event.target.checked});
+    this.setState({filterYear: ""});
   }
 
   render() {
@@ -48,6 +57,12 @@ class App extends Component {
           <div className='filter-div'>
               <input type="checkbox" name = "filterMovies" checked={this.state.filterMovies} onChange={this.handleFilter}/><label htmlFor='movies' className="filter-labels">Movies</label>
               <input type="checkbox" name = "filterTV" checked={this.state.filterTV} onChange={this.handleFilter}/><label htmlFor='tv' className="filter-labels">TV Series</label>
+              {this.state.filterMovies && !this.state.filterTV ? (
+                  <input type="text" name = "filterYear" value={this.state.filterYear} onChange={this.handleYear} placeholder="Year"/>
+                ) : (
+                  null
+                )
+              }
           </div>
         </div>
       <section className="app container">
@@ -59,6 +74,8 @@ class App extends Component {
                   if (this.state.filterMovies === false && item.type === "movie") 
                       return "";
                   if (this.state.filterTV === false && item.type === "tv_show" )  
+                     return "";
+                  if (this.state.filterYear != "" && this.state.filterYear != item.year)
                      return "";
                   return (
                     <li key={index}>
@@ -98,6 +115,25 @@ class App extends Component {
           </div>
         </main>
       </section>
+      <footer id="footer">
+        <div className="container">
+          <ul className="links">
+            <li>
+              <a href="https://github.com/lmcjt37/curated-tv-and-film">
+                <img src={icons.github} alt="Repository" />
+                <span>Repository</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors">
+                <img src={icons.github} alt="Contributors" />
+                <span>Contributors</span>
+              </a>
+            </li>
+          </ul>
+          <p class="version">v0.0.1</p>
+        </div>
+      </footer>
       </div>
     );
   }
