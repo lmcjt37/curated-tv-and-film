@@ -229,6 +229,15 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt0800604/",
 		url: "https://www.youtube.com/watch?v=ZymIQU4e1W4",
 		thumbnail: "./the-office.jpg"
+	},
+  {
+		type: "movie",
+		title: "The book of Eli",
+		description: "A post-apocalyptic tale, in which a lone man fights his way across America in order to protect a sacred book that holds the secrets to saving humankind.",
+		year: 2010,
+		imdb: "https://www.imdb.com/title/tt1037705/",
+		url: "https://www.youtube.com/watch?v=kAMUv22y1og",
+		thumbnail: "./the-book-of-eli.jpg"
 	}
 ];
 
