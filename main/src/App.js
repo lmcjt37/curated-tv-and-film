@@ -1,52 +1,60 @@
-import React, { Component } from 'react';
+import React, { Component } from "react"
 
-import './App.css';
-import content from './content.js';
-import icons from './assets/icons';
+import "./App.css"
+import content from "./content.js"
+import icons from "./assets/icons"
 
-var data = content;
+var data = content
 
 class App extends Component {
   constructor(props) {
-    super(props);
+    super(props)
 
     this.state = {
       searchString: "",
       content: content,
       filterTV: true,
       filterMovies: true,
-      filterYear: ""
+      filterYear: "",
+      filterGenre: []
     }
   }
 
-  handleChange = (event) => {
-    var searchString = event.target.value;
-    this.setState({ searchString: searchString });
+  handleChange = event => {
+    var searchString = event.target.value
+    this.setState({ searchString: searchString })
 
-    searchString = searchString.trim().toLowerCase();
+    searchString = searchString.trim().toLowerCase()
 
     if (searchString.length > 0) {
-      var searchResult = this.state.content.filter((el) =>
-        el.title.toLowerCase().match(searchString));
-      this.setState({ content: searchResult });
+      var searchResult = this.state.content.filter(el =>
+        el.title.toLowerCase().match(searchString)
+      )
+      this.setState({ content: searchResult })
     } else {
-      this.setState({ content: data });
+      this.setState({ content: data })
     }
   }
 
-  handleYear = (event) => {
-    let year = event.target.value;
-    this.setState({filterYear: year});
+  handleYear = event => {
+    let year = event.target.value
+    this.setState({ filterYear: year })
   }
 
-  handleFilter = (event) => {
-    this.setState({ [event.target.name] : event.target.checked});
-    this.setState({filterYear: ""});
+  handleGenre = event => {
+    let genre = event.target.value
+
+    this.setState({ filterGenre: genre })
   }
 
-  goTop = (event) => {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+  handleFilter = event => {
+    this.setState({ [event.target.name]: event.target.checked })
+    this.setState({ filterYear: "" })
+  }
+
+  goTop = event => {
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
   }
 
   render() {
@@ -54,20 +62,69 @@ class App extends Component {
       <div className="mainContainer">
         <div className="headerContainer">
           <div className="logoContainer">
-            <div className="logoImage" onClick={this.goTop}>Curated TV and Film</div>
+            <div className="logoImage" onClick={this.goTop}>
+              Curated TV and Film
+            </div>
           </div>
           <div className="content-filter">
-            <input type="text" className="form-control" value={this.state.searchString} onChange={this.handleChange} placeholder="Search here" />
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.searchString}
+              onChange={this.handleChange}
+              placeholder="Search here"
+            />
           </div>
-          <div className='filter-div'>
-              <input type="checkbox" name = "filterMovies" checked={this.state.filterMovies} onChange={this.handleFilter}/><label htmlFor='movies' className="filter-labels">Movies</label>
-              <input type="checkbox" name = "filterTV" checked={this.state.filterTV} onChange={this.handleFilter}/><label htmlFor='tv' className="filter-labels">TV Series</label>
-              {this.state.filterMovies && !this.state.filterTV ? (
-                  <input type="text" name = "filterYear" value={this.state.filterYear} onChange={this.handleYear} placeholder="Year"/>
-                ) : (
-                  null
-                )
-              }
+          <div className="filter-div">
+            <input
+              type="checkbox"
+              name="filterMovies"
+              checked={this.state.filterMovies}
+              onChange={this.handleFilter}
+            />
+            <label htmlFor="movies" className="filter-labels">
+              Movies
+            </label>
+            <input
+              type="checkbox"
+              name="filterTV"
+              checked={this.state.filterTV}
+              onChange={this.handleFilter}
+            />
+            <label htmlFor="tv" className="filter-labels">
+              TV Series
+            </label>
+            {this.state.filterMovies && !this.state.filterTV ? (
+              <input
+                type="text"
+                name="filterYear"
+                value={this.state.filterYear}
+                onChange={this.handleYear}
+                placeholder="Year"
+              />
+            ) : null}
+            <label htmlFor="movies" className="filter-labels">
+              Genre
+            </label>
+            <select
+              type="select"
+              name="filterGenre"
+              selected={this.state.filterGenre}
+              onChange={this.handleGenre}
+            >
+              <option>All</option>
+              <option>Action</option>
+              <option>Adventure</option>
+              <option>Animation</option>
+              <option>Comedy</option>
+              <option>Crime</option>
+              <option>Drama</option>
+              <option>History </option>
+              <option>Mystery </option>
+              <option>Romance</option>
+              <option>Sci-Fi</option>
+              <option>Thriller</option>
+            </select>
           </div>
         </div>
         <section className="app container">
@@ -76,30 +133,78 @@ class App extends Component {
               {this.state.content.length ? (
                 <ul>
                   {this.state.content.map((item, index) => {
-                    if (this.state.filterMovies === false && item.type === "movie")
-                      return "";
-                    if (this.state.filterTV === false && item.type === "tv_show")
-                      return "";
+                    if (
+                      this.state.filterMovies === false &&
+                      item.type === "movie"
+                    )
+                      return ""
+                    if (
+                      this.state.filterTV === false &&
+                      item.type === "tv_show"
+                    )
+                      return ""
+
+                    if (
+                      this.state.filterGenre != "" &&
+                      this.state.filterGenre !== "All" &&
+                      item.genre &&
+                      !item.genre.some(
+                        genre => genre === this.state.filterGenre
+                      )
+                    )
+                      return ""
+
                     return (
                       <li key={index}>
                         <div className="item-card">
                           <div className="item-thumbnail">
-                            <a target="_blank" rel="noopener noreferrer" href={item.url}>
-                              <img src={item.thumbnail} alt={item.title} className="item-image" />
+                            <a
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              href={item.url}
+                            >
+                              <img
+                                src={item.thumbnail}
+                                alt={item.title}
+                                className="item-image"
+                              />
                             </a>
                           </div>
                           <div className="item-info">
-                            <h2>{item.title}{item.year ? (" (" + item.year + ")") : ''}</h2>
-                            {item.type === "tv_show" &&
+                            <h2>
+                              {item.title}
+                              {item.year ? " (" + item.year + ")" : ""}
+                            </h2>
+                            <h5>
+                              {item.genre && `Genre: ${item.genre.join(", ")}`}
+                            </h5>
+                            {item.type === "tv_show" && (
                               <div className="tvshow-details">
-                                <div className="details__item"><span>Season:</span> {item.season}</div>
-                                <div className="details__item"><span>Episode:</span> {item.episode}</div>
-                                <div className="details__item"><span>Episode Title:</span> {item.episode_title}</div>
+                                <div className="details__item">
+                                  <span>Season:</span> {item.season}
+                                </div>
+                                <div className="details__item">
+                                  <span>Episode:</span> {item.episode}
+                                </div>
+                                <div className="details__item">
+                                  <span>Episode Title:</span>{" "}
+                                  {item.episode_title}
+                                </div>
                               </div>
-                            }
-                            <div className="item-desc details__item"><span>Description:</span> {item.description}</div>
+                            )}
+                            <div className="item-desc details__item">
+                              <span>Description:</span> {item.description}
+                            </div>
                             <div className="item-imdb">
-                              <span>IMDB:</span><a target="_blank" rel="noopener noreferrer" href={item.imdb} className="item-link">{item.imdb}</a>
+                              <span>IMDB:</span>
+                              <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href={item.imdb}
+                                className="item-link"
+                              >
+                                {item.imdb}
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -107,39 +212,36 @@ class App extends Component {
                     )
                   })}
                 </ul>
+              ) : this.state.searchString ? (
+                <p>No search result</p>
               ) : (
-                this.state.searchString ? (
-                  <p>No search result</p>
-                ) : (
-                  <p>Can't load the data.</p>
-                )
-              )
-            }
+                <p>Can't load the data.</p>
+              )}
+            </div>
+          </main>
+        </section>
+        <footer id="footer">
+          <div className="container">
+            <ul className="links">
+              <li>
+                <a href="https://github.com/lmcjt37/curated-tv-and-film">
+                  <img src={icons.github} alt="Repository" />
+                  <span>Repository</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors">
+                  <img src={icons.github} alt="Contributors" />
+                  <span>Contributors</span>
+                </a>
+              </li>
+            </ul>
+            <p className="version">v0.0.1</p>
           </div>
-        </main>
-      </section>
-      <footer id="footer">
-        <div className="container">
-          <ul className="links">
-            <li>
-              <a href="https://github.com/lmcjt37/curated-tv-and-film">
-                <img src={icons.github} alt="Repository" />
-                <span>Repository</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors">
-                <img src={icons.github} alt="Contributors" />
-                <span>Contributors</span>
-              </a>
-            </li>
-          </ul>
-          <p className="version">v0.0.1</p>
-        </div>
-      </footer>
+        </footer>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
