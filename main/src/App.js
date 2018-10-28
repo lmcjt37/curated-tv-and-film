@@ -108,11 +108,10 @@ class App extends Component {
                   })}
                 </ul>
               ) : (
-                  this.state.searchString ? (
-                    <p>No search result</p>
-                  ) : (
-                      <p>Can't load the data.</p>
-                    )
+                this.state.searchString ? (
+                  <p>No search result</p>
+                ) : (
+                  <p>Can't load the data.</p>
                 )
               )
             }
