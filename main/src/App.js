@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Events, animateScroll as scroll } from 'react-scroll';
 
 import './App.css';
 import content from './content.js';
@@ -22,6 +23,18 @@ class App extends Component {
 
     this.handleFilter = this.handleFilter.bind(this);
     this.handleYear = this.handleYear.bind(this);
+  }
+
+  componentDidMount() {
+
+    Events.scrollEvent.register('begin', function() {
+      console.log("begin", arguments);
+    });
+
+    Events.scrollEvent.register('end', function() {
+      console.log("end", arguments);
+    });
+
   }
 
   handleChange = (event) => {
@@ -70,8 +83,7 @@ class App extends Component {
   }
 
   goTop = (event) => {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    scroll.scrollToTop();
   }
 
   render() {
