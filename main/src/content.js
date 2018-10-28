@@ -238,7 +238,15 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt1037705/",
 		url: "https://www.youtube.com/watch?v=kAMUv22y1og",
 		thumbnail: "./assets/the-book-of-eli.jpg"
-	}
+	}, 
+		type: "movie",
+		title: "Sing Street",
+		description: "A boy growing up in Dublin during the 1980s escapes his strained family life by starting a band to impress the mysterious girl he likes."
+		year: 2016
+		imbd: "https://www.imdb.com/title/tt3544112/"
+		url: "https://www.youtube.com/watch?v=jYk2Vx1z6lk"
+		thumbnail: "./assets/Sing-Street.jpg"
+	},
 ];
 
 export default content;
