@@ -55,3 +55,7 @@
 - Place: Manchester, NH, USA
 - GitHub: [kelvin-mai](https://github.com/kelvin-mai)
 
+#### Name: [Shreena Athia](https://github.com/shreenaathia)
+- Role: Contributor
+- Place: Toronto, ON, Canada
+- GitHub: [shreenaathia](https://github.com/shreenaathia)
