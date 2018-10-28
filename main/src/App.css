@@ -210,10 +210,7 @@ footer#footer .version {
   .headerContainer {
     display: block;
     padding-top: 10px;
-  }
-
-  .container {
-    padding-top: 50px;
+    padding-bottom: 10px;
   }
 
   .content-list ul li + li {
@@ -237,5 +234,9 @@ footer#footer .version {
 
   .headerContainer {
     height: 60px;
+  }
+  
+  .container {
+    padding-top: 50px;
   }
 }
