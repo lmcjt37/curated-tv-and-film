@@ -524,7 +524,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Rick and Morty"
                     className="item-image"
-                    src="./assets/rick-morty.png"
+                    src="./assets/rick-and-morty.jpg"
                   />
                 </a>
               </div>
@@ -661,7 +661,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Kill Bill: Vol 1"
                     className="item-image"
-                    src="./assets/killbill.jpg"
+                    src="./assets/kill-bill.jpg"
                   />
                 </a>
               </div>
@@ -1094,7 +1094,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Suits"
                     className="item-image"
-                    src="./assets/Suits.jpg"
+                    src="./assets/suits.jpg"
                   />
                 </a>
               </div>
@@ -1231,7 +1231,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="How I Met Your Mother"
                     className="item-image"
-                    src="./assets/met-your-mother.jpg"
+                    src="./assets/how-i-met-your-mother.jpg"
                   />
                 </a>
               </div>
@@ -1505,7 +1505,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="House"
                     className="item-image"
-                    src="./assets/houseShow.jpg"
+                    src="./assets/house.jpg"
                   />
                 </a>
               </div>
