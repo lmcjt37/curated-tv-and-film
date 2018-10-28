@@ -9,11 +9,13 @@
 
 _Please make sure you include all necessary fields and try to stick to the format given below. Replace any [] or {} tokens with the relevant information stated_
 
-Your PR will be reviewed carefully to see if it fits the bill, with very loose guidelines. The URL format doesn't matter so much as long as the link works and a video or image can be retrieved.
+Your PR will be reviewed carefully to see if it fits the bill, with very loose guidelines. The URL format doesn't matter so much as long as the link works and a video can be retrieved.
 
 Remember that the video URLs should reference snippets or clips from of your favourite scene from the movie. We aren't hosting trailers, credits or fan videos.
 
-Also, bear in mind that that only single entries to the content will be accepted. You should raise additional PR's for extra content. This allows us to validate each PR in isolation.
+Also, bear in mind that that only one entry to the content will be accepted at a time. You should raise additional PR's for extra content. This allows us to validate each PR in isolation.
+
+The image that is added to support the content should be a JPEG and added to the `main/public/assets` folder. Make sure the quality of the image is decent and represents the scene from the video you are referencing.
 
 ## TV Shows
 
@@ -27,7 +29,7 @@ Also, bear in mind that that only single entries to the content will be accepted
   episode_title: "{EPISODE_TITLE}",
   imdb: "{IMDB_URL_FOR_SHOW_EPISODE}",
   url: "https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE}",
-  thumbnail: "https://img.youtube.com/vi/{YOUTUBE_VIDEO_ID_HERE}/0.jpg"
+  thumbnail: "{IMAGE_ASSET_FILENAME}.jpg"
 }
 ```
 
@@ -41,7 +43,7 @@ Also, bear in mind that that only single entries to the content will be accepted
   year: {FILM_YEAR},
   imdb: "{IMDB_URL_HERE}",
   url: "https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE}",
-  thumbnail: "https://img.youtube.com/vi/{YOUTUBE_VIDEO_ID_HERE}/0.jpg"
+  thumbnail: "{IMAGE_ASSET_FILENAME}.jpg"
 }
 ```
 
