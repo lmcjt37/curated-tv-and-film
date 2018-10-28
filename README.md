@@ -9,7 +9,7 @@ These scenes are carefully picked out moments, ignoring bias of any opinions or 
 
 * React and js
 * Stylesheets can be CSS, Grid, Flex, bootstrap.
-* Embedded resources like images or fonts use DataUrls if appropriate
+* Embedded resources like images or fonts use DataUrls if appropriate.
 * Development
   * Development server
   * Optionally Hot Module Replacement development server (LiveReload for Stylesheets and React components enabled)
