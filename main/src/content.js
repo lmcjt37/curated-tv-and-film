@@ -246,7 +246,7 @@ var content = [
 		imbd: "https://www.imdb.com/title/tt3544112/",
 		url: "https://www.youtube.com/watch?v=jYk2Vx1z6lk",
 		thumbnail: "./assets/Sing-Street.jpg"
-	},
+	}
 ];
 
 export default content;
