@@ -1,16 +1,16 @@
 {
   "main.css": "/curated-tv-and-film/static/css/main.52352cb4.chunk.css",
-  "main.js": "/curated-tv-and-film/static/js/main.27cb5f4b.chunk.js",
-  "main.js.map": "/curated-tv-and-film/static/js/main.27cb5f4b.chunk.js.map",
+  "main.js": "/curated-tv-and-film/static/js/main.d7f82473.chunk.js",
+  "main.js.map": "/curated-tv-and-film/static/js/main.d7f82473.chunk.js.map",
   "static/css/1.9ffa5841.chunk.css": "/curated-tv-and-film/static/css/1.9ffa5841.chunk.css",
   "static/js/1.cf87a5a3.chunk.js": "/curated-tv-and-film/static/js/1.cf87a5a3.chunk.js",
   "static/js/1.cf87a5a3.chunk.js.map": "/curated-tv-and-film/static/js/1.cf87a5a3.chunk.js.map",
   "runtime~main.js": "/curated-tv-and-film/static/js/runtime~main.5a549d00.js",
   "runtime~main.js.map": "/curated-tv-and-film/static/js/runtime~main.5a549d00.js.map",
-  "static/media/index.css": "/curated-tv-and-film/static/media/SourceSansPro-Regular.e2c2aa3f.woff",
-  "static/css/1.9ffa5841.chunk.css.map": "/curated-tv-and-film/static/css/1.9ffa5841.chunk.css.map",
+  "static/media/index.css": "/curated-tv-and-film/static/media/SourceSansPro-ExtraLight.5238fb31.woff",
   "static/css/main.52352cb4.chunk.css.map": "/curated-tv-and-film/static/css/main.52352cb4.chunk.css.map",
+  "static/css/1.9ffa5841.chunk.css.map": "/curated-tv-and-film/static/css/1.9ffa5841.chunk.css.map",
   "index.html": "/curated-tv-and-film/index.html",
-  "precache-manifest.86af1247369542d985904edd526e03f6.js": "/curated-tv-and-film/precache-manifest.86af1247369542d985904edd526e03f6.js",
+  "precache-manifest.7fb524ecba674c24b8dc1a7b5e75128b.js": "/curated-tv-and-film/precache-manifest.7fb524ecba674c24b8dc1a7b5e75128b.js",
   "service-worker.js": "/curated-tv-and-film/service-worker.js"
 }
