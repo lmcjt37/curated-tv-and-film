@@ -87,8 +87,6 @@ ul li {
   display: grid;
   grid-template-columns: auto 1fr auto;
   z-index: 1;
-  position: fixed;
-  width: 100%;
 }
 
 .logoContainer {
