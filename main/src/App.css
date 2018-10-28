@@ -87,6 +87,8 @@ ul li {
   display: grid;
   grid-template-columns: auto 1fr auto;
   z-index: 1;
+  position: fixed;
+  width: 100%;
 }
 
 .logoContainer {
@@ -147,6 +149,43 @@ ul li {
 .item-link {
   display: inline-block;
   margin: 0;
+}
+
+/* Footer */
+footer#footer {
+  width: 100%;
+}
+
+footer#footer .container {
+  border-top: 1px solid #CCC;
+  padding: 3rem 0 2rem;
+}
+
+footer#footer .links {
+  display: flex;
+  justify-content: center;
+}
+
+footer#footer .links li {
+  padding: 0 1rem;
+}
+
+footer#footer .links li a {
+  font-weight: bold;
+  color: rgb(var(--dark-persian-blue));
+}
+
+footer#footer .links img {
+  width: 24px;
+  height: 24px;
+}
+
+footer#footer .links span {
+  margin-left: .5rem;
+}
+
+footer#footer .version {
+  text-align: center;
 }
 
 @media (max-width: 767px) {
