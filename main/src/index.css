@@ -142,6 +142,10 @@ small {
   padding: 1rem 1rem 0;
 }
 
+.filter-year {
+  margin-right: 8px;
+}
+
 .filter-div {
   margin: 1em;
 }
