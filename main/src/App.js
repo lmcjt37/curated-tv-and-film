@@ -45,7 +45,7 @@ class App extends Component {
 
     if (searchString.length > 0) {
       var searchResult = this.state.content.filter((el) =>
-        el.title.toLowerCase().match(searchString));
+        el.title.toLowerCase().match(searchString) || el.description.toLowerCase().match(searchString) );
       this.setState({ content: searchResult });
     } else {
       this.setState({ content: data });
