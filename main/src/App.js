@@ -178,7 +178,7 @@ class App extends Component {
               </a>
             </li>
           </ul>
-          <p className="version">build {process.env.REACT_APP_BUILD}</p>
+          <p className="version"><a target="_blank" rel="noopener noreferrer" href={process.env.REACT_APP_BUILD_URL}>build {process.env.REACT_APP_BUILD}</a></p>
         </div>
       </footer>
       </div>

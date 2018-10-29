@@ -1511,7 +1511,12 @@ exports[`snapshot changes when input change 1`] = `
       <p
         className="version"
       >
-        build 
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          build 
+        </a>
       </p>
     </div>
   </footer>

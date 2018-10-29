@@ -36,9 +36,10 @@ jobs:
             git config --global user.email $GH_EMAIL
             git config --global user.name $GH_NAME
 
-            cd main
-
             REACT_APP_BUILD=$CIRCLE_SHA1
+            REACT_APP_BUILD_URL=$CIRCLE_BUILD_URL
+
+            cd main
 
             npm run build
 
