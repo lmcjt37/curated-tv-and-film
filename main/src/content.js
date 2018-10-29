@@ -230,8 +230,25 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt1592154/",
 		url: "https://www.imdb.com/title/tt1592154/videoplayer/vi1903953689/",
 		thumbnail: "./assets/Nikita_TV_Series.jpg"
+	},
+	{
+		type: "movie",
+		title: "The Pursuit of Happyness",
+		description: "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career."
+		year: 2006,
+		imdb: "https://www.imdb.com/title/tt0454921/",
+		url: "https://www.imdb.com/title/tt0454921/videoplayer/vi1413719065/",
+		thumbnail: "./assets/The Pursuit of Happyness_Movie.jpg"
+	},
+	{
+		type: "movie",
+		title: "The Boss Baby",
+		description: "A suit-wearing, briefcase-carrying baby pairs up with his 7-year old brother to stop the dastardly plot of the CEO of Puppy Co.",
+		year: 2017,
+		imdb: "https://www.imdb.com/title/tt3874544/",
+		url: "https://www.youtube.com/watch?v=Ud8j5GaqH3c",
+		thumbnail: "./assets/The Boss Baby_Movie.jpg"
 	}
-
 ];
 
 export default content;
