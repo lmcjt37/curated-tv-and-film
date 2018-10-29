@@ -91,17 +91,6 @@ var content = [
 		thumbnail: "./assets/kill-bill.jpg"
 	},
 	{
-		type: "tv_show",
-		title: "Breaking Bad",
-		description: "Walt goes on the run. Jesse is taken hostage. Marie convinces Skyler to tell Walter, Jr. the truth.",
-		season: 5,
-		episode: 14,
-		episode_title: "Ozymandias",
-		imdb: "https://www.imdb.com/title/tt2301451/",
-		url: "https://www.youtube.com/watch?v=yDmsQcVAo2c",
-		thumbnail: "./assets/breaking-bad.jpg"
-	},
-	{
 		type: "movie",
 		title: "Interstellar",
 		description: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
@@ -118,15 +107,6 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt0469494/",
 		url: "https://www.youtube.com/watch?v=ugTbwvVuLKA",
 		thumbnail: "./assets/there-will-be-blood.jpg"
-	},
-	{
-		type: "movie",
-		title: "Inception",
-		description: "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
-		year: 2010,
-		imdb: "https://www.imdb.com/title/tt1375666/",
-		url: "https://www.youtube.com/watch?v=d3A3-zSOBT4",
-		thumbnail: "./assets/inception.jpg"
 	},
 	{
 		type: "movie",
@@ -156,17 +136,8 @@ var content = [
 		episode: 1,
 		episode_title: "Pilot",
 		imdb: "https://www.imdb.com/title/tt1632701/",
-		url: "https://www.youtube.com/watch?v=85z53bAebsI",
+		url: "https://www.youtube.com/watch?v=Z5FgMCTreXE",
 		thumbnail: "./assets/suits.jpg"
-	},
-	{
-		type: "movie",
-		title: "Dunkirk",
-		description: "Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.",
-		year: 2017,
-		imdb: "https://www.imdb.com/title/tt5013056/",
-		url: "https://www.youtube.com/watch?v=F-eMt3SrfFU",
-		thumbnail: "./assets/dunkirk.jpg"
 	},
 	{
 		type: "tv_show",
@@ -229,6 +200,7 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt0800604/",
 		url: "https://www.youtube.com/watch?v=ZymIQU4e1W4",
 		thumbnail: "./assets/the-office.jpg"
+
 	},
   {
 		type: "movie",
@@ -238,15 +210,6 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt1037705/",
 		url: "https://www.youtube.com/watch?v=kAMUv22y1og",
 		thumbnail: "./assets/the-book-of-eli.jpg"
-	}, 
- {
-		type: "movie",
-		title: "Sing Street",
-		description: "A boy growing up in Dublin during the 1980s escapes his strained family life by starting a band to impress the mysterious girl he likes.",
-		year: 2016,
-		imbd: "https://www.imdb.com/title/tt3544112/",
-		url: "https://www.youtube.com/watch?v=jYk2Vx1z6lk",
-		thumbnail: "./assets/Sing-Street.jpg"
 	}
 ];
 

@@ -707,90 +707,6 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-thumbnail"
               >
                 <a
-                  href="https://www.youtube.com/watch?v=yDmsQcVAo2c"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="Breaking Bad"
-                    className="item-image"
-                    src="./assets/breaking-bad.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  Breaking Bad
-                  
-                </h2>
-                <div
-                  className="tvshow-details"
-                >
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Season:
-                    </span>
-                     
-                    5
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode:
-                    </span>
-                     
-                    14
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode Title:
-                    </span>
-                     
-                    Ozymandias
-                  </div>
-                </div>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  Walt goes on the run. Jesse is taken hostage. Marie convinces Skyler to tell Walter, Jr. the truth.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="https://www.imdb.com/title/tt2301451/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    https://www.imdb.com/title/tt2301451/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
                   href="https://www.youtube.com/watch?v=p3PfKf0ndik"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -884,59 +800,6 @@ exports[`snapshot changes when input change 1`] = `
                     target="_blank"
                   >
                     https://www.imdb.com/title/tt0469494/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=d3A3-zSOBT4"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="Inception"
-                    className="item-image"
-                    src="./assets/inception.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  Inception
-                   (2010)
-                </h2>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="https://www.imdb.com/title/tt1375666/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    https://www.imdb.com/title/tt1375666/
                   </a>
                 </div>
               </div>
@@ -1087,7 +950,7 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-thumbnail"
               >
                 <a
-                  href="https://www.youtube.com/watch?v=85z53bAebsI"
+                  href="https://www.youtube.com/watch?v=Z5FgMCTreXE"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -1158,59 +1021,6 @@ exports[`snapshot changes when input change 1`] = `
                     target="_blank"
                   >
                     https://www.imdb.com/title/tt1632701/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=F-eMt3SrfFU"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="Dunkirk"
-                    className="item-image"
-                    src="./assets/dunkirk.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  Dunkirk
-                   (2017)
-                </h2>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="https://www.imdb.com/title/tt5013056/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    https://www.imdb.com/title/tt5013056/
                   </a>
                 </div>
               </div>
@@ -1658,59 +1468,6 @@ exports[`snapshot changes when input change 1`] = `
               </div>
             </div>
           </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=kAMUv22y1og"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="The book of Eli"
-                    className="item-image"
-                    src="./assets/the-book-of-eli.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  The book of Eli
-                   (2010)
-                </h2>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  A post-apocalyptic tale, in which a lone man fights his way across America in order to protect a sacred book that holds the secrets to saving humankind.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="https://www.imdb.com/title/tt1037705/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    https://www.imdb.com/title/tt1037705/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
         </ul>
       </div>
     </main>
@@ -1754,7 +1511,12 @@ exports[`snapshot changes when input change 1`] = `
       <p
         className="version"
       >
-        v0.0.1
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          build 
+        </a>
       </p>
     </div>
   </footer>
