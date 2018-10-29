@@ -13,6 +13,17 @@ var content = [
     genre: ["Drama"]
   },
   {
+    type: "movie",
+    title: "Pulp Fiction",
+    description:
+      "The lives of two mob hit-men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    year: 1994,
+    imdb: "https://www.imdb.com/title/tt0110912/",
+    url: "https://www.youtube.com/watch?v=WSLMN6g_Od4",
+    thumbnail: "./assets/pulp-fiction.jpg",
+    genre: ["Crime", "Drama"]
+  },
+  {
     type: "tv_show",
     title: "Mr.Robot",
     description:
