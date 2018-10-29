@@ -200,7 +200,38 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt0800604/",
 		url: "https://www.youtube.com/watch?v=ZymIQU4e1W4",
 		thumbnail: "./assets/the-office.jpg"
+	},
+	{
+		type: "tv_show",
+		title: "Reign ",
+		description: "Mary, Queen of Scots, faces political and sexual intrigue in the treacherous world of the French court.",
+		season: 4,
+		episode: 78,
+		imdb: "https://www.imdb.com/title/tt2710394/",
+		url: "https://www.imdb.com/title/tt2710394/videoplayer/vi913224473",
+		thumbnail: "./assets/Reign_TV_Series.jpg"
+	},
+	{
+		type: "tv_show",
+		title: "Limitless",
+		description: "An average twenty-eight-year-old man who gains the ability to use the full extent of his brain's capabilities is hired by the F.B.I. as a consultant."
+		season: 1,
+		episode: 22,
+		imdb: "https://www.imdb.com/title/tt4422836/",
+		url: "https://www.imdb.com/title/tt4422836/videoplayer/vi4030181401/",
+		thumbnail: "./assets/Limitless_TV_Series.jpg"
+	},
+	{
+		type: "tv_show",
+		title: "Nikita",
+		description: "A rogue assassin returns to take down the secret organization that trained her."
+		season: 4	,
+		episode: 73,
+		imdb: "https://www.imdb.com/title/tt1592154/",
+		url: "https://www.imdb.com/title/tt1592154/videoplayer/vi1903953689/",
+		thumbnail: "./assets/Nikita_TV_Series.jpg"
 	}
+
 ];
 
 export default content;
