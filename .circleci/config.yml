@@ -39,10 +39,10 @@ jobs:
             REACT_APP_BUILD=$CIRCLE_SHA1
             REACT_APP_BUILD_URL=$CIRCLE_BUILD_URL
 
-            echo "build set --> $REACT_APP_BUILD"
-            echo "url set --> $REACT_APP_BUILD_URL"
-            echo "sha1 --> $CIRCLE_SHA1"
-            echo "circle url --> $CIRCLE_BUILD_URL"
+            echo "build set --> ${REACT_APP_BUILD}"
+            echo "url set --> ${REACT_APP_BUILD_URL}"
+            echo "sha1 --> ${CIRCLE_SHA1}"
+            echo "circle url --> ${CIRCLE_BUILD_URL}"
 
             cd main
 
@@ -54,7 +54,7 @@ jobs:
 
             npm run deploy
 
-            echo "Finished delpoying to Github Pages!"
+            echo "Finished deploying to Github Pages!"
 
 workflows:
   version: 2
