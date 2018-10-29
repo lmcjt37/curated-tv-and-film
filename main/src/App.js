@@ -63,7 +63,7 @@ class App extends Component {
   }
 
   handleFilter = (event) => {
-    this.setState({ 
+    this.setState({
       [event.target.name] : event.target.checked,
       content: data,
       years: [],
@@ -74,7 +74,7 @@ class App extends Component {
       let filteredMovide = this.state.content.filter(value => value.type === 'movie');
       let onlyYears = new Set(filteredMovide.map(movie => movie.year));
       let years = [...onlyYears].sort((a, b) => b-a);
-      
+
       this.setState({
         onlyMovies: filteredMovide,
         years
@@ -106,7 +106,7 @@ class App extends Component {
                   <select value={this.state.filterYear} onChange={this.handleYear} className="filter-year">
                     <option disabled value="">- Year -</option>
                     {optionItems}
-                  </select> 
+                  </select>
                 ) : (
                   null
                 )
@@ -178,7 +178,7 @@ class App extends Component {
               </a>
             </li>
           </ul>
-          <p className="version">v0.0.1</p>
+          <p className="version">build {process.env.REACT_APP_BUILD}</p>
         </div>
       </footer>
       </div>

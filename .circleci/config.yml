@@ -38,6 +38,8 @@ jobs:
 
             cd main
 
+            REACT_APP_BUILD=$CIRCLE_SHA1
+
             npm run build
 
             mkdir build/.circleci

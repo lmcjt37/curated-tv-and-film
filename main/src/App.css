@@ -186,6 +186,8 @@ footer#footer .links span {
 
 footer#footer .version {
   text-align: center;
+  font-size: 12px;
+  color: #b1b1b1;
 }
 
 @media (max-width: 767px) {
