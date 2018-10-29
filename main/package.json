@@ -14,7 +14,7 @@
     "reactstrap": "^6.5.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "REACT_APP_BUILD=debug react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "deploy": "gh-pages -d build --dotfiles",
