@@ -161,7 +161,7 @@ var content = [
 		url: "https://www.youtube.com/watch?v=IzfZf1kxxI4",
 		thumbnail: "./assets/friends.jpg"
 	},
-  {
+	{
 		type: "movie",
 		title: "The Godfather",
 		description: "Don Corleone's dialogue - I'll make you an offer you can't refuse",
@@ -179,8 +179,8 @@ var content = [
 		url: "https://www.youtube.com/watch?v=2oHOv9p9dHQ",
 		thumbnail: "./assets/the-matrix.jpg"
 	},
-  {
-    type: "tv_show",
+	{
+		type: "tv_show",
 		title: "House",
 		description: "Gregory House, M.D., often construed as a misanthropic medical genius, heads a team of diagnosticians at the Princeton–Plainsboro Teaching Hospital in New Jersey.",
 		season: 6,
@@ -189,8 +189,8 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt0412142/",
 		url: "https://www.youtube.com/watch?v=tLMzEOoSjc4",
 		thumbnail: "./assets/house.jpg"
-  },
-  {
+	},
+	{
 		type: "tv_show",
 		title: "The Office",
 		description: "The Dunder Mifflin crew holds a casino party at the warehouse and Michael has two dates.",
@@ -200,6 +200,17 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt0800604/",
 		url: "https://www.youtube.com/watch?v=ZymIQU4e1W4",
 		thumbnail: "./assets/the-office.jpg"
+	},
+	{
+		type: "tv_show",
+		title: "Disenchantment",
+		description: "Bean tries her hand at diplomacy after Zøg makes her ambassador to Dankmire, Oona's kingdom and an important ally for Dreamland.",
+		season: 1,
+		episode: 6,
+		episode_title: "Swamp and Circumstance",
+		imdb: "https://www.imdb.com/title/tt5363918/",
+		url: "https://www.youtube.com/watch?v=rV8vTGcv5Jc",
+		thumbnail: "./assets/disenchantment.jpg"
 	}
 ];
 

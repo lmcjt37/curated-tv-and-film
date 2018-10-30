@@ -1468,6 +1468,90 @@ exports[`snapshot changes when input change 1`] = `
               </div>
             </div>
           </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=rV8vTGcv5Jc"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Disenchantment"
+                    className="item-image"
+                    src="./assets/disenchantment.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Disenchantment
+                  
+                </h2>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    6
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    Swamp and Circumstance
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Bean tries her hand at diplomacy after Zøg makes her ambassador to Dankmire, Oona's kingdom and an important ally for Dreamland.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt5363918/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt5363918/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
     </main>

@@ -59,3 +59,9 @@
 - Role: Contributor
 - Place: Toronto, ON, Canada
 - GitHub: [shreenaathia](https://github.com/shreenaathia)
+
+#### Name: [Özgün Bal](https://github.com/ozgunbal)
+- Role: Contributor
+- Place: Istanbul, Turkey
+- GitHub: [ozgunbal](https://github.com/ozgunbal)
+
