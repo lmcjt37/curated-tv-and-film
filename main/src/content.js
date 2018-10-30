@@ -200,6 +200,17 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt0800604/",
 		url: "https://www.youtube.com/watch?v=ZymIQU4e1W4",
 		thumbnail: "./assets/the-office.jpg"
+	},
+	{
+		type: "tv_show",
+		title: "Shameless",
+		description: "A scrappy, fiercely loyal Chicago family makes no apologies.",
+		season: 7,
+		episode: 1,
+		episode_title: "Hiraeth",
+		imdb: "https://www.imdb.com/title/tt1586680/?ref_=fn_al_tt_1",
+		url: "https://www.youtube.com/watch?v=ZymIQU4e1W4",
+		thumbnail: "./assets/shameless.jpg"
 	}
 ];
 
