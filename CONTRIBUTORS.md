@@ -59,3 +59,8 @@
 - Role: Contributor
 - Place: Toronto, ON, Canada
 - GitHub: [shreenaathia](https://github.com/shreenaathia)
+
+#### Name: [Danny Ajilore](https://github.com/shreenaathia)
+- Role: Contributor
+- Place: London, UK
+- GitHub: [danielandro](https://github.com/danielandro)

@@ -200,6 +200,15 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt0800604/",
 		url: "https://www.youtube.com/watch?v=ZymIQU4e1W4",
 		thumbnail: "./assets/the-office.jpg"
+	},
+	{
+		type: "movie",
+		title: "Get Out",
+		description: "Chris is introduced to the Sunken Place",
+		year: 2017,		
+		imdb: "https://www.imdb.com/title/tt5052448/",
+		url: "https://www.youtube.com/watch?v=kBwVWrBk_uo",
+		thumbnail: "./assets/get-out.jpg"
 	}
 ];
 
