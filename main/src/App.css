@@ -109,8 +109,10 @@ ul li {
   max-width: 100%;
   max-height: 50px;
   font-size: 28px;
-  color: #00daad;
+  color: #00BCD4;
   cursor: pointer;
+  font-weight: bold;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .searchContainer {
