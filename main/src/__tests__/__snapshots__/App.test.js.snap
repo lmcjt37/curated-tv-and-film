@@ -1468,6 +1468,60 @@ exports[`snapshot changes when input change 1`] = `
               </div>
             </div>
           </li>
+
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=ZymIQU4e1W4"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Get Out"
+                    className="item-image"
+                    src="./assets/get-out.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Get Out
+                   (2017)
+                </h2>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Chris is sent to the Sunken Place
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt5052448/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt5052448/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
     </main>

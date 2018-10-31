@@ -204,7 +204,7 @@ var content = [
 	{
 		type: "movie",
 		title: "Get Out",
-		description: "Chris is introduced to the Sunken Place",
+		description: "Chris is sent to the Sunken Place",
 		year: 2017,		
 		imdb: "https://www.imdb.com/title/tt5052448/",
 		url: "https://www.youtube.com/watch?v=kBwVWrBk_uo",
