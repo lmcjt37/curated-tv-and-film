@@ -1,4 +1,5 @@
-import React, { Component } from "react"
+import React, { Component } from 'react';
+import { Events, animateScroll as scroll } from 'react-scroll';
 
 import "./App.css"
 import content from "./content.js"
@@ -16,8 +17,25 @@ class App extends Component {
       filterTV: true,
       filterMovies: true,
       filterYear: "",
-      filterGenre: []
+      filterGenre: [],
+      onlyMovies: [],
+      years: []
     }
+
+    this.handleFilter = this.handleFilter.bind(this);
+    this.handleYear = this.handleYear.bind(this);
+  }
+
+  componentDidMount() {
+
+    Events.scrollEvent.register('begin', function() {
+      console.log("begin", arguments);
+    });
+
+    Events.scrollEvent.register('end', function() {
+      console.log("end", arguments);
+    });
+
   }
 
   handleChange = event => {
@@ -58,6 +76,10 @@ class App extends Component {
   }
 
   render() {
+    let optionItems = this.state.years.map((year, index) =>
+      <option key={index} value={year}>{year}</option>
+    );
+
     return (
       <div className="mainContainer">
         <div className="headerContainer">
@@ -75,6 +97,7 @@ class App extends Component {
               placeholder="Search here"
             />
           </div>
+
           <div className="filter-div">
             <input
               type="checkbox"

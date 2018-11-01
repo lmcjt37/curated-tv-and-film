@@ -287,6 +287,6 @@ var content = [
     thumbnail: "./assets/the-book-of-eli.jpg",
     genre: ["Action", "Adventure", "Drama"]
   }
-]
+];
 
 export default content

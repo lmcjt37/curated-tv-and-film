@@ -1181,7 +1181,7 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-thumbnail"
               >
                 <a
-                  href="https://www.youtube.com/watch?v=85z53bAebsI"
+                  href="https://www.youtube.com/watch?v=Z5FgMCTreXE"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -1875,7 +1875,12 @@ exports[`snapshot changes when input change 1`] = `
       <p
         className="version"
       >
-        v0.0.1
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          build 
+        </a>
       </p>
     </div>
   </footer>
