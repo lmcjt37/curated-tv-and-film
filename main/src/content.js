@@ -209,18 +209,7 @@ var content = [
 		imdb: "https://www.imdb.com/title/tt5052448/",
 		url: "https://www.youtube.com/watch?v=kBwVWrBk_uo",
 		thumbnail: "./assets/get-out.jpg"
-	},
-	{
-		type: "tv_show",
-		title: "The Wire",
-		description: "Bunk & McNulty inspect the scene. Few words are required.",
-		season: 1,
-		episode: 1,
-		episode_title: "Old Cases",
-		imdb: "https://www.imdb.com/title/tt0749437/?ref_=ttep_ep4",
-		url: "https://www.youtube.com/watch?v=t08saKOZs9M",
-		thumbnail: "./assets/the-wire.jpg"
-	}
+	}	
 ];
 
 export default content;
