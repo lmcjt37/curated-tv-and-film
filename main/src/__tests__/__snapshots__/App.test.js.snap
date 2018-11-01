@@ -1520,7 +1520,7 @@ exports[`snapshot changes when input change 1`] = `
                 </div>
               </div>
             </div>
-          </li>           
+          </li>
         </ul>
       </div>
     </main>
