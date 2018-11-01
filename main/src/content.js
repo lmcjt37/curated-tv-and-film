@@ -213,7 +213,7 @@ var content = [
 	{
 		type: "tv_show",
 		title: "The Wire",
-		description: "Bunk & McNulty inspect the scene. Few words are needed",
+		description: "Bunk & McNulty inspect the scene. Few words are required.",
 		season: 1,
 		episode: 1,
 		episode_title: "Old Cases",
