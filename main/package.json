@@ -17,6 +17,7 @@
     "start": "REACT_APP_BUILD=debug react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lint": "prettier --write 'src/**/*.js'",
     "deploy": "gh-pages -d build --dotfiles",
     "eject": "react-scripts eject"
   },

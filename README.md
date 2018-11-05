@@ -55,7 +55,6 @@ The boilerplate structure and files are the same as this repo minus the bin fold
 │   ├── *index.css* styling
 ├── *package.json* the whole package.json with every dependency and script, nothing is kept hidden
 └── *README.md* this file
-
 ```
 
 ## Prettier linting
@@ -63,10 +62,10 @@ The boilerplate structure and files are the same as this repo minus the bin fold
 The JavaScript files can be prettyfied using [Prettier](https://github.com/prettier/prettier) with the following command:
 
 ``` bash
-main $ yarn run prettier --write 'src/**/*.js'
+cd main && npm run lint (yarn run lint)
 ```
 
-Configuration for Prettier is is found in [.prettierrc](./main/.prettierrc).
+Configuration for Prettier is found in [.prettierrc](./main/.prettierrc).
 
 
 ## Contribution
