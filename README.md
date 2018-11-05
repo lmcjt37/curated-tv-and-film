@@ -58,6 +58,17 @@ The boilerplate structure and files are the same as this repo minus the bin fold
 
 ```
 
+## Prettier linting
+
+The JavaScript files can be prettyfied using [Prettier](https://github.com/prettier/prettier) with the following command:
+
+``` bash
+main $ yarn run prettier --write 'src/**/*.js'
+```
+
+Configuration for Prettier is is found in [.prettierrc](./main/.prettierrc).
+
+
 ## Contribution
 Feel free to contribute by reading the guidelines - [Contributing](CONTRIBUTING.md)
 
