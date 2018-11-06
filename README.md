@@ -16,47 +16,63 @@ These scenes are carefully picked out moments, ignoring bias of any opinions or 
 
 ## Local Installation
 
-Install [node.js](https://nodejs.org)
+### Dependencies
 
-Just clone this repo and change the `origin` git remote.
+* [node.js](https://nodejs.org)
 
-``` text
+```
+git clone https://github.com/lmcjt37/curated-tv-and-film.git
 npm install
 ```
 
-## Development server
+### Development server
 
-``` text
-# start the webpack-dev-server
+Start the local development server by running
+
+```
 npm start
-# wait for the first compilation is successful
-
-# open this url in your browser if it doesn't open automatically
-http://localhost:3000/
 ```
 
-It automatically recompiles and refreshes the page when files are changed.
+Then open this url in your browser if it doesn't open automatically.
+http://localhost:3000/
+
+_It automatically recompiles and refreshes the page when files are changed._
 
 ## Project structure
 
 The boilerplate structure and files are the same as this repo minus the bin folder, everything else is exactly the same.
 
 ```
-*root/main*
+./main
 |
-├── */src/*
-│   ├── */_tests_/* contains test environment (Jest + Enzyme)
-│   ├── */fonts/* where font and stuff are stored
-│   ├── *App.js* main layout
-│   ├── *App.css* styling
-│   ├── *index.html* entry point
-│   ├── *index.js* javascript entry point
-│   ├── *content.js* javascript entry point
-│   ├── *index.css* styling
-├── *package.json* the whole package.json with every dependency and script, nothing is kept hidden
-└── *README.md* this file
-
+├── public/
+│   ├── assets/ - Other assets, thumbnail images.
+│   ├── index.html - Defines root html for app.
+│   └── manifest.json - Tells the browser about your web application and how it should behave when 'installed'.
+|
+├── src/
+│   ├── _tests_/ - Contains test environment (Jest + Enzyme).
+│   ├── assets/ - Other assets, icons.
+│   ├── fonts/ - Font files.
+│   ├── App.js - Core app functionality.
+│   ├── App.css - Styling.
+│   ├── content.js - Contains the data for tv shows and films for the project.
+│   ├── index.js - Project entry point.
+│   ├── index.css - Styling.
+│   └── serviceWorker.js - (not registered) Defines registration for PWA usage.
+|
+└── package.json - Defines dependencies and package scripts for project, plus project information.
 ```
+
+## Prettier linting
+
+The JavaScript files can be prettyfied using [Prettier](https://github.com/prettier/prettier) with the following command:
+
+``` bash
+cd main && npm run lint (yarn run lint)
+```
+
+Configuration for Prettier is found in [.prettierrc](./main/.prettierrc).
 
 ## Contribution
 Feel free to contribute by reading the guidelines - [Contributing](CONTRIBUTING.md)
