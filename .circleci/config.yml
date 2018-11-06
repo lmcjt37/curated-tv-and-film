@@ -3,7 +3,7 @@ version: 2
 jobs:
   lint:
     docker:
-      - image: circleci/node:8
+      - image: circleci/node:latest
     steps:
       - checkout
       - restore_cache:
@@ -23,7 +23,7 @@ jobs:
 
   build_and_test:
     docker:
-      - image: circleci/node:8
+      - image: circleci/node:latest
     steps:
       - checkout
       - restore_cache:
@@ -43,7 +43,7 @@ jobs:
 
   deploy:
     docker:
-      - image: circleci/node:8
+      - image: circleci/node:latest
     steps:
       - checkout
       - restore_cache:
@@ -56,13 +56,8 @@ jobs:
             git config --global user.email $GH_EMAIL
             git config --global user.name $GH_NAME
 
-            REACT_APP_BUILD=$CIRCLE_SHA1
-            REACT_APP_BUILD_URL=$CIRCLE_BUILD_URL
-
-            echo "build set --> ${REACT_APP_BUILD}"
-            echo "url set --> ${REACT_APP_BUILD_URL}"
-            echo "sha1 --> ${CIRCLE_SHA1}"
-            echo "circle url --> ${CIRCLE_BUILD_URL}"
+            REACT_APP_BUILD="${CIRCLE_SHA1}"
+            REACT_APP_BUILD_URL="${CIRCLE_BUILD_URL}"
 
             cd main
 

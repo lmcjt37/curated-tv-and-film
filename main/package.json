@@ -1,6 +1,6 @@
 {
   "name": "curated-tv-and-film",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "homepage": "https://lmcjt37.github.io/curated-tv-and-film/",
   "dependencies": {
@@ -18,8 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "prettier --write 'src/**/*.js'",
-    "deploy": "gh-pages -d build --dotfiles",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d build --dotfiles"
   },
   "eslintConfig": {
     "extends": "react-app"
