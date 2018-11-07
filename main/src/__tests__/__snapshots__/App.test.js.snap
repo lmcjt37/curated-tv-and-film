@@ -9,10 +9,15 @@ exports[`snapshot changes when input change 1`] = `
   >
     <div
       className="logoContainer"
+      onClick={[Function]}
     >
+      <img
+        alt="Curated TV and Film logo"
+        className="logoImage"
+        src="./assets/logo-128.png"
+      />
       <div
         className="logoTitle"
-        onClick={[Function]}
       >
         Curated TV and Film
       </div>
