@@ -8,7 +8,7 @@ var content = [
 		episode_title: "The Day Will Come When You Won't Be ",
 		imdb: "https://www.imdb.com/title/tt5164772/",
 		url: "https://www.youtube.com/watch?v=d3LDG5CCOPQ",
-		thumbnail: "./assets/walking-dead-season-7-poster.jpg"
+		thumbnail: "./assets/images/walking-dead.jpg"
 	},
 	{
 		type: "tv_show",
@@ -19,7 +19,7 @@ var content = [
 		episode_title: "We Just Decided To",
 		imdb: "http://www.imdb.com/title/tt1870479/",
 		url: "https://www.youtube.com/watch?v=wTjMqda19wk",
-		thumbnail: "./assets/the-newsroom.jpg"
+		thumbnail: "./assets/images/the-newsroom.jpg"
 	},
 	{
 		type: "tv_show",
@@ -30,7 +30,7 @@ var content = [
 		episode_title: "eps2.1_k3rnel-pan1c.ksd",
 		imdb: "http://www.imdb.com/title/tt4158110/",
 		url: "https://www.youtube.com/watch?v=AZeLHD-725o",
-		thumbnail: "./assets/mr-robot.jpg"
+		thumbnail: "./assets/images/mr-robot.jpg"
 	},
 	{
 		type: "tv_show",
@@ -41,7 +41,7 @@ var content = [
 		episode_title: "Optimal Tip-To-Top Efficiency",
 		imdb: "http://www.imdb.com/title/tt2575988/",
 		url: "https://www.youtube.com/watch?v=mMeqEDEfniA",
-		thumbnail: "./assets/silicon-valley.jpg"
+		thumbnail: "./assets/images/silicon-valley.jpg"
 	},
 	{
 		type: "tv_show",
@@ -52,7 +52,7 @@ var content = [
 		episode_title: "Battle of the Bastards",
 		imdb: "https://www.imdb.com/title/tt4283088/?ref_=ttep_ep9",
 		url: "https://www.youtube.com/watch?v=m8rURwkvOx0",
-		thumbnail: "./assets/game-of-thrones.jpg"
+		thumbnail: "./assets/images/game-of-thrones.jpg"
 	},
 	{
 		type: "movie",
@@ -61,7 +61,7 @@ var content = [
 		year: 2003,
 		imdb: "http://www.imdb.com/title/tt0364569/",
 		url: "https://www.youtube.com/watch?v=VwIIDzrVVdc",
-		thumbnail: "./assets/oldboy.jpg"
+		thumbnail: "./assets/images/oldboy.jpg"
 	},
 	{
 		type: "movie",
@@ -70,7 +70,7 @@ var content = [
 		year: 2013,
 		imdb: "https://www.imdb.com/title/tt2302755/",
 		url: "https://www.youtube.com/watch?v=N8WXitDnA_U",
-		thumbnail: "./assets/olympus.jpg"
+		thumbnail: "./assets/images/olympus.jpg"
 	},
 	{
 		type: "tv_show",
@@ -81,7 +81,7 @@ var content = [
 		episode_title: "Rickshank Redemption",
 		imdb: "https://www.imdb.com/title/tt2861424/",
 		url: "https://www.youtube.com/watch?v=uzeODC-_IHw&t=81",
-		thumbnail: "./assets/rick-and-morty.jpg"
+		thumbnail: "./assets/images/rick-and-morty.jpg"
 	},
 	{
 		type: "movie",
@@ -90,7 +90,7 @@ var content = [
 		year: 2014,
 		imdb: "https://www.imdb.com/title/tt2802144/",
 		url: "https://www.youtube.com/watch?v=z7-tkkcC6d0",
-		thumbnail: "./assets/kingsman.jpg"
+		thumbnail: "./assets/images/kingsman.jpg"
 	},
 	{
 		type: "movie",
@@ -99,7 +99,7 @@ var content = [
 		year: 2003,
 		imdb: "https://www.imdb.com/title/tt0266697/",
 		url: "https://www.youtube.com/watch?v=_B_1IMstVzs",
-		thumbnail: "./assets/kill-bill.jpg"
+		thumbnail: "./assets/images/kill-bill.jpg"
 	},
 	{
 		type: "movie",
@@ -108,7 +108,7 @@ var content = [
 		year: 2014,
 		imdb: "https://www.imdb.com/title/tt0816692/",
 		url: "https://www.youtube.com/watch?v=p3PfKf0ndik",
-		thumbnail: "./assets/interstellar.jpg"
+		thumbnail: "./assets/images/interstellar.jpg"
 	},
 	{
 		type: "movie",
@@ -117,7 +117,7 @@ var content = [
 		year: 2007,
 		imdb: "https://www.imdb.com/title/tt0469494/",
 		url: "https://www.youtube.com/watch?v=ugTbwvVuLKA",
-		thumbnail: "./assets/there-will-be-blood.jpg"
+		thumbnail: "./assets/images/there-will-be-blood.jpg"
 	},
 	{
 		type: "movie",
@@ -126,7 +126,7 @@ var content = [
 		year: 1999,
 		imdb: "https://www.imdb.com/title/tt0137523/",
 		url: "https://www.youtube.com/watch?v=VC6Z_kdQoHw",
-		thumbnail: "./assets/fight-club.jpg"
+		thumbnail: "./assets/images/fight-club.jpg"
 	},
 	{
 		type: "tv_show",
@@ -137,7 +137,7 @@ var content = [
 		episode_title: "A Study in Pink",
 		imdb: "https://www.imdb.com/title/tt1665071/",
 		url: "https://www.youtube.com/watch?v=VaT7IYQgyqo",
-		thumbnail: "./assets/sherlock.jpg"
+		thumbnail: "./assets/images/sherlock.jpg"
 	},
 	{
 		type: "tv_show",
@@ -148,7 +148,7 @@ var content = [
 		episode_title: "Pilot",
 		imdb: "https://www.imdb.com/title/tt1632701/",
 		url: "https://www.youtube.com/watch?v=Z5FgMCTreXE",
-		thumbnail: "./assets/suits.jpg"
+		thumbnail: "./assets/images/suits.jpg"
 	},
 	{
 		type: "tv_show",
@@ -159,7 +159,7 @@ var content = [
 		episode_title: "Pilot",
 		imdb: "https://www.imdb.com/title/tt0460649/",
 		url: "https://www.youtube.com/watch?v=GAx0DYI3los",
-		thumbnail: "./assets/how-i-met-your-mother.jpg"
+		thumbnail: "./assets/images/how-i-met-your-mother.jpg"
 	},
 	{
 		type: "tv_show",
@@ -170,7 +170,7 @@ var content = [
 		episode_title: "The One Where It All Began",
 		imdb: "https://www.imdb.com/title/tt0108778/",
 		url: "https://www.youtube.com/watch?v=IzfZf1kxxI4",
-		thumbnail: "./assets/friends.jpg"
+		thumbnail: "./assets/images/friends.jpg"
 	},
   {
 		type: "movie",
@@ -179,7 +179,7 @@ var content = [
 		year: 1972,
 		imdb: "https://www.imdb.com/title/tt0068646/",
 		url: "https://www.youtube.com/watch?v=fmX2VzsB25s",
-		thumbnail: "./assets/the-godfather.jpg"
+		thumbnail: "./assets/images/the-godfather.jpg"
 	},
 	{
 		type: "movie",
@@ -188,7 +188,7 @@ var content = [
 		year: 1999,
 		imdb: "https://www.imdb.com/title/tt0133093/",
 		url: "https://www.youtube.com/watch?v=2oHOv9p9dHQ",
-		thumbnail: "./assets/the-matrix.jpg"
+		thumbnail: "./assets/images/the-matrix.jpg"
 	},
   {
     type: "tv_show",
@@ -199,7 +199,7 @@ var content = [
 		episode_title: "Wilson",
 		imdb: "https://www.imdb.com/title/tt0412142/",
 		url: "https://www.youtube.com/watch?v=tLMzEOoSjc4",
-		thumbnail: "./assets/house.jpg"
+		thumbnail: "./assets/images/house.jpg"
   },
   {
 		type: "tv_show",
@@ -210,17 +210,17 @@ var content = [
 		episode_title: "Casino Night ",
 		imdb: "https://www.imdb.com/title/tt0800604/",
 		url: "https://www.youtube.com/watch?v=ZymIQU4e1W4",
-		thumbnail: "./assets/the-office.jpg"
+		thumbnail: "./assets/images/the-office.jpg"
 	},
 	{
 		type: "movie",
 		title: "Get Out",
 		description: "Chris is sent to the Sunken Place",
-		year: 2017,		
+		year: 2017,
 		imdb: "https://www.imdb.com/title/tt5052448/",
 		url: "https://www.youtube.com/watch?v=kBwVWrBk_uo",
-		thumbnail: "./assets/get-out.jpg"
-	}	
+		thumbnail: "./assets/images/get-out.jpg"
+	}
 ];
 
 export default content;
