@@ -60,6 +60,55 @@ exports[`snapshot changes when input change 1`] = `
       >
         TV Series
       </label>
+      <label
+        className="filter-labels"
+        htmlFor="movies"
+      >
+        Genre
+      </label>
+      <select
+        name="filterGenre"
+        onChange={[Function]}
+        selected={Array []}
+        type="select"
+      >
+        <option>
+          All
+        </option>
+        <option>
+          Action
+        </option>
+        <option>
+          Adventure
+        </option>
+        <option>
+          Animation
+        </option>
+        <option>
+          Comedy
+        </option>
+        <option>
+          Crime
+        </option>
+        <option>
+          Drama
+        </option>
+        <option>
+          History 
+        </option>
+        <option>
+          Mystery 
+        </option>
+        <option>
+          Romance
+        </option>
+        <option>
+          Sci-Fi
+        </option>
+        <option>
+          Thriller
+        </option>
+      </select>
     </div>
   </div>
   <section
@@ -98,6 +147,7 @@ exports[`snapshot changes when input change 1`] = `
                   The Walking Dead
                   
                 </h2>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -182,6 +232,7 @@ exports[`snapshot changes when input change 1`] = `
                   The Newsroom
                   
                 </h2>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -266,6 +317,7 @@ exports[`snapshot changes when input change 1`] = `
                   Mr.Robot
                   
                 </h2>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -350,6 +402,7 @@ exports[`snapshot changes when input change 1`] = `
                   Silicon Valley
                   
                 </h2>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -434,6 +487,7 @@ exports[`snapshot changes when input change 1`] = `
                   Game of Thrones
                   
                 </h2>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -518,6 +572,7 @@ exports[`snapshot changes when input change 1`] = `
                   Oldboy
                    (2003)
                 </h2>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -571,6 +626,7 @@ exports[`snapshot changes when input change 1`] = `
                   Olympus has fallen
                    (2013)
                 </h2>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -624,6 +680,7 @@ exports[`snapshot changes when input change 1`] = `
                   Rick and Morty
                   
                 </h2>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -708,6 +765,7 @@ exports[`snapshot changes when input change 1`] = `
                   Kingsman: The Secret Service
                    (2014)
                 </h2>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -761,6 +819,7 @@ exports[`snapshot changes when input change 1`] = `
                   Kill Bill: Vol 1
                    (2003)
                 </h2>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -814,6 +873,7 @@ exports[`snapshot changes when input change 1`] = `
                   Interstellar
                    (2014)
                 </h2>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -867,6 +927,7 @@ exports[`snapshot changes when input change 1`] = `
                   There Will Be Blood
                    (2007)
                 </h2>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -920,6 +981,7 @@ exports[`snapshot changes when input change 1`] = `
                   Fight Club
                    (1999)
                 </h2>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -973,6 +1035,7 @@ exports[`snapshot changes when input change 1`] = `
                   Sherlock
                   
                 </h2>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -1057,6 +1120,7 @@ exports[`snapshot changes when input change 1`] = `
                   Suits
                   
                 </h2>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -1141,6 +1205,7 @@ exports[`snapshot changes when input change 1`] = `
                   How I Met Your Mother
                   
                 </h2>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -1225,6 +1290,7 @@ exports[`snapshot changes when input change 1`] = `
                   Friends
                   
                 </h2>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -1309,6 +1375,7 @@ exports[`snapshot changes when input change 1`] = `
                   The Godfather
                    (1972)
                 </h2>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -1362,6 +1429,7 @@ exports[`snapshot changes when input change 1`] = `
                   The Matrix
                    (1999)
                 </h2>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -1415,6 +1483,7 @@ exports[`snapshot changes when input change 1`] = `
                   House
                   
                 </h2>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -1499,6 +1568,7 @@ exports[`snapshot changes when input change 1`] = `
                   The Office
                   
                 </h2>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -1583,6 +1653,7 @@ exports[`snapshot changes when input change 1`] = `
                   Get Out
                    (2017)
                 </h2>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >

@@ -64,3 +64,9 @@
 - Role: Contributor
 - Place: London, UK
 - GitHub: [danielandro](https://github.com/danielandro)
+
+#### Name: [Rodrigo Nascimento](https://rodrigocnascimento.github.io/)
+- Role: Contributor
+- Place: Sao Paulo, BR, Brasil
+- GitHub: [rodrigocnascimento](https://github.com/rodrigocnascimento/)
+

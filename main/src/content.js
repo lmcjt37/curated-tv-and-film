@@ -223,4 +223,4 @@ var content = [
 	}
 ];
 
-export default content;
+export default content
