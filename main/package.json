@@ -1,6 +1,6 @@
 {
   "name": "curated-tv-and-film",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "homepage": "https://lmcjt37.github.io/curated-tv-and-film/",
   "dependencies": {
@@ -17,8 +17,8 @@
     "start": "REACT_APP_BUILD=debug react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "gh-pages -d build --dotfiles",
-    "eject": "react-scripts eject"
+    "lint": "prettier --write 'src/**/*.js'",
+    "deploy": "gh-pages -d build --dotfiles"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,5 +28,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "1.14.3"
+  }
 }
