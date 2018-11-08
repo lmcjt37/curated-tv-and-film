@@ -31,7 +31,8 @@ The image that is added to support the content should be a JPEG and added to the
   episode_title: "{EPISODE_TITLE}",
   imdb: "{IMDB_URL_FOR_SHOW_EPISODE}",
   url: "https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE}",
-  thumbnail: "{IMAGE_ASSET_FILENAME}.jpg"
+  thumbnail: "{IMAGE_ASSET_FILENAME}.jpg",
+  genre: [<genre>]
 }
 ```
 
@@ -45,7 +46,8 @@ The image that is added to support the content should be a JPEG and added to the
   year: {FILM_YEAR},
   imdb: "{IMDB_URL_HERE}",
   url: "https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE}",
-  thumbnail: "{IMAGE_ASSET_FILENAME}.jpg"
+  thumbnail: "{IMAGE_ASSET_FILENAME}.jpg",
+  genre: [<genre>]
 }
 ```
 
