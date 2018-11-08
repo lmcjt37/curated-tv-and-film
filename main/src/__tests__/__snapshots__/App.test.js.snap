@@ -9,10 +9,15 @@ exports[`snapshot changes when input change 1`] = `
   >
     <div
       className="logoContainer"
+      onClick={[Function]}
     >
-      <div
+      <img
+        alt="Curated TV and Film logo"
         className="logoImage"
-        onClick={[Function]}
+        src="./assets/logo-128.png"
+      />
+      <div
+        className="logoTitle"
       >
         Curated TV and Film
       </div>
@@ -75,6 +80,90 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-thumbnail"
               >
                 <a
+                  href="https://www.youtube.com/watch?v=d3LDG5CCOPQ"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The Walking Dead"
+                    className="item-image"
+                    src="./assets/images/walking-dead.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  The Walking Dead
+                  
+                </h2>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    7
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    The Day Will Come When You Won't Be 
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  The Saviours have captured Rick and the group. They kneel at the mercy of Negan who makes an example of 2 of the groups members. Not for the faint of heart.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt5164772/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt5164772/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
                   href="https://www.youtube.com/watch?v=wTjMqda19wk"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -82,7 +171,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="The Newsroom"
                     className="item-image"
-                    src="./assets/the-newsroom.jpg"
+                    src="./assets/images/the-newsroom.jpg"
                   />
                 </a>
               </div>
@@ -166,7 +255,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Mr.Robot"
                     className="item-image"
-                    src="./assets/mr-robot.jpg"
+                    src="./assets/images/mr-robot.jpg"
                   />
                 </a>
               </div>
@@ -250,7 +339,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Silicon Valley"
                     className="item-image"
-                    src="./assets/silicon-valley.jpg"
+                    src="./assets/images/silicon-valley.jpg"
                   />
                 </a>
               </div>
@@ -334,7 +423,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Game of Thrones"
                     className="item-image"
-                    src="./assets/game-of-thrones.jpg"
+                    src="./assets/images/game-of-thrones.jpg"
                   />
                 </a>
               </div>
@@ -418,7 +507,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Oldboy"
                     className="item-image"
-                    src="./assets/oldboy.jpg"
+                    src="./assets/images/oldboy.jpg"
                   />
                 </a>
               </div>
@@ -471,7 +560,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Olympus has fallen"
                     className="item-image"
-                    src="./assets/olympus.jpg"
+                    src="./assets/images/olympus.jpg"
                   />
                 </a>
               </div>
@@ -524,7 +613,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Rick and Morty"
                     className="item-image"
-                    src="./assets/rick-and-morty.jpg"
+                    src="./assets/images/rick-and-morty.jpg"
                   />
                 </a>
               </div>
@@ -608,7 +697,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Kingsman: The Secret Service"
                     className="item-image"
-                    src="./assets/kingsman.jpg"
+                    src="./assets/images/kingsman.jpg"
                   />
                 </a>
               </div>
@@ -661,7 +750,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Kill Bill: Vol 1"
                     className="item-image"
-                    src="./assets/kill-bill.jpg"
+                    src="./assets/images/kill-bill.jpg"
                   />
                 </a>
               </div>
@@ -714,7 +803,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Interstellar"
                     className="item-image"
-                    src="./assets/interstellar.jpg"
+                    src="./assets/images/interstellar.jpg"
                   />
                 </a>
               </div>
@@ -767,7 +856,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="There Will Be Blood"
                     className="item-image"
-                    src="./assets/there-will-be-blood.jpg"
+                    src="./assets/images/there-will-be-blood.jpg"
                   />
                 </a>
               </div>
@@ -820,7 +909,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Fight Club"
                     className="item-image"
-                    src="./assets/fight-club.jpg"
+                    src="./assets/images/fight-club.jpg"
                   />
                 </a>
               </div>
@@ -873,7 +962,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Sherlock"
                     className="item-image"
-                    src="./assets/sherlock.jpg"
+                    src="./assets/images/sherlock.jpg"
                   />
                 </a>
               </div>
@@ -957,7 +1046,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Suits"
                     className="item-image"
-                    src="./assets/suits.jpg"
+                    src="./assets/images/suits.jpg"
                   />
                 </a>
               </div>
@@ -1041,7 +1130,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="How I Met Your Mother"
                     className="item-image"
-                    src="./assets/how-i-met-your-mother.jpg"
+                    src="./assets/images/how-i-met-your-mother.jpg"
                   />
                 </a>
               </div>
@@ -1125,7 +1214,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="Friends"
                     className="item-image"
-                    src="./assets/friends.jpg"
+                    src="./assets/images/friends.jpg"
                   />
                 </a>
               </div>
@@ -1209,7 +1298,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="The Godfather"
                     className="item-image"
-                    src="./assets/the-godfather.jpg"
+                    src="./assets/images/the-godfather.jpg"
                   />
                 </a>
               </div>
@@ -1262,7 +1351,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="The Matrix"
                     className="item-image"
-                    src="./assets/the-matrix.jpg"
+                    src="./assets/images/the-matrix.jpg"
                   />
                 </a>
               </div>
@@ -1315,7 +1404,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="House"
                     className="item-image"
-                    src="./assets/house.jpg"
+                    src="./assets/images/house.jpg"
                   />
                 </a>
               </div>
@@ -1399,7 +1488,7 @@ exports[`snapshot changes when input change 1`] = `
                   <img
                     alt="The Office"
                     className="item-image"
-                    src="./assets/the-office.jpg"
+                    src="./assets/images/the-office.jpg"
                   />
                 </a>
               </div>
@@ -1468,6 +1557,59 @@ exports[`snapshot changes when input change 1`] = `
               </div>
             </div>
           </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=kBwVWrBk_uo"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Get Out"
+                    className="item-image"
+                    src="./assets/images/get-out.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Get Out
+                   (2017)
+                </h2>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Chris is sent to the Sunken Place
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt5052448/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt5052448/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
     </main>
@@ -1484,24 +1626,23 @@ exports[`snapshot changes when input change 1`] = `
         <li>
           <a
             href="https://github.com/lmcjt37/curated-tv-and-film"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            <img
-              alt="Repository"
-              src="github32x32.png"
-            />
             <span>
               Repository
             </span>
           </a>
         </li>
         <li>
+          |
+        </li>
+        <li>
           <a
             href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            <img
-              alt="Contributors"
-              src="github32x32.png"
-            />
             <span>
               Contributors
             </span>

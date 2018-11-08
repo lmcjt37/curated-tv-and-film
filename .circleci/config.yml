@@ -1,9 +1,29 @@
 # https://circleci.com/docs/2.0/sample-config/#sample-configuration-with-sequential-workflow
 version: 2
 jobs:
+  lint:
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "main/package.json" }}
+          - v1-dependencies-
+      - run:
+          name: Install dependencies
+          command: cd main && npm install
+      - save_cache:
+          paths:
+            - main/node_modules
+          key: v1-dependencies-{{ checksum "main/package.json" }}
+      - run:
+          name: Run linting
+          command: cd main && npm run lint
+
   build_and_test:
     docker:
-      - image: circleci/node:8
+      - image: circleci/node:latest
     steps:
       - checkout
       - restore_cache:
@@ -23,7 +43,7 @@ jobs:
 
   deploy:
     docker:
-      - image: circleci/node:8
+      - image: circleci/node:latest
     steps:
       - checkout
       - restore_cache:
@@ -36,8 +56,8 @@ jobs:
             git config --global user.email $GH_EMAIL
             git config --global user.name $GH_NAME
 
-            REACT_APP_BUILD=$CIRCLE_SHA1
-            REACT_APP_BUILD_URL=$CIRCLE_BUILD_URL
+            export REACT_APP_BUILD=$CIRCLE_SHA1
+            export REACT_APP_BUILD_URL=$CIRCLE_BUILD_URL
 
             cd main
 
@@ -49,13 +69,19 @@ jobs:
 
             npm run deploy
 
-            echo "Finished delpoying to Github Pages!"
+            echo "Finished deploying to Github Pages!"
 
 workflows:
   version: 2
   build_and_test:
     jobs:
+      - lint:
+          filters:
+            branches:
+              ignore: gh-pages
       - build_and_test:
+          requires:
+            - lint
           filters:
             branches:
               ignore: gh-pages

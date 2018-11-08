@@ -3,7 +3,6 @@ import { Events, animateScroll as scroll } from 'react-scroll';
 
 import './App.css';
 import content from './content.js';
-import icons from './assets/icons';
 
 var data = content;
 
@@ -45,7 +44,7 @@ class App extends Component {
 
     if (searchString.length > 0) {
       var searchResult = this.state.content.filter((el) =>
-        el.title.toLowerCase().match(searchString));
+        el.title.toLowerCase().match(searchString) || el.description.toLowerCase().match(searchString) );
       this.setState({ content: searchResult });
     } else {
       this.setState({ content: data });
@@ -94,8 +93,9 @@ class App extends Component {
     return (
       <div className="mainContainer">
         <div className="headerContainer">
-          <div className="logoContainer">
-            <div className="logoImage" onClick={this.goTop}>Curated TV and Film</div>
+          <div className="logoContainer" onClick={this.goTop}>
+            <img src="./assets/logo-128.png" alt="Curated TV and Film logo" className="logoImage" />
+            <div className="logoTitle">Curated TV and Film</div>
           </div>
           <div className="content-filter">
             <input type="text" className="form-control" value={this.state.searchString} onChange={this.handleChange} placeholder="Search here" />
@@ -166,14 +166,13 @@ class App extends Component {
         <div className="container">
           <ul className="links">
             <li>
-              <a href="https://github.com/lmcjt37/curated-tv-and-film">
-                <img src={icons.github} alt="Repository" />
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/lmcjt37/curated-tv-and-film">
                 <span>Repository</span>
               </a>
             </li>
+            <li>|</li>
             <li>
-              <a href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors">
-                <img src={icons.github} alt="Contributors" />
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors">
                 <span>Contributors</span>
               </a>
             </li>
