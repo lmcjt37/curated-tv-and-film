@@ -180,8 +180,8 @@ footer#footer .links li {
 }
 
 footer#footer .links li a {
-  font-weight: bold;
-  color: rgb(var(--dark-persian-blue));
+  font-weight: normal;
+  color: #778899;
 }
 
 footer#footer .links img {
@@ -196,7 +196,7 @@ footer#footer .links span {
 footer#footer .version {
   text-align: center;
   font-size: 12px;
-  color: #b1b1b1;
+  color: #DADFE1;
 }
 
 @media (max-width: 767px) {
