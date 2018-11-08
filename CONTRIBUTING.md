@@ -11,11 +11,13 @@ _Please make sure you include all necessary fields and try to stick to the forma
 
 Your PR will be reviewed carefully to see if it fits the bill, with very loose guidelines. The URL format doesn't matter so much as long as the link works and a video can be retrieved.
 
+## Important
+
 Remember that the video URLs should reference snippets or clips from of your favourite scene from the movie. We aren't hosting trailers, credits or fan videos.
 
 Also, bear in mind that that only one entry to the content will be accepted at a time. You should raise additional PR's for extra content. This allows us to validate each PR in isolation.
 
-The image that is added to support the content should be a JPEG and added to the `main/public/assets` folder. Make sure the quality of the image is decent and represents the scene from the video you are referencing.
+The image that is added to support the content should be a JPEG and added to the `main/public/assets/images` folder. Make sure the quality of the image is decent and represents the scene from the video you are referencing. I have resampled all images to be 600(w)x~350(h) with a resolution of 300ppi. This helps to keep the image sizes down.
 
 ## TV Shows
 
