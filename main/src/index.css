@@ -1,27 +1,3 @@
-@font-face {
-  font-family: "Source Sans Pro";
-  src: url("./fonts/SourceSansPro-ExtraLight.woff") format("woff");
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: "Source Sans Pro";
-  src: url("./fonts/SourceSansPro-Light.woff") format("woff");
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Source Sans Pro";
-  src: url("./fonts/SourceSansPro-Regular.woff") format("woff");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Source Sans Pro";
-  src: url("./fonts/SourceSansPro-SemiBold.woff") format("woff");
-  font-weight: 600;
-}
-
 *,
 *:before,
 *:after {
@@ -33,7 +9,7 @@ html {
 }
 body {
   font-family: "Source Sans Pro", sans-serif;
-  color: rgb(var(--dark-persian-blue));
+  color: #404040;
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 1.6;
@@ -94,12 +70,12 @@ h6 {
 }
 
 .input {
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.5rem;
   letter-spacing: 0.3px;
   border-radius: 3px;
   padding: 0 1rem;
-  border: 1px solid rgba(var(--dusk), 0.6);
+  border: 1px solid #B5BAC5;
 }
 
 label,
@@ -113,18 +89,18 @@ label,
 input::placeholder {
   font-size: 1.3rem;
   letter-spacing: 0.3px;
-  color: rgb(var(--bluey-grey));
+  color: #BDC3C7;
 }
 
 small {
   font-size: 1.2rem;
   font-weight: normal;
   letter-spacing: 0.2px;
-  color: rgb(var(--bluey-grey));
+  color: #BDC3C7;
 }
 
 .link {
-  color: rgb(var(--dodger-blue));
+  color: #19B5FE;
   cursor: pointer;
 }
 
@@ -150,17 +126,6 @@ small {
   margin: 1em;
 }
 
-/*base font css*/
-/* if not pwa */
-/* @media only screen and (max-width:1023px) {
-  html {
-    font-size: 9px;
-  }
-  body {
-    font-size: 1.35rem;
-  }
-} */
-
 @media only screen and (min-width: 1600px) {
   html {
     font-size: 11px;
@@ -168,17 +133,4 @@ small {
   body {
     font-size: 1.45rem;
   }
-}
-<html > <head > <style > body {
-  background-color: lightblue;
-}
-
-h1 {
-  color: white;
-  text-align: center;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
 }

@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { Events, animateScroll as scroll } from 'react-scroll';
 
-import "./App.css"
-import content from "./content.js"
-import icons from "./assets/icons"
+import './App.css';
+import content from './content.js';
 
 var data = content
 
@@ -83,10 +82,9 @@ class App extends Component {
     return (
       <div className="mainContainer">
         <div className="headerContainer">
-          <div className="logoContainer">
-            <div className="logoImage" onClick={this.goTop}>
-              Curated TV and Film
-            </div>
+          <div className="logoContainer" onClick={this.goTop}>
+            <img src="./assets/logo-128.png" alt="Curated TV and Film logo" className="logoImage" />
+            <div className="logoTitle">Curated TV and Film</div>
           </div>
           <div className="content-filter">
             <input
@@ -241,27 +239,26 @@ class App extends Component {
                 <p>Can't load the data.</p>
               )}
             </div>
-          </main>
-        </section>
-        <footer id="footer">
-          <div className="container">
-            <ul className="links">
-              <li>
-                <a href="https://github.com/lmcjt37/curated-tv-and-film">
-                  <img src={icons.github} alt="Repository" />
-                  <span>Repository</span>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors">
-                  <img src={icons.github} alt="Contributors" />
-                  <span>Contributors</span>
-                </a>
-              </li>
-            </ul>
-            <p className="version">v0.0.1</p>
-          </div>
-        </footer>
+        </main>
+      </section>
+      <footer id="footer">
+        <div className="container">
+          <ul className="links">
+            <li>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/lmcjt37/curated-tv-and-film">
+                <span>Repository</span>
+              </a>
+            </li>
+            <li>|</li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors">
+                <span>Contributors</span>
+              </a>
+            </li>
+          </ul>
+          <p className="version"><a target="_blank" rel="noopener noreferrer" href={process.env.REACT_APP_BUILD_URL}>build {process.env.REACT_APP_BUILD}</a></p>
+        </div>
+      </footer>
       </div>
     )
   }
