@@ -147,6 +147,7 @@ exports[`snapshot changes when input change 1`] = `
                   The Walking Dead
                   
                 </h2>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -231,9 +232,7 @@ exports[`snapshot changes when input change 1`] = `
                   The Newsroom
                   
                 </h2>
-                <h5>
-                  Genre: Drama
-                </h5>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -318,9 +317,7 @@ exports[`snapshot changes when input change 1`] = `
                   Mr.Robot
                   
                 </h2>
-                <h5>
-                  Genre: Crime, Drama, Thriller
-                </h5>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -405,9 +402,7 @@ exports[`snapshot changes when input change 1`] = `
                   Silicon Valley
                   
                 </h2>
-                <h5>
-                  Genre: Comedy
-                </h5>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -492,9 +487,7 @@ exports[`snapshot changes when input change 1`] = `
                   Game of Thrones
                   
                 </h2>
-                <h5>
-                  Genre: Action, Adventure, Drama
-                </h5>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -579,9 +572,7 @@ exports[`snapshot changes when input change 1`] = `
                   Oldboy
                    (2003)
                 </h2>
-                <h5>
-                  Genre: Action, Drama, Mystery
-                </h5>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -635,9 +626,7 @@ exports[`snapshot changes when input change 1`] = `
                   Olympus has fallen
                    (2013)
                 </h2>
-                <h5>
-                  Genre: Action, Thriller
-                </h5>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -691,9 +680,7 @@ exports[`snapshot changes when input change 1`] = `
                   Rick and Morty
                   
                 </h2>
-                <h5>
-                  Genre: Animation, Adventure, Comedy
-                </h5>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -778,9 +765,7 @@ exports[`snapshot changes when input change 1`] = `
                   Kingsman: The Secret Service
                    (2014)
                 </h2>
-                <h5>
-                  Genre: Action, Adventure, Comedy
-                </h5>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -834,9 +819,7 @@ exports[`snapshot changes when input change 1`] = `
                   Kill Bill: Vol 1
                    (2003)
                 </h2>
-                <h5>
-                  Genre: Action, Crime, Thriller
-                </h5>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -872,93 +855,6 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-thumbnail"
               >
                 <a
-                  href="https://www.youtube.com/watch?v=yDmsQcVAo2c"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="Breaking Bad"
-                    className="item-image"
-                    src="./assets/breaking-bad.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  Breaking Bad
-                  
-                </h2>
-                <h5>
-                  Genre: Crime, Drama, Thriller
-                </h5>
-                <div
-                  className="tvshow-details"
-                >
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Season:
-                    </span>
-                     
-                    5
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode:
-                    </span>
-                     
-                    14
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode Title:
-                    </span>
-                     
-                    Ozymandias
-                  </div>
-                </div>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  Walt goes on the run. Jesse is taken hostage. Marie convinces Skyler to tell Walter, Jr. the truth.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="https://www.imdb.com/title/tt2301451/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    https://www.imdb.com/title/tt2301451/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
                   href="https://www.youtube.com/watch?v=p3PfKf0ndik"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -977,9 +873,7 @@ exports[`snapshot changes when input change 1`] = `
                   Interstellar
                    (2014)
                 </h2>
-                <h5>
-                  Genre: Adventure, Drama, Sci-Fi
-                </h5>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -1033,9 +927,7 @@ exports[`snapshot changes when input change 1`] = `
                   There Will Be Blood
                    (2007)
                 </h2>
-                <h5>
-                  Genre: Drama
-                </h5>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -1071,62 +963,6 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-thumbnail"
               >
                 <a
-                  href="https://www.youtube.com/watch?v=d3A3-zSOBT4"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="Inception"
-                    className="item-image"
-                    src="./assets/inception.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  Inception
-                   (2010)
-                </h2>
-                <h5>
-                  Genre: Action, Adventure, Sci-Fi
-                </h5>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="https://www.imdb.com/title/tt1375666/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    https://www.imdb.com/title/tt1375666/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
                   href="https://www.youtube.com/watch?v=VC6Z_kdQoHw"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -1145,9 +981,7 @@ exports[`snapshot changes when input change 1`] = `
                   Fight Club
                    (1999)
                 </h2>
-                <h5>
-                  Genre: Drama
-                </h5>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -1201,9 +1035,7 @@ exports[`snapshot changes when input change 1`] = `
                   Sherlock
                   
                 </h2>
-                <h5>
-                  Genre: Crime, Drama, Mystery
-                </h5>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -1288,9 +1120,7 @@ exports[`snapshot changes when input change 1`] = `
                   Suits
                   
                 </h2>
-                <h5>
-                  Genre: Comedy, Drama
-                </h5>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -1357,62 +1187,6 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-thumbnail"
               >
                 <a
-                  href="https://www.youtube.com/watch?v=F-eMt3SrfFU"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="Dunkirk"
-                    className="item-image"
-                    src="./assets/dunkirk.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  Dunkirk
-                   (2017)
-                </h2>
-                <h5>
-                  Genre: Action, Drama, History
-                </h5>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="https://www.imdb.com/title/tt5013056/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    https://www.imdb.com/title/tt5013056/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
                   href="https://www.youtube.com/watch?v=GAx0DYI3los"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -1431,9 +1205,7 @@ exports[`snapshot changes when input change 1`] = `
                   How I Met Your Mother
                   
                 </h2>
-                <h5>
-                  Genre: Comedy, Romance
-                </h5>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -1518,9 +1290,7 @@ exports[`snapshot changes when input change 1`] = `
                   Friends
                   
                 </h2>
-                <h5>
-                  Genre: Comedy, Romance
-                </h5>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -1605,9 +1375,7 @@ exports[`snapshot changes when input change 1`] = `
                   The Godfather
                    (1972)
                 </h2>
-                <h5>
-                  Genre: Crime, Drama
-                </h5>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -1661,9 +1429,7 @@ exports[`snapshot changes when input change 1`] = `
                   The Matrix
                    (1999)
                 </h2>
-                <h5>
-                  Genre: Action, Sci-Fi
-                </h5>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -1717,9 +1483,7 @@ exports[`snapshot changes when input change 1`] = `
                   House
                   
                 </h2>
-                <h5>
-                  Genre: Drama, Mystery
-                </h5>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -1804,9 +1568,7 @@ exports[`snapshot changes when input change 1`] = `
                   The Office
                   
                 </h2>
-                <h5>
-                  Genre: Comedy
-                </h5>
+                <h5 />
                 <div
                   className="tvshow-details"
                 >
@@ -1891,6 +1653,7 @@ exports[`snapshot changes when input change 1`] = `
                   Get Out
                    (2017)
                 </h2>
+                <h5 />
                 <div
                   className="item-desc details__item"
                 >
@@ -1899,7 +1662,6 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                    
                   Chris is sent to the Sunken Place
-
                 </div>
                 <div
                   className="item-imdb"
