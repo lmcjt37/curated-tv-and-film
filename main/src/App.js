@@ -4,86 +4,123 @@ import { Events, animateScroll as scroll } from 'react-scroll';
 import './App.css';
 import content from './content.js';
 
-var data = content
+var data = content;
 
 class App extends Component {
   constructor(props) {
-    super(props)
+    super(props);
 
     this.state = {
-      searchString: "",
+      searchString: '',
       content: content,
       filterTV: true,
       filterMovies: true,
-      filterYear: "",
-      filterGenre: [],
+      filterYear: '',
+      filterGenre: "All",
       onlyMovies: [],
       years: []
-    }
+    };
 
     this.handleFilter = this.handleFilter.bind(this);
     this.handleYear = this.handleYear.bind(this);
   }
 
   componentDidMount() {
-
     Events.scrollEvent.register('begin', function() {
-      console.log("begin", arguments);
+      console.log('begin', arguments);
     });
 
     Events.scrollEvent.register('end', function() {
-      console.log("end", arguments);
+      console.log('end', arguments);
     });
-
   }
 
   handleChange = event => {
-    var searchString = event.target.value
-    this.setState({ searchString: searchString })
+    var searchString = event.target.value;
+    this.setState({ searchString: searchString });
 
-    searchString = searchString.trim().toLowerCase()
+    searchString = searchString.trim().toLowerCase();
 
     if (searchString.length > 0) {
-      var searchResult = this.state.content.filter(el =>
-        el.title.toLowerCase().match(searchString)
-      )
-      this.setState({ content: searchResult })
+      var searchResult = this.state.content.filter(
+        el =>
+          el.title.toLowerCase().match(searchString) ||
+          el.description.toLowerCase().match(searchString)
+      );
+      this.setState({ content: searchResult });
     } else {
-      this.setState({ content: data })
+      this.setState({ content: data });
     }
-  }
+  };
 
   handleYear = event => {
-    let year = event.target.value
-    this.setState({ filterYear: year })
-  }
+    let year = event.target.value;
+    let moviesFilteredByYear = this.state.onlyMovies.filter(
+      movie => movie.year.toString() === year
+    );
 
-  handleGenre = event => {
-    let genre = event.target.value
-
-    this.setState({ filterGenre: genre })
-  }
+    this.setState({
+      filterYear: year,
+      content: moviesFilteredByYear
+    });
+  };
 
   handleFilter = event => {
-    this.setState({ [event.target.name]: event.target.checked })
-    this.setState({ filterYear: "" })
+    this.setState({
+      [event.target.name]: event.target.checked,
+      content: data,
+      years: [],
+      filterYear: ''
+    });
+
+    if (!this.state.filterTV) {
+      let filteredMovide = this.state.content.filter(
+        value => value.type === 'movie'
+      );
+      let onlyYears = new Set(filteredMovide.map(movie => movie.year));
+      let years = [...onlyYears].sort((a, b) => b - a);
+
+      this.setState({
+        onlyMovies: filteredMovide,
+        years
+      });
+    }
+  };
+
+  handleGenre = event => {
+    this.setState({ filterGenre: event.target.value })
   }
 
   goTop = event => {
-    document.body.scrollTop = 0
-    document.documentElement.scrollTop = 0
-  }
+    scroll.scrollToTop();
+  };
 
   render() {
-    let optionItems = this.state.years.map((year, index) =>
-      <option key={index} value={year}>{year}</option>
-    );
+    let yearOptions = this.state.years.map((year, index) => (
+      <option key={index} value={year}>
+        {year}
+      </option>
+    ));
+
+    let genres = [
+      "All", "Action", "Adventure", "Animation", "Comedy", "Crime", "Drama",
+      "History", "Mystery", "Romance", "Sci-Fi", "Thriller", "Horror"
+    ];
+    let genreOptions = genres.map((genre, index) => (
+      <option key={index} value={genre}>
+        {genre}
+      </option>
+    ));
 
     return (
       <div className="mainContainer">
         <div className="headerContainer">
           <div className="logoContainer" onClick={this.goTop}>
-            <img src="./assets/logo-128.png" alt="Curated TV and Film logo" className="logoImage" />
+            <img
+              src="./assets/logo-128.png"
+              alt="Curated TV and Film logo"
+              className="logoImage"
+            />
             <div className="logoTitle">Curated TV and Film</div>
           </div>
           <div className="content-filter">
@@ -95,7 +132,6 @@ class App extends Component {
               placeholder="Search here"
             />
           </div>
-
           <div className="filter-div">
             <input
               type="checkbox"
@@ -106,6 +142,18 @@ class App extends Component {
             <label htmlFor="movies" className="filter-labels">
               Movies
             </label>
+            {this.state.filterMovies && !this.state.filterTV ? (
+              <select
+                value={this.state.filterYear}
+                onChange={this.handleYear}
+                className="filter-year"
+              >
+                <option disabled value="">
+                  - Year -
+                </option>
+                {yearOptions}
+              </select>
+            ) : null}
             <input
               type="checkbox"
               name="filterTV"
@@ -115,15 +163,6 @@ class App extends Component {
             <label htmlFor="tv" className="filter-labels">
               TV Series
             </label>
-            {this.state.filterMovies && !this.state.filterTV ? (
-              <input
-                type="text"
-                name="filterYear"
-                value={this.state.filterYear}
-                onChange={this.handleYear}
-                placeholder="Year"
-              />
-            ) : null}
             <label htmlFor="movies" className="filter-labels">
               Genre
             </label>
@@ -133,18 +172,7 @@ class App extends Component {
               selected={this.state.filterGenre}
               onChange={this.handleGenre}
             >
-              <option>All</option>
-              <option>Action</option>
-              <option>Adventure</option>
-              <option>Animation</option>
-              <option>Comedy</option>
-              <option>Crime</option>
-              <option>Drama</option>
-              <option>History </option>
-              <option>Mystery </option>
-              <option>Romance</option>
-              <option>Sci-Fi</option>
-              <option>Thriller</option>
+              {genreOptions}
             </select>
           </div>
         </div>
@@ -156,24 +184,21 @@ class App extends Component {
                   {this.state.content.map((item, index) => {
                     if (
                       this.state.filterMovies === false &&
-                      item.type === "movie"
+                      item.type === 'movie'
                     )
-                      return ""
+                      return '';
                     if (
                       this.state.filterTV === false &&
-                      item.type === "tv_show"
+                      item.type === 'tv_show'
                     )
-                      return ""
-
+                      return '';
                     if (
-                      this.state.filterGenre != "" &&
                       this.state.filterGenre !== "All" &&
-                      item.genre &&
-                      !item.genre.some(
-                        genre => genre === this.state.filterGenre
+                      item.genre.some(
+                        genre => genre !== this.state.filterGenre
                       )
                     )
-                      return ""
+                      return '';
 
                     return (
                       <li key={index}>
@@ -194,12 +219,12 @@ class App extends Component {
                           <div className="item-info">
                             <h2>
                               {item.title}
-                              {item.year ? " (" + item.year + ")" : ""}
+                              {item.year ? ' (' + item.year + ')' : ''}
                             </h2>
-                            <h5>
+                            <h5 className="genre-item">
                               {item.genre && `Genre: ${item.genre.join(", ")}`}
                             </h5>
-                            {item.type === "tv_show" && (
+                            {item.type === 'tv_show' && (
                               <div className="tvshow-details">
                                 <div className="details__item">
                                   <span>Season:</span> {item.season}
@@ -208,7 +233,7 @@ class App extends Component {
                                   <span>Episode:</span> {item.episode}
                                 </div>
                                 <div className="details__item">
-                                  <span>Episode Title:</span>{" "}
+                                  <span>Episode Title:</span>{' '}
                                   {item.episode_title}
                                 </div>
                               </div>
@@ -230,7 +255,7 @@ class App extends Component {
                           </div>
                         </div>
                       </li>
-                    )
+                    );
                   })}
                 </ul>
               ) : this.state.searchString ? (
@@ -239,29 +264,45 @@ class App extends Component {
                 <p>Can't load the data.</p>
               )}
             </div>
-        </main>
-      </section>
-      <footer id="footer">
-        <div className="container">
-          <ul className="links">
-            <li>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/lmcjt37/curated-tv-and-film">
-                <span>Repository</span>
+          </main>
+        </section>
+        <footer id="footer">
+          <div className="container">
+            <ul className="links">
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/lmcjt37/curated-tv-and-film"
+                >
+                  <span>Repository</span>
+                </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors"
+                >
+                  <span>Contributors</span>
+                </a>
+              </li>
+            </ul>
+            <p className="version">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={process.env.REACT_APP_BUILD_URL}
+              >
+                build {process.env.REACT_APP_BUILD}
               </a>
-            </li>
-            <li>|</li>
-            <li>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors">
-                <span>Contributors</span>
-              </a>
-            </li>
-          </ul>
-          <p className="version"><a target="_blank" rel="noopener noreferrer" href={process.env.REACT_APP_BUILD_URL}>build {process.env.REACT_APP_BUILD}</a></p>
-        </div>
-      </footer>
+            </p>
+          </div>
+        </footer>
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;
