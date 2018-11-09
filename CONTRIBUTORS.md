@@ -70,3 +70,8 @@
 - Place: Sao Paulo, BR, Brasil
 - GitHub: [rodrigocnascimento](https://github.com/rodrigocnascimento/)
 
+#### Name: [Matthew Carpenter](https://github.com/diddy225)
+- Role: Contributor
+- Place: Atlanta, GA
+- GitHub: [diddy225](https://github.com/diddy225)
+
