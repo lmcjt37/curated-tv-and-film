@@ -88,6 +88,7 @@ class App extends Component {
   };
 
   handleGenre = event => {
+    console.log(event.target.value);
     this.setState({ filterGenre: event.target.value })
   }
 
@@ -194,8 +195,8 @@ class App extends Component {
                       return '';
                     if (
                       this.state.filterGenre !== "All" &&
-                      item.genre.some(
-                        genre => genre !== this.state.filterGenre
+                      !item.genre.some(
+                        genre => genre === this.state.filterGenre
                       )
                     )
                       return '';
