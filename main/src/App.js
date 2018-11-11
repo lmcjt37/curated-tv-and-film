@@ -38,14 +38,12 @@ class App extends Component {
   handleChange = event => {
     var searchString = event.target.value;
     this.setState({ searchString: searchString });
-
     searchString = searchString.trim().toLowerCase();
 
     if (searchString.length > 0) {
       var searchResult = this.state.content.filter(
         el =>
-          el.title.toLowerCase().match(searchString) ||
-          el.description.toLowerCase().match(searchString)
+          el.title.toLowerCase().match(searchString) || (el.year && el.year.toString().match(searchString))
       );
       this.setState({ content: searchResult });
     } else {
@@ -88,7 +86,6 @@ class App extends Component {
   };
 
   handleGenre = event => {
-    console.log(event.target.value);
     this.setState({ filterGenre: event.target.value })
   }
 
