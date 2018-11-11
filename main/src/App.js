@@ -41,7 +41,11 @@ class App extends Component {
     searchString = searchString.trim().toLowerCase();
 
     if (searchString.length > 0) {
-      var searchResult = this.state.content.filter(
+      var content = this.state.content;
+      if (this.state.content.length === 0) {
+        content = data;
+      }
+      var searchResult = content.filter(
         el =>
           el.title.toLowerCase().match(searchString) || (el.year && el.year.toString().match(searchString))
       );
