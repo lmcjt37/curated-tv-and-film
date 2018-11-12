@@ -199,6 +199,25 @@ footer#footer .version {
   color: #DADFE1;
 }
 
+@media (min-width: 768px) {
+  .item-card {
+    display: flex;
+  }
+
+  .item-thumbnail {
+    margin-right: 30px;
+  }
+
+  .item-image {
+    width: 266px;
+    height: auto;
+  }
+
+  .headerContainer {
+    height: 60px;
+  }
+}
+
 @media (max-width: 767px) {
   .item-image {
     min-width: 100%;
@@ -231,30 +250,15 @@ footer#footer .version {
     padding-bottom: 10px;
   }
 
+  .content-list {
+    margin-top: 0;
+  }
+
   .content-list ul li + li {
     margin-top: 30px;
   }
-}
-
-@media (min-width: 768px) {
-  .item-card {
-    display: flex;
-  }
-
-  .item-thumbnail {
-    margin-right: 30px;
-  }
-
-  .item-image {
-    width: 266px;
-    height: auto;
-  }
-
-  .headerContainer {
-    height: 60px;
-  }
 
   .container {
-    padding-top: 50px;
+    padding-top: 220px;
   }
 }

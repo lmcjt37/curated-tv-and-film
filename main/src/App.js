@@ -13,8 +13,7 @@ class App extends Component {
     this.state = {
       searchString: '',
       content: content,
-      filterTV: true,
-      filterMovies: true,
+      filterResults: "all",
       filterYear: '',
       filterGenre: "All",
       onlyMovies: [],
@@ -69,7 +68,7 @@ class App extends Component {
 
   handleFilter = event => {
     this.setState({
-      [event.target.name]: event.target.checked,
+      filterResults: event.target.value,
       content: data,
       years: [],
       filterYear: ''
@@ -136,12 +135,23 @@ class App extends Component {
           </div>
           <div className="filter-div">
             <input
-              type="checkbox"
-              name="filterMovies"
-              checked={this.state.filterMovies}
+              type="radio"
+              name="filterResults"
+              value="all"
+              checked={this.state.filterResults === "all"}
               onChange={this.handleFilter}
             />
-            <label htmlFor="movies" className="filter-labels">
+            <label htmlFor="filterAll" className="filter-labels">
+              All
+            </label>
+            <input
+              type="radio"
+              name="filterResults"
+              value="movies"
+              checked={this.state.filterResults === "movies"}
+              onChange={this.handleFilter}
+            />
+            <label htmlFor="filterMovies" className="filter-labels">
               Movies
             </label>
             {this.state.filterMovies && !this.state.filterTV ? (
@@ -157,15 +167,16 @@ class App extends Component {
               </select>
             ) : null}
             <input
-              type="checkbox"
-              name="filterTV"
-              checked={this.state.filterTV}
+              type="radio"
+              name="filterResults"
+              value="tv"
+              checked={this.state.filterResults === "tv"}
               onChange={this.handleFilter}
             />
-            <label htmlFor="tv" className="filter-labels">
+            <label htmlFor="filterTV" className="filter-labels">
               TV Series
             </label>
-            <label htmlFor="movies" className="filter-labels">
+            <label htmlFor="filterGenre" className="filter-labels">
               Genre
             </label>
             <select
@@ -185,13 +196,13 @@ class App extends Component {
                 <ul>
                   {this.state.content.map((item, index) => {
                     if (
-                      this.state.filterMovies === false &&
-                      item.type === 'movie'
+                      this.state.filterResults === "movies" &&
+                      item.type !== 'movie'
                     )
                       return '';
                     if (
-                      this.state.filterTV === false &&
-                      item.type === 'tv_show'
+                      this.state.filterResults === "tv" &&
+                      item.type !== 'tv_show'
                     )
                       return '';
                     if (
