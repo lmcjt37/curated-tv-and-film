@@ -38,31 +38,46 @@ exports[`snapshot changes when input change 1`] = `
     >
       <input
         checked={true}
-        name="filterMovies"
+        name="filterResults"
         onChange={[Function]}
-        type="checkbox"
+        type="radio"
+        value="all"
       />
       <label
         className="filter-labels"
-        htmlFor="movies"
+        htmlFor="filterAll"
+      >
+        All
+      </label>
+      <input
+        checked={false}
+        name="filterResults"
+        onChange={[Function]}
+        type="radio"
+        value="movies"
+      />
+      <label
+        className="filter-labels"
+        htmlFor="filterMovies"
       >
         Movies
       </label>
       <input
-        checked={true}
-        name="filterTV"
+        checked={false}
+        name="filterResults"
         onChange={[Function]}
-        type="checkbox"
+        type="radio"
+        value="tv"
       />
       <label
         className="filter-labels"
-        htmlFor="tv"
+        htmlFor="filterTV"
       >
         TV Series
       </label>
       <label
         className="filter-labels"
-        htmlFor="movies"
+        htmlFor="filterGenre"
       >
         Genre
       </label>
