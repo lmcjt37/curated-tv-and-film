@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Events, animateScroll as scroll } from 'react-scroll';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFilter, faTimesCircle } from '@fortawesome/free-solid-svg-icons'
+
 import './App.css';
 import content from './content.js';
 
@@ -13,6 +16,7 @@ class App extends Component {
     this.state = {
       searchString: '',
       content: content,
+      showFilters: false,
       filterResults: "all",
       filterYear: '',
       filterGenre: "All",
@@ -24,6 +28,7 @@ class App extends Component {
     this.handleFilter = this.handleFilter.bind(this);
     this.handleYear = this.handleYear.bind(this);
     this.handleGenre = this.handleGenre.bind(this);
+    this.toggleFilter = this.toggleFilter.bind(this);
   }
 
   componentDidMount() {
@@ -94,6 +99,10 @@ class App extends Component {
     this.setState({ filterGenre: event.target.value })
   }
 
+  toggleFilter = () => {
+    this.setState({ showFilters: !this.state.showFilters })
+  }
+
   goTop = () => {
     scroll.scrollToTop();
   };
@@ -126,7 +135,7 @@ class App extends Component {
             />
             <div className="logoTitle">Curated TV and Film</div>
           </div>
-          <div className="content-filter">
+          <div className="content-search">
             <input
               type="text"
               className="form-control"
@@ -136,59 +145,69 @@ class App extends Component {
             />
           </div>
           <div className="filter-div">
-            <input
-              type="radio"
-              name="filterResults"
-              value="all"
-              checked={this.state.filterResults === "all"}
-              onChange={this.handleFilter}
-            />
-            <label htmlFor="filterAll" className="filter-labels">
-              All
-            </label>
-            <input
-              type="radio"
-              name="filterResults"
-              value="movies"
-              checked={this.state.filterResults === "movies"}
-              onChange={this.handleFilter}
-            />
-            <label htmlFor="filterMovies" className="filter-labels">
-              Movies
-            </label>
-            {this.state.filterResults === "movies" ? (
-              <select
-                value={this.state.filterYear}
-                onChange={this.handleYear}
-                className="filter-year"
-              >
-                <option disabled value="">
-                  - Year -
-                </option>
-                {yearOptions}
-              </select>
-            ) : null}
-            <input
-              type="radio"
-              name="filterResults"
-              value="tv"
-              checked={this.state.filterResults === "tv"}
-              onChange={this.handleFilter}
-            />
-            <label htmlFor="filterTV" className="filter-labels">
-              TV Series
-            </label>
-            <label htmlFor="filterGenre" className="filter-labels">
-              Genre
-            </label>
-            <select
-              type="select"
-              name="filterGenre"
-              selected={this.state.filterGenre}
-              onChange={this.handleGenre}
-            >
-              {genreOptions}
-            </select>
+            {this.state.showFilters ? (
+              <div className="filter-dev-inner">
+                <input
+                  type="radio"
+                  name="filterResults"
+                  value="all"
+                  checked={this.state.filterResults === "all"}
+                  onChange={this.handleFilter}
+                />
+                <label htmlFor="filterAll" className="filter-labels">
+                  All
+                </label>
+                <input
+                  type="radio"
+                  name="filterResults"
+                  value="movies"
+                  checked={this.state.filterResults === "movies"}
+                  onChange={this.handleFilter}
+                />
+                <label htmlFor="filterMovies" className="filter-labels">
+                  Movies
+                </label>
+                {this.state.filterResults === "movies" ? (
+                  <select
+                    value={this.state.filterYear}
+                    onChange={this.handleYear}
+                    className="filter-year"
+                  >
+                    <option disabled value="">
+                      - Year -
+                    </option>
+                    {yearOptions}
+                  </select>
+                ) : null}
+                <input
+                  type="radio"
+                  name="filterResults"
+                  value="tv"
+                  checked={this.state.filterResults === "tv"}
+                  onChange={this.handleFilter}
+                />
+                <label htmlFor="filterTV" className="filter-labels">
+                  TV Series
+                </label>
+                <label htmlFor="filterGenre" className="filter-labels">
+                  Genre
+                </label>
+                <select
+                  type="select"
+                  name="filterGenre"
+                  selected={this.state.filterGenre}
+                  onChange={this.handleGenre}
+                >
+                  {genreOptions}
+                </select>
+                <span className="closeButton" onClick={this.toggleFilter}>
+                  <FontAwesomeIcon icon={faTimesCircle} />
+                </span>
+              </div>) : (
+                <span className="closeButton" onClick={this.toggleFilter}>
+                  <FontAwesomeIcon icon={faFilter} />
+                </span>
+              )}
           </div>
         </div>
         <section className="app container">

@@ -23,7 +23,7 @@ exports[`snapshot changes when input change 1`] = `
       </div>
     </div>
     <div
-      className="content-filter"
+      className="content-search"
     >
       <input
         className="form-control"
@@ -36,123 +36,27 @@ exports[`snapshot changes when input change 1`] = `
     <div
       className="filter-div"
     >
-      <input
-        checked={true}
-        name="filterResults"
-        onChange={[Function]}
-        type="radio"
-        value="all"
-      />
-      <label
-        className="filter-labels"
-        htmlFor="filterAll"
+      <span
+        className="closeButton"
+        onClick={[Function]}
       >
-        All
-      </label>
-      <input
-        checked={false}
-        name="filterResults"
-        onChange={[Function]}
-        type="radio"
-        value="movies"
-      />
-      <label
-        className="filter-labels"
-        htmlFor="filterMovies"
-      >
-        Movies
-      </label>
-      <input
-        checked={false}
-        name="filterResults"
-        onChange={[Function]}
-        type="radio"
-        value="tv"
-      />
-      <label
-        className="filter-labels"
-        htmlFor="filterTV"
-      >
-        TV Series
-      </label>
-      <label
-        className="filter-labels"
-        htmlFor="filterGenre"
-      >
-        Genre
-      </label>
-      <select
-        name="filterGenre"
-        onChange={[Function]}
-        selected="All"
-        type="select"
-      >
-        <option
-          value="All"
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-filter fa-w-16 "
+          data-icon="filter"
+          data-prefix="fas"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          All
-        </option>
-        <option
-          value="Action"
-        >
-          Action
-        </option>
-        <option
-          value="Adventure"
-        >
-          Adventure
-        </option>
-        <option
-          value="Animation"
-        >
-          Animation
-        </option>
-        <option
-          value="Comedy"
-        >
-          Comedy
-        </option>
-        <option
-          value="Crime"
-        >
-          Crime
-        </option>
-        <option
-          value="Drama"
-        >
-          Drama
-        </option>
-        <option
-          value="History"
-        >
-          History
-        </option>
-        <option
-          value="Mystery"
-        >
-          Mystery
-        </option>
-        <option
-          value="Romance"
-        >
-          Romance
-        </option>
-        <option
-          value="Sci-Fi"
-        >
-          Sci-Fi
-        </option>
-        <option
-          value="Thriller"
-        >
-          Thriller
-        </option>
-        <option
-          value="Horror"
-        >
-          Horror
-        </option>
-      </select>
+          <path
+            d="M487.976 0H24.028C2.71 0-8.047 25.866 7.058 40.971L192 225.941V432c0 7.831 3.821 15.17 10.237 19.662l80 55.98C298.02 518.69 320 507.493 320 487.98V225.941l184.947-184.97C520.021 25.896 509.338 0 487.976 0z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </span>
     </div>
   </div>
   <section
