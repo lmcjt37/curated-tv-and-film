@@ -20,8 +20,10 @@ class App extends Component {
       years: []
     };
 
+    this.handleChange = this.handleChange.bind(this);
     this.handleFilter = this.handleFilter.bind(this);
     this.handleYear = this.handleYear.bind(this);
+    this.handleGenre = this.handleGenre.bind(this);
   }
 
   componentDidMount() {
@@ -92,7 +94,7 @@ class App extends Component {
     this.setState({ filterGenre: event.target.value })
   }
 
-  goTop = event => {
+  goTop = () => {
     scroll.scrollToTop();
   };
 
@@ -154,7 +156,7 @@ class App extends Component {
             <label htmlFor="filterMovies" className="filter-labels">
               Movies
             </label>
-            {this.state.filterMovies && !this.state.filterTV ? (
+            {this.state.filterResults === "movies" ? (
               <select
                 value={this.state.filterYear}
                 onChange={this.handleYear}
