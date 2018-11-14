@@ -2,22 +2,22 @@
 
 exports[`snapshot changes when input change 1`] = `
 <div
-  className="mainContainer"
+  className="main-container"
 >
   <div
-    className="headerContainer"
+    className="header-container"
   >
     <div
-      className="logoContainer"
+      className="logo-container"
       onClick={[Function]}
     >
       <img
         alt="Curated TV and Film logo"
-        className="logoImage"
+        className="logo-image"
         src="./assets/logo-128.png"
       />
       <div
-        className="logoTitle"
+        className="logo-title"
       >
         Curated TV and Film
       </div>
@@ -37,7 +37,7 @@ exports[`snapshot changes when input change 1`] = `
       className="filter-div"
     >
       <span
-        className="closeButton"
+        className="filter-button"
         onClick={[Function]}
       >
         <svg
