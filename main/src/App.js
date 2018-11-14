@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Events, animateScroll as scroll } from 'react-scroll';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFilter, faTimesCircle } from '@fortawesome/free-solid-svg-icons'
+
 import './App.css';
 import content from './content.js';
 
@@ -13,6 +16,7 @@ class App extends Component {
     this.state = {
       searchString: '',
       content: content,
+      showFilters: false,
       filterResults: "all",
       filterYear: '',
       filterGenre: "All",
@@ -24,6 +28,7 @@ class App extends Component {
     this.handleFilter = this.handleFilter.bind(this);
     this.handleYear = this.handleYear.bind(this);
     this.handleGenre = this.handleGenre.bind(this);
+    this.toggleFilter = this.toggleFilter.bind(this);
   }
 
   componentDidMount() {
@@ -94,6 +99,10 @@ class App extends Component {
     this.setState({ filterGenre: event.target.value })
   }
 
+  toggleFilter = () => {
+    this.setState({ showFilters: !this.state.showFilters })
+  }
+
   goTop = () => {
     scroll.scrollToTop();
   };
@@ -116,17 +125,17 @@ class App extends Component {
     ));
 
     return (
-      <div className="mainContainer">
-        <div className="headerContainer">
-          <div className="logoContainer" onClick={this.goTop}>
+      <div className="main-container">
+        <div className="header-container">
+          <div className="logo-container" onClick={this.goTop}>
             <img
               src="./assets/logo-128.png"
               alt="Curated TV and Film logo"
-              className="logoImage"
+              className="logo-image"
             />
-            <div className="logoTitle">Curated TV and Film</div>
+            <div className="logo-title">Curated TV and Film</div>
           </div>
-          <div className="content-filter">
+          <div className="content-search">
             <input
               type="text"
               className="form-control"
@@ -136,6 +145,19 @@ class App extends Component {
             />
           </div>
           <div className="filter-div">
+            {this.state.showFilters ? (
+                <span className="close-button" onClick={this.toggleFilter}>
+                  <FontAwesomeIcon icon={faTimesCircle} />
+                </span>) : (
+                <span className="filter-button" onClick={this.toggleFilter}>
+                  <FontAwesomeIcon icon={faFilter} />
+                </span>
+              )}
+          </div>
+        </div>
+        {this.state.showFilters ? (
+        <div className="filter-bar">
+          <div className="filter-bar__container">
             <input
               type="radio"
               name="filterResults"
@@ -190,7 +212,7 @@ class App extends Component {
               {genreOptions}
             </select>
           </div>
-        </div>
+        </div>) : null}
         <section className="app container">
           <main className="main-content">
             <div className="content-list">
