@@ -1,4 +1,7 @@
 [![CircleCI](https://circleci.com/gh/lmcjt37/curated-tv-and-film.svg?style=svg)](https://circleci.com/gh/lmcjt37/curated-tv-and-film)
+
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/lmcjt37/curated-tv-and-film/issues)
+
 # Curated-TV-and-Film
 
 The purpose of the project is to show a curated list of Modern TV shows or Films, where iconic scenes that include speeches, action scenes, classic quotes, etc. These can all be viewed easily and quickly to help in reference. Especially useful in arguments.
