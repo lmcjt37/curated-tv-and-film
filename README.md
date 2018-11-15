@@ -1,6 +1,4 @@
-[![CircleCI](https://circleci.com/gh/lmcjt37/curated-tv-and-film.svg?style=svg)](https://circleci.com/gh/lmcjt37/curated-tv-and-film)
-
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/lmcjt37/curated-tv-and-film/issues)
+[![CircleCI](https://circleci.com/gh/lmcjt37/curated-tv-and-film.svg?style=svg)](https://circleci.com/gh/lmcjt37/curated-tv-and-film) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/lmcjt37/curated-tv-and-film/issues)
 
 # Curated-TV-and-Film
 
