@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of initial component 1`] = `
+<div
+  className="item-card"
+>
+  <div
+    className="item-thumbnail"
+  >
+    <a
+      href="https://www.lmcjt.com"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="Mock of Thrones"
+        className="item-image"
+        src="./assets/images/game-of-thrones.jpg"
+      />
+    </a>
+  </div>
+  <div
+    className="item-info"
+  >
+    <h2>
+      Mock of Thrones
+      
+    </h2>
+    <h5
+      className="genre-item"
+    >
+      Genre: Action, Adventure, Drama
+    </h5>
+    <div
+      className="tvshow-details"
+    >
+      <div
+        className="details__item"
+      >
+        <span>
+          Season:
+        </span>
+         
+        1
+      </div>
+      <div
+        className="details__item"
+      >
+        <span>
+          Episode:
+        </span>
+         
+        1
+      </div>
+      <div
+        className="details__item"
+      >
+        <span>
+          Episode Title:
+        </span>
+         
+        To kill a mockingbird
+      </div>
+    </div>
+    <div
+      className="item-desc details__item"
+    >
+      <span>
+        Description:
+      </span>
+       
+      You know nothing
+    </div>
+    <div
+      className="item-imdb"
+    >
+      <span>
+        IMDB:
+      </span>
+      <a
+        className="item-link"
+        href="https://www.lmcjt.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        https://www.lmcjt.com
+      </a>
+    </div>
+  </div>
+</div>
+`;

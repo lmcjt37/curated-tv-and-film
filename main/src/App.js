@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Events, animateScroll as scroll } from 'react-scroll';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFilter, faTimesCircle } from '@fortawesome/free-solid-svg-icons'
-
 import './App.css';
 import content from './content.js';
+import Header from './components/header.js';
+import Footer from './components/footer.js';
+import FilterBar from './components/filterBar.js';
+import Card from './components/card.js';
 
 var data = content;
 
@@ -108,111 +109,23 @@ class App extends Component {
   };
 
   render() {
-    let yearOptions = this.state.years.map((year, index) => (
-      <option key={index} value={year}>
-        {year}
-      </option>
-    ));
-
-    let genres = [
-      "All", "Action", "Adventure", "Animation", "Comedy", "Crime", "Drama",
-      "History", "Mystery", "Romance", "Sci-Fi", "Thriller", "Horror"
-    ];
-    let genreOptions = genres.map((genre, index) => (
-      <option key={index} value={genre}>
-        {genre}
-      </option>
-    ));
+    const {showFilters, searchString, filterResults, filterYear, filterGenre, years} = this.state;
 
     return (
       <div className="main-container">
-        <div className="header-container">
-          <div className="logo-container" onClick={this.goTop}>
-            <img
-              src="./assets/logo-128.png"
-              alt="Curated TV and Film logo"
-              className="logo-image"
-            />
-            <div className="logo-title">Curated TV and Film</div>
-          </div>
-          <div className="content-search">
-            <input
-              type="text"
-              className="form-control"
-              value={this.state.searchString}
-              onChange={this.handleChange}
-              placeholder="Search here"
-            />
-          </div>
-          <div className="filter-div">
-            {this.state.showFilters ? (
-                <span className="close-button" onClick={this.toggleFilter}>
-                  <FontAwesomeIcon icon={faTimesCircle} />
-                </span>) : (
-                <span className="filter-button" onClick={this.toggleFilter}>
-                  <FontAwesomeIcon icon={faFilter} />
-                </span>
-              )}
-          </div>
-        </div>
+        <Header 
+          {...{showFilters, searchString}}
+          handleChange={this.handleChange} 
+          goTop={this.goTop} 
+          toggleFilter={this.toggleFilter} 
+        />
         {this.state.showFilters ? (
-        <div className="filter-bar">
-          <div className="filter-bar__container">
-            <input
-              type="radio"
-              name="filterResults"
-              value="all"
-              checked={this.state.filterResults === "all"}
-              onChange={this.handleFilter}
-            />
-            <label htmlFor="filterAll" className="filter-labels">
-              All
-            </label>
-            <input
-              type="radio"
-              name="filterResults"
-              value="movies"
-              checked={this.state.filterResults === "movies"}
-              onChange={this.handleFilter}
-            />
-            <label htmlFor="filterMovies" className="filter-labels">
-              Movies
-            </label>
-            {this.state.filterResults === "movies" ? (
-              <select
-                value={this.state.filterYear}
-                onChange={this.handleYear}
-                className="filter-year"
-              >
-                <option disabled value="">
-                  - Year -
-                </option>
-                {yearOptions}
-              </select>
-            ) : null}
-            <input
-              type="radio"
-              name="filterResults"
-              value="tv"
-              checked={this.state.filterResults === "tv"}
-              onChange={this.handleFilter}
-            />
-            <label htmlFor="filterTV" className="filter-labels">
-              TV Series
-            </label>
-            <label htmlFor="filterGenre" className="filter-labels">
-              Genre
-            </label>
-            <select
-              type="select"
-              name="filterGenre"
-              selected={this.state.filterGenre}
-              onChange={this.handleGenre}
-            >
-              {genreOptions}
-            </select>
-          </div>
-        </div>) : null}
+          <FilterBar 
+            {...{filterResults, filterYear, filterGenre, years}}
+            handleGenre={this.handleGenre}
+            handleFilter={this.handleFilter}
+            handleYear={this.handleYear}
+          />) : null}
         <section className="app container">
           <main className="main-content">
             <div className="content-list">
@@ -239,58 +152,7 @@ class App extends Component {
 
                     return (
                       <li key={index}>
-                        <div className="item-card">
-                          <div className="item-thumbnail">
-                            <a
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              href={item.url}
-                            >
-                              <img
-                                src={item.thumbnail}
-                                alt={item.title}
-                                className="item-image"
-                              />
-                            </a>
-                          </div>
-                          <div className="item-info">
-                            <h2>
-                              {item.title}
-                              {item.year ? ' (' + item.year + ')' : ''}
-                            </h2>
-                            <h5 className="genre-item">
-                              {item.genre && `Genre: ${item.genre.join(", ")}`}
-                            </h5>
-                            {item.type === 'tv_show' && (
-                              <div className="tvshow-details">
-                                <div className="details__item">
-                                  <span>Season:</span> {item.season}
-                                </div>
-                                <div className="details__item">
-                                  <span>Episode:</span> {item.episode}
-                                </div>
-                                <div className="details__item">
-                                  <span>Episode Title:</span>{' '}
-                                  {item.episode_title}
-                                </div>
-                              </div>
-                            )}
-                            <div className="item-desc details__item">
-                              <span>Description:</span> {item.description}
-                            </div>
-                            <div className="item-imdb">
-                              <span>IMDB:</span>
-                              <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href={item.imdb}
-                                className="item-link"
-                              >
-                                {item.imdb}
-                              </a>
-                            </div>
-                          </div>
-                        </div>
+                        <Card {...item} />
                       </li>
                     );
                   })}
@@ -303,40 +165,7 @@ class App extends Component {
             </div>
           </main>
         </section>
-        <footer id="footer">
-          <div className="container">
-            <ul className="links">
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/lmcjt37/curated-tv-and-film"
-                >
-                  <span>Repository</span>
-                </a>
-              </li>
-              <li>|</li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors"
-                >
-                  <span>Contributors</span>
-                </a>
-              </li>
-            </ul>
-            <p className="version">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={process.env.REACT_APP_BUILD_URL}
-              >
-                build {process.env.REACT_APP_BUILD}
-              </a>
-            </p>
-          </div>
-        </footer>
+        <Footer />
       </div>
     );
   }
