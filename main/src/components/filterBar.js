@@ -20,6 +20,15 @@ export default class Header extends React.Component {
             </option>
         ));
 
+        let alpha = [
+            "", "Ascending", "Descending"
+        ];
+        let alphaOptions = alpha.map((alpha, index) => (
+            <option key={index} value={alpha}>
+                {alpha}
+            </option>
+        ));
+
         return (
             <div className="filter-bar">
                 <div className="filter-bar__container">
@@ -75,6 +84,17 @@ export default class Header extends React.Component {
                         onChange={this.props.handleGenre}
                     >
                     {genreOptions}
+                    </select>
+                    <label htmlFor="filterAlpha" className="filter-labels">
+                    Alphabetical Order
+                    </label>
+                    <select
+                        type="select"
+                        name="filterAlpha"
+                        selected={this.props.filterAlpha}
+                        onChange={this.props.handleAlpha}
+                    >
+                    {alphaOptions}
                     </select>
                 </div>
             </div>

@@ -245,14 +245,4 @@ var content = [
 	}
 ];
 
-//Sorts by titles
-content.sort(function(a, b){
-	var titleA=a.title.toLowerCase(), titleB=b.title.toLowerCase()
-    if (titleA < titleB) //sort string ascending
-        return -1 
-    if (titleA > titleB)
-        return 1
-    return 0 //default return value (no sorting)
-})
-
 export default content
