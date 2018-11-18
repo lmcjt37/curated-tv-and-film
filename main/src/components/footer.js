@@ -31,7 +31,7 @@ export default () => {
                 rel="noopener noreferrer"
                 href={process.env.REACT_APP_BUILD_URL}
             >
-                build {process.env.REACT_APP_BUILD}
+                build {process.env.REACT_APP_BUILD || "debug"}
             </a>
             </p>
         </div>

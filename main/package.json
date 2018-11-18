@@ -17,7 +17,7 @@
     "reactstrap": "^6.5.0"
   },
   "scripts": {
-    "start": "REACT_APP_BUILD=debug react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "prettier --write 'src/**/*.js'",
