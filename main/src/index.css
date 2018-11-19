@@ -34,16 +34,17 @@ h1 {
   line-height: initial;
 }
 
+/* Made font-weight normal as it fixes issue #166, which concerns with bold styles for genres */
 h2 {
   font-size: 2.4rem;
-  font-weight: 600;
+  font-weight: normal;
   letter-spacing: -0.4px;
   line-height: initial;
 }
 
 h3 {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: normal;
   letter-spacing: normal;
   font-style: normal;
   font-stretch: normal;
@@ -51,20 +52,20 @@ h3 {
 
 h4 {
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: normal;
   letter-spacing: normal;
   line-height: initial;
 }
 
 h5 {
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: normal;
   letter-spacing: 0.2px;
 }
 
 h6 {
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: normal;
   letter-spacing: 0.3px;
   line-height: initial;
 }
