@@ -15,12 +15,12 @@ class App extends Component {
     super(props);
 
     this.state = {
-      searchString: '',
-      content: content,
+      search: false,
+      content: data,
       showFilters: false,
-      filterResults: "all",
+      filterResults: 'all',
       filterYear: '',
-      filterGenre: "All",
+      filterGenre: 'All',
       onlyMovies: [],
       years: []
     };
@@ -43,21 +43,18 @@ class App extends Component {
   }
 
   handleChange = event => {
-    var searchString = event.target.value;
-    this.setState({ searchString: searchString });
-    searchString = searchString.trim().toLowerCase();
+    var searchString = event.target.value.trim().toLowerCase();
 
-    if (searchString.length > 0) {
-      var content = this.state.content;
-      if (this.state.content.length === 0) {
-        content = data;
-      }
-      var searchResult = content.filter(
+    if (searchString) {
+      var searchResult = data.filter(
         el =>
-          el.title.toLowerCase().match(searchString) || (el.year && el.year.toString().match(searchString))
+          el.title.toLowerCase().match(searchString) ||
+          (el.year && el.year.toString().match(searchString))
       );
+      this.setState({ search: true });
       this.setState({ content: searchResult });
     } else {
+      this.setState({ search: false });
       this.setState({ content: data });
     }
   };
@@ -97,35 +94,43 @@ class App extends Component {
   };
 
   handleGenre = event => {
-    this.setState({ filterGenre: event.target.value })
-  }
+    this.setState({ filterGenre: event.target.value });
+  };
 
   toggleFilter = () => {
-    this.setState({ showFilters: !this.state.showFilters })
-  }
+    this.setState({ showFilters: !this.state.showFilters });
+  };
 
   goTop = () => {
     scroll.scrollToTop();
   };
 
   render() {
-    const {showFilters, searchString, filterResults, filterYear, filterGenre, years} = this.state;
+    const {
+      showFilters,
+      search,
+      filterResults,
+      filterYear,
+      filterGenre,
+      years
+    } = this.state;
 
     return (
       <div className="main-container">
-        <Header 
-          {...{showFilters, searchString}}
-          handleChange={this.handleChange} 
-          goTop={this.goTop} 
-          toggleFilter={this.toggleFilter} 
+        <Header
+          {...{ showFilters, search }}
+          handleChange={this.handleChange}
+          goTop={this.goTop}
+          toggleFilter={this.toggleFilter}
         />
         {this.state.showFilters ? (
-          <FilterBar 
-            {...{filterResults, filterYear, filterGenre, years}}
+          <FilterBar
+            {...{ filterResults, filterYear, filterGenre, years }}
             handleGenre={this.handleGenre}
             handleFilter={this.handleFilter}
             handleYear={this.handleYear}
-          />) : null}
+          />
+        ) : null}
         <section className="app container">
           <main className="main-content">
             <div className="content-list">
@@ -133,17 +138,17 @@ class App extends Component {
                 <ul>
                   {this.state.content.map((item, index) => {
                     if (
-                      this.state.filterResults === "movies" &&
+                      this.state.filterResults === 'movies' &&
                       item.type !== 'movie'
                     )
                       return '';
                     if (
-                      this.state.filterResults === "tv" &&
+                      this.state.filterResults === 'tv' &&
                       item.type !== 'tv_show'
                     )
                       return '';
                     if (
-                      this.state.filterGenre !== "All" &&
+                      this.state.filterGenre !== 'All' &&
                       !item.genre.some(
                         genre => genre === this.state.filterGenre
                       )
@@ -157,7 +162,7 @@ class App extends Component {
                     );
                   })}
                 </ul>
-              ) : this.state.searchString ? (
+              ) : this.state.search ? (
                 <p>No search result</p>
               ) : (
                 <p>Can't load the data.</p>
