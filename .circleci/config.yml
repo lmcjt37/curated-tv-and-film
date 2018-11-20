@@ -21,7 +21,7 @@ jobs:
           name: Run linting
           command: cd main && npm run lint
 
-  build_and_test:
+  test:
     docker:
       - image: circleci/node:latest
     steps:
@@ -41,7 +41,7 @@ jobs:
           name: Run tests
           command: cd main && npm test
 
-  deploy:
+  build_and_deploy:
     docker:
       - image: circleci/node:latest
     steps:
@@ -79,15 +79,15 @@ workflows:
           filters:
             branches:
               ignore: gh-pages
-      - build_and_test:
+      - test:
           requires:
             - lint
           filters:
             branches:
               ignore: gh-pages
-      - deploy:
+      - build_and_deploy:
           requires:
-            - build_and_test
+            - test
           filters:
             branches:
               only: master
