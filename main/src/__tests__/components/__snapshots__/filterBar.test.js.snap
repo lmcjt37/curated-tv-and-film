@@ -122,6 +122,32 @@ exports[`snapshot of initial component 1`] = `
         Horror
       </option>
     </select>
+    <label
+      className="filter-labels"
+      htmlFor="filterAlpha"
+    >
+      Alphabetical Order
+    </label>
+    <select
+      name="filterAlpha"
+      type="select"
+    >
+      <option
+        value=""
+      >
+        
+      </option>
+      <option
+        value="Ascending"
+      >
+        Ascending
+      </option>
+      <option
+        value="Descending"
+      >
+        Descending
+      </option>
+    </select>
   </div>
 </div>
 `;
