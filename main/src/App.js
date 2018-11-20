@@ -118,7 +118,6 @@ class App extends Component {
       filterResults,
       filterYear,
       filterGenre,
-      filterAlpha,
       years
     } = this.state;
     var mContent = this.state.content;
