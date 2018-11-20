@@ -1764,6 +1764,7 @@ exports[`snapshot changes when input change 1`] = `
           target="_blank"
         >
           build 
+          debug
         </a>
       </p>
     </div>
