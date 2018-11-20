@@ -119,10 +119,10 @@ class App extends Component {
       filterYear,
       filterGenre,
       filterAlpha,
-      years,
-      content as mContent
+      years
     } = this.state;
-
+    var mContent = this.state.content;
+	  
     return (
       <div className="main-container">
         <Header
