@@ -39,7 +39,7 @@ jobs:
           key: v1-dependencies-{{ checksum "main/package.json" }}
       - run:
           name: Run tests
-          command: cd main && npm test
+          command: cd main && npm run test::CI
 
   build_and_deploy:
     docker:
