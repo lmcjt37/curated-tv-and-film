@@ -20,8 +20,20 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test::CI": "CI=true react-scripts test",
     "lint": "prettier --write 'src/**/*.js'",
     "deploy": "gh-pages -d build --dotfiles"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && npm run test::CI"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,6 +46,8 @@
   ],
   "devDependencies": {
     "eslint-plugin-prettier": "^3.0.0",
+    "husky": "^1.1.4",
+    "lint-staged": "^8.0.5",
     "prettier": "1.14.3"
   }
 }
