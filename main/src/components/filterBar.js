@@ -39,6 +39,7 @@ export default class Header extends React.Component {
     return (
       <div className="filter-bar">
         <div className="filter-bar__container">
+          <label className="filter-labels-bold">Filter:</label>
           <input
             type="radio"
             name="filterResults"
@@ -92,8 +93,8 @@ export default class Header extends React.Component {
           >
             {genreOptions}
           </select>
-          <label htmlFor="filterAlpha" className="filter-labels">
-            Alphabetical Order
+          <label htmlFor="filterAlpha" className="filter-labels-bold">
+            Sort:
           </label>
           <select
             type="select"
