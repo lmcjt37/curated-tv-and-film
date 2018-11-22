@@ -20,8 +20,8 @@ class App extends Component {
       showFilters: false,
       filterResults: 'all',
       filterYear: '',
-      filterGenre: "All",
-      filterAlpha: "",
+      filterGenre: 'All',
+      filterAlpha: 'Ascending',
       onlyMovies: [],
       years: []
     };
@@ -100,8 +100,8 @@ class App extends Component {
   };
 
   handleAlpha = event => {
-    this.setState({ filterAlpha: event.target.value })
-  }
+    this.setState({ filterAlpha: event.target.value });
+  };
 
   toggleFilter = () => {
     this.setState({ showFilters: !this.state.showFilters });
@@ -121,7 +121,7 @@ class App extends Component {
       years
     } = this.state;
     var mContent = this.state.content;
-	  
+
     return (
       <div className="main-container">
         <Header
@@ -144,34 +144,33 @@ class App extends Component {
             <div className="content-list">
               {mContent.length ? (
                 <ul>
-                  
-                  { this.state.filterAlpha === "Ascending" &&
+                  {this.state.filterAlpha === 'Ascending' &&
                     //sort alphabetically ascending
-                    mContent.sort(function(a, b){
-	                    var titleA=a.title.toLowerCase(), titleB=b.title.toLowerCase()
-                        if (titleA < titleB)
-                          return -1 
-                        if (titleA > titleB)
-                          return 1
-                      return 0
-                    }).map(() => {
-                      return '';
+                    mContent
+                      .sort(function(a, b) {
+                        var titleA = a.title.toLowerCase(),
+                          titleB = b.title.toLowerCase();
+                        if (titleA < titleB) return -1;
+                        if (titleA > titleB) return 1;
+                        return 0;
+                      })
+                      .map(() => {
+                        return '';
+                      })}
 
-                    })}
-
-                    { this.state.filterAlpha === "Descending" &&
+                  {this.state.filterAlpha === 'Descending' &&
                     //sort alphabetically descending
-                    mContent.sort(function(a, b){
-	                    var titleA=a.title.toLowerCase(), titleB=b.title.toLowerCase()
-                        if (titleA > titleB)
-                          return -1 
-                        if (titleA < titleB)
-                          return 1
-                      return 0
-                    }).map(() => {
-                      return '';
-
-                    })}
+                    mContent
+                      .sort(function(a, b) {
+                        var titleA = a.title.toLowerCase(),
+                          titleB = b.title.toLowerCase();
+                        if (titleA > titleB) return -1;
+                        if (titleA < titleB) return 1;
+                        return 0;
+                      })
+                      .map(() => {
+                        return '';
+                      })}
 
                   {mContent.map((item, index) => {
                     if (
@@ -198,7 +197,6 @@ class App extends Component {
                       </li>
                     );
                   })}
-                  
                 </ul>
               ) : this.state.search ? (
                 <p>No search result</p>

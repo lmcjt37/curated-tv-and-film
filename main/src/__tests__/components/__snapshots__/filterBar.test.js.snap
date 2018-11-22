@@ -133,11 +133,6 @@ exports[`snapshot of initial component 1`] = `
       type="select"
     >
       <option
-        value=""
-      >
-        
-      </option>
-      <option
         value="Ascending"
       >
         Ascending
