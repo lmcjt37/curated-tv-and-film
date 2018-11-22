@@ -8,12 +8,9 @@ These scenes are carefully picked out moments, ignoring bias of any opinions or 
 
 ## Features
 
-* React and js
-* Stylesheets can be CSS, Grid, Flex, bootstrap.
-* Embedded resources like images or fonts use DataUrls if appropriate.
-* Development
-  * Development server
-  * Optionally Hot Module Replacement development server (LiveReload for Stylesheets and React components enabled)
+* React and Javascript(built with Create-React-App).
+* Development server with Hot module reload.
+* Jest testing with snapshot testing.
 
 ## Local Installation
 
@@ -26,7 +23,9 @@ git clone https://github.com/lmcjt37/curated-tv-and-film.git
 npm install
 ```
 
-### Development server
+### Development
+
+Make sure you are in the `./main` directory.
 
 Start the local development server by running
 
@@ -34,14 +33,13 @@ Start the local development server by running
 npm start
 ```
 
-Then open this url in your browser if it doesn't open automatically.
-http://localhost:3000/
+The webpage will open automatically, otherwise navigate to http://localhost:3000/ in your browser.
 
-_It automatically recompiles and refreshes the page when files are changed._
+_Hot Module reload causes the server to automatically detect file changes and reload the project._
 
 ## Project structure
 
-The boilerplate structure and files are the same as this repo minus the bin folder, everything else is exactly the same.
+The boilerplate structure is the same as what is created in Create-React-App, but the working directory for the project lives inside `./main`
 
 ```
 ./main
@@ -70,10 +68,34 @@ The boilerplate structure and files are the same as this repo minus the bin fold
 The JavaScript files can be prettyfied using [Prettier](https://github.com/prettier/prettier) with the following command:
 
 ``` bash
-cd main && npm run lint (yarn run lint)
+npm run lint (yarn run lint)
 ```
 
 Configuration for Prettier is found in [.prettierrc](./main/.prettierrc).
+
+The project also has pre-commit hooks for when code is commited to your local branches that will trigger this linting across the project.
+
+## Testing
+
+### Jest
+
+Tests are found in `./main/src/__tests__` and to run tests across the project use the following command:
+
+``` bash
+npm test (yarn test)
+```
+
+This will start the tests with watch mode active, meaning it will automatically detect file changes and re-test. Initially it will only test files which have changed, to test all files you will be prompted to press 'a'.
+
+You can navigate the command prompt by pressing 'w', which will present you with the available commands.
+
+## Snapshots
+
+Along with the Jest tests are snapshots. These are essentially for UI testing how your components are rendered. Any unexpected changes to your components will cause the snapshot tests to fail.
+
+Provided that the components have been rendered correctly, you can fix and update the snapshot tests by pressing 'u' whilst the watch mode is being run. This will then update and re-run the tests to show you the passing state of your tests.
+
+_Tests are also run on a pre-commit hook to make sure tests are updated along with commits and don't break the build._
 
 ## Contribution
 Feel free to contribute by reading the guidelines - [Contributing](CONTRIBUTING.md)
