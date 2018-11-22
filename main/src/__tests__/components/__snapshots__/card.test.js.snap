@@ -26,11 +26,20 @@ exports[`snapshot of initial component 1`] = `
       Mock of Thrones
       
     </h2>
-    <h5
-      className="genre-item"
+    <span
+      className="genre-container"
     >
-      Genre: Action, Adventure, Drama
-    </h5>
+      <h5
+        className="genre-title"
+      >
+        Genre:
+      </h5>
+      <span
+        className="genre-item"
+      >
+        Action, Adventure, Drama
+      </span>
+    </span>
     <div
       className="tvshow-details"
     >

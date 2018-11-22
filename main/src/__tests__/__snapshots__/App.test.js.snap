@@ -116,11 +116,20 @@ exports[`snapshot changes when input change 1`] = `
                   Fight Club
                    (1999)
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Drama
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Drama
+                  </span>
+                </span>
                 <div
                   className="item-desc details__item"
                 >
@@ -174,11 +183,20 @@ exports[`snapshot changes when input change 1`] = `
                   Friends
                   
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Comedy, Romance
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Comedy, Romance
+                  </span>
+                </span>
                 <div
                   className="tvshow-details"
                 >
@@ -263,11 +281,20 @@ exports[`snapshot changes when input change 1`] = `
                   Game of Thrones
                   
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Action, Adventure, Drama
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Action, Adventure, Drama
+                  </span>
+                </span>
                 <div
                   className="tvshow-details"
                 >
@@ -352,11 +379,20 @@ exports[`snapshot changes when input change 1`] = `
                   Get Out
                    (2017)
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Horror, Mystery, Thriller
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Horror, Mystery, Thriller
+                  </span>
+                </span>
                 <div
                   className="item-desc details__item"
                 >
@@ -410,11 +446,20 @@ exports[`snapshot changes when input change 1`] = `
                   House
                   
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Drama, Mystery
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Drama, Mystery
+                  </span>
+                </span>
                 <div
                   className="tvshow-details"
                 >
@@ -499,11 +544,20 @@ exports[`snapshot changes when input change 1`] = `
                   How I Met Your Mother
                   
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Comedy, Romance
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Comedy, Romance
+                  </span>
+                </span>
                 <div
                   className="tvshow-details"
                 >
@@ -588,11 +642,20 @@ exports[`snapshot changes when input change 1`] = `
                   Interstellar
                    (2014)
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Adventure, Drama, Sci-Fi
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Adventure, Drama, Sci-Fi
+                  </span>
+                </span>
                 <div
                   className="item-desc details__item"
                 >
@@ -646,11 +709,20 @@ exports[`snapshot changes when input change 1`] = `
                   Kill Bill: Vol 1
                    (2003)
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Action, Crime, Thriller
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Action, Crime, Thriller
+                  </span>
+                </span>
                 <div
                   className="item-desc details__item"
                 >
@@ -704,11 +776,20 @@ exports[`snapshot changes when input change 1`] = `
                   Kingsman: The Secret Service
                    (2014)
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Action, Adventure, Comedy
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Action, Adventure, Comedy
+                  </span>
+                </span>
                 <div
                   className="item-desc details__item"
                 >
@@ -762,11 +843,20 @@ exports[`snapshot changes when input change 1`] = `
                   Mr.Robot
                   
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Crime, Drama, Thriller
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Crime, Drama, Thriller
+                  </span>
+                </span>
                 <div
                   className="tvshow-details"
                 >
@@ -851,11 +941,20 @@ exports[`snapshot changes when input change 1`] = `
                   Oldboy
                    (2003)
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Action, Drama, Mystery
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Action, Drama, Mystery
+                  </span>
+                </span>
                 <div
                   className="item-desc details__item"
                 >
@@ -909,11 +1008,20 @@ exports[`snapshot changes when input change 1`] = `
                   Olympus has fallen
                    (2013)
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Action, Thriller
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Action, Thriller
+                  </span>
+                </span>
                 <div
                   className="item-desc details__item"
                 >
@@ -967,11 +1075,20 @@ exports[`snapshot changes when input change 1`] = `
                   Rick and Morty
                   
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Animation, Adventure, Comedy, Sci-Fi
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Animation, Adventure, Comedy, Sci-Fi
+                  </span>
+                </span>
                 <div
                   className="tvshow-details"
                 >
@@ -1056,11 +1173,20 @@ exports[`snapshot changes when input change 1`] = `
                   Sherlock
                   
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Crime, Drama, Mystery
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Crime, Drama, Mystery
+                  </span>
+                </span>
                 <div
                   className="tvshow-details"
                 >
@@ -1145,11 +1271,20 @@ exports[`snapshot changes when input change 1`] = `
                   Silicon Valley
                   
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Comedy
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Comedy
+                  </span>
+                </span>
                 <div
                   className="tvshow-details"
                 >
@@ -1234,11 +1369,20 @@ exports[`snapshot changes when input change 1`] = `
                   Suits
                   
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Comedy, Drama
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Comedy, Drama
+                  </span>
+                </span>
                 <div
                   className="tvshow-details"
                 >
@@ -1323,11 +1467,20 @@ exports[`snapshot changes when input change 1`] = `
                   The Godfather
                    (1972)
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Crime, Drama
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Crime, Drama
+                  </span>
+                </span>
                 <div
                   className="item-desc details__item"
                 >
@@ -1381,11 +1534,20 @@ exports[`snapshot changes when input change 1`] = `
                   The Matrix
                    (1999)
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Action, Sci-Fi
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Action, Sci-Fi
+                  </span>
+                </span>
                 <div
                   className="item-desc details__item"
                 >
@@ -1439,11 +1601,20 @@ exports[`snapshot changes when input change 1`] = `
                   The Newsroom
                   
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Drama, History
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Drama, History
+                  </span>
+                </span>
                 <div
                   className="tvshow-details"
                 >
@@ -1528,11 +1699,20 @@ exports[`snapshot changes when input change 1`] = `
                   The Office
                   
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Comedy
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Comedy
+                  </span>
+                </span>
                 <div
                   className="tvshow-details"
                 >
@@ -1617,11 +1797,20 @@ exports[`snapshot changes when input change 1`] = `
                   The Walking Dead
                   
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Drama, Horror, Action
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Drama, Horror, Action
+                  </span>
+                </span>
                 <div
                   className="tvshow-details"
                 >
@@ -1706,11 +1895,20 @@ exports[`snapshot changes when input change 1`] = `
                   There Will Be Blood
                    (2007)
                 </h2>
-                <h5
-                  className="genre-item"
+                <span
+                  className="genre-container"
                 >
-                  Genre: Drama
-                </h5>
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Drama
+                  </span>
+                </span>
                 <div
                   className="item-desc details__item"
                 >
