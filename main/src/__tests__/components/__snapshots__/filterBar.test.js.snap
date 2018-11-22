@@ -7,6 +7,11 @@ exports[`snapshot of initial component 1`] = `
   <div
     className="filter-bar__container"
   >
+    <label
+      className="filter-labels-bold"
+    >
+      Filter:
+    </label>
     <input
       checked={false}
       name="filterResults"
@@ -123,10 +128,10 @@ exports[`snapshot of initial component 1`] = `
       </option>
     </select>
     <label
-      className="filter-labels"
+      className="filter-labels-bold"
       htmlFor="filterAlpha"
     >
-      Alphabetical Order
+      Sort:
     </label>
     <select
       name="filterAlpha"
