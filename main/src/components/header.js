@@ -1,10 +1,9 @@
 import React from 'react';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFilter, faTimesCircle } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSlidersH, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 
 export default class Header extends React.Component {
-
   render() {
     return (
       <div className="header-container">
@@ -28,13 +27,14 @@ export default class Header extends React.Component {
           {this.props.showFilters ? (
             <span className="close-button" onClick={this.props.toggleFilter}>
               <FontAwesomeIcon icon={faTimesCircle} />
-                    </span>) : (
+            </span>
+          ) : (
             <span className="filter-button" onClick={this.props.toggleFilter}>
-              <FontAwesomeIcon icon={faFilter} />
+              <FontAwesomeIcon icon={faSlidersH} />
             </span>
           )}
         </div>
       </div>
-        )
+    );
   }
 }
