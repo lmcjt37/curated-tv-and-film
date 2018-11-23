@@ -90,6 +90,7 @@ exports[`snapshot changes when input change 1`] = `
           
           
           
+          
           <li>
             <div
               className="item-card"
@@ -152,6 +153,73 @@ exports[`snapshot changes when input change 1`] = `
                     target="_blank"
                   >
                     https://www.imdb.com/title/tt0137523/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=v3qlBM9vAW8"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Forrest Gump"
+                    className="item-image"
+                    src="./assets/images/forrest-gump.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Forrest Gump
+                   (1994)
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Drama, Romance
+                  </span>
+                </span>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  A young Forrest Gump, still sporting his leg braces, get's picked on and chased by some local bullies. As he's chased, his childhood friend Jenny shouts the iconic quote "Run, Forrest! Run!
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt0109830/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0109830/
                   </a>
                 </div>
               </div>
