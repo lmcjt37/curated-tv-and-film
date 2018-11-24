@@ -91,6 +91,7 @@ exports[`snapshot changes when input change 1`] = `
           
           
           
+          
           <li>
             <div
               className="item-card"
@@ -1308,6 +1309,73 @@ exports[`snapshot changes when input change 1`] = `
                     target="_blank"
                   >
                     https://www.imdb.com/title/tt1665071/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=vKTd-N4djSY"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Shrek"
+                    className="item-image"
+                    src="./assets/images/shrek.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Shrek
+                   (2001)
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Animation, Adventure, Comedy
+                  </span>
+                </span>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Shrek and Donkey arrive at Duloc to demand Farquaad gives Shrek his swamp back. With hardly anyone around they go to the information booth.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt0126029/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0126029/
                   </a>
                 </div>
               </div>
