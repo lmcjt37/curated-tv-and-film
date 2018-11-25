@@ -1841,25 +1841,10 @@ exports[`snapshot changes when input change 1`] = `
           </li>
           <li>
             <div
-              className="item-card"
+              className="item-card-multi"
             >
               <div
-                className="item-thumbnail"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=d3LDG5CCOPQ"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="The Walking Dead"
-                    className="item-image"
-                    src="./assets/images/walking-dead.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
+                className="item-header"
               >
                 <h2>
                   The Walking Dead
@@ -1879,60 +1864,159 @@ exports[`snapshot changes when input change 1`] = `
                     Drama, Horror, Action
                   </span>
                 </span>
+              </div>
+              <div
+                className="item-card__row"
+              >
                 <div
-                  className="tvshow-details"
+                  className="item-thumbnail"
                 >
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Season:
-                    </span>
-                     
-                    7
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode:
-                    </span>
-                     
-                    1
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode Title:
-                    </span>
-                     
-                    The Day Will Come When You Won't Be 
-                  </div>
-                </div>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  The Saviours have captured Rick and the group. They kneel at the mercy of Negan who makes an example of 2 of the groups members. Not for the faint of heart.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
                   <a
-                    className="item-link"
-                    href="https://www.imdb.com/title/tt5164772/"
+                    href="https://www.youtube.com/watch?v=ZxmWhlidAZ8"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    https://www.imdb.com/title/tt5164772/
+                    <img
+                      className="item-image"
+                      src="./assets/images/walking-dead.jpg"
+                    />
                   </a>
+                </div>
+                <div
+                  className="item-info"
+                >
+                  <div
+                    className="tvshow-details"
+                  >
+                    <div
+                      className="details__item"
+                    >
+                      <span>
+                        Season:
+                      </span>
+                       
+                      1
+                    </div>
+                    <div
+                      className="details__item"
+                    >
+                      <span>
+                        Episode:
+                      </span>
+                       
+                      2
+                    </div>
+                    <div
+                      className="details__item"
+                    >
+                      <span>
+                        Episode Title:
+                      </span>
+                       
+                      Guts
+                    </div>
+                  </div>
+                  <div
+                    className="item-desc details__item"
+                  >
+                    <span>
+                      Description:
+                    </span>
+                     
+                    Following on from where Rick Grimes wakes up from a coma and tries to find his family. He gets to Atlanta, surrounded by walkers, he is thrown from his horse and ends up in a tank. This is where someone on the walkie talkie, Glenn, helps him out of the tight situation.
+                  </div>
+                  <div
+                    className="item-imdb"
+                  >
+                    <span>
+                      IMDB:
+                    </span>
+                    <a
+                      className="item-link"
+                      href="https://www.imdb.com/title/tt1628064/?ref_=ttep_ep2"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      https://www.imdb.com/title/tt1628064/?ref_=ttep_ep2
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="item-card__row"
+              >
+                <div
+                  className="item-thumbnail"
+                >
+                  <a
+                    href="https://www.youtube.com/watch?v=d3LDG5CCOPQ"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      className="item-image"
+                      src="./assets/images/walking-dead.jpg"
+                    />
+                  </a>
+                </div>
+                <div
+                  className="item-info"
+                >
+                  <div
+                    className="tvshow-details"
+                  >
+                    <div
+                      className="details__item"
+                    >
+                      <span>
+                        Season:
+                      </span>
+                       
+                      7
+                    </div>
+                    <div
+                      className="details__item"
+                    >
+                      <span>
+                        Episode:
+                      </span>
+                       
+                      1
+                    </div>
+                    <div
+                      className="details__item"
+                    >
+                      <span>
+                        Episode Title:
+                      </span>
+                       
+                      The Day Will Come When You Won't Be
+                    </div>
+                  </div>
+                  <div
+                    className="item-desc details__item"
+                  >
+                    <span>
+                      Description:
+                    </span>
+                     
+                    The Saviours have captured Rick and the group. They kneel at the mercy of Negan who makes an example of 2 of the groups members. Not for the faint of heart.
+                  </div>
+                  <div
+                    className="item-imdb"
+                  >
+                    <span>
+                      IMDB:
+                    </span>
+                    <a
+                      className="item-link"
+                      href="https://www.imdb.com/title/tt5164772/?ref_=ttep_ep1"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      https://www.imdb.com/title/tt5164772/?ref_=ttep_ep1
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

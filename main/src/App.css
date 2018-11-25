@@ -130,6 +130,11 @@ ul li {
   padding: 2rem;
 }
 
+.item-card__row {
+  display: flex;
+  margin-top: 2rem;
+}
+
 .item-thumbnail {
   max-width: 30%;
   min-width: 175px;
@@ -224,6 +229,10 @@ footer#footer .version {
     display: flex;
   }
 
+  .item-card-multi {
+    display: block;
+  }
+
   .item-thumbnail {
     margin-right: 30px;
   }
@@ -271,6 +280,11 @@ footer#footer .version {
 
   .content-list ul li + li {
     margin-top: 30px;
+  }
+
+  .item-card__row {
+    display: block;
+    margin-left: 0;
   }
 
   .item-image {

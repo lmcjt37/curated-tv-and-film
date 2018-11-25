@@ -7,6 +7,7 @@ import Header from './components/header.js';
 import Footer from './components/footer.js';
 import FilterBar from './components/filterBar.js';
 import Card from './components/card.js';
+import MultiCard from './components/multiCard';
 
 var data = content;
 
@@ -193,7 +194,11 @@ class App extends Component {
 
                     return (
                       <li key={index}>
-                        <Card {...item} />
+                        {item.content ? (
+                          <MultiCard {...item} />
+                        ) : (
+                          <Card {...item} />
+                        )}
                       </li>
                     );
                   })}
