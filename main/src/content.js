@@ -288,6 +288,17 @@ var content = [
     url: 'https://www.youtube.com/watch?v=v3qlBM9vAW8',
     thumbnail: './assets/images/forrest-gump.jpg',
     genre: ['Drama', 'Romance']
+  },
+  {
+    type: 'movie',
+    title: 'Shrek',
+    description:
+      'Shrek and Donkey arrive at Duloc to demand Farquaad gives Shrek his swamp back. With hardly anyone around they go to the information booth.',
+    year: 2001,
+    imdb: 'https://www.imdb.com/title/tt0126029/',
+    url: 'https://www.youtube.com/watch?v=vKTd-N4djSY',
+    thumbnail: './assets/images/shrek.jpg',
+    genre: ['Animation', 'Adventure', 'Comedy']
   }
 ];
 
