@@ -35,7 +35,9 @@ The image that is added to support the content should be a JPEG and added to the
 * Thriller
 * Horror
 
-## TV Shows
+## Individual cards
+
+### TV Shows
 
 ```
 {
@@ -52,7 +54,7 @@ The image that is added to support the content should be a JPEG and added to the
 }
 ```
 
-## Films
+### Films
 
 ```
 {
@@ -64,6 +66,44 @@ The image that is added to support the content should be a JPEG and added to the
   url: "https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE}",
   thumbnail: "{IMAGE_ASSET_FILENAME}.jpg",
   genre: [<genre>]
+}
+```
+
+## Multi cards
+
+### TV Shows
+
+```
+{
+  type: "tv_show",
+  title: "{TV_TITLE}",
+  genre: [<genre>],
+  content: [
+    description: "{DESCRIPTION}",
+    season: {SEASON_NUMBER},
+    episode: {EPISODE_NUMBER},
+    episode_title: "{EPISODE_TITLE}",
+    imdb: "{IMDB_URL_FOR_SHOW_EPISODE}",
+    url: "https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE}",
+    thumbnail: "{IMAGE_ASSET_FILENAME}.jpg"
+  ]
+}
+```
+
+### Films
+
+```
+{
+  type: "movie",
+  title: "{FILM TITLE HERE}",
+  genre: [<genre>],
+  content: [
+    description: "{DESCRIPTION}",
+    year: {FILM_YEAR},
+    imdb: "{IMDB_URL_HERE}",
+    url: "https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE}",
+    thumbnail: "{IMAGE_ASSET_FILENAME}.jpg"
+  ]
 }
 ```
 
