@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/curated-tv-and-film/precache-manifest.8ca1e356b1eee1fb1b01c2c8e09b34a9.js"
+  "/curated-tv-and-film/precache-manifest.b26796c40654a3637eb93cfd779cc061.js"
 );
 
 workbox.clientsClaim();
