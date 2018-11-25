@@ -17,7 +17,10 @@ export default item => {
       </div>
       {item.content.map((row, index) => {
         return (
-          <div className="item-card__row" key={index}>
+          <div
+            className={`item-card__row ${index === 0 ? '' : 'item-card__hr'}`}
+            key={index}
+          >
             <div className="item-thumbnail">
               <a target="_blank" rel="noopener noreferrer" href={row.url}>
                 <img

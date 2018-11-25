@@ -12,7 +12,7 @@ var content = [
         episode_title: 'Guts',
         imdb: 'https://www.imdb.com/title/tt1628064/?ref_=ttep_ep2',
         url: 'https://www.youtube.com/watch?v=ZxmWhlidAZ8',
-        thumbnail: './assets/images/walking-dead.jpg'
+        thumbnail: './assets/images/walking-dead_1_2.jpg'
       },
       {
         description:
@@ -22,7 +22,7 @@ var content = [
         episode_title: "The Day Will Come When You Won't Be",
         imdb: 'https://www.imdb.com/title/tt5164772/?ref_=ttep_ep1',
         url: 'https://www.youtube.com/watch?v=d3LDG5CCOPQ',
-        thumbnail: './assets/images/walking-dead.jpg'
+        thumbnail: './assets/images/walking-dead_7_1.jpg'
       }
     ]
   },

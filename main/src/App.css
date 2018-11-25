@@ -135,6 +135,11 @@ ul li {
   margin-top: 2rem;
 }
 
+.item-card__hr {
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
+}
+
 .item-thumbnail {
   max-width: 30%;
   min-width: 175px;

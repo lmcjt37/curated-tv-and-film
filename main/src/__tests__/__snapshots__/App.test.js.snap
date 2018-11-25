@@ -1866,7 +1866,7 @@ exports[`snapshot changes when input change 1`] = `
                 </span>
               </div>
               <div
-                className="item-card__row"
+                className="item-card__row "
               >
                 <div
                   className="item-thumbnail"
@@ -1878,7 +1878,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <img
                       className="item-image"
-                      src="./assets/images/walking-dead.jpg"
+                      src="./assets/images/walking-dead_1_2.jpg"
                     />
                   </a>
                 </div>
@@ -1943,7 +1943,7 @@ exports[`snapshot changes when input change 1`] = `
                 </div>
               </div>
               <div
-                className="item-card__row"
+                className="item-card__row item-card__hr"
               >
                 <div
                   className="item-thumbnail"
@@ -1955,7 +1955,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <img
                       className="item-image"
-                      src="./assets/images/walking-dead.jpg"
+                      src="./assets/images/walking-dead_7_1.jpg"
                     />
                   </a>
                 </div>
