@@ -299,6 +299,17 @@ var content = [
     url: 'https://www.youtube.com/watch?v=vKTd-N4djSY',
     thumbnail: './assets/images/shrek.jpg',
     genre: ['Animation', 'Adventure', 'Comedy']
+  },
+  {
+    type: 'movie',
+    title: 'Armageddon',
+    description:
+      'After drawing straws with A.J. (Ben Affleck) at the losing end, Harry (Bruce Willis) turns the tables and decides to sacrifice himself instead.',
+    year: 1998,
+    imdb: 'https://www.imdb.com/title/tt0120591/',
+    url: 'https://www.youtube.com/watch?v=OYcTmiCtCv8',
+    thumbnail: './assets/images/armageddon.jpg',
+    genre: ['Action', 'Adventure', 'Sci-Fi']
   }
 ];
 
