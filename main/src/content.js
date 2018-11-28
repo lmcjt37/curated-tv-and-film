@@ -310,6 +310,19 @@ var content = [
     url: 'https://www.youtube.com/watch?v=OYcTmiCtCv8',
     thumbnail: './assets/images/armageddon.jpg',
     genre: ['Action', 'Adventure', 'Sci-Fi']
+  },
+  {
+    type: 'tv_show',
+    title: 'Archer',
+    description:
+      "When Archer discovers the chemotherapy drugs he's been taking for his breast cancer are counterfeit, he sets out to destroy the criminals behind the scheme.",
+    season: 2,
+    episode: 9,
+    episode_title: 'Placebo Effect',
+    imdb: 'https://www.imdb.com/title/tt1883469/',
+    url: 'https://www.youtube.com/watch?v=UeBt26IHIzU',
+    thumbnail: './assets/images/archer.jpg',
+    genre: ['Animation', 'Action', 'Comedy']
   }
 ];
 

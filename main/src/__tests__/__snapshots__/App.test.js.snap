@@ -93,6 +93,105 @@ exports[`snapshot changes when input change 1`] = `
           
           
           
+          
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=UeBt26IHIzU"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Archer"
+                    className="item-image"
+                    src="./assets/images/archer.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Archer
+                  
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Animation, Action, Comedy
+                  </span>
+                </span>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    2
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    9
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    Placebo Effect
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  When Archer discovers the chemotherapy drugs he's been taking for his breast cancer are counterfeit, he sets out to destroy the criminals behind the scheme.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt1883469/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt1883469/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
           <li>
             <div
               className="item-card"
