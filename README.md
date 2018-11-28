@@ -89,7 +89,7 @@ This will start the tests with watch mode active, meaning it will automatically 
 
 You can navigate the command prompt by pressing 'w', which will present you with the available commands.
 
-## Snapshots
+### Snapshots
 
 Along with the Jest tests are snapshots. These are essentially for UI testing how your components are rendered. Any unexpected changes to your components will cause the snapshot tests to fail.
 
