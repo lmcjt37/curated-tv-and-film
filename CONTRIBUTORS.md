@@ -64,3 +64,18 @@
 - Role: Contributor
 - Place: London, UK
 - GitHub: [danielandro](https://github.com/danielandro)
+
+#### Name: [Rodrigo Nascimento](https://rodrigocnascimento.github.io/)
+- Role: Contributor
+- Place: Sao Paulo, BR, Brasil
+- GitHub: [rodrigocnascimento](https://github.com/rodrigocnascimento/)
+
+#### Name: [Matthew Carpenter](https://github.com/diddy225)
+- Role: Contributor
+- Place: Atlanta, GA
+- GitHub: [diddy225](https://github.com/diddy225)
+
+#### Name: [Nemanja Glumac](https://glumac.me)
+- Role: Contributor
+- Place: Ljubljana, Slovenia
+- GitHub: [nemanjaglumac](https://github.com/nemanjaglumac)

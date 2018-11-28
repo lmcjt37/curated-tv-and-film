@@ -8,8 +8,8 @@ html {
   font-size: 10px;
 }
 body {
-  font-family: "Source Sans Pro", sans-serif;
-  color: rgb(var(--dark-persian-blue));
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #404040;
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 1.6;
@@ -19,11 +19,6 @@ body {
 
 #root {
   height: 100%;
-}
-
-.rootContainer {
-  height: 100%;
-  overflow: hidden;
 }
 
 /* style guide common character css */
@@ -69,17 +64,7 @@ h6 {
   line-height: initial;
 }
 
-.input {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.5rem;
-  letter-spacing: 0.3px;
-  border-radius: 3px;
-  padding: 0 1rem;
-  border: 1px solid rgba(var(--dusk), 0.6);
-}
-
-label,
-.label {
+label {
   font-size: 1.3rem;
   font-weight: 300;
   line-height: 1.6;
@@ -89,41 +74,14 @@ label,
 input::placeholder {
   font-size: 1.3rem;
   letter-spacing: 0.3px;
-  color: rgb(var(--bluey-grey));
+  color: #bdc3c7;
 }
 
 small {
   font-size: 1.2rem;
   font-weight: normal;
   letter-spacing: 0.2px;
-  color: rgb(var(--bluey-grey));
-}
-
-.link {
-  color: rgb(var(--dodger-blue));
-  cursor: pointer;
-}
-
-.truncate {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-  -webkit-box-orient: vertical;
-  box-orient: vertical;
-}
-
-.filter-labels {
-  padding: 1rem 1rem 0;
-}
-
-.filter-year {
-  margin-right: 8px;
-}
-
-.filter-div {
-  margin: 1em;
+  color: #bdc3c7;
 }
 
 @media only screen and (min-width: 1600px) {

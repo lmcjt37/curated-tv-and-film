@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of initial component 1`] = `
+<footer
+  id="footer"
+>
+  <div
+    className="container"
+  >
+    <ul
+      className="links"
+    >
+      <li>
+        <a
+          href="https://github.com/lmcjt37/curated-tv-and-film"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <span>
+            Repository
+          </span>
+        </a>
+      </li>
+      <li>
+        |
+      </li>
+      <li>
+        <a
+          href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <span>
+            Contributors
+          </span>
+        </a>
+      </li>
+    </ul>
+    <p
+      className="version"
+    >
+      <a
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        build 
+        debug
+      </a>
+    </p>
+  </div>
+</footer>
+`;

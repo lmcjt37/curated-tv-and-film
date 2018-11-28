@@ -2,64 +2,60 @@
 
 exports[`snapshot changes when input change 1`] = `
 <div
-  className="mainContainer"
+  className="main-container"
 >
   <div
-    className="headerContainer"
+    className="header-container"
   >
     <div
-      className="logoContainer"
+      className="logo-container"
       onClick={[Function]}
     >
       <img
         alt="Curated TV and Film logo"
-        className="logoImage"
+        className="logo-image"
         src="./assets/logo-128.png"
       />
       <div
-        className="logoTitle"
+        className="logo-title"
       >
         Curated TV and Film
       </div>
     </div>
     <div
-      className="content-filter"
+      className="content-search"
     >
       <input
         className="form-control"
         onChange={[Function]}
         placeholder="Search here"
         type="text"
-        value=""
       />
     </div>
     <div
       className="filter-div"
     >
-      <input
-        checked={true}
-        name="filterMovies"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      <label
-        className="filter-labels"
-        htmlFor="movies"
+      <span
+        className="filter-button"
+        onClick={[Function]}
       >
-        Movies
-      </label>
-      <input
-        checked={true}
-        name="filterTV"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      <label
-        className="filter-labels"
-        htmlFor="tv"
-      >
-        TV Series
-      </label>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-sliders-h fa-w-16 "
+          data-icon="sliders-h"
+          data-prefix="fas"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M496 384H160v-16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v16H16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h80v16c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-16h336c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zm0-160h-80v-16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v16H16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h336v16c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-16h80c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zm0-160H288V48c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v16H16C7.2 64 0 71.2 0 80v32c0 8.8 7.2 16 16 16h208v16c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-16h208c8.8 0 16-7.2 16-16V80c0-8.8-7.2-16-16-16z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </span>
     </div>
   </div>
   <section
@@ -72,6 +68,32 @@ exports[`snapshot changes when input change 1`] = `
         className="content-list"
       >
         <ul>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
           <li>
             <div
               className="item-card"
@@ -80,14 +102,14 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-thumbnail"
               >
                 <a
-                  href="https://www.youtube.com/watch?v=d3LDG5CCOPQ"
+                  href="https://www.youtube.com/watch?v=UeBt26IHIzU"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <img
-                    alt="The Walking Dead"
+                    alt="Archer"
                     className="item-image"
-                    src="./assets/images/walking-dead.jpg"
+                    src="./assets/images/archer.jpg"
                   />
                 </a>
               </div>
@@ -95,177 +117,23 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-info"
               >
                 <h2>
-                  The Walking Dead
+                  Archer
                   
                 </h2>
-                <div
-                  className="tvshow-details"
+                <span
+                  className="genre-container"
                 >
-                  <div
-                    className="details__item"
+                  <h5
+                    className="genre-title"
                   >
-                    <span>
-                      Season:
-                    </span>
-                     
-                    7
-                  </div>
-                  <div
-                    className="details__item"
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
                   >
-                    <span>
-                      Episode:
-                    </span>
-                     
-                    1
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode Title:
-                    </span>
-                     
-                    The Day Will Come When You Won't Be 
-                  </div>
-                </div>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
+                    Animation, Action, Comedy
                   </span>
-                   
-                  The Saviours have captured Rick and the group. They kneel at the mercy of Negan who makes an example of 2 of the groups members. Not for the faint of heart.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="https://www.imdb.com/title/tt5164772/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    https://www.imdb.com/title/tt5164772/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=wTjMqda19wk"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="The Newsroom"
-                    className="item-image"
-                    src="./assets/images/the-newsroom.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  The Newsroom
-                  
-                </h2>
-                <div
-                  className="tvshow-details"
-                >
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Season:
-                    </span>
-                     
-                    1
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode:
-                    </span>
-                     
-                    1
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode Title:
-                    </span>
-                     
-                    We Just Decided To
-                  </div>
-                </div>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  Will McAvoy (Jeff Daniels) hits the nail straight on the head in the opening minutes on HBO's new series 'The Newsroom'. He is asked by a college student a simple question during a campus debate. 'What makes America the greatest country in the world?'. Daniels initially goes the politically correct route then at the last minute goes with a honest, bold, straight forward answer that sums up a lot of the worlds problems that so many are afraid to accept because we all want to believe in our system and that it is our system that works. The evidence that is out there today is to the contrary and he discloses such information in his argument. We used to be the worlds best of the best and now we are just pretending. The first step to solving a problem is to admit there is one.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="http://www.imdb.com/title/tt1870479/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    http://www.imdb.com/title/tt1870479/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=AZeLHD-725o"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="Mr.Robot"
-                    className="item-image"
-                    src="./assets/images/mr-robot.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  Mr.Robot
-                  
-                </h2>
+                </span>
                 <div
                   className="tvshow-details"
                 >
@@ -285,174 +153,6 @@ exports[`snapshot changes when input change 1`] = `
                       Episode:
                     </span>
                      
-                    3
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode Title:
-                    </span>
-                     
-                    eps2.1_k3rnel-pan1c.ksd
-                  </div>
-                </div>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  Elliot Alderson's powerful speech about control and the effects that religion and mindless following create.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="http://www.imdb.com/title/tt4158110/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    http://www.imdb.com/title/tt4158110/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=mMeqEDEfniA"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="Silicon Valley"
-                    className="item-image"
-                    src="./assets/images/silicon-valley.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  Silicon Valley
-                  
-                </h2>
-                <div
-                  className="tvshow-details"
-                >
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Season:
-                    </span>
-                     
-                    1
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode:
-                    </span>
-                     
-                    8
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode Title:
-                    </span>
-                     
-                    Optimal Tip-To-Top Efficiency
-                  </div>
-                </div>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  The guys start calculating how most efficiently a mass jerk-off session can be carried out, which eventually also leads to a finding a new solution for Pied Piper's problems.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="http://www.imdb.com/title/tt2575988/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    http://www.imdb.com/title/tt2575988/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=m8rURwkvOx0"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="Game of Thrones"
-                    className="item-image"
-                    src="./assets/images/game-of-thrones.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  Game of Thrones
-                  
-                </h2>
-                <div
-                  className="tvshow-details"
-                >
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Season:
-                    </span>
-                     
-                    6
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode:
-                    </span>
-                     
                     9
                   </div>
                   <div
@@ -462,7 +162,7 @@ exports[`snapshot changes when input change 1`] = `
                       Episode Title:
                     </span>
                      
-                    Battle of the Bastards
+                    Placebo Effect
                   </div>
                 </div>
                 <div
@@ -472,7 +172,7 @@ exports[`snapshot changes when input change 1`] = `
                     Description:
                   </span>
                    
-                  In Winterfell, Jon Snow, Sansa, Davos and Tormund meet with Ramsay, and Jon Snow proposes a dispute between them instead of sacrificing lives in a battle. Ramsay does not accept and they schedule the battle in the morning. Jon Snow plots a scheme with Davos and Tormund and Sansa warns that Ramsay plays dirty. When both armies are ready to battle, Ramsay brings a surprise.
+                  When Archer discovers the chemotherapy drugs he's been taking for his breast cancer are counterfeit, he sets out to destroy the criminals behind the scheme.
                 </div>
                 <div
                   className="item-imdb"
@@ -482,11 +182,11 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                   <a
                     className="item-link"
-                    href="https://www.imdb.com/title/tt4283088/?ref_=ttep_ep9"
+                    href="https://www.imdb.com/title/tt1883469/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    https://www.imdb.com/title/tt4283088/?ref_=ttep_ep9
+                    https://www.imdb.com/title/tt1883469/
                   </a>
                 </div>
               </div>
@@ -500,14 +200,14 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-thumbnail"
               >
                 <a
-                  href="https://www.youtube.com/watch?v=VwIIDzrVVdc"
+                  href="https://www.youtube.com/watch?v=OYcTmiCtCv8"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <img
-                    alt="Oldboy"
+                    alt="Armageddon"
                     className="item-image"
-                    src="./assets/images/oldboy.jpg"
+                    src="./assets/images/armageddon.jpg"
                   />
                 </a>
               </div>
@@ -515,9 +215,23 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-info"
               >
                 <h2>
-                  Oldboy
-                   (2003)
+                  Armageddon
+                   (1998)
                 </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Action, Adventure, Sci-Fi
+                  </span>
+                </span>
                 <div
                   className="item-desc details__item"
                 >
@@ -525,7 +239,7 @@ exports[`snapshot changes when input change 1`] = `
                     Description:
                   </span>
                    
-                  The corridor fight scene took seventeen takes in three days to perfect, and was one continuous take -- there was no editing of any sort except for the knife that was stabbed in Oh Dae-su's back, which was computer-generated imagery. Though the scene has often been compared visually to side scrolling beat 'em up video games, director Park Chan-wook has stated that the similarity was unintentional.
+                  After drawing straws with A.J. (Ben Affleck) at the losing end, Harry (Bruce Willis) turns the tables and decides to sacrifice himself instead.
                 </div>
                 <div
                   className="item-imdb"
@@ -535,360 +249,11 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                   <a
                     className="item-link"
-                    href="http://www.imdb.com/title/tt0364569/"
+                    href="https://www.imdb.com/title/tt0120591/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    http://www.imdb.com/title/tt0364569/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=N8WXitDnA_U"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="Olympus has fallen"
-                    className="item-image"
-                    src="./assets/images/olympus.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  Olympus has fallen
-                   (2013)
-                </h2>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  During a diplomatic talk between Korea and the United States, a secret Korean organisation has plotted a takeover of the White House with little resistance due to being caught off guard.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="https://www.imdb.com/title/tt2302755/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    https://www.imdb.com/title/tt2302755/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=uzeODC-_IHw&t=81"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="Rick and Morty"
-                    className="item-image"
-                    src="./assets/images/rick-and-morty.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  Rick and Morty
-                  
-                </h2>
-                <div
-                  className="tvshow-details"
-                >
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Season:
-                    </span>
-                     
-                    3
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode:
-                    </span>
-                     
-                    1
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode Title:
-                    </span>
-                     
-                    Rickshank Redemption
-                  </div>
-                </div>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  Rick, still in galactic prison, puts an intricate escape plan into action. Which then leads to a standoff in which he kills the council of Ricks.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="https://www.imdb.com/title/tt2861424/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    https://www.imdb.com/title/tt2861424/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=z7-tkkcC6d0"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="Kingsman: The Secret Service"
-                    className="item-image"
-                    src="./assets/images/kingsman.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  Kingsman: The Secret Service
-                   (2014)
-                </h2>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  Colin Firth’s character, an impossibly cool secret agent named Harry Hart, ends up in a church participating in a gigantic killing free-for-all. It happens because the main bad guy in the movie, Samuel L. Jackson’s Richmond Valentine, inserts SIM cards into free cellphones he gives away that, when activated, emit a sound that turns everybody within earshot super violent. In a little under four minutes, Harry kills nearly 40 people, some of whom are killed in quick and obvious ways (like shooting them in the head), others of whom are killed in impromptu and gruesome ways (like breaking a wooden rod in half and then stabbing a guy in the chest with it).
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="https://www.imdb.com/title/tt2802144/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    https://www.imdb.com/title/tt2802144/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=_B_1IMstVzs"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="Kill Bill: Vol 1"
-                    className="item-image"
-                    src="./assets/images/kill-bill.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  Kill Bill: Vol 1
-                   (2003)
-                </h2>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  The Bride (Uma Thurman) must defeat O-Ren Ishii's (Lucy Liu) personal army, The Crazy 88's, before she can strike off the first name on her death list.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="https://www.imdb.com/title/tt0266697/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    https://www.imdb.com/title/tt0266697/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=p3PfKf0ndik"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="Interstellar"
-                    className="item-image"
-                    src="./assets/images/interstellar.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  Interstellar
-                   (2014)
-                </h2>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="https://www.imdb.com/title/tt0816692/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    https://www.imdb.com/title/tt0816692/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=ugTbwvVuLKA"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="There Will Be Blood"
-                    className="item-image"
-                    src="./assets/images/there-will-be-blood.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  There Will Be Blood
-                   (2007)
-                </h2>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="https://www.imdb.com/title/tt0469494/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    https://www.imdb.com/title/tt0469494/
+                    https://www.imdb.com/title/tt0120591/
                   </a>
                 </div>
               </div>
@@ -920,6 +285,20 @@ exports[`snapshot changes when input change 1`] = `
                   Fight Club
                    (1999)
                 </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Drama
+                  </span>
+                </span>
                 <div
                   className="item-desc details__item"
                 >
@@ -955,14 +334,14 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-thumbnail"
               >
                 <a
-                  href="https://www.youtube.com/watch?v=VaT7IYQgyqo"
+                  href="https://www.youtube.com/watch?v=v3qlBM9vAW8"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <img
-                    alt="Sherlock"
+                    alt="Forrest Gump"
                     className="item-image"
-                    src="./assets/images/sherlock.jpg"
+                    src="./assets/images/forrest-gump.jpg"
                   />
                 </a>
               </div>
@@ -970,40 +349,23 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-info"
               >
                 <h2>
-                  Sherlock
-                  
+                  Forrest Gump
+                   (1994)
                 </h2>
-                <div
-                  className="tvshow-details"
+                <span
+                  className="genre-container"
                 >
-                  <div
-                    className="details__item"
+                  <h5
+                    className="genre-title"
                   >
-                    <span>
-                      Season:
-                    </span>
-                     
-                    1
-                  </div>
-                  <div
-                    className="details__item"
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
                   >
-                    <span>
-                      Episode:
-                    </span>
-                     
-                    1
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode Title:
-                    </span>
-                     
-                    A Study in Pink
-                  </div>
-                </div>
+                    Drama, Romance
+                  </span>
+                </span>
                 <div
                   className="item-desc details__item"
                 >
@@ -1011,7 +373,7 @@ exports[`snapshot changes when input change 1`] = `
                     Description:
                   </span>
                    
-                  A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.
+                  A young Forrest Gump, still sporting his leg braces, get's picked on and chased by some local bullies. As he's chased, his childhood friend Jenny shouts the iconic quote "Run, Forrest! Run!
                 </div>
                 <div
                   className="item-imdb"
@@ -1021,179 +383,11 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                   <a
                     className="item-link"
-                    href="https://www.imdb.com/title/tt1665071/"
+                    href="https://www.imdb.com/title/tt0109830/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    https://www.imdb.com/title/tt1665071/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=Z5FgMCTreXE"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="Suits"
-                    className="item-image"
-                    src="./assets/images/suits.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  Suits
-                  
-                </h2>
-                <div
-                  className="tvshow-details"
-                >
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Season:
-                    </span>
-                     
-                    1
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode:
-                    </span>
-                     
-                    1
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode Title:
-                    </span>
-                     
-                    Pilot
-                  </div>
-                </div>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  On the run from a drug deal gone bad, Mike Ross, a brilliant college dropout, finds himself a job working with Harvey Specter, one of New York City's best lawyers.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="https://www.imdb.com/title/tt1632701/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    https://www.imdb.com/title/tt1632701/
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="item-card"
-            >
-              <div
-                className="item-thumbnail"
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=GAx0DYI3los"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="How I Met Your Mother"
-                    className="item-image"
-                    src="./assets/images/how-i-met-your-mother.jpg"
-                  />
-                </a>
-              </div>
-              <div
-                className="item-info"
-              >
-                <h2>
-                  How I Met Your Mother
-                  
-                </h2>
-                <div
-                  className="tvshow-details"
-                >
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Season:
-                    </span>
-                     
-                    1
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode:
-                    </span>
-                     
-                    1
-                  </div>
-                  <div
-                    className="details__item"
-                  >
-                    <span>
-                      Episode Title:
-                    </span>
-                     
-                    Pilot
-                  </div>
-                </div>
-                <div
-                  className="item-desc details__item"
-                >
-                  <span>
-                    Description:
-                  </span>
-                   
-                  It's the year 2030 and an older Ted Mosby is telling the story to his son and daughter about how he met and will eventually marry their mother. This is where we meet for the first time Ted, Lily, Marshall, Barney and Robin.
-                </div>
-                <div
-                  className="item-imdb"
-                >
-                  <span>
-                    IMDB:
-                  </span>
-                  <a
-                    className="item-link"
-                    href="https://www.imdb.com/title/tt0460649/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    https://www.imdb.com/title/tt0460649/
+                    https://www.imdb.com/title/tt0109830/
                   </a>
                 </div>
               </div>
@@ -1225,6 +419,20 @@ exports[`snapshot changes when input change 1`] = `
                   Friends
                   
                 </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Comedy, Romance
+                  </span>
+                </span>
                 <div
                   className="tvshow-details"
                 >
@@ -1291,14 +499,14 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-thumbnail"
               >
                 <a
-                  href="https://www.youtube.com/watch?v=fmX2VzsB25s"
+                  href="https://www.youtube.com/watch?v=m8rURwkvOx0"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <img
-                    alt="The Godfather"
+                    alt="Game of Thrones"
                     className="item-image"
-                    src="./assets/images/the-godfather.jpg"
+                    src="./assets/images/game-of-thrones.jpg"
                   />
                 </a>
               </div>
@@ -1306,9 +514,54 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-info"
               >
                 <h2>
-                  The Godfather
-                   (1972)
+                  Game of Thrones
+                  
                 </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Action, Adventure, Drama
+                  </span>
+                </span>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    6
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    9
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    Battle of the Bastards
+                  </div>
+                </div>
                 <div
                   className="item-desc details__item"
                 >
@@ -1316,7 +569,7 @@ exports[`snapshot changes when input change 1`] = `
                     Description:
                   </span>
                    
-                  Don Corleone's dialogue - I'll make you an offer you can't refuse
+                  In Winterfell, Jon Snow, Sansa, Davos and Tormund meet with Ramsay, and Jon Snow proposes a dispute between them instead of sacrificing lives in a battle. Ramsay does not accept and they schedule the battle in the morning. Jon Snow plots a scheme with Davos and Tormund and Sansa warns that Ramsay plays dirty. When both armies are ready to battle, Ramsay brings a surprise.
                 </div>
                 <div
                   className="item-imdb"
@@ -1326,11 +579,11 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                   <a
                     className="item-link"
-                    href="https://www.imdb.com/title/tt0068646/"
+                    href="https://www.imdb.com/title/tt4283088/?ref_=ttep_ep9"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    https://www.imdb.com/title/tt0068646/
+                    https://www.imdb.com/title/tt4283088/?ref_=ttep_ep9
                   </a>
                 </div>
               </div>
@@ -1344,14 +597,14 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-thumbnail"
               >
                 <a
-                  href="https://www.youtube.com/watch?v=2oHOv9p9dHQ"
+                  href="https://www.youtube.com/watch?v=kBwVWrBk_uo"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <img
-                    alt="The Matrix"
+                    alt="Get Out"
                     className="item-image"
-                    src="./assets/images/the-matrix.jpg"
+                    src="./assets/images/get-out.jpg"
                   />
                 </a>
               </div>
@@ -1359,9 +612,23 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-info"
               >
                 <h2>
-                  The Matrix
-                   (1999)
+                  Get Out
+                   (2017)
                 </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Horror, Mystery, Thriller
+                  </span>
+                </span>
                 <div
                   className="item-desc details__item"
                 >
@@ -1369,7 +636,7 @@ exports[`snapshot changes when input change 1`] = `
                     Description:
                   </span>
                    
-                  Neo stops the bullets and agent Smith realises he's got to up his game by like a million.
+                  Chris is sent to the Sunken Place
                 </div>
                 <div
                   className="item-imdb"
@@ -1379,11 +646,11 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                   <a
                     className="item-link"
-                    href="https://www.imdb.com/title/tt0133093/"
+                    href="https://www.imdb.com/title/tt5052448/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    https://www.imdb.com/title/tt0133093/
+                    https://www.imdb.com/title/tt5052448/
                   </a>
                 </div>
               </div>
@@ -1415,6 +682,20 @@ exports[`snapshot changes when input change 1`] = `
                   House
                   
                 </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Drama, Mystery
+                  </span>
+                </span>
                 <div
                   className="tvshow-details"
                 >
@@ -1481,6 +762,1228 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-thumbnail"
               >
                 <a
+                  href="https://www.youtube.com/watch?v=GAx0DYI3los"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="How I Met Your Mother"
+                    className="item-image"
+                    src="./assets/images/how-i-met-your-mother.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  How I Met Your Mother
+                  
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Comedy, Romance
+                  </span>
+                </span>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    Pilot
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  It's the year 2030 and an older Ted Mosby is telling the story to his son and daughter about how he met and will eventually marry their mother. This is where we meet for the first time Ted, Lily, Marshall, Barney and Robin.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt0460649/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0460649/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=p3PfKf0ndik"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Interstellar"
+                    className="item-image"
+                    src="./assets/images/interstellar.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Interstellar
+                   (2014)
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Adventure, Drama, Sci-Fi
+                  </span>
+                </span>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt0816692/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0816692/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=_B_1IMstVzs"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Kill Bill: Vol 1"
+                    className="item-image"
+                    src="./assets/images/kill-bill.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Kill Bill: Vol 1
+                   (2003)
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Action, Crime, Thriller
+                  </span>
+                </span>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  The Bride (Uma Thurman) must defeat O-Ren Ishii's (Lucy Liu) personal army, The Crazy 88's, before she can strike off the first name on her death list.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt0266697/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0266697/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=z7-tkkcC6d0"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Kingsman: The Secret Service"
+                    className="item-image"
+                    src="./assets/images/kingsman.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Kingsman: The Secret Service
+                   (2014)
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Action, Adventure, Comedy
+                  </span>
+                </span>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Colin Firth’s character, an impossibly cool secret agent named Harry Hart, ends up in a church participating in a gigantic killing free-for-all. It happens because the main bad guy in the movie, Samuel L. Jackson’s Richmond Valentine, inserts SIM cards into free cellphones he gives away that, when activated, emit a sound that turns everybody within earshot super violent. In a little under four minutes, Harry kills nearly 40 people, some of whom are killed in quick and obvious ways (like shooting them in the head), others of whom are killed in impromptu and gruesome ways (like breaking a wooden rod in half and then stabbing a guy in the chest with it).
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt2802144/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt2802144/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=AZeLHD-725o"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Mr.Robot"
+                    className="item-image"
+                    src="./assets/images/mr-robot.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Mr.Robot
+                  
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Crime, Drama, Thriller
+                  </span>
+                </span>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    2
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    3
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    eps2.1_k3rnel-pan1c.ksd
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Elliot Alderson's powerful speech about control and the effects that religion and mindless following create.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="http://www.imdb.com/title/tt4158110/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    http://www.imdb.com/title/tt4158110/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=VwIIDzrVVdc"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Oldboy"
+                    className="item-image"
+                    src="./assets/images/oldboy.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Oldboy
+                   (2003)
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Action, Drama, Mystery
+                  </span>
+                </span>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  The corridor fight scene took seventeen takes in three days to perfect, and was one continuous take -- there was no editing of any sort except for the knife that was stabbed in Oh Dae-su's back, which was computer-generated imagery. Though the scene has often been compared visually to side scrolling beat 'em up video games, director Park Chan-wook has stated that the similarity was unintentional.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="http://www.imdb.com/title/tt0364569/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    http://www.imdb.com/title/tt0364569/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=N8WXitDnA_U"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Olympus has fallen"
+                    className="item-image"
+                    src="./assets/images/olympus.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Olympus has fallen
+                   (2013)
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Action, Thriller
+                  </span>
+                </span>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  During a diplomatic talk between Korea and the United States, a secret Korean organisation has plotted a takeover of the White House with little resistance due to being caught off guard.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt2302755/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt2302755/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=uzeODC-_IHw&t=81"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Rick and Morty"
+                    className="item-image"
+                    src="./assets/images/rick-and-morty.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Rick and Morty
+                  
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Animation, Adventure, Comedy, Sci-Fi
+                  </span>
+                </span>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    3
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    Rickshank Redemption
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Rick, still in galactic prison, puts an intricate escape plan into action. Which then leads to a standoff in which he kills the council of Ricks.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt2861424/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt2861424/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=VaT7IYQgyqo"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Sherlock"
+                    className="item-image"
+                    src="./assets/images/sherlock.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Sherlock
+                  
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Crime, Drama, Mystery
+                  </span>
+                </span>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    A Study in Pink
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt1665071/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt1665071/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=vKTd-N4djSY"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Shrek"
+                    className="item-image"
+                    src="./assets/images/shrek.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Shrek
+                   (2001)
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Animation, Adventure, Comedy
+                  </span>
+                </span>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Shrek and Donkey arrive at Duloc to demand Farquaad gives Shrek his swamp back. With hardly anyone around they go to the information booth.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt0126029/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0126029/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=mMeqEDEfniA"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Silicon Valley"
+                    className="item-image"
+                    src="./assets/images/silicon-valley.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Silicon Valley
+                  
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Comedy
+                  </span>
+                </span>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    8
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    Optimal Tip-To-Top Efficiency
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  The guys start calculating how most efficiently a mass jerk-off session can be carried out, which eventually also leads to a finding a new solution for Pied Piper's problems.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="http://www.imdb.com/title/tt2575988/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    http://www.imdb.com/title/tt2575988/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=Z5FgMCTreXE"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Suits"
+                    className="item-image"
+                    src="./assets/images/suits.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  Suits
+                  
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Comedy, Drama
+                  </span>
+                </span>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    Pilot
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  On the run from a drug deal gone bad, Mike Ross, a brilliant college dropout, finds himself a job working with Harvey Specter, one of New York City's best lawyers.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt1632701/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt1632701/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=fmX2VzsB25s"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The Godfather"
+                    className="item-image"
+                    src="./assets/images/the-godfather.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  The Godfather
+                   (1972)
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Crime, Drama
+                  </span>
+                </span>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Don Corleone's dialogue - I'll make you an offer you can't refuse
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt0068646/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0068646/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=2oHOv9p9dHQ"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The Matrix"
+                    className="item-image"
+                    src="./assets/images/the-matrix.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  The Matrix
+                   (1999)
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Action, Sci-Fi
+                  </span>
+                </span>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Neo stops the bullets and agent Smith realises he's got to up his game by like a million.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="https://www.imdb.com/title/tt0133093/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://www.imdb.com/title/tt0133093/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=wTjMqda19wk"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The Newsroom"
+                    className="item-image"
+                    src="./assets/images/the-newsroom.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                className="item-info"
+              >
+                <h2>
+                  The Newsroom
+                  
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Drama, History
+                  </span>
+                </span>
+                <div
+                  className="tvshow-details"
+                >
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Season:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode:
+                    </span>
+                     
+                    1
+                  </div>
+                  <div
+                    className="details__item"
+                  >
+                    <span>
+                      Episode Title:
+                    </span>
+                     
+                    We Just Decided To
+                  </div>
+                </div>
+                <div
+                  className="item-desc details__item"
+                >
+                  <span>
+                    Description:
+                  </span>
+                   
+                  Will McAvoy (Jeff Daniels) hits the nail straight on the head in the opening minutes on HBO's new series 'The Newsroom'. He is asked by a college student a simple question during a campus debate. 'What makes America the greatest country in the world?'. Daniels initially goes the politically correct route then at the last minute goes with a honest, bold, straight forward answer that sums up a lot of the worlds problems that so many are afraid to accept because we all want to believe in our system and that it is our system that works. The evidence that is out there today is to the contrary and he discloses such information in his argument. We used to be the worlds best of the best and now we are just pretending. The first step to solving a problem is to admit there is one.
+                </div>
+                <div
+                  className="item-imdb"
+                >
+                  <span>
+                    IMDB:
+                  </span>
+                  <a
+                    className="item-link"
+                    href="http://www.imdb.com/title/tt1870479/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    http://www.imdb.com/title/tt1870479/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="item-card"
+            >
+              <div
+                className="item-thumbnail"
+              >
+                <a
                   href="https://www.youtube.com/watch?v=ZymIQU4e1W4"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -1499,6 +2002,20 @@ exports[`snapshot changes when input change 1`] = `
                   The Office
                   
                 </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Comedy
+                  </span>
+                </span>
                 <div
                   className="tvshow-details"
                 >
@@ -1559,20 +2076,202 @@ exports[`snapshot changes when input change 1`] = `
           </li>
           <li>
             <div
+              className="item-card-multi"
+            >
+              <div
+                className="item-header"
+              >
+                <h2>
+                  The Walking Dead
+                  
+                </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Drama, Horror, Action
+                  </span>
+                </span>
+              </div>
+              <div
+                className="item-card__row "
+              >
+                <div
+                  className="item-thumbnail"
+                >
+                  <a
+                    href="https://www.youtube.com/watch?v=ZxmWhlidAZ8"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      className="item-image"
+                      src="./assets/images/walking-dead_1_2.jpg"
+                    />
+                  </a>
+                </div>
+                <div
+                  className="item-info"
+                >
+                  <div
+                    className="tvshow-details"
+                  >
+                    <div
+                      className="details__item"
+                    >
+                      <span>
+                        Season:
+                      </span>
+                       
+                      1
+                    </div>
+                    <div
+                      className="details__item"
+                    >
+                      <span>
+                        Episode:
+                      </span>
+                       
+                      2
+                    </div>
+                    <div
+                      className="details__item"
+                    >
+                      <span>
+                        Episode Title:
+                      </span>
+                       
+                      Guts
+                    </div>
+                  </div>
+                  <div
+                    className="item-desc details__item"
+                  >
+                    <span>
+                      Description:
+                    </span>
+                     
+                    Following on from where Rick Grimes wakes up from a coma and tries to find his family. He gets to Atlanta, surrounded by walkers, he is thrown from his horse and ends up in a tank. This is where someone on the walkie talkie, Glenn, helps him out of the tight situation.
+                  </div>
+                  <div
+                    className="item-imdb"
+                  >
+                    <span>
+                      IMDB:
+                    </span>
+                    <a
+                      className="item-link"
+                      href="https://www.imdb.com/title/tt1628064/?ref_=ttep_ep2"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      https://www.imdb.com/title/tt1628064/?ref_=ttep_ep2
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="item-card__row item-card__hr"
+              >
+                <div
+                  className="item-thumbnail"
+                >
+                  <a
+                    href="https://www.youtube.com/watch?v=d3LDG5CCOPQ"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      className="item-image"
+                      src="./assets/images/walking-dead_7_1.jpg"
+                    />
+                  </a>
+                </div>
+                <div
+                  className="item-info"
+                >
+                  <div
+                    className="tvshow-details"
+                  >
+                    <div
+                      className="details__item"
+                    >
+                      <span>
+                        Season:
+                      </span>
+                       
+                      7
+                    </div>
+                    <div
+                      className="details__item"
+                    >
+                      <span>
+                        Episode:
+                      </span>
+                       
+                      1
+                    </div>
+                    <div
+                      className="details__item"
+                    >
+                      <span>
+                        Episode Title:
+                      </span>
+                       
+                      The Day Will Come When You Won't Be
+                    </div>
+                  </div>
+                  <div
+                    className="item-desc details__item"
+                  >
+                    <span>
+                      Description:
+                    </span>
+                     
+                    The Saviours have captured Rick and the group. They kneel at the mercy of Negan who makes an example of 2 of the groups members. Not for the faint of heart.
+                  </div>
+                  <div
+                    className="item-imdb"
+                  >
+                    <span>
+                      IMDB:
+                    </span>
+                    <a
+                      className="item-link"
+                      href="https://www.imdb.com/title/tt5164772/?ref_=ttep_ep1"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      https://www.imdb.com/title/tt5164772/?ref_=ttep_ep1
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
               className="item-card"
             >
               <div
                 className="item-thumbnail"
               >
                 <a
-                  href="https://www.youtube.com/watch?v=kBwVWrBk_uo"
+                  href="https://www.youtube.com/watch?v=ugTbwvVuLKA"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <img
-                    alt="Get Out"
+                    alt="There Will Be Blood"
                     className="item-image"
-                    src="./assets/images/get-out.jpg"
+                    src="./assets/images/there-will-be-blood.jpg"
                   />
                 </a>
               </div>
@@ -1580,9 +2279,23 @@ exports[`snapshot changes when input change 1`] = `
                 className="item-info"
               >
                 <h2>
-                  Get Out
-                   (2017)
+                  There Will Be Blood
+                   (2007)
                 </h2>
+                <span
+                  className="genre-container"
+                >
+                  <h5
+                    className="genre-title"
+                  >
+                    Genre:
+                  </h5>
+                  <span
+                    className="genre-item"
+                  >
+                    Drama
+                  </span>
+                </span>
                 <div
                   className="item-desc details__item"
                 >
@@ -1590,7 +2303,7 @@ exports[`snapshot changes when input change 1`] = `
                     Description:
                   </span>
                    
-                  Chris is sent to the Sunken Place
+                  A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.
                 </div>
                 <div
                   className="item-imdb"
@@ -1600,11 +2313,11 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                   <a
                     className="item-link"
-                    href="https://www.imdb.com/title/tt5052448/"
+                    href="https://www.imdb.com/title/tt0469494/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    https://www.imdb.com/title/tt5052448/
+                    https://www.imdb.com/title/tt0469494/
                   </a>
                 </div>
               </div>
@@ -1657,6 +2370,7 @@ exports[`snapshot changes when input change 1`] = `
           target="_blank"
         >
           build 
+          debug
         </a>
       </p>
     </div>
