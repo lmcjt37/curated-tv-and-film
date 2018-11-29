@@ -332,10 +332,9 @@ var content = [
     year: 2001,
     imdb: 'https://www.imdb.com/title/tt0139654/',
     url: 'https://www.youtube.com/watch?v=DXPJqRtkDP0',
-    thumbnail: './assets/images/Trainingday.jpg',
+    thumbnail: 'Trainingday.jpg',
     genre: ['Action', 'Crime', 'Adventure', 'Thriller']
   }
-
 ];
 
 export default content;
