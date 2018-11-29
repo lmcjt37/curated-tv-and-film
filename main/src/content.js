@@ -328,7 +328,7 @@ var content = [
     type: 'movie',
     title: 'Training Day',
     description:
-      "On his first day on the job as a Los Angeles narcotics officer, a rookie cop goes beyond a full work day in training within the narcotics division of the L.A.P.D. with a rogue detective who isn't what he appears to be.",
+      "On his first day on the job as a LA narcotics officer, a rookie cop goes beyond a full work day in training within the narcotics division of the L.A.P.D. with a rogue detective who isn't what he appears to be.",
     year: 2001,
     imdb: 'https://www.imdb.com/title/tt0139654/',
     url: 'https://www.youtube.com/watch?v=DXPJqRtkDP0',
