@@ -75,3 +75,7 @@
 - Place: Atlanta, GA
 - GitHub: [diddy225](https://github.com/diddy225)
 
+#### Name: [Nemanja Glumac](https://glumac.me)
+- Role: Contributor
+- Place: Ljubljana, Slovenia
+- GitHub: [nemanjaglumac](https://github.com/nemanjaglumac)

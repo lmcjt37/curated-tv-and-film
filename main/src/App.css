@@ -12,7 +12,7 @@ ul li {
 .header-container {
   align-items: center;
   background: #fff;
-  border-bottom: solid 1px #EEE;
+  border-bottom: solid 1px #eee;
   display: grid;
   grid-template-columns: auto 1fr auto;
   z-index: 1;
@@ -60,7 +60,7 @@ ul li {
   max-height: 50px;
   font-family: 'Lobster', cursive;
   font-size: 28px;
-  color: #52B3D9;
+  color: #52b3d9;
   cursor: pointer;
 }
 
@@ -69,7 +69,7 @@ ul li {
   position: fixed;
   width: 100%;
   top: 60px;
-  background-color: #FFF;
+  background-color: #fff;
   align-items: center;
   padding: 1em;
   box-shadow: 0px 4px 15px rgba(100, 110, 130, 0.1);
@@ -80,7 +80,25 @@ ul li {
   padding: 0 1em;
 }
 
-.close-button, .filter-button {
+.filter-labels {
+  padding: 1rem 1rem 0;
+}
+
+.filter-labels-bold {
+  padding: 1rem 1rem 0;
+  font-weight: bold;
+}
+
+.filter-year {
+  margin-right: 8px;
+}
+
+.filter-div {
+  margin: 1em;
+}
+
+.close-button,
+.filter-button {
   font-size: 2rem;
   margin: 1em;
 }
@@ -110,6 +128,16 @@ ul li {
 .row {
   margin: 0;
   padding: 2rem;
+}
+
+.item-card__row {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.item-card__hr {
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
 }
 
 .item-thumbnail {
@@ -163,7 +191,7 @@ footer#footer {
 }
 
 footer#footer .container {
-  border-top: 1px solid #CCC;
+  border-top: 1px solid #ccc;
   padding: 3rem 0 2rem;
 }
 
@@ -188,13 +216,13 @@ footer#footer .links img {
 }
 
 footer#footer .links span {
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 footer#footer .version {
   text-align: center;
   font-size: 12px;
-  color: #DADFE1;
+  color: #dadfe1;
 }
 
 @media (min-width: 768px) {
@@ -204,6 +232,10 @@ footer#footer .version {
 
   .item-card {
     display: flex;
+  }
+
+  .item-card-multi {
+    display: block;
   }
 
   .item-thumbnail {
@@ -253,6 +285,11 @@ footer#footer .version {
 
   .content-list ul li + li {
     margin-top: 30px;
+  }
+
+  .item-card__row {
+    display: block;
+    margin-left: 0;
   }
 
   .item-image {

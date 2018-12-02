@@ -7,6 +7,7 @@ import Header from './components/header.js';
 import Footer from './components/footer.js';
 import FilterBar from './components/filterBar.js';
 import Card from './components/card.js';
+import MultiCard from './components/multiCard';
 
 var data = content;
 
@@ -15,13 +16,13 @@ class App extends Component {
     super(props);
 
     this.state = {
-      searchString: '',
-      content: content,
+      search: false,
+      content: data,
       showFilters: false,
-      filterResults: "all",
+      filterResults: 'all',
       filterYear: '',
-      filterGenre: "All",
-      filterAlpha: "",
+      filterGenre: 'All',
+      filterAlpha: 'Ascending',
       onlyMovies: [],
       years: []
     };
@@ -45,21 +46,18 @@ class App extends Component {
   }
 
   handleChange = event => {
-    var searchString = event.target.value;
-    this.setState({ searchString: searchString });
-    searchString = searchString.trim().toLowerCase();
+    var searchString = event.target.value.trim().toLowerCase();
 
-    if (searchString.length > 0) {
-      var content = this.state.content;
-      if (this.state.content.length === 0) {
-        content = data;
-      }
-      var searchResult = content.filter(
+    if (searchString) {
+      var searchResult = data.filter(
         el =>
-          el.title.toLowerCase().match(searchString) || (el.year && el.year.toString().match(searchString))
+          el.title.toLowerCase().match(searchString) ||
+          (el.year && el.year.toString().match(searchString))
       );
+      this.setState({ search: true });
       this.setState({ content: searchResult });
     } else {
+      this.setState({ search: false });
       this.setState({ content: data });
     }
   };
@@ -99,46 +97,72 @@ class App extends Component {
   };
 
   handleGenre = event => {
-    this.setState({ filterGenre: event.target.value })
-  }
+    this.setState({ filterGenre: event.target.value });
+  };
+
+  handleAlpha = event => {
+    this.setState({ filterAlpha: event.target.value });
+  };
 
   handleAlpha = event => {
     this.setState({ filterAlpha: event.target.value })
   }
 
   toggleFilter = () => {
-    this.setState({ showFilters: !this.state.showFilters })
-  }
+    this.setState({ showFilters: !this.state.showFilters });
+  };
 
   goTop = () => {
     scroll.scrollToTop();
   };
 
   render() {
+<<<<<<< HEAD
     const {showFilters, searchString, filterResults, filterYear, filterGenre, filterAlpha, years} = this.state;
+=======
+    const {
+      showFilters,
+      search,
+      filterResults,
+      filterYear,
+      filterGenre,
+      years
+    } = this.state;
+>>>>>>> upstream/master
     var mContent = this.state.content;
 
     return (
       <div className="main-container">
-        <Header 
-          {...{showFilters, searchString}}
-          handleChange={this.handleChange} 
-          goTop={this.goTop} 
-          toggleFilter={this.toggleFilter} 
+        <Header
+          {...{ showFilters, search }}
+          handleChange={this.handleChange}
+          goTop={this.goTop}
+          toggleFilter={this.toggleFilter}
         />
         {this.state.showFilters ? (
+<<<<<<< HEAD
           <FilterBar 
             {...{filterResults, filterYear, filterGenre, filterAlpha, years}}
+=======
+          <FilterBar
+            {...{ filterResults, filterYear, filterGenre, years }}
+>>>>>>> upstream/master
             handleGenre={this.handleGenre}
             handleFilter={this.handleFilter}
             handleYear={this.handleYear}
             handleAlpha={this.handleAlpha}
+<<<<<<< HEAD
           />) : null}
+=======
+          />
+        ) : null}
+>>>>>>> upstream/master
         <section className="app container">
           <main className="main-content">
             <div className="content-list">
               {mContent.length ? (
                 <ul>
+<<<<<<< HEAD
                   
                   { this.state.filterAlpha === "Ascending" &&
                     //sort alphabetically ascending
@@ -167,20 +191,49 @@ class App extends Component {
                       return '';
 
                     })}
+=======
+                  {this.state.filterAlpha === 'Ascending' &&
+                    //sort alphabetically ascending
+                    mContent
+                      .sort(function(a, b) {
+                        var titleA = a.title.toLowerCase(),
+                          titleB = b.title.toLowerCase();
+                        if (titleA < titleB) return -1;
+                        if (titleA > titleB) return 1;
+                        return 0;
+                      })
+                      .map(() => {
+                        return '';
+                      })}
+
+                  {this.state.filterAlpha === 'Descending' &&
+                    //sort alphabetically descending
+                    mContent
+                      .sort(function(a, b) {
+                        var titleA = a.title.toLowerCase(),
+                          titleB = b.title.toLowerCase();
+                        if (titleA > titleB) return -1;
+                        if (titleA < titleB) return 1;
+                        return 0;
+                      })
+                      .map(() => {
+                        return '';
+                      })}
+>>>>>>> upstream/master
 
                   {mContent.map((item, index) => {
                     if (
-                      this.state.filterResults === "movies" &&
+                      this.state.filterResults === 'movies' &&
                       item.type !== 'movie'
                     )
                       return '';
                     if (
-                      this.state.filterResults === "tv" &&
+                      this.state.filterResults === 'tv' &&
                       item.type !== 'tv_show'
                     )
                       return '';
                     if (
-                      this.state.filterGenre !== "All" &&
+                      this.state.filterGenre !== 'All' &&
                       !item.genre.some(
                         genre => genre === this.state.filterGenre
                       )
@@ -189,13 +242,17 @@ class App extends Component {
 
                     return (
                       <li key={index}>
-                        <Card {...item} />
+                        {item.content ? (
+                          <MultiCard {...item} />
+                        ) : (
+                          <Card {...item} />
+                        )}
                       </li>
                     );
                   })}
                   
                 </ul>
-              ) : this.state.searchString ? (
+              ) : this.state.search ? (
                 <p>No search result</p>
               ) : (
                 <p>Can't load the data.</p>
