@@ -1,7 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import Header from '../../components/header';
-import render  from 'react-test-renderer';
+
+import { createRender } from '@material-ui/core/test-utils';
+import { configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+
+configure({ adapter: new Adapter() });
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
@@ -10,7 +16,7 @@ it('renders without crashing', () => {
 });
 
 it('snapshot of initial component', () => {
-    const component = render.create(<Header />);
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+  let render = createRender();
+  const component = render(<Header />);
+  expect(component).toMatchSnapshot();
 });

@@ -2,51 +2,55 @@
 
 exports[`snapshot of initial component 1`] = `
 <footer
-  id="footer"
+  class="Footer-footer-39"
 >
-  <div
-    className="container"
+  <ul
+    class="Footer-list-40"
   >
-    <ul
-      className="links"
+    <li
+      class="Footer-links-41"
     >
-      <li>
-        <a
-          href="https://github.com/lmcjt37/curated-tv-and-film"
-          rel="noopener noreferrer"
-          target="_blank"
+      <a
+        href="https://github.com/lmcjt37/curated-tv-and-film"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <p
+          class="MuiTypography-root-42 MuiTypography-body1-51"
         >
-          <span>
-            Repository
-          </span>
-        </a>
-      </li>
-      <li>
-        |
-      </li>
-      <li>
-        <a
-          href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors"
-          rel="noopener noreferrer"
-          target="_blank"
+          Repository
+        </p>
+      </a>
+    </li>
+    <li
+      class="Footer-links-41"
+    >
+      <a
+        href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <p
+          class="MuiTypography-root-42 MuiTypography-body1-51"
         >
-          <span>
-            Contributors
-          </span>
-        </a>
-      </li>
-    </ul>
-    <p
-      className="version"
+          Contributors
+        </p>
+      </a>
+    </li>
+    <li
+      class="Footer-links-41"
     >
       <a
         rel="noopener noreferrer"
         target="_blank"
       >
-        build 
-        debug
+        <p
+          class="MuiTypography-root-42 MuiTypography-body1-51"
+        >
+          build debug
+        </p>
       </a>
-    </p>
-  </div>
+    </li>
+  </ul>
 </footer>
 `;
