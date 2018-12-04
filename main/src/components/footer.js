@@ -17,7 +17,11 @@ const styles = theme => ({
   },
   list: {
     height: 50,
-    display: 'inline-flex'
+    display: 'block',
+    textAlign: 'center',
+    [theme.breakpoints.up('sm')]: {
+      display: 'inline-flex'
+    }
   },
   links: {
     margin: theme.spacing.unit
