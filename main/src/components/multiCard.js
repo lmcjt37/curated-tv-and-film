@@ -34,6 +34,9 @@ const styles = theme => ({
       display: 'none'
     }
   },
+  description: {
+    marginTop: theme.spacing.unit
+  },
   thumbnail: {
     display: 'none',
     [theme.breakpoints.up('sm')]: {
@@ -60,10 +63,15 @@ const styles = theme => ({
 
 function MultiCard(props) {
   const { classes } = props;
+  const typoProps = {
+    variant: 'h6',
+    component: 'h2'
+  };
   return (
     <Card className={classes.card}>
       <CardHeader
         title={props.title + (props.year ? '(' + props.year + ')' : '')}
+        titleTypographyProps={typoProps}
       />
       <CardContent>
         {props.genre.map((genre, idx) => {
@@ -87,15 +95,21 @@ function MultiCard(props) {
               <div className={classes.details}>
                 {props.type === 'tv_show' && (
                   <div>
-                    <Typography variant="h6" component="h3" gutterBottom>
+                    <Typography variant="subtitle1" component="h2" gutterBottom>
                       {row.episode_title}
                     </Typography>
-                    <Typography component="p">
+                    <Typography
+                      gutterBottom
+                      component="p"
+                      color="textSecondary"
+                    >
                       Season: {row.season} | Episode: {row.episode}
                     </Typography>
                   </div>
                 )}
-                <Typography component="p">{row.description}</Typography>
+                <Typography className={classes.description} component="p">
+                  {row.description}
+                </Typography>
               </div>
               <CardActions>
                 <Fab

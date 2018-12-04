@@ -43,7 +43,6 @@ const styles = theme => ({
       margin: theme.spacing.unit * 2
     }
   },
-  details: {},
   chips: {
     marginTop: theme.spacing.unit * 2,
     marginBottom: theme.spacing.unit * 2
@@ -78,29 +77,25 @@ function SingleCard(props) {
           alt={props.title}
         />
         <CardContent>
-          <div className={classes.details}>
-            <Typography gutterBottom variant="h5" component="h2">
-              {props.title} {props.year ? ' (' + props.year + ')' : ''}
-            </Typography>
-            {props.type === 'tv_show' && (
-              <div>
-                <Typography variant="h6" component="h3">
-                  {props.episode_title}
-                </Typography>
-                <Typography component="p">
-                  Season: {props.season} | Episode: {props.episode}
-                </Typography>
-              </div>
-            )}
-            <div className={classes.chips}>
-              {props.genre.map((genre, idx) => {
-                return (
-                  <Chip key={idx} label={genre} className={classes.chip} />
-                );
-              })}
+          <Typography gutterBottom variant="h6" component="h2">
+            {props.title} {props.year ? ' (' + props.year + ')' : ''}
+          </Typography>
+          {props.type === 'tv_show' && (
+            <div>
+              <Typography gutterBottom variant="subtitle1" component="h3">
+                {props.episode_title}
+              </Typography>
+              <Typography component="p" color="textSecondary">
+                Season: {props.season} | Episode: {props.episode}
+              </Typography>
             </div>
-            <Typography component="p">{props.description}</Typography>
+          )}
+          <div className={classes.chips}>
+            {props.genre.map((genre, idx) => {
+              return <Chip key={idx} label={genre} className={classes.chip} />;
+            })}
           </div>
+          <Typography component="p">{props.description}</Typography>
           <CardActions>
             <Fab
               color="primary"

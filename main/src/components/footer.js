@@ -16,10 +16,10 @@ const styles = theme => ({
     justifyContent: 'center'
   },
   list: {
-    height: 50,
     display: 'block',
     textAlign: 'center',
     [theme.breakpoints.up('sm')]: {
+      height: 50,
       display: 'inline-flex'
     }
   },

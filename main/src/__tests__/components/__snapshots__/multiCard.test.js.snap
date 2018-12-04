@@ -2,97 +2,97 @@
 
 exports[`snapshot of initial component with multiple items 1`] = `
 <div
-  class="MuiPaper-root-385 MuiPaper-elevation1-388 MuiPaper-rounded-386 MuiCard-root-384 MultiCard-card-376"
+  class="MuiPaper-root-389 MuiPaper-elevation1-392 MuiPaper-rounded-390 MuiCard-root-388 MultiCard-card-379"
 >
   <div
-    class="MuiCardHeader-root-412"
+    class="MuiCardHeader-root-416"
   >
     <div
-      class="MuiCardHeader-content-415"
+      class="MuiCardHeader-content-419"
     >
-      <span
-        class="MuiTypography-root-418 MuiTypography-headline-423 MuiCardHeader-title-416"
+      <h2
+        class="MuiTypography-root-422 MuiTypography-h6-439 MuiCardHeader-title-420"
       >
         The Walking Dead
-      </span>
+      </h2>
     </div>
   </div>
   <div
-    class="MuiCardContent-root-453"
+    class="MuiCardContent-root-457"
   >
     <div
-      class="MuiChip-root-454 MultiCard-chip-380"
+      class="MuiChip-root-458 MultiCard-chip-384"
       role="button"
       tabindex="-1"
     >
       <span
-        class="MuiChip-label-473"
+        class="MuiChip-label-477"
       >
         Drama
       </span>
     </div>
     <div
-      class="MuiChip-root-454 MultiCard-chip-380"
+      class="MuiChip-root-458 MultiCard-chip-384"
       role="button"
       tabindex="-1"
     >
       <span
-        class="MuiChip-label-473"
+        class="MuiChip-label-477"
       >
         Horror
       </span>
     </div>
     <div
-      class="MuiChip-root-454 MultiCard-chip-380"
+      class="MuiChip-root-458 MultiCard-chip-384"
       role="button"
       tabindex="-1"
     >
       <span
-        class="MuiChip-label-473"
+        class="MuiChip-label-477"
       >
         Action
       </span>
     </div>
   </div>
   <div
-    class="MultiCard-innerContainer-377"
+    class="MultiCard-innerContainer-380"
   >
     <div
-      class="MuiCardMedia-root-479 MultiCard-media-378"
+      class="MuiCardMedia-root-483 MultiCard-media-381"
       style="background-image:url(\\"./assets/images/walking-dead.jpg\\")"
     />
     <img
-      class="MultiCard-thumbnail-379"
+      class="MultiCard-thumbnail-383"
       src="./assets/images/walking-dead.jpg"
     />
     <div
-      class="MuiCardContent-root-453"
+      class="MuiCardContent-root-457"
     >
       <div>
         <div>
-          <h3
-            class="MuiTypography-root-418 MuiTypography-h6-435 MuiTypography-gutterBottom-445"
+          <h2
+            class="MuiTypography-root-422 MuiTypography-subtitle1-440 MuiTypography-gutterBottom-449"
           >
             Guts
-          </h3>
+          </h2>
           <p
-            class="MuiTypography-root-418 MuiTypography-body1-427"
+            class="MuiTypography-root-422 MuiTypography-body1-431 MuiTypography-colorTextSecondary-455 MuiTypography-gutterBottom-449"
           >
             Season: 1 | Episode: 2
           </p>
         </div>
         <p
-          class="MuiTypography-root-418 MuiTypography-body1-427"
+          class="MuiTypography-root-422 MuiTypography-body1-431 MultiCard-description-382"
         >
           Following on from where Rick Grimes wakes up from a coma and tries to find his family. He gets to Atlanta, surrounded by walkers, he is thrown from his horse and ends up in a tank. This is where someone on the walkie talkie, Glenn, helps him out of the tight situation.
         </p>
       </div>
       <div
-        class="MuiCardActions-root-481"
+        class="MuiCardActions-root-485"
       >
         <a
           aria-label="IMDB"
-          class="MuiButtonBase-root-493 MuiFab-root-483 MuiFab-extended-487 MuiFab-primary-485 MultiCard-fab-381 MuiCardActions-action-482"
+          class="MuiButtonBase-root-497 MuiFab-root-487 MuiFab-extended-491 MuiFab-primary-489 MultiCard-fab-385 MuiCardActions-action-486"
           href="https://www.imdb.com/title/tt1628064/?ref_=ttep_ep2"
           rel="noopener noreferrer"
           role="button"
@@ -100,11 +100,11 @@ exports[`snapshot of initial component with multiple items 1`] = `
           target="_blank"
         >
           <span
-            class="MuiFab-label-484"
+            class="MuiFab-label-488"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-496 MultiCard-localPlayIcon-383"
+              class="MuiSvgIcon-root-500 MultiCard-localPlayIcon-387"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
@@ -122,7 +122,7 @@ exports[`snapshot of initial component with multiple items 1`] = `
         </a>
         <a
           aria-label="View Scene"
-          class="MuiButtonBase-root-493 MuiFab-root-483 MuiFab-extended-487 MuiFab-primary-485 MultiCard-fab-381 MuiCardActions-action-482"
+          class="MuiButtonBase-root-497 MuiFab-root-487 MuiFab-extended-491 MuiFab-primary-489 MultiCard-fab-385 MuiCardActions-action-486"
           href="https://www.youtube.com/watch?v=ZxmWhlidAZ8"
           rel="noopener noreferrer"
           role="button"
@@ -130,11 +130,11 @@ exports[`snapshot of initial component with multiple items 1`] = `
           target="_blank"
         >
           <span
-            class="MuiFab-label-484"
+            class="MuiFab-label-488"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-496 MultiCard-playCircleOutlineIcon-382"
+              class="MuiSvgIcon-root-500 MultiCard-playCircleOutlineIcon-386"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
@@ -154,44 +154,44 @@ exports[`snapshot of initial component with multiple items 1`] = `
     </div>
   </div>
   <div
-    class="MultiCard-innerContainer-377"
+    class="MultiCard-innerContainer-380"
   >
     <div
-      class="MuiCardMedia-root-479 MultiCard-media-378"
+      class="MuiCardMedia-root-483 MultiCard-media-381"
       style="background-image:url(\\"./assets/images/walking-dead.jpg\\")"
     />
     <img
-      class="MultiCard-thumbnail-379"
+      class="MultiCard-thumbnail-383"
       src="./assets/images/walking-dead.jpg"
     />
     <div
-      class="MuiCardContent-root-453"
+      class="MuiCardContent-root-457"
     >
       <div>
         <div>
-          <h3
-            class="MuiTypography-root-418 MuiTypography-h6-435 MuiTypography-gutterBottom-445"
+          <h2
+            class="MuiTypography-root-422 MuiTypography-subtitle1-440 MuiTypography-gutterBottom-449"
           >
             The Day Will Come When You Won't Be
-          </h3>
+          </h2>
           <p
-            class="MuiTypography-root-418 MuiTypography-body1-427"
+            class="MuiTypography-root-422 MuiTypography-body1-431 MuiTypography-colorTextSecondary-455 MuiTypography-gutterBottom-449"
           >
             Season: 7 | Episode: 1
           </p>
         </div>
         <p
-          class="MuiTypography-root-418 MuiTypography-body1-427"
+          class="MuiTypography-root-422 MuiTypography-body1-431 MultiCard-description-382"
         >
           The Saviours have captured Rick and the group. They kneel at the mercy of Negan who makes an example of 2 of the groups members. Not for the faint of heart.
         </p>
       </div>
       <div
-        class="MuiCardActions-root-481"
+        class="MuiCardActions-root-485"
       >
         <a
           aria-label="IMDB"
-          class="MuiButtonBase-root-493 MuiFab-root-483 MuiFab-extended-487 MuiFab-primary-485 MultiCard-fab-381 MuiCardActions-action-482"
+          class="MuiButtonBase-root-497 MuiFab-root-487 MuiFab-extended-491 MuiFab-primary-489 MultiCard-fab-385 MuiCardActions-action-486"
           href="https://www.imdb.com/title/tt5164772/?ref_=ttep_ep1"
           rel="noopener noreferrer"
           role="button"
@@ -199,11 +199,11 @@ exports[`snapshot of initial component with multiple items 1`] = `
           target="_blank"
         >
           <span
-            class="MuiFab-label-484"
+            class="MuiFab-label-488"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-496 MultiCard-localPlayIcon-383"
+              class="MuiSvgIcon-root-500 MultiCard-localPlayIcon-387"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
@@ -221,7 +221,7 @@ exports[`snapshot of initial component with multiple items 1`] = `
         </a>
         <a
           aria-label="View Scene"
-          class="MuiButtonBase-root-493 MuiFab-root-483 MuiFab-extended-487 MuiFab-primary-485 MultiCard-fab-381 MuiCardActions-action-482"
+          class="MuiButtonBase-root-497 MuiFab-root-487 MuiFab-extended-491 MuiFab-primary-489 MultiCard-fab-385 MuiCardActions-action-486"
           href="https://www.youtube.com/watch?v=d3LDG5CCOPQ"
           rel="noopener noreferrer"
           role="button"
@@ -229,11 +229,11 @@ exports[`snapshot of initial component with multiple items 1`] = `
           target="_blank"
         >
           <span
-            class="MuiFab-label-484"
+            class="MuiFab-label-488"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-496 MultiCard-playCircleOutlineIcon-382"
+              class="MuiSvgIcon-root-500 MultiCard-playCircleOutlineIcon-386"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
