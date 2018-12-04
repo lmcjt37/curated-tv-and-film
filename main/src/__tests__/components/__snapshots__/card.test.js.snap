@@ -2,93 +2,89 @@
 
 exports[`snapshot of initial component 1`] = `
 <div
-  class="MuiPaper-root-144 MuiPaper-elevation1-147 MuiPaper-rounded-145 MuiCard-root-143 SingleCard-card-133"
+  class="MuiPaper-root-142 MuiPaper-elevation1-145 MuiPaper-rounded-143 MuiCard-root-141 SingleCard-card-132"
 >
   <div
-    class="SingleCard-innerContainer-134"
+    class="SingleCard-innerContainer-133"
   >
     <div
-      class="MuiCardMedia-root-171 SingleCard-media-135"
+      class="MuiCardMedia-root-169 SingleCard-media-134"
       style="background-image:url(\\"./assets/images/game-of-thrones.jpg\\")"
       title="Mock of Thrones"
     />
     <img
       alt="Mock of Thrones"
-      class="SingleCard-thumbnail-136"
+      class="SingleCard-thumbnail-135"
       src="./assets/images/game-of-thrones.jpg"
     />
     <div
-      class="MuiCardContent-root-173"
+      class="MuiCardContent-root-171"
     >
-      <div
-        class="SingleCard-details-137"
+      <h2
+        class="MuiTypography-root-172 MuiTypography-h6-189 MuiTypography-gutterBottom-199"
       >
-        <h2
-          class="MuiTypography-root-174 MuiTypography-h5-190 MuiTypography-gutterBottom-201"
+        Mock of Thrones 
+      </h2>
+      <div>
+        <h3
+          class="MuiTypography-root-172 MuiTypography-subtitle1-190 MuiTypography-gutterBottom-199"
         >
-          Mock of Thrones 
-        </h2>
-        <div>
-          <h3
-            class="MuiTypography-root-174 MuiTypography-h6-191"
-          >
-            To kill a mockingbird
-          </h3>
-          <p
-            class="MuiTypography-root-174 MuiTypography-body1-183"
-          >
-            Season: 1 | Episode: 1
-          </p>
-        </div>
-        <div
-          class="SingleCard-chips-138"
-        >
-          <div
-            class="MuiChip-root-209 SingleCard-chip-139"
-            role="button"
-            tabindex="-1"
-          >
-            <span
-              class="MuiChip-label-228"
-            >
-              Action
-            </span>
-          </div>
-          <div
-            class="MuiChip-root-209 SingleCard-chip-139"
-            role="button"
-            tabindex="-1"
-          >
-            <span
-              class="MuiChip-label-228"
-            >
-              Adventure
-            </span>
-          </div>
-          <div
-            class="MuiChip-root-209 SingleCard-chip-139"
-            role="button"
-            tabindex="-1"
-          >
-            <span
-              class="MuiChip-label-228"
-            >
-              Drama
-            </span>
-          </div>
-        </div>
+          To kill a mockingbird
+        </h3>
         <p
-          class="MuiTypography-root-174 MuiTypography-body1-183"
+          class="MuiTypography-root-172 MuiTypography-body1-181 MuiTypography-colorTextSecondary-205"
         >
-          You know nothing
+          Season: 1 | Episode: 1
         </p>
       </div>
       <div
-        class="MuiCardActions-root-234"
+        class="SingleCard-chips-136"
+      >
+        <div
+          class="MuiChip-root-207 SingleCard-chip-137"
+          role="button"
+          tabindex="-1"
+        >
+          <span
+            class="MuiChip-label-226"
+          >
+            Action
+          </span>
+        </div>
+        <div
+          class="MuiChip-root-207 SingleCard-chip-137"
+          role="button"
+          tabindex="-1"
+        >
+          <span
+            class="MuiChip-label-226"
+          >
+            Adventure
+          </span>
+        </div>
+        <div
+          class="MuiChip-root-207 SingleCard-chip-137"
+          role="button"
+          tabindex="-1"
+        >
+          <span
+            class="MuiChip-label-226"
+          >
+            Drama
+          </span>
+        </div>
+      </div>
+      <p
+        class="MuiTypography-root-172 MuiTypography-body1-181"
+      >
+        You know nothing
+      </p>
+      <div
+        class="MuiCardActions-root-232"
       >
         <a
           aria-label="IMDB"
-          class="MuiButtonBase-root-246 MuiFab-root-236 MuiFab-extended-240 MuiFab-primary-238 SingleCard-fab-140 MuiCardActions-action-235"
+          class="MuiButtonBase-root-244 MuiFab-root-234 MuiFab-extended-238 MuiFab-primary-236 SingleCard-fab-138 MuiCardActions-action-233"
           href="https://www.lmcjt.com"
           rel="noopener noreferrer"
           role="button"
@@ -96,11 +92,11 @@ exports[`snapshot of initial component 1`] = `
           target="_blank"
         >
           <span
-            class="MuiFab-label-237"
+            class="MuiFab-label-235"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-249 SingleCard-localPlayIcon-142"
+              class="MuiSvgIcon-root-247 SingleCard-localPlayIcon-140"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
@@ -118,7 +114,7 @@ exports[`snapshot of initial component 1`] = `
         </a>
         <a
           aria-label="View Scene"
-          class="MuiButtonBase-root-246 MuiFab-root-236 MuiFab-extended-240 MuiFab-primary-238 SingleCard-fab-140 MuiCardActions-action-235"
+          class="MuiButtonBase-root-244 MuiFab-root-234 MuiFab-extended-238 MuiFab-primary-236 SingleCard-fab-138 MuiCardActions-action-233"
           href="https://www.lmcjt.com"
           rel="noopener noreferrer"
           role="button"
@@ -126,11 +122,11 @@ exports[`snapshot of initial component 1`] = `
           target="_blank"
         >
           <span
-            class="MuiFab-label-237"
+            class="MuiFab-label-235"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-249 SingleCard-playCircleOutlineIcon-141"
+              class="MuiSvgIcon-root-247 SingleCard-playCircleOutlineIcon-139"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
