@@ -42,9 +42,9 @@ exports[`snapshot changes when input change 1`] = `
             class="MuiInputBase-root-288 Header-inputRoot-202 MuiInputBase-fullWidth-297"
           >
             <input
-              class="MuiInputBase-input-298 Header-inputInput-203"
+              class="MuiInputBase-input-298 Header-inputInput-203 MuiInputBase-inputType-301 MuiInputBase-inputTypeSearch-302"
               placeholder="Search…"
-              type="text"
+              type="search"
             />
           </div>
         </div>

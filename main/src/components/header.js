@@ -89,6 +89,7 @@ class Header extends React.Component {
               <InputBase
                 placeholder="Search…"
                 onChange={this.props.handleChange}
+                type="search"
                 fullWidth
                 classes={{
                   root: classes.inputRoot,

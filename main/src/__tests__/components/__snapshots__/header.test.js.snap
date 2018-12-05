@@ -41,9 +41,9 @@ exports[`snapshot of initial component 1`] = `
           class="MuiInputBase-root-216 Header-inputRoot-130 MuiInputBase-fullWidth-225"
         >
           <input
-            class="MuiInputBase-input-226 Header-inputInput-131"
+            class="MuiInputBase-input-226 Header-inputInput-131 MuiInputBase-inputType-229 MuiInputBase-inputTypeSearch-230"
             placeholder="Search…"
-            type="text"
+            type="search"
           />
         </div>
       </div>
