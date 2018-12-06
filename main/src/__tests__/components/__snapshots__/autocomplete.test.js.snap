@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of initial component 1`] = `
+<div
+  aria-expanded="false"
+  aria-haspopup="listbox"
+  aria-labelledby="downshift-simple-label"
+  class="Autocomplete-container-23"
+  role="combobox"
+>
+  <div
+    class="MuiInputBase-root-28 Autocomplete-inputRoot-25 MuiInputBase-fullWidth-37"
+  >
+    <input
+      aria-autocomplete="list"
+      aria-labelledby="downshift-simple-label"
+      autocomplete="off"
+      class="MuiInputBase-input-38 Autocomplete-inputInput-26"
+      id="downshift-simple-input"
+      placeholder="Search..."
+      spellcheck="false"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    aria-labelledby="downshift-simple-label"
+    id="downshift-simple-menu"
+    role="listbox"
+  />
+</div>
+`;

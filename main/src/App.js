@@ -41,7 +41,8 @@ class App extends React.Component {
       filterGenre: 'All',
       filterOrder: 'Ascending',
       onlyMovies: [],
-      years: []
+      years: [],
+      autoComplete: []
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -71,11 +72,28 @@ class App extends React.Component {
           el.title.toLowerCase().match(searchString) ||
           (el.year && el.year.toString().match(searchString))
       );
-      this.setState({ search: true });
-      this.setState({ content: searchResult });
+
+      var autoComplete = [];
+      autoComplete = data
+        .map(
+          el =>
+            el.title.toLowerCase().match(searchString)
+              ? { label: el.title }
+              : null
+        )
+        .filter(item => item !== null);
+
+      this.setState({
+        search: true,
+        content: searchResult,
+        autoComplete
+      });
     } else {
-      this.setState({ search: false });
-      this.setState({ content: data });
+      this.setState({
+        search: false,
+        content: data,
+        autoComplete: []
+      });
     }
   };
 
@@ -139,7 +157,8 @@ class App extends React.Component {
       filterYear,
       filterGenre,
       filterOrder,
-      years
+      years,
+      autoComplete
     } = this.state;
     var mContent = this.state.content;
     const { classes } = this.props;
@@ -147,7 +166,7 @@ class App extends React.Component {
     return (
       <div>
         <Header
-          {...{ showFilters, search }}
+          {...{ showFilters, search, autoComplete }}
           handleChange={this.handleChange}
           goTop={this.goTop}
           toggleFilter={this.toggleFilter}
