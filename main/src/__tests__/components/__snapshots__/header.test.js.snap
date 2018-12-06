@@ -2,28 +2,28 @@
 
 exports[`snapshot of initial component 1`] = `
 <div
-  class="Header-root-125"
+  class="Header-root-128"
 >
   <header
-    class="MuiPaper-root-141 MuiPaper-elevation4-147 MuiAppBar-root-132 MuiAppBar-positionFixed-133 MuiAppBar-colorPrimary-139 mui-fixed"
+    class="MuiPaper-root-142 MuiPaper-elevation4-148 MuiAppBar-root-133 MuiAppBar-positionFixed-134 MuiAppBar-colorPrimary-140 mui-fixed"
   >
     <div
-      class="MuiToolbar-root-168 MuiToolbar-regular-170 MuiToolbar-gutters-169"
+      class="MuiToolbar-root-169 MuiToolbar-regular-171 MuiToolbar-gutters-170"
     >
       <h6
-        class="MuiTypography-root-172 MuiTypography-h6-189 MuiTypography-colorInherit-201 MuiTypography-noWrap-198 Header-title-127"
+        class="MuiTypography-root-173 MuiTypography-h6-190 MuiTypography-colorInherit-202 MuiTypography-noWrap-199 Header-title-130"
       >
         Curated TV and Films
       </h6>
       <div
-        class="Header-search-128"
+        class="Header-search-131"
       >
         <div
-          class="Header-searchIcon-129"
+          class="Header-searchIcon-132"
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root-207"
+            class="MuiSvgIcon-root-208"
             focusable="false"
             role="presentation"
             viewBox="0 0 24 24"
@@ -38,29 +38,48 @@ exports[`snapshot of initial component 1`] = `
           </svg>
         </div>
         <div
-          class="MuiInputBase-root-216 Header-inputRoot-130 MuiInputBase-fullWidth-225"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="downshift-simple-label"
+          class="Autocomplete-container-217"
+          role="combobox"
         >
-          <input
-            class="MuiInputBase-input-226 Header-inputInput-131 MuiInputBase-inputType-229 MuiInputBase-inputTypeSearch-230"
-            placeholder="Search…"
-            type="search"
+          <div
+            class="MuiInputBase-root-222 Autocomplete-inputRoot-219 MuiInputBase-fullWidth-231"
+          >
+            <input
+              aria-autocomplete="list"
+              aria-labelledby="downshift-simple-label"
+              autocomplete="off"
+              class="MuiInputBase-input-232 Autocomplete-inputInput-220"
+              id="downshift-simple-input"
+              placeholder="Search..."
+              spellcheck="false"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            aria-labelledby="downshift-simple-label"
+            id="downshift-simple-menu"
+            role="listbox"
           />
         </div>
       </div>
       <div
-        class="Header-grow-126"
+        class="Header-grow-129"
       />
       <button
-        class="MuiButtonBase-root-239 MuiIconButton-root-233 MuiIconButton-colorInherit-234"
+        class="MuiButtonBase-root-245 MuiIconButton-root-239 MuiIconButton-colorInherit-240"
         tabindex="0"
         type="button"
       >
         <span
-          class="MuiIconButton-label-238"
+          class="MuiIconButton-label-244"
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root-207"
+            class="MuiSvgIcon-root-208"
             focusable="false"
             role="presentation"
             viewBox="0 0 24 24"

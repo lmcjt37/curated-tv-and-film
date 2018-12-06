@@ -7,7 +7,6 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import InputBase from '@material-ui/core/InputBase';
 
 // Material Core - Styles
 import { fade } from '@material-ui/core/styles/colorManipulator';
@@ -17,6 +16,9 @@ import { withStyles } from '@material-ui/core/styles';
 import SearchIcon from '@material-ui/icons/Search';
 import TuneIcon from '@material-ui/icons/Tune';
 import CloseIcon from '@material-ui/icons/HighlightOff';
+
+// Components
+import Autocomplete from './autocomplete';
 
 const styles = theme => ({
   root: {
@@ -51,24 +53,12 @@ const styles = theme => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center'
-  },
-  inputRoot: {
-    color: 'inherit',
-    width: '100%'
-  },
-  inputInput: {
-    paddingTop: theme.spacing.unit,
-    paddingRight: theme.spacing.unit,
-    paddingBottom: theme.spacing.unit,
-    paddingLeft: theme.spacing.unit * 10,
-    transition: theme.transitions.create('width'),
-    width: '100%'
   }
 });
 
 class Header extends React.Component {
   render() {
-    const { classes } = this.props;
+    const { classes, autoComplete } = this.props;
 
     return (
       <div className={classes.root}>
@@ -86,15 +76,9 @@ class Header extends React.Component {
               <div className={classes.searchIcon}>
                 <SearchIcon />
               </div>
-              <InputBase
-                placeholder="Search…"
-                onChange={this.props.handleChange}
-                type="search"
-                fullWidth
-                classes={{
-                  root: classes.inputRoot,
-                  input: classes.inputInput
-                }}
+              <Autocomplete
+                {...{ autoComplete }}
+                handleChange={this.props.handleChange}
               />
             </div>
             <div className={classes.grow} />
