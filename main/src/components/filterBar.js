@@ -13,13 +13,19 @@ import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import InputLabel from '@material-ui/core/InputLabel';
 import Select from '@material-ui/core/Select';
+import Collapse from '@material-ui/core/Collapse';
 
 // Material Core - Styles
 import { withStyles } from '@material-ui/core/styles';
 
 const styles = theme => ({
   root: {
-    width: '100%'
+    width: '100%',
+    position: 'fixed',
+    top: '54px',
+    [theme.breakpoints.up('sm')]: {
+      top: '64px'
+    }
   },
   grow: {
     flexGrow: 1
@@ -32,10 +38,7 @@ const styles = theme => ({
     top: '60px'
   },
   filterBar: {
-    top: '54px',
-    [theme.breakpoints.up('sm')]: {
-      top: '64px'
-    }
+    zIndex: 1
   }
 });
 
@@ -79,89 +82,91 @@ class FilterBar extends React.Component {
 
     return (
       <div className={classes.root}>
-        <AppBar
-          position="fixed"
-          color="secondary"
-          className={classes.filterBar}
-        >
-          <Toolbar>
-            <form className={classes.root} autoComplete="off">
-              <FormControl
-                component="fieldset"
-                margin="dense"
-                className={classes.formControl}
-              >
-                <FormLabel component="legend">Filter</FormLabel>
-                <RadioGroup
-                  aria-label="Filter"
-                  name="filter"
-                  className={classes.group}
-                  value={this.props.filterResults}
-                  onChange={this.props.handleFilter}
-                  row
+        <Collapse in={this.props.showFilters}>
+          <AppBar
+            position="relative"
+            color="secondary"
+            className={classes.filterBar}
+          >
+            <Toolbar>
+              <form autoComplete="off">
+                <FormControl
+                  component="fieldset"
+                  margin="dense"
+                  className={classes.formControl}
                 >
-                  <FormControlLabel
-                    value="all"
-                    control={<Radio color="primary" />}
-                    label="All"
-                  />
-                  <FormControlLabel
-                    value="movies"
-                    control={<Radio color="primary" />}
-                    label="Movies"
-                  />
-                  <FormControlLabel
-                    value="tv"
-                    control={<Radio color="primary" />}
-                    label="TV"
-                  />
-                </RadioGroup>
-              </FormControl>
-              {this.props.filterResults === 'movies' ? (
+                  <FormLabel component="legend">Filter</FormLabel>
+                  <RadioGroup
+                    aria-label="Filter"
+                    name="filter"
+                    className={classes.group}
+                    value={this.props.filterResults}
+                    onChange={this.props.handleFilter}
+                    row
+                  >
+                    <FormControlLabel
+                      value="all"
+                      control={<Radio color="primary" />}
+                      label="All"
+                    />
+                    <FormControlLabel
+                      value="movies"
+                      control={<Radio color="primary" />}
+                      label="Movies"
+                    />
+                    <FormControlLabel
+                      value="tv"
+                      control={<Radio color="primary" />}
+                      label="TV"
+                    />
+                  </RadioGroup>
+                </FormControl>
+                {this.props.filterResults === 'movies' ? (
+                  <FormControl className={classes.formControl}>
+                    <InputLabel htmlFor="filterYear">Year</InputLabel>
+                    <Select
+                      value={this.props.filterYear}
+                      onChange={this.props.handleYear}
+                      inputProps={{
+                        name: 'year',
+                        id: 'filterYear'
+                      }}
+                    >
+                      <MenuItem value="All">All</MenuItem>
+                      {yearOptions}
+                    </Select>
+                  </FormControl>
+                ) : null}
                 <FormControl className={classes.formControl}>
-                  <InputLabel htmlFor="filterYear">Year</InputLabel>
+                  <InputLabel htmlFor="filterGenre">Genre</InputLabel>
                   <Select
-                    value={this.props.filterYear}
-                    onChange={this.props.handleYear}
+                    value={this.props.filterGenre}
+                    onChange={this.props.handleGenre}
                     inputProps={{
-                      name: 'year',
-                      id: 'filterYear'
+                      name: 'genre',
+                      id: 'filterGenre'
                     }}
                   >
-                    <MenuItem value="All">All</MenuItem>
-                    {yearOptions}
+                    {genreOptions}
                   </Select>
                 </FormControl>
-              ) : null}
-              <FormControl className={classes.formControl}>
-                <InputLabel htmlFor="filterGenre">Genre</InputLabel>
-                <Select
-                  value={this.props.filterGenre}
-                  onChange={this.props.handleGenre}
-                  inputProps={{
-                    name: 'genre',
-                    id: 'filterGenre'
-                  }}
-                >
-                  {genreOptions}
-                </Select>
-              </FormControl>
-              <FormControl className={classes.formControl}>
-                <InputLabel htmlFor="filterOrder">Sort</InputLabel>
-                <Select
-                  value={this.props.filterOrder}
-                  onChange={this.props.handleOrder}
-                  inputProps={{
-                    name: 'order',
-                    id: 'filterOrder'
-                  }}
-                >
-                  {orderOptions}
-                </Select>
-              </FormControl>
-            </form>
-          </Toolbar>
-        </AppBar>
+                <FormControl className={classes.formControl}>
+                  <InputLabel htmlFor="filterOrder">Sort</InputLabel>
+                  <Select
+                    value={this.props.filterOrder}
+                    onChange={this.props.handleOrder}
+                    inputProps={{
+                      name: 'order',
+                      id: 'filterOrder'
+                    }}
+                  >
+                    {orderOptions}
+                  </Select>
+                </FormControl>
+              </form>
+            </Toolbar>
+          </AppBar>
+        </Collapse>
       </div>
     );
   }

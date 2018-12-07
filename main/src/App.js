@@ -1,6 +1,8 @@
+// React
 import React from 'react';
 import { Events, animateScroll as scroll } from 'react-scroll';
 
+// Components
 import './App.css';
 import content from './content.js';
 import Header from './components/header.js';
@@ -8,8 +10,9 @@ import Footer from './components/footer.js';
 import FilterBar from './components/filterBar.js';
 import Card from './components/card.js';
 import MultiCard from './components/multiCard';
-import ErrorIcon from '@material-ui/icons/Error';
 
+// Material UI
+import ErrorIcon from '@material-ui/icons/Error';
 import { withStyles } from '@material-ui/core/styles';
 
 var data = content;
@@ -171,15 +174,20 @@ class App extends React.Component {
           goTop={this.goTop}
           toggleFilter={this.toggleFilter}
         />
-        {this.state.showFilters ? (
-          <FilterBar
-            {...{ filterResults, filterYear, filterGenre, filterOrder, years }}
-            handleGenre={this.handleGenre}
-            handleFilter={this.handleFilter}
-            handleYear={this.handleYear}
-            handleOrder={this.handleOrder}
-          />
-        ) : null}
+        <FilterBar
+          {...{
+            filterResults,
+            filterYear,
+            filterGenre,
+            filterOrder,
+            years,
+            showFilters
+          }}
+          handleGenre={this.handleGenre}
+          handleFilter={this.handleFilter}
+          handleYear={this.handleYear}
+          handleOrder={this.handleOrder}
+        />
         <main className={classes.content}>
           {mContent.length ? (
             <ul>

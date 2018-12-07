@@ -2,228 +2,240 @@
 
 exports[`snapshot of initial component 1`] = `
 <div
-  class="FilterBar-root-186"
+  class="FilterBar-root-190"
 >
-  <header
-    class="MuiPaper-root-200 MuiPaper-elevation4-206 MuiAppBar-root-191 MuiAppBar-positionFixed-192 MuiAppBar-colorSecondary-199 mui-fixed FilterBar-filterBar-190"
+  <div
+    class="MuiCollapse-container-195"
+    style="min-height:0px"
   >
     <div
-      class="MuiToolbar-root-227 MuiToolbar-regular-229 MuiToolbar-gutters-228"
+      class="MuiCollapse-wrapper-197"
     >
-      <form
-        autocomplete="off"
-        class="FilterBar-root-186"
+      <div
+        class="MuiCollapse-wrapperInner-198"
       >
-        <fieldset
-          class="MuiFormControl-root-231 MuiFormControl-marginDense-233 FilterBar-formControl-188"
+        <header
+          class="MuiPaper-root-208 MuiPaper-elevation4-214 MuiAppBar-root-199 MuiAppBar-positionRelative-204 MuiAppBar-colorSecondary-207 FilterBar-filterBar-194"
         >
-          <legend
-            class="MuiFormLabel-root-235"
-          >
-            Filter
-          </legend>
           <div
-            aria-label="Filter"
-            class="MuiFormGroup-root-242 MuiFormGroup-row-243 FilterBar-group-189"
-            role="radiogroup"
+            class="MuiToolbar-root-235 MuiToolbar-regular-237 MuiToolbar-gutters-236"
           >
-            <label
-              class="MuiFormControlLabel-root-244"
+            <form
+              autocomplete="off"
             >
-              <span
-                class="MuiButtonBase-root-265 MuiIconButton-root-259 MuiPrivateSwitchBase-root-255 MuiRadio-root-250 MuiRadio-colorPrimary-253 MuiPrivateSwitchBase-checked-256 MuiRadio-checked-251"
+              <fieldset
+                class="MuiFormControl-root-239 MuiFormControl-marginDense-241 FilterBar-formControl-192"
               >
-                <span
-                  class="MuiIconButton-label-264"
+                <legend
+                  class="MuiFormLabel-root-243"
                 >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root-268"
-                    focusable="false"
-                    role="presentation"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
-                    />
-                  </svg>
-                  <input
-                    checked=""
-                    class="MuiPrivateSwitchBase-input-258"
-                    name="filter"
-                    type="radio"
-                    value="all"
-                  />
-                </span>
-              </span>
-              <span
-                class="MuiTypography-root-277 MuiTypography-body1-286 MuiFormControlLabel-label-249"
-              >
-                All
-              </span>
-            </label>
-            <label
-              class="MuiFormControlLabel-root-244"
-            >
-              <span
-                class="MuiButtonBase-root-265 MuiIconButton-root-259 MuiPrivateSwitchBase-root-255 MuiRadio-root-250 MuiRadio-colorPrimary-253"
-              >
-                <span
-                  class="MuiIconButton-label-264"
+                  Filter
+                </legend>
+                <div
+                  aria-label="Filter"
+                  class="MuiFormGroup-root-250 MuiFormGroup-row-251 FilterBar-group-193"
+                  role="radiogroup"
                 >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root-268"
-                    focusable="false"
-                    role="presentation"
-                    viewBox="0 0 24 24"
+                  <label
+                    class="MuiFormControlLabel-root-252"
                   >
-                    <path
-                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
-                    />
-                  </svg>
-                  <input
-                    class="MuiPrivateSwitchBase-input-258"
-                    name="filter"
-                    type="radio"
-                    value="movies"
-                  />
-                </span>
-              </span>
-              <span
-                class="MuiTypography-root-277 MuiTypography-body1-286 MuiFormControlLabel-label-249"
-              >
-                Movies
-              </span>
-            </label>
-            <label
-              class="MuiFormControlLabel-root-244"
-            >
-              <span
-                class="MuiButtonBase-root-265 MuiIconButton-root-259 MuiPrivateSwitchBase-root-255 MuiRadio-root-250 MuiRadio-colorPrimary-253"
-              >
-                <span
-                  class="MuiIconButton-label-264"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root-268"
-                    focusable="false"
-                    role="presentation"
-                    viewBox="0 0 24 24"
+                    <span
+                      class="MuiButtonBase-root-273 MuiIconButton-root-267 MuiPrivateSwitchBase-root-263 MuiRadio-root-258 MuiRadio-colorPrimary-261 MuiPrivateSwitchBase-checked-264 MuiRadio-checked-259"
+                    >
+                      <span
+                        class="MuiIconButton-label-272"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-276"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <input
+                          checked=""
+                          class="MuiPrivateSwitchBase-input-266"
+                          name="filter"
+                          type="radio"
+                          value="all"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      class="MuiTypography-root-285 MuiTypography-body1-294 MuiFormControlLabel-label-257"
+                    >
+                      All
+                    </span>
+                  </label>
+                  <label
+                    class="MuiFormControlLabel-root-252"
                   >
-                    <path
-                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
-                    />
-                  </svg>
-                  <input
-                    class="MuiPrivateSwitchBase-input-258"
-                    name="filter"
-                    type="radio"
-                    value="tv"
-                  />
-                </span>
-              </span>
-              <span
-                class="MuiTypography-root-277 MuiTypography-body1-286 MuiFormControlLabel-label-249"
-              >
-                TV
-              </span>
-            </label>
-          </div>
-        </fieldset>
-        <div
-          class="MuiFormControl-root-231 FilterBar-formControl-188"
-        >
-          <label
-            class="MuiFormLabel-root-235 MuiFormLabel-filled-239 MuiInputLabel-root-312 MuiInputLabel-formControl-317 MuiInputLabel-animated-320 MuiInputLabel-shrink-319"
-            data-shrink="true"
-            for="filterGenre"
-          >
-            Genre
-          </label>
-          <div
-            class="MuiInputBase-root-343 MuiInput-root-330 MuiInput-underline-334 MuiInputBase-formControl-344 MuiInput-formControl-331"
-          >
-            <div
-              class="MuiSelect-root-323"
-            >
+                    <span
+                      class="MuiButtonBase-root-273 MuiIconButton-root-267 MuiPrivateSwitchBase-root-263 MuiRadio-root-258 MuiRadio-colorPrimary-261"
+                    >
+                      <span
+                        class="MuiIconButton-label-272"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-276"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiPrivateSwitchBase-input-266"
+                          name="filter"
+                          type="radio"
+                          value="movies"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      class="MuiTypography-root-285 MuiTypography-body1-294 MuiFormControlLabel-label-257"
+                    >
+                      Movies
+                    </span>
+                  </label>
+                  <label
+                    class="MuiFormControlLabel-root-252"
+                  >
+                    <span
+                      class="MuiButtonBase-root-273 MuiIconButton-root-267 MuiPrivateSwitchBase-root-263 MuiRadio-root-258 MuiRadio-colorPrimary-261"
+                    >
+                      <span
+                        class="MuiIconButton-label-272"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-276"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiPrivateSwitchBase-input-266"
+                          name="filter"
+                          type="radio"
+                          value="tv"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      class="MuiTypography-root-285 MuiTypography-body1-294 MuiFormControlLabel-label-257"
+                    >
+                      TV
+                    </span>
+                  </label>
+                </div>
+              </fieldset>
               <div
-                aria-haspopup="true"
-                aria-pressed="false"
-                class="MuiSelect-select-324 MuiSelect-selectMenu-327 MuiInputBase-input-353 MuiInput-input-338"
-                role="button"
-                tabindex="0"
+                class="MuiFormControl-root-239 FilterBar-formControl-192"
               >
-                All
+                <label
+                  class="MuiFormLabel-root-243 MuiFormLabel-filled-247 MuiInputLabel-root-320 MuiInputLabel-formControl-325 MuiInputLabel-animated-328 MuiInputLabel-shrink-327"
+                  data-shrink="true"
+                  for="filterGenre"
+                >
+                  Genre
+                </label>
+                <div
+                  class="MuiInputBase-root-351 MuiInput-root-338 MuiInput-underline-342 MuiInputBase-formControl-352 MuiInput-formControl-339"
+                >
+                  <div
+                    class="MuiSelect-root-331"
+                  >
+                    <div
+                      aria-haspopup="true"
+                      aria-pressed="false"
+                      class="MuiSelect-select-332 MuiSelect-selectMenu-335 MuiInputBase-input-361 MuiInput-input-346"
+                      role="button"
+                      tabindex="0"
+                    >
+                      All
+                    </div>
+                    <input
+                      id="filterGenre"
+                      name="genre"
+                      type="hidden"
+                      value="All"
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-276 MuiSelect-icon-337"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M7 10l5 5 5-5z"
+                      />
+                    </svg>
+                  </div>
+                </div>
               </div>
-              <input
-                id="filterGenre"
-                name="genre"
-                type="hidden"
-                value="All"
-              />
-              <svg
-                aria-hidden="true"
-                class="MuiSvgIcon-root-268 MuiSelect-icon-329"
-                focusable="false"
-                role="presentation"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7 10l5 5 5-5z"
-                />
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div
-          class="MuiFormControl-root-231 FilterBar-formControl-188"
-        >
-          <label
-            class="MuiFormLabel-root-235 MuiFormLabel-filled-239 MuiInputLabel-root-312 MuiInputLabel-formControl-317 MuiInputLabel-animated-320 MuiInputLabel-shrink-319"
-            data-shrink="true"
-            for="filterOrder"
-          >
-            Sort
-          </label>
-          <div
-            class="MuiInputBase-root-343 MuiInput-root-330 MuiInput-underline-334 MuiInputBase-formControl-344 MuiInput-formControl-331"
-          >
-            <div
-              class="MuiSelect-root-323"
-            >
               <div
-                aria-haspopup="true"
-                aria-pressed="false"
-                class="MuiSelect-select-324 MuiSelect-selectMenu-327 MuiInputBase-input-353 MuiInput-input-338"
-                role="button"
-                tabindex="0"
+                class="MuiFormControl-root-239 FilterBar-formControl-192"
               >
-                Ascending
+                <label
+                  class="MuiFormLabel-root-243 MuiFormLabel-filled-247 MuiInputLabel-root-320 MuiInputLabel-formControl-325 MuiInputLabel-animated-328 MuiInputLabel-shrink-327"
+                  data-shrink="true"
+                  for="filterOrder"
+                >
+                  Sort
+                </label>
+                <div
+                  class="MuiInputBase-root-351 MuiInput-root-338 MuiInput-underline-342 MuiInputBase-formControl-352 MuiInput-formControl-339"
+                >
+                  <div
+                    class="MuiSelect-root-331"
+                  >
+                    <div
+                      aria-haspopup="true"
+                      aria-pressed="false"
+                      class="MuiSelect-select-332 MuiSelect-selectMenu-335 MuiInputBase-input-361 MuiInput-input-346"
+                      role="button"
+                      tabindex="0"
+                    >
+                      Ascending
+                    </div>
+                    <input
+                      id="filterOrder"
+                      name="order"
+                      type="hidden"
+                      value="Ascending"
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-276 MuiSelect-icon-337"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M7 10l5 5 5-5z"
+                      />
+                    </svg>
+                  </div>
+                </div>
               </div>
-              <input
-                id="filterOrder"
-                name="order"
-                type="hidden"
-                value="Ascending"
-              />
-              <svg
-                aria-hidden="true"
-                class="MuiSvgIcon-root-268 MuiSelect-icon-329"
-                focusable="false"
-                role="presentation"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7 10l5 5 5-5z"
-                />
-              </svg>
-            </div>
+            </form>
           </div>
-        </div>
-      </form>
+        </header>
+      </div>
     </div>
-  </header>
+  </div>
 </div>
 `;
