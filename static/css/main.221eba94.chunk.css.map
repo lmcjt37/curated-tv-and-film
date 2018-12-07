@@ -1,1 +1,0 @@
-{"version":3,"sources":["/home/circleci/project/main/src/App.css"],"names":[],"mappings":"AAAA,KACE,6BAAkC,CACnC,AAED,GACE,qBAAsB,AACtB,SAAW,CACZ","file":"main.221eba94.chunk.css","sourcesContent":["body {\n  font-family: 'Roboto', sans-serif;\n}\n\nul {\n  list-style-type: none;\n  padding: 0;\n}\n"]}
