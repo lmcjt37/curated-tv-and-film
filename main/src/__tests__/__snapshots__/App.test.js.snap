@@ -630,6 +630,141 @@ exports[`snapshot changes when input change 1`] = `
           >
             <div
               class="MuiCardMedia-root-474 SingleCard-media-466"
+              style="background-image:url(\\"./assets/images/braveheart.jpg\\")"
+              title="Braveheart"
+            />
+            <img
+              alt="Braveheart"
+              class="SingleCard-thumbnail-467"
+              src="./assets/images/braveheart.jpg"
+            />
+            <div
+              class="MuiCardContent-root-476"
+            >
+              <h2
+                class="MuiTypography-root-317 MuiTypography-h6-334 MuiTypography-gutterBottom-344"
+              >
+                Braveheart  (1995)
+              </h2>
+              <div
+                class="SingleCard-chips-468"
+              >
+                <div
+                  class="MuiChip-root-477 SingleCard-chip-469"
+                  role="button"
+                  tabindex="-1"
+                >
+                  <span
+                    class="MuiChip-label-496"
+                  >
+                    Biography
+                  </span>
+                </div>
+                <div
+                  class="MuiChip-root-477 SingleCard-chip-469"
+                  role="button"
+                  tabindex="-1"
+                >
+                  <span
+                    class="MuiChip-label-496"
+                  >
+                    Drama
+                  </span>
+                </div>
+                <div
+                  class="MuiChip-root-477 SingleCard-chip-469"
+                  role="button"
+                  tabindex="-1"
+                >
+                  <span
+                    class="MuiChip-label-496"
+                  >
+                    History
+                  </span>
+                </div>
+              </div>
+              <p
+                class="MuiTypography-root-317 MuiTypography-body1-326"
+              >
+                William Wallace is captured and brought for execution for his crimes of treason against the English crown. In his final moments he screams out the word "Freedom" as a final act of defiance before being executed.
+              </p>
+              <div
+                class="MuiCardActions-root-502"
+              >
+                <a
+                  aria-label="IMDB"
+                  class="MuiButtonBase-root-389 MuiFab-root-504 MuiFab-extended-508 MuiFab-primary-506 SingleCard-fab-470 MuiCardActions-action-503"
+                  href="https://www.imdb.com/title/tt0112573/"
+                  rel="noopener noreferrer"
+                  role="button"
+                  tabindex="0"
+                  target="_blank"
+                >
+                  <span
+                    class="MuiFab-label-505"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-352 SingleCard-localPlayIcon-472"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M20 12c0-1.1.9-2 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-1.99.9-1.99 2v4c1.1 0 1.99.9 1.99 2s-.89 2-2 2v4c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-4c-1.1 0-2-.9-2-2zm-4.42 4.8L12 14.5l-3.58 2.3 1.08-4.12-3.29-2.69 4.24-.25L12 5.8l1.54 3.95 4.24.25-3.29 2.69 1.09 4.11z"
+                      />
+                    </svg>
+                    IMDB
+                  </span>
+                </a>
+                <a
+                  aria-label="View Scene"
+                  class="MuiButtonBase-root-389 MuiFab-root-504 MuiFab-extended-508 MuiFab-primary-506 SingleCard-fab-470 MuiCardActions-action-503"
+                  href="https://www.youtube.com/watch?v=cCHf8FxqzJc"
+                  rel="noopener noreferrer"
+                  role="button"
+                  tabindex="0"
+                  target="_blank"
+                >
+                  <span
+                    class="MuiFab-label-505"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-352 SingleCard-playCircleOutlineIcon-471"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                      />
+                    </svg>
+                    View Scene
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div
+          class="MuiPaper-root-286 MuiPaper-elevation1-289 MuiPaper-rounded-287 MuiCard-root-473 SingleCard-card-464"
+        >
+          <div
+            class="SingleCard-innerContainer-465"
+          >
+            <div
+              class="MuiCardMedia-root-474 SingleCard-media-466"
               style="background-image:url(\\"./assets/images/fight-club.jpg\\")"
               title="Fight Club"
             />

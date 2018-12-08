@@ -323,6 +323,17 @@ var content = [
     url: 'https://www.youtube.com/watch?v=UeBt26IHIzU',
     thumbnail: './assets/images/archer.jpg',
     genre: ['Animation', 'Action', 'Comedy']
+  },
+  {
+    type: 'movie',
+    title: 'Braveheart',
+    description:
+      'William Wallace is captured and brought for execution for his crimes of treason against the English crown. In his final moments he screams out the word "Freedom" as a final act of defiance before being executed.',
+    year: 1995,
+    imdb: 'https://www.imdb.com/title/tt0112573/',
+    url: 'https://www.youtube.com/watch?v=cCHf8FxqzJc',
+    thumbnail: './assets/images/braveheart.jpg',
+    genre: ['Biography', 'Drama', 'History']
   }
 ];
 
