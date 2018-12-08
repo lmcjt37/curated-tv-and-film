@@ -59,7 +59,8 @@ class FilterBar extends React.Component {
       'Romance',
       'Sci-Fi',
       'Thriller',
-      'Horror'
+      'Horror',
+      'Biography'
     ];
     let genreOptions = genres.map((genre, idx) => (
       <MenuItem key={idx} value={genre}>
