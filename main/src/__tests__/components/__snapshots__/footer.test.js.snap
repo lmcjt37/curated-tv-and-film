@@ -2,50 +2,53 @@
 
 exports[`snapshot of initial component 1`] = `
 <footer
-  class="Footer-footer-39"
+  class="Footer-footer-40"
 >
   <ul
-    class="Footer-list-40"
+    class="Footer-list-41"
   >
     <li
-      class="Footer-links-41"
+      class="Footer-links-42"
     >
       <a
+        class="Footer-anchor-43"
         href="https://github.com/lmcjt37/curated-tv-and-film"
         rel="noopener noreferrer"
         target="_blank"
       >
         <p
-          class="MuiTypography-root-42 MuiTypography-body1-51"
+          class="MuiTypography-root-44 MuiTypography-body1-53 MuiTypography-colorTextSecondary-77"
         >
           Repository
         </p>
       </a>
     </li>
     <li
-      class="Footer-links-41"
+      class="Footer-links-42"
     >
       <a
+        class="Footer-anchor-43"
         href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors"
         rel="noopener noreferrer"
         target="_blank"
       >
         <p
-          class="MuiTypography-root-42 MuiTypography-body1-51"
+          class="MuiTypography-root-44 MuiTypography-body1-53 MuiTypography-colorTextSecondary-77"
         >
           Contributors
         </p>
       </a>
     </li>
     <li
-      class="Footer-links-41"
+      class="Footer-links-42"
     >
       <a
+        class="Footer-anchor-43"
         rel="noopener noreferrer"
         target="_blank"
       >
         <p
-          class="MuiTypography-root-42 MuiTypography-body1-51"
+          class="MuiTypography-root-44 MuiTypography-body1-53 MuiTypography-colorTextSecondary-77"
         >
           build debug
         </p>

@@ -25,6 +25,12 @@ const styles = theme => ({
   },
   links: {
     margin: theme.spacing.unit
+  },
+  anchor: {
+    textDecoration: 'none',
+    '&:hover': {
+      textDecoration: 'underline'
+    }
   }
 });
 
@@ -35,29 +41,32 @@ function Footer(props) {
       <ul className={classes.list}>
         <li className={classes.links}>
           <a
+            className={classes.anchor}
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/lmcjt37/curated-tv-and-film"
           >
-            <Typography>Repository</Typography>
+            <Typography color="textSecondary">Repository</Typography>
           </a>
         </li>
         <li className={classes.links}>
           <a
+            className={classes.anchor}
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors"
           >
-            <Typography>Contributors</Typography>
+            <Typography color="textSecondary">Contributors</Typography>
           </a>
         </li>
         <li className={classes.links}>
           <a
+            className={classes.anchor}
             target="_blank"
             rel="noopener noreferrer"
             href={process.env.REACT_APP_BUILD_URL}
           >
-            <Typography>
+            <Typography color="textSecondary">
               build {process.env.REACT_APP_BUILD || 'debug'}
             </Typography>
           </a>
