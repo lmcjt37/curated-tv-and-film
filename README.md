@@ -98,7 +98,19 @@ Provided that the components have been rendered correctly, you can fix and updat
 _Tests are also run on a pre-commit hook to make sure tests are updated along with commits and don't break the build._
 
 ## Contribution
+
 Feel free to contribute by reading the guidelines - [Contributing](CONTRIBUTING.md)
 
 ## Contributors
+
 Visit here for contributors list - [Contributors](CONTRIBUTORS.md)
+
+## Acknowledgements
+
+This site is built with a number of tools, the main one being [Create React App](https://facebook.github.io/create-react-app/).
+
+It is themed with [Material UI](https://material-ui.com/), React components that implement Google's Material Design.
+
+Images are sourced via search engines and are not owned by this site.
+
+This site is not endorsed by or affiliated with [IMDB](https://www.imdb.com/).
