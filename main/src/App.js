@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
+// React
+import React from 'react';
 import { Events, animateScroll as scroll } from 'react-scroll';
 
+// Components
 import './App.css';
 import content from './content.js';
 import Header from './components/header.js';
@@ -9,9 +11,27 @@ import FilterBar from './components/filterBar.js';
 import Card from './components/card.js';
 import MultiCard from './components/multiCard';
 
+// Material UI
+import ErrorIcon from '@material-ui/icons/Error';
+import { withStyles } from '@material-ui/core/styles';
+
 var data = content;
 
-class App extends Component {
+const styles = theme => ({
+  content: {
+    marginTop: `${theme.spacing.unit * 2 + 54}px`,
+    [theme.breakpoints.up('sm')]: {
+      marginTop: `${theme.spacing.unit * 2 + 64}px`
+    }
+  },
+  error: {
+    textAlign: 'center',
+    width: '100%',
+    margin: '200px auto'
+  }
+});
+
+class App extends React.Component {
   constructor(props) {
     super(props);
 
@@ -20,18 +40,19 @@ class App extends Component {
       content: data,
       showFilters: false,
       filterResults: 'all',
-      filterYear: '',
+      filterYear: 'All',
       filterGenre: 'All',
-      filterAlpha: 'Ascending',
+      filterOrder: 'Ascending',
       onlyMovies: [],
-      years: []
+      years: [],
+      autoComplete: []
     };
 
     this.handleChange = this.handleChange.bind(this);
     this.handleFilter = this.handleFilter.bind(this);
     this.handleYear = this.handleYear.bind(this);
     this.handleGenre = this.handleGenre.bind(this);
-    this.handleAlpha = this.handleAlpha.bind(this);
+    this.handleOrder = this.handleOrder.bind(this);
     this.toggleFilter = this.toggleFilter.bind(this);
   }
 
@@ -54,20 +75,39 @@ class App extends Component {
           el.title.toLowerCase().match(searchString) ||
           (el.year && el.year.toString().match(searchString))
       );
-      this.setState({ search: true });
-      this.setState({ content: searchResult });
+
+      var autoComplete = [];
+      autoComplete = data
+        .map(
+          el =>
+            el.title.toLowerCase().match(searchString)
+              ? { label: el.title }
+              : null
+        )
+        .filter(item => item !== null);
+
+      this.setState({
+        search: true,
+        content: searchResult,
+        autoComplete
+      });
     } else {
-      this.setState({ search: false });
-      this.setState({ content: data });
+      this.setState({
+        search: false,
+        content: data,
+        autoComplete: []
+      });
     }
   };
 
   handleYear = event => {
     let year = event.target.value;
-    let moviesFilteredByYear = this.state.onlyMovies.filter(
-      movie => movie.year.toString() === year
-    );
-
+    let moviesFilteredByYear = this.state.onlyMovies;
+    if (year !== 'All') {
+      moviesFilteredByYear = this.state.onlyMovies.filter(
+        movie => movie.year.toString() === year.toString()
+      );
+    }
     this.setState({
       filterYear: year,
       content: moviesFilteredByYear
@@ -79,18 +119,18 @@ class App extends Component {
       filterResults: event.target.value,
       content: data,
       years: [],
-      filterYear: ''
+      filterYear: 'All'
     });
 
     if (!this.state.filterTV) {
-      let filteredMovide = this.state.content.filter(
+      let filteredMovies = this.state.content.filter(
         value => value.type === 'movie'
       );
-      let onlyYears = new Set(filteredMovide.map(movie => movie.year));
+      let onlyYears = new Set(filteredMovies.map(movie => movie.year));
       let years = [...onlyYears].sort((a, b) => b - a);
 
       this.setState({
-        onlyMovies: filteredMovide,
+        onlyMovies: filteredMovies,
         years
       });
     }
@@ -100,13 +140,13 @@ class App extends Component {
     this.setState({ filterGenre: event.target.value });
   };
 
-  handleAlpha = event => {
-    this.setState({ filterAlpha: event.target.value });
+  handleOrder = event => {
+    this.setState({ filterOrder: event.target.value });
   };
 
   handleAlpha = event => {
-    this.setState({ filterAlpha: event.target.value })
-  }
+    this.setState({ filterAlpha: event.target.value });
+  };
 
   toggleFilter = () => {
     this.setState({ showFilters: !this.state.showFilters });
@@ -117,153 +157,116 @@ class App extends Component {
   };
 
   render() {
-<<<<<<< HEAD
-    const {showFilters, searchString, filterResults, filterYear, filterGenre, filterAlpha, years} = this.state;
-=======
     const {
       showFilters,
       search,
       filterResults,
       filterYear,
       filterGenre,
-      years
+      filterOrder,
+      years,
+      autoComplete
     } = this.state;
->>>>>>> upstream/master
     var mContent = this.state.content;
+    const { classes } = this.props;
 
     return (
-      <div className="main-container">
+      <div>
         <Header
-          {...{ showFilters, search }}
+          {...{ showFilters, search, autoComplete }}
           handleChange={this.handleChange}
           goTop={this.goTop}
           toggleFilter={this.toggleFilter}
         />
-        {this.state.showFilters ? (
-<<<<<<< HEAD
-          <FilterBar 
-            {...{filterResults, filterYear, filterGenre, filterAlpha, years}}
-=======
-          <FilterBar
-            {...{ filterResults, filterYear, filterGenre, years }}
->>>>>>> upstream/master
-            handleGenre={this.handleGenre}
-            handleFilter={this.handleFilter}
-            handleYear={this.handleYear}
-            handleAlpha={this.handleAlpha}
-<<<<<<< HEAD
-          />) : null}
-=======
-          />
-        ) : null}
->>>>>>> upstream/master
-        <section className="app container">
-          <main className="main-content">
-            <div className="content-list">
-              {mContent.length ? (
-                <ul>
-<<<<<<< HEAD
-                  
-                  { this.state.filterAlpha === "Ascending" &&
-                    //sort alphabetically ascending
-                    mContent.sort(function(a, b){
-	                    var titleA=a.title.toLowerCase(), titleB=b.title.toLowerCase()
-                        if (titleA < titleB)
-                          return -1 
-                        if (titleA > titleB)
-                          return 1
-                      return 0
-                    }).map(() => {
-                      return '';
-
-                    })}
-
-                    { this.state.filterAlpha === "Descending" &&
-                    //sort alphabetically descending
-                    mContent.sort(function(a, b){
-	                    var titleA=a.title.toLowerCase(), titleB=b.title.toLowerCase()
-                        if (titleA > titleB)
-                          return -1 
-                        if (titleA < titleB)
-                          return 1
-                      return 0
-                    }).map(() => {
-                      return '';
-
-                    })}
-=======
-                  {this.state.filterAlpha === 'Ascending' &&
-                    //sort alphabetically ascending
-                    mContent
-                      .sort(function(a, b) {
-                        var titleA = a.title.toLowerCase(),
-                          titleB = b.title.toLowerCase();
-                        if (titleA < titleB) return -1;
-                        if (titleA > titleB) return 1;
-                        return 0;
-                      })
-                      .map(() => {
-                        return '';
-                      })}
-
-                  {this.state.filterAlpha === 'Descending' &&
-                    //sort alphabetically descending
-                    mContent
-                      .sort(function(a, b) {
-                        var titleA = a.title.toLowerCase(),
-                          titleB = b.title.toLowerCase();
-                        if (titleA > titleB) return -1;
-                        if (titleA < titleB) return 1;
-                        return 0;
-                      })
-                      .map(() => {
-                        return '';
-                      })}
->>>>>>> upstream/master
-
-                  {mContent.map((item, index) => {
-                    if (
-                      this.state.filterResults === 'movies' &&
-                      item.type !== 'movie'
-                    )
-                      return '';
-                    if (
-                      this.state.filterResults === 'tv' &&
-                      item.type !== 'tv_show'
-                    )
-                      return '';
-                    if (
-                      this.state.filterGenre !== 'All' &&
-                      !item.genre.some(
-                        genre => genre === this.state.filterGenre
-                      )
-                    )
-                      return '';
-
-                    return (
-                      <li key={index}>
-                        {item.content ? (
-                          <MultiCard {...item} />
-                        ) : (
-                          <Card {...item} />
-                        )}
-                      </li>
-                    );
+        <FilterBar
+          {...{
+            filterResults,
+            filterYear,
+            filterGenre,
+            filterOrder,
+            years,
+            showFilters
+          }}
+          handleGenre={this.handleGenre}
+          handleFilter={this.handleFilter}
+          handleYear={this.handleYear}
+          handleOrder={this.handleOrder}
+        />
+        <main className={classes.content}>
+          {mContent.length ? (
+            <ul>
+              {this.state.filterOrder === 'Ascending' &&
+                //sort alphabetically ascending
+                mContent
+                  .sort(function(a, b) {
+                    var titleA = a.title.toLowerCase(),
+                      titleB = b.title.toLowerCase();
+                    if (titleA < titleB) return -1;
+                    if (titleA > titleB) return 1;
+                    return 0;
+                  })
+                  .map(() => {
+                    return '';
                   })}
-                  
-                </ul>
-              ) : this.state.search ? (
-                <p>No search result</p>
-              ) : (
-                <p>Can't load the data.</p>
-              )}
+
+              {this.state.filterOrder === 'Descending' &&
+                //sort alphabetically descending
+                mContent
+                  .sort(function(a, b) {
+                    var titleA = a.title.toLowerCase(),
+                      titleB = b.title.toLowerCase();
+                    if (titleA > titleB) return -1;
+                    if (titleA < titleB) return 1;
+                    return 0;
+                  })
+                  .map(() => {
+                    return '';
+                  })}
+
+              {mContent.map((item, index) => {
+                if (
+                  this.state.filterResults === 'movies' &&
+                  item.type !== 'movie'
+                )
+                  return '';
+                if (
+                  this.state.filterResults === 'tv' &&
+                  item.type !== 'tv_show'
+                )
+                  return '';
+                if (
+                  this.state.filterGenre !== 'All' &&
+                  !item.genre.some(genre => genre === this.state.filterGenre)
+                )
+                  return '';
+
+                return (
+                  <li key={index}>
+                    {item.content ? (
+                      <MultiCard {...item} />
+                    ) : (
+                      <Card {...item} />
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
+          ) : this.state.search ? (
+            <div className={classes.error}>
+              <ErrorIcon fontSize="large" />
+              <p>No search result</p>
             </div>
-          </main>
-        </section>
+          ) : (
+            <div className={classes.error}>
+              <ErrorIcon fontSize="large" />
+              <p>Can't load the data.</p>
+            </div>
+          )}
+        </main>
         <Footer />
       </div>
     );
   }
 }
 
-export default App;
+export default withStyles(styles)(App);

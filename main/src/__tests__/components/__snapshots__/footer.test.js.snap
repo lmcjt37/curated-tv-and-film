@@ -2,51 +2,58 @@
 
 exports[`snapshot of initial component 1`] = `
 <footer
-  id="footer"
+  class="Footer-footer-40"
 >
-  <div
-    className="container"
+  <ul
+    class="Footer-list-41"
   >
-    <ul
-      className="links"
-    >
-      <li>
-        <a
-          href="https://github.com/lmcjt37/curated-tv-and-film"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <span>
-            Repository
-          </span>
-        </a>
-      </li>
-      <li>
-        |
-      </li>
-      <li>
-        <a
-          href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <span>
-            Contributors
-          </span>
-        </a>
-      </li>
-    </ul>
-    <p
-      className="version"
+    <li
+      class="Footer-links-42"
     >
       <a
+        class="Footer-anchor-43"
+        href="https://github.com/lmcjt37/curated-tv-and-film"
         rel="noopener noreferrer"
         target="_blank"
       >
-        build 
-        debug
+        <p
+          class="MuiTypography-root-44 MuiTypography-body1-53 MuiTypography-colorTextSecondary-77"
+        >
+          Repository
+        </p>
       </a>
-    </p>
-  </div>
+    </li>
+    <li
+      class="Footer-links-42"
+    >
+      <a
+        class="Footer-anchor-43"
+        href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <p
+          class="MuiTypography-root-44 MuiTypography-body1-53 MuiTypography-colorTextSecondary-77"
+        >
+          Contributors
+        </p>
+      </a>
+    </li>
+    <li
+      class="Footer-links-42"
+    >
+      <a
+        class="Footer-anchor-43"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <p
+          class="MuiTypography-root-44 MuiTypography-body1-53 MuiTypography-colorTextSecondary-77"
+        >
+          build debug
+        </p>
+      </a>
+    </li>
+  </ul>
 </footer>
 `;

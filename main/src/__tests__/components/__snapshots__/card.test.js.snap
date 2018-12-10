@@ -2,98 +2,147 @@
 
 exports[`snapshot of initial component 1`] = `
 <div
-  className="item-card"
+  class="MuiPaper-root-142 MuiPaper-elevation1-145 MuiPaper-rounded-143 MuiCard-root-141 SingleCard-card-132"
 >
   <div
-    className="item-thumbnail"
+    class="SingleCard-innerContainer-133"
   >
-    <a
-      href="https://www.lmcjt.com"
-      rel="noopener noreferrer"
-      target="_blank"
-    >
-      <img
-        alt="Mock of Thrones"
-        className="item-image"
-        src="./assets/images/game-of-thrones.jpg"
-      />
-    </a>
-  </div>
-  <div
-    className="item-info"
-  >
-    <h2>
-      Mock of Thrones
-      
-    </h2>
-    <span
-      className="genre-container"
-    >
-      <h5
-        className="genre-title"
-      >
-        Genre:
-      </h5>
-      <span
-        className="genre-item"
-      >
-        Action, Adventure, Drama
-      </span>
-    </span>
     <div
-      className="tvshow-details"
+      class="MuiCardMedia-root-169 SingleCard-media-134"
+      style="background-image:url(\\"./assets/images/game-of-thrones.jpg\\")"
+      title="Mock of Thrones"
+    />
+    <img
+      alt="Mock of Thrones"
+      class="SingleCard-thumbnail-135"
+      src="./assets/images/game-of-thrones.jpg"
+    />
+    <div
+      class="MuiCardContent-root-171"
     >
-      <div
-        className="details__item"
+      <h2
+        class="MuiTypography-root-172 MuiTypography-h6-189 MuiTypography-gutterBottom-199"
       >
-        <span>
-          Season:
-        </span>
-         
-        1
+        Mock of Thrones 
+      </h2>
+      <div>
+        <h3
+          class="MuiTypography-root-172 MuiTypography-subtitle1-190 MuiTypography-gutterBottom-199"
+        >
+          To kill a mockingbird
+        </h3>
+        <p
+          class="MuiTypography-root-172 MuiTypography-body1-181 MuiTypography-colorTextSecondary-205"
+        >
+          Season: 1 | Episode: 1
+        </p>
       </div>
       <div
-        className="details__item"
+        class="SingleCard-chips-136"
       >
-        <span>
-          Episode:
-        </span>
-         
-        1
+        <div
+          class="MuiChip-root-207 SingleCard-chip-137"
+          role="button"
+          tabindex="-1"
+        >
+          <span
+            class="MuiChip-label-226"
+          >
+            Action
+          </span>
+        </div>
+        <div
+          class="MuiChip-root-207 SingleCard-chip-137"
+          role="button"
+          tabindex="-1"
+        >
+          <span
+            class="MuiChip-label-226"
+          >
+            Adventure
+          </span>
+        </div>
+        <div
+          class="MuiChip-root-207 SingleCard-chip-137"
+          role="button"
+          tabindex="-1"
+        >
+          <span
+            class="MuiChip-label-226"
+          >
+            Drama
+          </span>
+        </div>
       </div>
+      <p
+        class="MuiTypography-root-172 MuiTypography-body1-181"
+      >
+        You know nothing
+      </p>
       <div
-        className="details__item"
+        class="MuiCardActions-root-232"
       >
-        <span>
-          Episode Title:
-        </span>
-         
-        To kill a mockingbird
+        <a
+          aria-label="IMDB"
+          class="MuiButtonBase-root-244 MuiFab-root-234 MuiFab-extended-238 MuiFab-primary-236 SingleCard-fab-138 MuiCardActions-action-233"
+          href="https://www.lmcjt.com"
+          rel="noopener noreferrer"
+          role="button"
+          tabindex="0"
+          target="_blank"
+        >
+          <span
+            class="MuiFab-label-235"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-247 SingleCard-localPlayIcon-140"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M20 12c0-1.1.9-2 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-1.99.9-1.99 2v4c1.1 0 1.99.9 1.99 2s-.89 2-2 2v4c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-4c-1.1 0-2-.9-2-2zm-4.42 4.8L12 14.5l-3.58 2.3 1.08-4.12-3.29-2.69 4.24-.25L12 5.8l1.54 3.95 4.24.25-3.29 2.69 1.09 4.11z"
+              />
+            </svg>
+            IMDB
+          </span>
+        </a>
+        <a
+          aria-label="View Scene"
+          class="MuiButtonBase-root-244 MuiFab-root-234 MuiFab-extended-238 MuiFab-primary-236 SingleCard-fab-138 MuiCardActions-action-233"
+          href="https://www.lmcjt.com"
+          rel="noopener noreferrer"
+          role="button"
+          tabindex="0"
+          target="_blank"
+        >
+          <span
+            class="MuiFab-label-235"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-247 SingleCard-playCircleOutlineIcon-139"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+              />
+            </svg>
+            View Scene
+          </span>
+        </a>
       </div>
-    </div>
-    <div
-      className="item-desc details__item"
-    >
-      <span>
-        Description:
-      </span>
-       
-      You know nothing
-    </div>
-    <div
-      className="item-imdb"
-    >
-      <span>
-        IMDB:
-      </span>
-      <a
-        className="item-link"
-        href="https://www.lmcjt.com"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        https://www.lmcjt.com
-      </a>
     </div>
   </div>
 </div>
