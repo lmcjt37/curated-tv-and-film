@@ -144,10 +144,6 @@ class App extends React.Component {
     this.setState({ filterOrder: event.target.value });
   };
 
-  handleAlpha = event => {
-    this.setState({ filterAlpha: event.target.value });
-  };
-
   toggleFilter = () => {
     this.setState({ showFilters: !this.state.showFilters });
   };
