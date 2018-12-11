@@ -1,13 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { render } from 'enzyme';
 
 import MultiCard from '../../components/multiCard';
-
-import { createRender } from '@material-ui/core/test-utils';
-import { configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
-
-configure({ adapter: new Adapter() });
 
 const itemMockZero = {
   type: 'tv_show',
@@ -81,7 +76,6 @@ it('renders without crashing, with two items', () => {
 });
 
 it('snapshot of initial component with multiple items', () => {
-  let render = createRender();
   const component = render(<MultiCard {...itemMockTwo} />);
   expect(component).toMatchSnapshot();
 });
