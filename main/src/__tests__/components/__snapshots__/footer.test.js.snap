@@ -2,53 +2,53 @@
 
 exports[`snapshot of initial component 1`] = `
 <footer
-  class="Footer-footer-40"
+  class="Footer-footer-1"
 >
   <ul
-    class="Footer-list-41"
+    class="Footer-list-2"
   >
     <li
-      class="Footer-links-42"
+      class="Footer-links-3"
     >
       <a
-        class="Footer-anchor-43"
+        class="Footer-anchor-4"
         href="https://github.com/lmcjt37/curated-tv-and-film"
         rel="noopener noreferrer"
         target="_blank"
       >
         <p
-          class="MuiTypography-root-44 MuiTypography-body1-53 MuiTypography-colorTextSecondary-77"
+          class="MuiTypography-root-5 MuiTypography-body1-14 MuiTypography-colorTextSecondary-38"
         >
           Repository
         </p>
       </a>
     </li>
     <li
-      class="Footer-links-42"
+      class="Footer-links-3"
     >
       <a
-        class="Footer-anchor-43"
+        class="Footer-anchor-4"
         href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors"
         rel="noopener noreferrer"
         target="_blank"
       >
         <p
-          class="MuiTypography-root-44 MuiTypography-body1-53 MuiTypography-colorTextSecondary-77"
+          class="MuiTypography-root-5 MuiTypography-body1-14 MuiTypography-colorTextSecondary-38"
         >
           Contributors
         </p>
       </a>
     </li>
     <li
-      class="Footer-links-42"
+      class="Footer-links-3"
     >
       <a
-        class="Footer-anchor-43"
+        class="Footer-anchor-4"
         rel="noopener noreferrer"
         target="_blank"
       >
         <p
-          class="MuiTypography-root-44 MuiTypography-body1-53 MuiTypography-colorTextSecondary-77"
+          class="MuiTypography-root-5 MuiTypography-body1-14 MuiTypography-colorTextSecondary-38"
         >
           build debug
         </p>

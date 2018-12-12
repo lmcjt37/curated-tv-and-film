@@ -2,28 +2,28 @@
 
 exports[`snapshot of initial component 1`] = `
 <div
-  class="Header-root-128"
+  class="Header-root-1"
 >
   <header
-    class="MuiPaper-root-142 MuiPaper-elevation4-148 MuiAppBar-root-133 MuiAppBar-positionFixed-134 MuiAppBar-colorPrimary-140 mui-fixed"
+    class="MuiPaper-root-15 MuiPaper-elevation4-21 MuiAppBar-root-6 MuiAppBar-positionFixed-7 MuiAppBar-colorPrimary-13 mui-fixed"
   >
     <div
-      class="MuiToolbar-root-169 MuiToolbar-regular-171 MuiToolbar-gutters-170"
+      class="MuiToolbar-root-42 MuiToolbar-regular-44 MuiToolbar-gutters-43"
     >
       <h6
-        class="MuiTypography-root-173 MuiTypography-h6-190 MuiTypography-colorInherit-202 MuiTypography-noWrap-199 Header-title-130"
+        class="MuiTypography-root-46 MuiTypography-h6-63 MuiTypography-colorInherit-75 MuiTypography-noWrap-72 Header-title-3"
       >
         Curated TV and Films
       </h6>
       <div
-        class="Header-search-131"
+        class="Header-search-4"
       >
         <div
-          class="Header-searchIcon-132"
+          class="Header-searchIcon-5"
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root-208"
+            class="MuiSvgIcon-root-81"
             focusable="false"
             role="presentation"
             viewBox="0 0 24 24"
@@ -41,17 +41,17 @@ exports[`snapshot of initial component 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-labelledby="downshift-simple-label"
-          class="Autocomplete-container-217"
+          class="Autocomplete-container-90"
           role="combobox"
         >
           <div
-            class="MuiInputBase-root-222 Autocomplete-inputRoot-219 MuiInputBase-fullWidth-231"
+            class="MuiInputBase-root-95 Autocomplete-inputRoot-92 MuiInputBase-fullWidth-104"
           >
             <input
               aria-autocomplete="list"
               aria-labelledby="downshift-simple-label"
               autocomplete="off"
-              class="MuiInputBase-input-232 Autocomplete-inputInput-220"
+              class="MuiInputBase-input-105 Autocomplete-inputInput-93"
               id="downshift-simple-input"
               placeholder="Search..."
               spellcheck="false"
@@ -67,19 +67,19 @@ exports[`snapshot of initial component 1`] = `
         </div>
       </div>
       <div
-        class="Header-grow-129"
+        class="Header-grow-2"
       />
       <button
-        class="MuiButtonBase-root-245 MuiIconButton-root-239 MuiIconButton-colorInherit-240"
+        class="MuiButtonBase-root-118 MuiIconButton-root-112 MuiIconButton-colorInherit-113"
         tabindex="0"
         type="button"
       >
         <span
-          class="MuiIconButton-label-244"
+          class="MuiIconButton-label-117"
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root-208"
+            class="MuiSvgIcon-root-81"
             focusable="false"
             role="presentation"
             viewBox="0 0 24 24"
