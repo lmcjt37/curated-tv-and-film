@@ -99,7 +99,8 @@ class Header extends React.Component {
 }
 
 Header.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  autoComplete: PropTypes.array.isRequired
 };
 
 export default withStyles(styles)(Header);

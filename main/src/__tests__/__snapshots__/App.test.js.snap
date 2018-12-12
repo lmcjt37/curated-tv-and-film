@@ -3,28 +3,28 @@
 exports[`snapshot changes when input change 1`] = `
 <div>
   <div
-    class="Header-root-273"
+    class="Header-root-3"
   >
     <header
-      class="MuiPaper-root-287 MuiPaper-elevation4-293 MuiAppBar-root-278 MuiAppBar-positionFixed-279 MuiAppBar-colorPrimary-285 mui-fixed"
+      class="MuiPaper-root-17 MuiPaper-elevation4-23 MuiAppBar-root-8 MuiAppBar-positionFixed-9 MuiAppBar-colorPrimary-15 mui-fixed"
     >
       <div
-        class="MuiToolbar-root-314 MuiToolbar-regular-316 MuiToolbar-gutters-315"
+        class="MuiToolbar-root-44 MuiToolbar-regular-46 MuiToolbar-gutters-45"
       >
         <h6
-          class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-colorInherit-347 MuiTypography-noWrap-344 Header-title-275"
+          class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-colorInherit-77 MuiTypography-noWrap-74 Header-title-5"
         >
           Curated TV and Films
         </h6>
         <div
-          class="Header-search-276"
+          class="Header-search-6"
         >
           <div
-            class="Header-searchIcon-277"
+            class="Header-searchIcon-7"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-353"
+              class="MuiSvgIcon-root-83"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
@@ -42,17 +42,17 @@ exports[`snapshot changes when input change 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             aria-labelledby="downshift-simple-label"
-            class="Autocomplete-container-362"
+            class="Autocomplete-container-92"
             role="combobox"
           >
             <div
-              class="MuiInputBase-root-367 Autocomplete-inputRoot-364 MuiInputBase-fullWidth-376"
+              class="MuiInputBase-root-97 Autocomplete-inputRoot-94 MuiInputBase-fullWidth-106"
             >
               <input
                 aria-autocomplete="list"
                 aria-labelledby="downshift-simple-label"
                 autocomplete="off"
-                class="MuiInputBase-input-377 Autocomplete-inputInput-365"
+                class="MuiInputBase-input-107 Autocomplete-inputInput-95"
                 id="downshift-simple-input"
                 placeholder="Search..."
                 spellcheck="false"
@@ -68,19 +68,19 @@ exports[`snapshot changes when input change 1`] = `
           </div>
         </div>
         <div
-          class="Header-grow-274"
+          class="Header-grow-4"
         />
         <button
-          class="MuiButtonBase-root-390 MuiIconButton-root-384 MuiIconButton-colorInherit-385"
+          class="MuiButtonBase-root-120 MuiIconButton-root-114 MuiIconButton-colorInherit-115"
           tabindex="0"
           type="button"
         >
           <span
-            class="MuiIconButton-label-389"
+            class="MuiIconButton-label-119"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-353"
+              class="MuiSvgIcon-root-83"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
@@ -99,52 +99,52 @@ exports[`snapshot changes when input change 1`] = `
     </header>
   </div>
   <div
-    class="FilterBar-root-393"
+    class="FilterBar-root-123"
   >
     <div
-      class="MuiCollapse-container-398"
+      class="MuiCollapse-container-128"
       style="min-height:0px"
     >
       <div
-        class="MuiCollapse-wrapper-400"
+        class="MuiCollapse-wrapper-130"
       >
         <div
-          class="MuiCollapse-wrapperInner-401"
+          class="MuiCollapse-wrapperInner-131"
         >
           <header
-            class="MuiPaper-root-287 MuiPaper-elevation4-293 MuiAppBar-root-278 MuiAppBar-positionRelative-283 MuiAppBar-colorSecondary-286 FilterBar-filterBar-397"
+            class="MuiPaper-root-17 MuiPaper-elevation4-23 MuiAppBar-root-8 MuiAppBar-positionRelative-13 MuiAppBar-colorSecondary-16 FilterBar-filterBar-127"
           >
             <div
-              class="MuiToolbar-root-314 MuiToolbar-regular-316 MuiToolbar-gutters-315"
+              class="MuiToolbar-root-44 MuiToolbar-regular-46 MuiToolbar-gutters-45"
             >
               <form
                 autocomplete="off"
               >
                 <fieldset
-                  class="MuiFormControl-root-402 MuiFormControl-marginDense-404 FilterBar-formControl-395"
+                  class="MuiFormControl-root-132 MuiFormControl-marginDense-134 FilterBar-formControl-125"
                 >
                   <legend
-                    class="MuiFormLabel-root-406"
+                    class="MuiFormLabel-root-136"
                   >
                     Filter
                   </legend>
                   <div
                     aria-label="Filter"
-                    class="MuiFormGroup-root-413 MuiFormGroup-row-414 FilterBar-group-396"
+                    class="MuiFormGroup-root-143 MuiFormGroup-row-144 FilterBar-group-126"
                     role="radiogroup"
                   >
                     <label
-                      class="MuiFormControlLabel-root-415"
+                      class="MuiFormControlLabel-root-145"
                     >
                       <span
-                        class="MuiButtonBase-root-390 MuiIconButton-root-384 MuiPrivateSwitchBase-root-426 MuiRadio-root-421 MuiRadio-colorPrimary-424 MuiPrivateSwitchBase-checked-427 MuiRadio-checked-422"
+                        class="MuiButtonBase-root-120 MuiIconButton-root-114 MuiPrivateSwitchBase-root-156 MuiRadio-root-151 MuiRadio-colorPrimary-154 MuiPrivateSwitchBase-checked-157 MuiRadio-checked-152"
                       >
                         <span
-                          class="MuiIconButton-label-389"
+                          class="MuiIconButton-label-119"
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root-353"
+                            class="MuiSvgIcon-root-83"
                             focusable="false"
                             role="presentation"
                             viewBox="0 0 24 24"
@@ -155,7 +155,7 @@ exports[`snapshot changes when input change 1`] = `
                           </svg>
                           <input
                             checked=""
-                            class="MuiPrivateSwitchBase-input-429"
+                            class="MuiPrivateSwitchBase-input-159"
                             name="filter"
                             type="radio"
                             value="all"
@@ -163,23 +163,23 @@ exports[`snapshot changes when input change 1`] = `
                         </span>
                       </span>
                       <span
-                        class="MuiTypography-root-318 MuiTypography-body1-327 MuiFormControlLabel-label-420"
+                        class="MuiTypography-root-48 MuiTypography-body1-57 MuiFormControlLabel-label-150"
                       >
                         All
                       </span>
                     </label>
                     <label
-                      class="MuiFormControlLabel-root-415"
+                      class="MuiFormControlLabel-root-145"
                     >
                       <span
-                        class="MuiButtonBase-root-390 MuiIconButton-root-384 MuiPrivateSwitchBase-root-426 MuiRadio-root-421 MuiRadio-colorPrimary-424"
+                        class="MuiButtonBase-root-120 MuiIconButton-root-114 MuiPrivateSwitchBase-root-156 MuiRadio-root-151 MuiRadio-colorPrimary-154"
                       >
                         <span
-                          class="MuiIconButton-label-389"
+                          class="MuiIconButton-label-119"
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root-353"
+                            class="MuiSvgIcon-root-83"
                             focusable="false"
                             role="presentation"
                             viewBox="0 0 24 24"
@@ -189,7 +189,7 @@ exports[`snapshot changes when input change 1`] = `
                             />
                           </svg>
                           <input
-                            class="MuiPrivateSwitchBase-input-429"
+                            class="MuiPrivateSwitchBase-input-159"
                             name="filter"
                             type="radio"
                             value="movies"
@@ -197,23 +197,23 @@ exports[`snapshot changes when input change 1`] = `
                         </span>
                       </span>
                       <span
-                        class="MuiTypography-root-318 MuiTypography-body1-327 MuiFormControlLabel-label-420"
+                        class="MuiTypography-root-48 MuiTypography-body1-57 MuiFormControlLabel-label-150"
                       >
                         Movies
                       </span>
                     </label>
                     <label
-                      class="MuiFormControlLabel-root-415"
+                      class="MuiFormControlLabel-root-145"
                     >
                       <span
-                        class="MuiButtonBase-root-390 MuiIconButton-root-384 MuiPrivateSwitchBase-root-426 MuiRadio-root-421 MuiRadio-colorPrimary-424"
+                        class="MuiButtonBase-root-120 MuiIconButton-root-114 MuiPrivateSwitchBase-root-156 MuiRadio-root-151 MuiRadio-colorPrimary-154"
                       >
                         <span
-                          class="MuiIconButton-label-389"
+                          class="MuiIconButton-label-119"
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root-353"
+                            class="MuiSvgIcon-root-83"
                             focusable="false"
                             role="presentation"
                             viewBox="0 0 24 24"
@@ -223,7 +223,7 @@ exports[`snapshot changes when input change 1`] = `
                             />
                           </svg>
                           <input
-                            class="MuiPrivateSwitchBase-input-429"
+                            class="MuiPrivateSwitchBase-input-159"
                             name="filter"
                             type="radio"
                             value="tv"
@@ -231,7 +231,7 @@ exports[`snapshot changes when input change 1`] = `
                         </span>
                       </span>
                       <span
-                        class="MuiTypography-root-318 MuiTypography-body1-327 MuiFormControlLabel-label-420"
+                        class="MuiTypography-root-48 MuiTypography-body1-57 MuiFormControlLabel-label-150"
                       >
                         TV
                       </span>
@@ -239,25 +239,25 @@ exports[`snapshot changes when input change 1`] = `
                   </div>
                 </fieldset>
                 <div
-                  class="MuiFormControl-root-402 FilterBar-formControl-395"
+                  class="MuiFormControl-root-132 FilterBar-formControl-125"
                 >
                   <label
-                    class="MuiFormLabel-root-406 MuiFormLabel-filled-410 MuiInputLabel-root-430 MuiInputLabel-formControl-435 MuiInputLabel-animated-438 MuiInputLabel-shrink-437"
+                    class="MuiFormLabel-root-136 MuiFormLabel-filled-140 MuiInputLabel-root-160 MuiInputLabel-formControl-165 MuiInputLabel-animated-168 MuiInputLabel-shrink-167"
                     data-shrink="true"
                     for="filterGenre"
                   >
                     Genre
                   </label>
                   <div
-                    class="MuiInputBase-root-367 MuiInput-root-448 MuiInput-underline-452 MuiInputBase-formControl-368 MuiInput-formControl-449"
+                    class="MuiInputBase-root-97 MuiInput-root-178 MuiInput-underline-182 MuiInputBase-formControl-98 MuiInput-formControl-179"
                   >
                     <div
-                      class="MuiSelect-root-441"
+                      class="MuiSelect-root-171"
                     >
                       <div
                         aria-haspopup="true"
                         aria-pressed="false"
-                        class="MuiSelect-select-442 MuiSelect-selectMenu-445 MuiInputBase-input-377 MuiInput-input-456"
+                        class="MuiSelect-select-172 MuiSelect-selectMenu-175 MuiInputBase-input-107 MuiInput-input-186"
                         role="button"
                         tabindex="0"
                       >
@@ -271,7 +271,7 @@ exports[`snapshot changes when input change 1`] = `
                       />
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-353 MuiSelect-icon-447"
+                        class="MuiSvgIcon-root-83 MuiSelect-icon-177"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -284,25 +284,25 @@ exports[`snapshot changes when input change 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiFormControl-root-402 FilterBar-formControl-395"
+                  class="MuiFormControl-root-132 FilterBar-formControl-125"
                 >
                   <label
-                    class="MuiFormLabel-root-406 MuiFormLabel-filled-410 MuiInputLabel-root-430 MuiInputLabel-formControl-435 MuiInputLabel-animated-438 MuiInputLabel-shrink-437"
+                    class="MuiFormLabel-root-136 MuiFormLabel-filled-140 MuiInputLabel-root-160 MuiInputLabel-formControl-165 MuiInputLabel-animated-168 MuiInputLabel-shrink-167"
                     data-shrink="true"
                     for="filterOrder"
                   >
                     Sort
                   </label>
                   <div
-                    class="MuiInputBase-root-367 MuiInput-root-448 MuiInput-underline-452 MuiInputBase-formControl-368 MuiInput-formControl-449"
+                    class="MuiInputBase-root-97 MuiInput-root-178 MuiInput-underline-182 MuiInputBase-formControl-98 MuiInput-formControl-179"
                   >
                     <div
-                      class="MuiSelect-root-441"
+                      class="MuiSelect-root-171"
                     >
                       <div
                         aria-haspopup="true"
                         aria-pressed="false"
-                        class="MuiSelect-select-442 MuiSelect-selectMenu-445 MuiInputBase-input-377 MuiInput-input-456"
+                        class="MuiSelect-select-172 MuiSelect-selectMenu-175 MuiInputBase-input-107 MuiInput-input-186"
                         role="button"
                         tabindex="0"
                       >
@@ -316,7 +316,7 @@ exports[`snapshot changes when input change 1`] = `
                       />
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-353 MuiSelect-icon-447"
+                        class="MuiSvgIcon-root-83 MuiSelect-icon-177"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -336,94 +336,94 @@ exports[`snapshot changes when input change 1`] = `
     </div>
   </div>
   <main
-    class="App-content-271"
+    class="App-content-1"
   >
     <ul>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/archer.jpg\\")"
               title="Archer"
             />
             <img
               alt="Archer"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/archer.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Archer 
               </h2>
               <div>
                 <h3
-                  class="MuiTypography-root-318 MuiTypography-subtitle1-336 MuiTypography-gutterBottom-345"
+                  class="MuiTypography-root-48 MuiTypography-subtitle1-66 MuiTypography-gutterBottom-75"
                 >
                   Placebo Effect
                 </h3>
                 <p
-                  class="MuiTypography-root-318 MuiTypography-body1-327 MuiTypography-colorTextSecondary-351"
+                  class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81"
                 >
                   Season: 2 | Episode: 9
                 </p>
               </div>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Animation
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Action
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Comedy
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 When Archer discovers the chemotherapy drugs he's been taking for his breast cancer are counterfeit, he sets out to destroy the criminals behind the scheme.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt1883469/"
                   rel="noopener noreferrer"
                   role="button"
@@ -431,11 +431,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -453,7 +453,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=UeBt26IHIzU"
                   rel="noopener noreferrer"
                   role="button"
@@ -461,11 +461,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -488,77 +488,77 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/armageddon.jpg\\")"
               title="Armageddon"
             />
             <img
               alt="Armageddon"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/armageddon.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Armageddon  (1998)
               </h2>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Action
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Adventure
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Sci-Fi
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 After drawing straws with A.J. (Ben Affleck) at the losing end, Harry (Bruce Willis) turns the tables and decides to sacrifice himself instead.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt0120591/"
                   rel="noopener noreferrer"
                   role="button"
@@ -566,11 +566,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -588,7 +588,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=OYcTmiCtCv8"
                   rel="noopener noreferrer"
                   role="button"
@@ -596,11 +596,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -623,77 +623,77 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/braveheart.jpg\\")"
               title="Braveheart"
             />
             <img
               alt="Braveheart"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/braveheart.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Braveheart  (1995)
               </h2>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Biography
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Drama
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     History
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 William Wallace is captured and brought for execution for his crimes of treason against the English crown. In his final moments he screams out the word "Freedom" as a final act of defiance before being executed.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt0112573/"
                   rel="noopener noreferrer"
                   role="button"
@@ -701,11 +701,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -723,7 +723,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=cCHf8FxqzJc"
                   rel="noopener noreferrer"
                   role="button"
@@ -731,11 +731,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -758,55 +758,55 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/fight-club.jpg\\")"
               title="Fight Club"
             />
             <img
               alt="Fight Club"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/fight-club.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Fight Club  (1999)
               </h2>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Drama
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 The movie all comes to a culmination as Tyler Durden and Marla singer watch all of the buildings around them explode.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt0137523/"
                   rel="noopener noreferrer"
                   role="button"
@@ -814,11 +814,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -836,7 +836,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=VC6Z_kdQoHw"
                   rel="noopener noreferrer"
                   role="button"
@@ -844,11 +844,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -871,66 +871,66 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/forrest-gump.jpg\\")"
               title="Forrest Gump"
             />
             <img
               alt="Forrest Gump"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/forrest-gump.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Forrest Gump  (1994)
               </h2>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Drama
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Romance
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 A young Forrest Gump, still sporting his leg braces, get's picked on and chased by some local bullies. As he's chased, his childhood friend Jenny shouts the iconic quote "Run, Forrest! Run!
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt0109830/"
                   rel="noopener noreferrer"
                   role="button"
@@ -938,11 +938,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -960,7 +960,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=v3qlBM9vAW8"
                   rel="noopener noreferrer"
                   role="button"
@@ -968,11 +968,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -995,78 +995,78 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/friends.jpg\\")"
               title="Friends"
             />
             <img
               alt="Friends"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/friends.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Friends 
               </h2>
               <div>
                 <h3
-                  class="MuiTypography-root-318 MuiTypography-subtitle1-336 MuiTypography-gutterBottom-345"
+                  class="MuiTypography-root-48 MuiTypography-subtitle1-66 MuiTypography-gutterBottom-75"
                 >
                   The One Where It All Began
                 </h3>
                 <p
-                  class="MuiTypography-root-318 MuiTypography-body1-327 MuiTypography-colorTextSecondary-351"
+                  class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81"
                 >
                   Season: 1 | Episode: 1
                 </p>
               </div>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Comedy
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Romance
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 Rachel Green, Ross Geller, Monica Geller, Joey Tribbiani, Chandler Bing and Phoebe Buffay are six 20 something year-olds, living off of one another in the heart of New York City. Over the course of ten years, this average group of buddies goes through massive mayhem, family trouble, past and future romances, fights, laughs, tears and surprises as they learn what it really means to be a friend.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt0108778/"
                   rel="noopener noreferrer"
                   role="button"
@@ -1074,11 +1074,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1096,7 +1096,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=IzfZf1kxxI4"
                   rel="noopener noreferrer"
                   role="button"
@@ -1104,11 +1104,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1131,89 +1131,89 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/game-of-thrones.jpg\\")"
               title="Game of Thrones"
             />
             <img
               alt="Game of Thrones"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/game-of-thrones.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Game of Thrones 
               </h2>
               <div>
                 <h3
-                  class="MuiTypography-root-318 MuiTypography-subtitle1-336 MuiTypography-gutterBottom-345"
+                  class="MuiTypography-root-48 MuiTypography-subtitle1-66 MuiTypography-gutterBottom-75"
                 >
                   Battle of the Bastards
                 </h3>
                 <p
-                  class="MuiTypography-root-318 MuiTypography-body1-327 MuiTypography-colorTextSecondary-351"
+                  class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81"
                 >
                   Season: 6 | Episode: 9
                 </p>
               </div>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Action
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Adventure
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Drama
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 In Winterfell, Jon Snow, Sansa, Davos and Tormund meet with Ramsay, and Jon Snow proposes a dispute between them instead of sacrificing lives in a battle. Ramsay does not accept and they schedule the battle in the morning. Jon Snow plots a scheme with Davos and Tormund and Sansa warns that Ramsay plays dirty. When both armies are ready to battle, Ramsay brings a surprise.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt4283088/?ref_=ttep_ep9"
                   rel="noopener noreferrer"
                   role="button"
@@ -1221,11 +1221,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1243,7 +1243,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=m8rURwkvOx0"
                   rel="noopener noreferrer"
                   role="button"
@@ -1251,11 +1251,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1278,77 +1278,77 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/get-out.jpg\\")"
               title="Get Out"
             />
             <img
               alt="Get Out"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/get-out.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Get Out  (2017)
               </h2>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Horror
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Mystery
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Thriller
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 Chris is sent to the Sunken Place
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt5052448/"
                   rel="noopener noreferrer"
                   role="button"
@@ -1356,11 +1356,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1378,7 +1378,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=kBwVWrBk_uo"
                   rel="noopener noreferrer"
                   role="button"
@@ -1386,11 +1386,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1413,78 +1413,78 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/house.jpg\\")"
               title="House"
             />
             <img
               alt="House"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/house.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 House 
               </h2>
               <div>
                 <h3
-                  class="MuiTypography-root-318 MuiTypography-subtitle1-336 MuiTypography-gutterBottom-345"
+                  class="MuiTypography-root-48 MuiTypography-subtitle1-66 MuiTypography-gutterBottom-75"
                 >
                   Wilson
                 </h3>
                 <p
-                  class="MuiTypography-root-318 MuiTypography-body1-327 MuiTypography-colorTextSecondary-351"
+                  class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81"
                 >
                   Season: 6 | Episode: 9
                 </p>
               </div>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Drama
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Mystery
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 Gregory House, M.D., often construed as a misanthropic medical genius, heads a team of diagnosticians at the Princeton–Plainsboro Teaching Hospital in New Jersey.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt0412142/"
                   rel="noopener noreferrer"
                   role="button"
@@ -1492,11 +1492,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1514,7 +1514,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=tLMzEOoSjc4"
                   rel="noopener noreferrer"
                   role="button"
@@ -1522,11 +1522,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1549,78 +1549,78 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/how-i-met-your-mother.jpg\\")"
               title="How I Met Your Mother"
             />
             <img
               alt="How I Met Your Mother"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/how-i-met-your-mother.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 How I Met Your Mother 
               </h2>
               <div>
                 <h3
-                  class="MuiTypography-root-318 MuiTypography-subtitle1-336 MuiTypography-gutterBottom-345"
+                  class="MuiTypography-root-48 MuiTypography-subtitle1-66 MuiTypography-gutterBottom-75"
                 >
                   Pilot
                 </h3>
                 <p
-                  class="MuiTypography-root-318 MuiTypography-body1-327 MuiTypography-colorTextSecondary-351"
+                  class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81"
                 >
                   Season: 1 | Episode: 1
                 </p>
               </div>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Comedy
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Romance
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 It's the year 2030 and an older Ted Mosby is telling the story to his son and daughter about how he met and will eventually marry their mother. This is where we meet for the first time Ted, Lily, Marshall, Barney and Robin.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt0460649/"
                   rel="noopener noreferrer"
                   role="button"
@@ -1628,11 +1628,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1650,7 +1650,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=GAx0DYI3los"
                   rel="noopener noreferrer"
                   role="button"
@@ -1658,11 +1658,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1685,77 +1685,77 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/interstellar.jpg\\")"
               title="Interstellar"
             />
             <img
               alt="Interstellar"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/interstellar.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Interstellar  (2014)
               </h2>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Adventure
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Drama
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Sci-Fi
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt0816692/"
                   rel="noopener noreferrer"
                   role="button"
@@ -1763,11 +1763,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1785,7 +1785,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=p3PfKf0ndik"
                   rel="noopener noreferrer"
                   role="button"
@@ -1793,11 +1793,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1820,77 +1820,77 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/kill-bill.jpg\\")"
               title="Kill Bill: Vol 1"
             />
             <img
               alt="Kill Bill: Vol 1"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/kill-bill.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Kill Bill: Vol 1  (2003)
               </h2>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Action
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Crime
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Thriller
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 The Bride (Uma Thurman) must defeat O-Ren Ishii's (Lucy Liu) personal army, The Crazy 88's, before she can strike off the first name on her death list.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt0266697/"
                   rel="noopener noreferrer"
                   role="button"
@@ -1898,11 +1898,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1920,7 +1920,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=_B_1IMstVzs"
                   rel="noopener noreferrer"
                   role="button"
@@ -1928,11 +1928,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1955,77 +1955,77 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/kingsman.jpg\\")"
               title="Kingsman: The Secret Service"
             />
             <img
               alt="Kingsman: The Secret Service"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/kingsman.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Kingsman: The Secret Service  (2014)
               </h2>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Action
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Adventure
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Comedy
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 Colin Firth’s character, an impossibly cool secret agent named Harry Hart, ends up in a church participating in a gigantic killing free-for-all. It happens because the main bad guy in the movie, Samuel L. Jackson’s Richmond Valentine, inserts SIM cards into free cellphones he gives away that, when activated, emit a sound that turns everybody within earshot super violent. In a little under four minutes, Harry kills nearly 40 people, some of whom are killed in quick and obvious ways (like shooting them in the head), others of whom are killed in impromptu and gruesome ways (like breaking a wooden rod in half and then stabbing a guy in the chest with it).
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt2802144/"
                   rel="noopener noreferrer"
                   role="button"
@@ -2033,11 +2033,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -2055,7 +2055,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=z7-tkkcC6d0"
                   rel="noopener noreferrer"
                   role="button"
@@ -2063,11 +2063,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -2090,89 +2090,89 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/mr-robot.jpg\\")"
               title="Mr.Robot"
             />
             <img
               alt="Mr.Robot"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/mr-robot.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Mr.Robot 
               </h2>
               <div>
                 <h3
-                  class="MuiTypography-root-318 MuiTypography-subtitle1-336 MuiTypography-gutterBottom-345"
+                  class="MuiTypography-root-48 MuiTypography-subtitle1-66 MuiTypography-gutterBottom-75"
                 >
                   eps2.1_k3rnel-pan1c.ksd
                 </h3>
                 <p
-                  class="MuiTypography-root-318 MuiTypography-body1-327 MuiTypography-colorTextSecondary-351"
+                  class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81"
                 >
                   Season: 2 | Episode: 3
                 </p>
               </div>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Crime
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Drama
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Thriller
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 Elliot Alderson's powerful speech about control and the effects that religion and mindless following create.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="http://www.imdb.com/title/tt4158110/"
                   rel="noopener noreferrer"
                   role="button"
@@ -2180,11 +2180,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -2202,7 +2202,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=AZeLHD-725o"
                   rel="noopener noreferrer"
                   role="button"
@@ -2210,11 +2210,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -2237,77 +2237,77 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/oldboy.jpg\\")"
               title="Oldboy"
             />
             <img
               alt="Oldboy"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/oldboy.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Oldboy  (2003)
               </h2>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Action
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Drama
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Mystery
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 The corridor fight scene took seventeen takes in three days to perfect, and was one continuous take -- there was no editing of any sort except for the knife that was stabbed in Oh Dae-su's back, which was computer-generated imagery. Though the scene has often been compared visually to side scrolling beat 'em up video games, director Park Chan-wook has stated that the similarity was unintentional.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="http://www.imdb.com/title/tt0364569/"
                   rel="noopener noreferrer"
                   role="button"
@@ -2315,11 +2315,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -2337,7 +2337,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=VwIIDzrVVdc"
                   rel="noopener noreferrer"
                   role="button"
@@ -2345,11 +2345,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -2372,66 +2372,66 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/olympus.jpg\\")"
               title="Olympus has fallen"
             />
             <img
               alt="Olympus has fallen"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/olympus.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Olympus has fallen  (2013)
               </h2>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Action
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Thriller
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 During a diplomatic talk between Korea and the United States, a secret Korean organisation has plotted a takeover of the White House with little resistance due to being caught off guard.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt2302755/"
                   rel="noopener noreferrer"
                   role="button"
@@ -2439,11 +2439,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -2461,7 +2461,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=N8WXitDnA_U"
                   rel="noopener noreferrer"
                   role="button"
@@ -2469,11 +2469,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -2496,100 +2496,100 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/rick-and-morty.jpg\\")"
               title="Rick and Morty"
             />
             <img
               alt="Rick and Morty"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/rick-and-morty.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Rick and Morty 
               </h2>
               <div>
                 <h3
-                  class="MuiTypography-root-318 MuiTypography-subtitle1-336 MuiTypography-gutterBottom-345"
+                  class="MuiTypography-root-48 MuiTypography-subtitle1-66 MuiTypography-gutterBottom-75"
                 >
                   Rickshank Redemption
                 </h3>
                 <p
-                  class="MuiTypography-root-318 MuiTypography-body1-327 MuiTypography-colorTextSecondary-351"
+                  class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81"
                 >
                   Season: 3 | Episode: 1
                 </p>
               </div>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Animation
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Adventure
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Comedy
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Sci-Fi
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 Rick, still in galactic prison, puts an intricate escape plan into action. Which then leads to a standoff in which he kills the council of Ricks.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt2861424/"
                   rel="noopener noreferrer"
                   role="button"
@@ -2597,11 +2597,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -2619,7 +2619,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=uzeODC-_IHw&t=81"
                   rel="noopener noreferrer"
                   role="button"
@@ -2627,11 +2627,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -2654,89 +2654,89 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/sherlock.jpg\\")"
               title="Sherlock"
             />
             <img
               alt="Sherlock"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/sherlock.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Sherlock 
               </h2>
               <div>
                 <h3
-                  class="MuiTypography-root-318 MuiTypography-subtitle1-336 MuiTypography-gutterBottom-345"
+                  class="MuiTypography-root-48 MuiTypography-subtitle1-66 MuiTypography-gutterBottom-75"
                 >
                   A Study in Pink
                 </h3>
                 <p
-                  class="MuiTypography-root-318 MuiTypography-body1-327 MuiTypography-colorTextSecondary-351"
+                  class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81"
                 >
                   Season: 1 | Episode: 1
                 </p>
               </div>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Crime
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Drama
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Mystery
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt1665071/"
                   rel="noopener noreferrer"
                   role="button"
@@ -2744,11 +2744,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -2766,7 +2766,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=VaT7IYQgyqo"
                   rel="noopener noreferrer"
                   role="button"
@@ -2774,11 +2774,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -2801,77 +2801,77 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/shrek.jpg\\")"
               title="Shrek"
             />
             <img
               alt="Shrek"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/shrek.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Shrek  (2001)
               </h2>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Animation
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Adventure
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Comedy
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 Shrek and Donkey arrive at Duloc to demand Farquaad gives Shrek his swamp back. With hardly anyone around they go to the information booth.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt0126029/"
                   rel="noopener noreferrer"
                   role="button"
@@ -2879,11 +2879,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -2901,7 +2901,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=vKTd-N4djSY"
                   rel="noopener noreferrer"
                   role="button"
@@ -2909,11 +2909,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -2936,67 +2936,67 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/silicon-valley.jpg\\")"
               title="Silicon Valley"
             />
             <img
               alt="Silicon Valley"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/silicon-valley.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Silicon Valley 
               </h2>
               <div>
                 <h3
-                  class="MuiTypography-root-318 MuiTypography-subtitle1-336 MuiTypography-gutterBottom-345"
+                  class="MuiTypography-root-48 MuiTypography-subtitle1-66 MuiTypography-gutterBottom-75"
                 >
                   Optimal Tip-To-Top Efficiency
                 </h3>
                 <p
-                  class="MuiTypography-root-318 MuiTypography-body1-327 MuiTypography-colorTextSecondary-351"
+                  class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81"
                 >
                   Season: 1 | Episode: 8
                 </p>
               </div>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Comedy
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 The guys start calculating how most efficiently a mass jerk-off session can be carried out, which eventually also leads to a finding a new solution for Pied Piper's problems.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="http://www.imdb.com/title/tt2575988/"
                   rel="noopener noreferrer"
                   role="button"
@@ -3004,11 +3004,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3026,7 +3026,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=mMeqEDEfniA"
                   rel="noopener noreferrer"
                   role="button"
@@ -3034,11 +3034,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3061,78 +3061,78 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/suits.jpg\\")"
               title="Suits"
             />
             <img
               alt="Suits"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/suits.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 Suits 
               </h2>
               <div>
                 <h3
-                  class="MuiTypography-root-318 MuiTypography-subtitle1-336 MuiTypography-gutterBottom-345"
+                  class="MuiTypography-root-48 MuiTypography-subtitle1-66 MuiTypography-gutterBottom-75"
                 >
                   Pilot
                 </h3>
                 <p
-                  class="MuiTypography-root-318 MuiTypography-body1-327 MuiTypography-colorTextSecondary-351"
+                  class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81"
                 >
                   Season: 1 | Episode: 1
                 </p>
               </div>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Comedy
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Drama
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 On the run from a drug deal gone bad, Mike Ross, a brilliant college dropout, finds himself a job working with Harvey Specter, one of New York City's best lawyers.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt1632701/"
                   rel="noopener noreferrer"
                   role="button"
@@ -3140,11 +3140,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3162,7 +3162,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=Z5FgMCTreXE"
                   rel="noopener noreferrer"
                   role="button"
@@ -3170,11 +3170,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3197,66 +3197,66 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/the-godfather.jpg\\")"
               title="The Godfather"
             />
             <img
               alt="The Godfather"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/the-godfather.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 The Godfather  (1972)
               </h2>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Crime
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Drama
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 Don Corleone's dialogue - I'll make you an offer you can't refuse
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt0068646/"
                   rel="noopener noreferrer"
                   role="button"
@@ -3264,11 +3264,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3286,7 +3286,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=fmX2VzsB25s"
                   rel="noopener noreferrer"
                   role="button"
@@ -3294,11 +3294,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3321,66 +3321,66 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/the-matrix.jpg\\")"
               title="The Matrix"
             />
             <img
               alt="The Matrix"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/the-matrix.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 The Matrix  (1999)
               </h2>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Action
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Sci-Fi
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 Neo stops the bullets and agent Smith realises he's got to up his game by like a million.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt0133093/"
                   rel="noopener noreferrer"
                   role="button"
@@ -3388,11 +3388,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3410,7 +3410,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=2oHOv9p9dHQ"
                   rel="noopener noreferrer"
                   role="button"
@@ -3418,11 +3418,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3445,78 +3445,78 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/the-newsroom.jpg\\")"
               title="The Newsroom"
             />
             <img
               alt="The Newsroom"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/the-newsroom.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 The Newsroom 
               </h2>
               <div>
                 <h3
-                  class="MuiTypography-root-318 MuiTypography-subtitle1-336 MuiTypography-gutterBottom-345"
+                  class="MuiTypography-root-48 MuiTypography-subtitle1-66 MuiTypography-gutterBottom-75"
                 >
                   We Just Decided To
                 </h3>
                 <p
-                  class="MuiTypography-root-318 MuiTypography-body1-327 MuiTypography-colorTextSecondary-351"
+                  class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81"
                 >
                   Season: 1 | Episode: 1
                 </p>
               </div>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Drama
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     History
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 Will McAvoy (Jeff Daniels) hits the nail straight on the head in the opening minutes on HBO's new series 'The Newsroom'. He is asked by a college student a simple question during a campus debate. 'What makes America the greatest country in the world?'. Daniels initially goes the politically correct route then at the last minute goes with a honest, bold, straight forward answer that sums up a lot of the worlds problems that so many are afraid to accept because we all want to believe in our system and that it is our system that works. The evidence that is out there today is to the contrary and he discloses such information in his argument. We used to be the worlds best of the best and now we are just pretending. The first step to solving a problem is to admit there is one.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="http://www.imdb.com/title/tt1870479/"
                   rel="noopener noreferrer"
                   role="button"
@@ -3524,11 +3524,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3546,7 +3546,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=wTjMqda19wk"
                   rel="noopener noreferrer"
                   role="button"
@@ -3554,11 +3554,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3581,67 +3581,67 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/the-office.jpg\\")"
               title="The Office"
             />
             <img
               alt="The Office"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/the-office.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 The Office 
               </h2>
               <div>
                 <h3
-                  class="MuiTypography-root-318 MuiTypography-subtitle1-336 MuiTypography-gutterBottom-345"
+                  class="MuiTypography-root-48 MuiTypography-subtitle1-66 MuiTypography-gutterBottom-75"
                 >
                   Casino Night 
                 </h3>
                 <p
-                  class="MuiTypography-root-318 MuiTypography-body1-327 MuiTypography-colorTextSecondary-351"
+                  class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81"
                 >
                   Season: 2 | Episode: 22
                 </p>
               </div>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Comedy
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 The Dunder Mifflin crew holds a casino party at the warehouse and Michael has two dates.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt0800604/"
                   rel="noopener noreferrer"
                   role="button"
@@ -3649,11 +3649,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3671,7 +3671,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=ZymIQU4e1W4"
                   rel="noopener noreferrer"
                   role="button"
@@ -3679,11 +3679,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3706,97 +3706,97 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 MultiCard-card-515"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 MultiCard-card-245"
         >
           <div
-            class="MuiCardHeader-root-524"
+            class="MuiCardHeader-root-254"
           >
             <div
-              class="MuiCardHeader-content-527"
+              class="MuiCardHeader-content-257"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiCardHeader-title-528"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiCardHeader-title-258"
               >
                 The Walking Dead
               </h2>
             </div>
           </div>
           <div
-            class="MuiCardContent-root-477"
+            class="MuiCardContent-root-207"
           >
             <div
-              class="MuiChip-root-478 MultiCard-chip-520"
+              class="MuiChip-root-208 MultiCard-chip-250"
               role="button"
               tabindex="-1"
             >
               <span
-                class="MuiChip-label-497"
+                class="MuiChip-label-227"
               >
                 Drama
               </span>
             </div>
             <div
-              class="MuiChip-root-478 MultiCard-chip-520"
+              class="MuiChip-root-208 MultiCard-chip-250"
               role="button"
               tabindex="-1"
             >
               <span
-                class="MuiChip-label-497"
+                class="MuiChip-label-227"
               >
                 Horror
               </span>
             </div>
             <div
-              class="MuiChip-root-478 MultiCard-chip-520"
+              class="MuiChip-root-208 MultiCard-chip-250"
               role="button"
               tabindex="-1"
             >
               <span
-                class="MuiChip-label-497"
+                class="MuiChip-label-227"
               >
                 Action
               </span>
             </div>
           </div>
           <div
-            class="MultiCard-innerContainer-516"
+            class="MultiCard-innerContainer-246"
           >
             <div
-              class="MuiCardMedia-root-475 MultiCard-media-517"
+              class="MuiCardMedia-root-205 MultiCard-media-247"
               style="background-image:url(\\"./assets/images/walking-dead_1_2.jpg\\")"
             />
             <img
-              class="MultiCard-thumbnail-519"
+              class="MultiCard-thumbnail-249"
               src="./assets/images/walking-dead_1_2.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <div>
                 <div>
                   <h2
-                    class="MuiTypography-root-318 MuiTypography-subtitle1-336 MuiTypography-gutterBottom-345"
+                    class="MuiTypography-root-48 MuiTypography-subtitle1-66 MuiTypography-gutterBottom-75"
                   >
                     Guts
                   </h2>
                   <p
-                    class="MuiTypography-root-318 MuiTypography-body1-327 MuiTypography-colorTextSecondary-351 MuiTypography-gutterBottom-345"
+                    class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81 MuiTypography-gutterBottom-75"
                   >
                     Season: 1 | Episode: 2
                   </p>
                 </div>
                 <p
-                  class="MuiTypography-root-318 MuiTypography-body1-327 MultiCard-description-518"
+                  class="MuiTypography-root-48 MuiTypography-body1-57 MultiCard-description-248"
                 >
                   Following on from where Rick Grimes wakes up from a coma and tries to find his family. He gets to Atlanta, surrounded by walkers, he is thrown from his horse and ends up in a tank. This is where someone on the walkie talkie, Glenn, helps him out of the tight situation.
                 </p>
               </div>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 MultiCard-fab-521 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 MultiCard-fab-251 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt1628064/?ref_=ttep_ep2"
                   rel="noopener noreferrer"
                   role="button"
@@ -3804,11 +3804,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 MultiCard-localPlayIcon-523"
+                      class="MuiSvgIcon-root-83 MultiCard-localPlayIcon-253"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3826,7 +3826,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 MultiCard-fab-521 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 MultiCard-fab-251 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=ZxmWhlidAZ8"
                   rel="noopener noreferrer"
                   role="button"
@@ -3834,11 +3834,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 MultiCard-playCircleOutlineIcon-522"
+                      class="MuiSvgIcon-root-83 MultiCard-playCircleOutlineIcon-252"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3858,44 +3858,44 @@ exports[`snapshot changes when input change 1`] = `
             </div>
           </div>
           <div
-            class="MultiCard-innerContainer-516"
+            class="MultiCard-innerContainer-246"
           >
             <div
-              class="MuiCardMedia-root-475 MultiCard-media-517"
+              class="MuiCardMedia-root-205 MultiCard-media-247"
               style="background-image:url(\\"./assets/images/walking-dead_7_1.jpg\\")"
             />
             <img
-              class="MultiCard-thumbnail-519"
+              class="MultiCard-thumbnail-249"
               src="./assets/images/walking-dead_7_1.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <div>
                 <div>
                   <h2
-                    class="MuiTypography-root-318 MuiTypography-subtitle1-336 MuiTypography-gutterBottom-345"
+                    class="MuiTypography-root-48 MuiTypography-subtitle1-66 MuiTypography-gutterBottom-75"
                   >
                     The Day Will Come When You Won't Be
                   </h2>
                   <p
-                    class="MuiTypography-root-318 MuiTypography-body1-327 MuiTypography-colorTextSecondary-351 MuiTypography-gutterBottom-345"
+                    class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81 MuiTypography-gutterBottom-75"
                   >
                     Season: 7 | Episode: 1
                   </p>
                 </div>
                 <p
-                  class="MuiTypography-root-318 MuiTypography-body1-327 MultiCard-description-518"
+                  class="MuiTypography-root-48 MuiTypography-body1-57 MultiCard-description-248"
                 >
                   The Saviours have captured Rick and the group. They kneel at the mercy of Negan who makes an example of 2 of the groups members. Not for the faint of heart.
                 </p>
               </div>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 MultiCard-fab-521 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 MultiCard-fab-251 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt5164772/?ref_=ttep_ep1"
                   rel="noopener noreferrer"
                   role="button"
@@ -3903,11 +3903,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 MultiCard-localPlayIcon-523"
+                      class="MuiSvgIcon-root-83 MultiCard-localPlayIcon-253"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3925,7 +3925,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 MultiCard-fab-521 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 MultiCard-fab-251 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=d3LDG5CCOPQ"
                   rel="noopener noreferrer"
                   role="button"
@@ -3933,11 +3933,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 MultiCard-playCircleOutlineIcon-522"
+                      class="MuiSvgIcon-root-83 MultiCard-playCircleOutlineIcon-252"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3960,55 +3960,55 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-287 MuiPaper-elevation1-290 MuiPaper-rounded-288 MuiCard-root-474 SingleCard-card-465"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
         >
           <div
-            class="SingleCard-innerContainer-466"
+            class="SingleCard-innerContainer-196"
           >
             <div
-              class="MuiCardMedia-root-475 SingleCard-media-467"
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/there-will-be-blood.jpg\\")"
               title="There Will Be Blood"
             />
             <img
               alt="There Will Be Blood"
-              class="SingleCard-thumbnail-468"
+              class="SingleCard-thumbnail-198"
               src="./assets/images/there-will-be-blood.jpg"
             />
             <div
-              class="MuiCardContent-root-477"
+              class="MuiCardContent-root-207"
             >
               <h2
-                class="MuiTypography-root-318 MuiTypography-h6-335 MuiTypography-gutterBottom-345"
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
               >
                 There Will Be Blood  (2007)
               </h2>
               <div
-                class="SingleCard-chips-469"
+                class="SingleCard-chips-199"
               >
                 <div
-                  class="MuiChip-root-478 SingleCard-chip-470"
+                  class="MuiChip-root-208 SingleCard-chip-200"
                   role="button"
                   tabindex="-1"
                 >
                   <span
-                    class="MuiChip-label-497"
+                    class="MuiChip-label-227"
                   >
                     Drama
                   </span>
                 </div>
               </div>
               <p
-                class="MuiTypography-root-318 MuiTypography-body1-327"
+                class="MuiTypography-root-48 MuiTypography-body1-57"
               >
                 A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.
               </p>
               <div
-                class="MuiCardActions-root-503"
+                class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.imdb.com/title/tt0469494/"
                   rel="noopener noreferrer"
                   role="button"
@@ -4016,11 +4016,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-localPlayIcon-473"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -4038,7 +4038,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-390 MuiFab-root-505 MuiFab-extended-509 MuiFab-primary-507 SingleCard-fab-471 MuiCardActions-action-504"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=ugTbwvVuLKA"
                   rel="noopener noreferrer"
                   role="button"
@@ -4046,11 +4046,11 @@ exports[`snapshot changes when input change 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="MuiFab-label-506"
+                    class="MuiFab-label-236"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-353 SingleCard-playCircleOutlineIcon-472"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -4074,53 +4074,53 @@ exports[`snapshot changes when input change 1`] = `
     </ul>
   </main>
   <footer
-    class="Footer-footer-530"
+    class="Footer-footer-260"
   >
     <ul
-      class="Footer-list-531"
+      class="Footer-list-261"
     >
       <li
-        class="Footer-links-532"
+        class="Footer-links-262"
       >
         <a
-          class="Footer-anchor-533"
+          class="Footer-anchor-263"
           href="https://github.com/lmcjt37/curated-tv-and-film"
           rel="noopener noreferrer"
           target="_blank"
         >
           <p
-            class="MuiTypography-root-318 MuiTypography-body1-327 MuiTypography-colorTextSecondary-351"
+            class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81"
           >
             Repository
           </p>
         </a>
       </li>
       <li
-        class="Footer-links-532"
+        class="Footer-links-262"
       >
         <a
-          class="Footer-anchor-533"
+          class="Footer-anchor-263"
           href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors"
           rel="noopener noreferrer"
           target="_blank"
         >
           <p
-            class="MuiTypography-root-318 MuiTypography-body1-327 MuiTypography-colorTextSecondary-351"
+            class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81"
           >
             Contributors
           </p>
         </a>
       </li>
       <li
-        class="Footer-links-532"
+        class="Footer-links-262"
       >
         <a
-          class="Footer-anchor-533"
+          class="Footer-anchor-263"
           rel="noopener noreferrer"
           target="_blank"
         >
           <p
-            class="MuiTypography-root-318 MuiTypography-body1-327 MuiTypography-colorTextSecondary-351"
+            class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81"
           >
             build debug
           </p>

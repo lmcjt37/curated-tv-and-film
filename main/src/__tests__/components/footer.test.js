@@ -1,13 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { render } from 'enzyme';
+import { render, mount } from 'enzyme';
 
 import Footer from '../../components/footer';
+import Typography from '@material-ui/core/Typography';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<Footer />, div);
-  ReactDOM.unmountComponentAtNode(div);
+it('render all initial child components', () => {
+  const wrapper = mount(<Footer />);
+
+  expect(wrapper.find(Footer)).toHaveLength(1);
+  expect(wrapper.find(Typography)).toHaveLength(3);
+  expect(wrapper.find('ul')).toHaveLength(1);
+  expect(wrapper.find('li')).toHaveLength(3);
+  expect(wrapper.find('a')).toHaveLength(3);
 });
 
 it('snapshot of initial component', () => {
