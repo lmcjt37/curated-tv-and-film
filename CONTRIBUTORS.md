@@ -79,3 +79,8 @@
 - Role: Contributor
 - Place: Ljubljana, Slovenia
 - GitHub: [nemanjaglumac](https://github.com/nemanjaglumac)
+
+#### Name: [Shawn Pang](https://github.com/CometS1)
+- Role: Contributor
+- Place: Markham, ON, Canada
+- GitHub: [CometS1](https://github.com/CometS1)
