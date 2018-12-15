@@ -5,17 +5,17 @@ exports[`snapshot of initial component 1`] = `
   aria-expanded="false"
   aria-haspopup="listbox"
   aria-labelledby="downshift-simple-label"
-  class="Autocomplete-container-23"
+  class="Autocomplete-container-1"
   role="combobox"
 >
   <div
-    class="MuiInputBase-root-28 Autocomplete-inputRoot-25 MuiInputBase-fullWidth-37"
+    class="MuiInputBase-root-6 Autocomplete-inputRoot-3 MuiInputBase-fullWidth-15"
   >
     <input
       aria-autocomplete="list"
       aria-labelledby="downshift-simple-label"
       autocomplete="off"
-      class="MuiInputBase-input-38 Autocomplete-inputInput-26"
+      class="MuiInputBase-input-16 Autocomplete-inputInput-4"
       id="downshift-simple-input"
       placeholder="Search..."
       spellcheck="false"

@@ -1,15 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { render } from 'enzyme';
-
 import MultiCard from '../../components/multiCard';
-
-const itemMockZero = {
-  type: 'tv_show',
-  title: 'The Walking Dead',
-  genre: ['Drama', 'Horror', 'Action'],
-  content: []
-};
+import Card from '@material-ui/core/Card';
+import CardActions from '@material-ui/core/CardActions';
+import CardHeader from '@material-ui/core/CardHeader';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import Typography from '@material-ui/core/Typography';
+import Chip from '@material-ui/core/Chip';
+import Fab from '@material-ui/core/Fab';
+import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
+import LocalPlayIcon from '@material-ui/icons/LocalPlay';
 
 const itemMockOne = {
   type: 'tv_show',
@@ -57,22 +56,34 @@ const itemMockTwo = {
   ]
 };
 
-it('renders without crashing, with zero items', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<MultiCard {...itemMockZero} />, div);
-  ReactDOM.unmountComponentAtNode(div);
+it('render all initial child components with one items', () => {
+  const wrapper = mount(<MultiCard {...itemMockOne} />);
+
+  expect(wrapper.find(Card)).toHaveLength(1);
+  expect(wrapper.find(CardHeader)).toHaveLength(1);
+  expect(wrapper.find(CardContent)).toHaveLength(2);
+  expect(wrapper.find(CardMedia)).toHaveLength(1);
+  expect(wrapper.find(Typography)).toHaveLength(4);
+  expect(wrapper.find(Chip)).toHaveLength(3);
+  expect(wrapper.find(CardActions)).toHaveLength(1);
+  expect(wrapper.find(Fab)).toHaveLength(2);
+  expect(wrapper.find(LocalPlayIcon)).toHaveLength(1);
+  expect(wrapper.find(PlayCircleOutlineIcon)).toHaveLength(1);
 });
 
-it('renders without crashing, with one item', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<MultiCard {...itemMockOne} />, div);
-  ReactDOM.unmountComponentAtNode(div);
-});
+it('render all initial child components with two items', () => {
+  const wrapper = mount(<MultiCard {...itemMockTwo} />);
 
-it('renders without crashing, with two items', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<MultiCard {...itemMockTwo} />, div);
-  ReactDOM.unmountComponentAtNode(div);
+  expect(wrapper.find(Card)).toHaveLength(1);
+  expect(wrapper.find(CardHeader)).toHaveLength(1);
+  expect(wrapper.find(CardContent)).toHaveLength(3);
+  expect(wrapper.find(CardMedia)).toHaveLength(2);
+  expect(wrapper.find(Typography)).toHaveLength(7);
+  expect(wrapper.find(Chip)).toHaveLength(3);
+  expect(wrapper.find(CardActions)).toHaveLength(2);
+  expect(wrapper.find(Fab)).toHaveLength(4);
+  expect(wrapper.find(LocalPlayIcon)).toHaveLength(2);
+  expect(wrapper.find(PlayCircleOutlineIcon)).toHaveLength(2);
 });
 
 it('snapshot of initial component with multiple items', () => {

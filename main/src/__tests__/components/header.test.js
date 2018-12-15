@@ -1,6 +1,3 @@
-import React from 'react';
-import { render, mount } from 'enzyme';
-
 import Header from '../../components/header';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
