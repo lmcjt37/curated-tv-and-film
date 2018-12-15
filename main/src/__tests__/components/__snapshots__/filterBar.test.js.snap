@@ -2,52 +2,86 @@
 
 exports[`snapshot of initial component 1`] = `
 <div
-  class="FilterBar-root-190"
+  class="FilterBar-root-1"
 >
   <div
-    class="MuiCollapse-container-195"
+    class="MuiCollapse-container-6"
     style="min-height:0px"
   >
     <div
-      class="MuiCollapse-wrapper-197"
+      class="MuiCollapse-wrapper-8"
     >
       <div
-        class="MuiCollapse-wrapperInner-198"
+        class="MuiCollapse-wrapperInner-9"
       >
         <header
-          class="MuiPaper-root-208 MuiPaper-elevation4-214 MuiAppBar-root-199 MuiAppBar-positionRelative-204 MuiAppBar-colorSecondary-207 FilterBar-filterBar-194"
+          class="MuiPaper-root-19 MuiPaper-elevation4-25 MuiAppBar-root-10 MuiAppBar-positionRelative-15 MuiAppBar-colorSecondary-18 FilterBar-filterBar-5"
         >
           <div
-            class="MuiToolbar-root-235 MuiToolbar-regular-237 MuiToolbar-gutters-236"
+            class="MuiToolbar-root-46 MuiToolbar-regular-48 MuiToolbar-gutters-47"
           >
             <form
               autocomplete="off"
             >
               <fieldset
-                class="MuiFormControl-root-239 MuiFormControl-marginDense-241 FilterBar-formControl-192"
+                class="MuiFormControl-root-50 MuiFormControl-marginDense-52 FilterBar-formControl-3"
               >
                 <legend
-                  class="MuiFormLabel-root-243"
+                  class="MuiFormLabel-root-54"
                 >
                   Filter
                 </legend>
                 <div
                   aria-label="Filter"
-                  class="MuiFormGroup-root-250 MuiFormGroup-row-251 FilterBar-group-193"
+                  class="MuiFormGroup-root-61 MuiFormGroup-row-62 FilterBar-group-4"
                   role="radiogroup"
                 >
                   <label
-                    class="MuiFormControlLabel-root-252"
+                    class="MuiFormControlLabel-root-63"
                   >
                     <span
-                      class="MuiButtonBase-root-273 MuiIconButton-root-267 MuiPrivateSwitchBase-root-263 MuiRadio-root-258 MuiRadio-colorPrimary-261 MuiPrivateSwitchBase-checked-264 MuiRadio-checked-259"
+                      class="MuiButtonBase-root-84 MuiIconButton-root-78 MuiPrivateSwitchBase-root-74 MuiRadio-root-69 MuiRadio-colorPrimary-72"
                     >
                       <span
-                        class="MuiIconButton-label-272"
+                        class="MuiIconButton-label-83"
                       >
                         <svg
                           aria-hidden="true"
-                          class="MuiSvgIcon-root-276"
+                          class="MuiSvgIcon-root-87"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <input
+                          class="MuiPrivateSwitchBase-input-77"
+                          name="filter"
+                          type="radio"
+                          value="all"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      class="MuiTypography-root-96 MuiTypography-body1-105 MuiFormControlLabel-label-68"
+                    >
+                      All
+                    </span>
+                  </label>
+                  <label
+                    class="MuiFormControlLabel-root-63"
+                  >
+                    <span
+                      class="MuiButtonBase-root-84 MuiIconButton-root-78 MuiPrivateSwitchBase-root-74 MuiRadio-root-69 MuiRadio-colorPrimary-72 MuiPrivateSwitchBase-checked-75 MuiRadio-checked-70"
+                    >
+                      <span
+                        class="MuiIconButton-label-83"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-87"
                           focusable="false"
                           role="presentation"
                           viewBox="0 0 24 24"
@@ -58,41 +92,7 @@ exports[`snapshot of initial component 1`] = `
                         </svg>
                         <input
                           checked=""
-                          class="MuiPrivateSwitchBase-input-266"
-                          name="filter"
-                          type="radio"
-                          value="all"
-                        />
-                      </span>
-                    </span>
-                    <span
-                      class="MuiTypography-root-285 MuiTypography-body1-294 MuiFormControlLabel-label-257"
-                    >
-                      All
-                    </span>
-                  </label>
-                  <label
-                    class="MuiFormControlLabel-root-252"
-                  >
-                    <span
-                      class="MuiButtonBase-root-273 MuiIconButton-root-267 MuiPrivateSwitchBase-root-263 MuiRadio-root-258 MuiRadio-colorPrimary-261"
-                    >
-                      <span
-                        class="MuiIconButton-label-272"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          class="MuiSvgIcon-root-276"
-                          focusable="false"
-                          role="presentation"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
-                          />
-                        </svg>
-                        <input
-                          class="MuiPrivateSwitchBase-input-266"
+                          class="MuiPrivateSwitchBase-input-77"
                           name="filter"
                           type="radio"
                           value="movies"
@@ -100,23 +100,23 @@ exports[`snapshot of initial component 1`] = `
                       </span>
                     </span>
                     <span
-                      class="MuiTypography-root-285 MuiTypography-body1-294 MuiFormControlLabel-label-257"
+                      class="MuiTypography-root-96 MuiTypography-body1-105 MuiFormControlLabel-label-68"
                     >
                       Movies
                     </span>
                   </label>
                   <label
-                    class="MuiFormControlLabel-root-252"
+                    class="MuiFormControlLabel-root-63"
                   >
                     <span
-                      class="MuiButtonBase-root-273 MuiIconButton-root-267 MuiPrivateSwitchBase-root-263 MuiRadio-root-258 MuiRadio-colorPrimary-261"
+                      class="MuiButtonBase-root-84 MuiIconButton-root-78 MuiPrivateSwitchBase-root-74 MuiRadio-root-69 MuiRadio-colorPrimary-72"
                     >
                       <span
-                        class="MuiIconButton-label-272"
+                        class="MuiIconButton-label-83"
                       >
                         <svg
                           aria-hidden="true"
-                          class="MuiSvgIcon-root-276"
+                          class="MuiSvgIcon-root-87"
                           focusable="false"
                           role="presentation"
                           viewBox="0 0 24 24"
@@ -126,7 +126,7 @@ exports[`snapshot of initial component 1`] = `
                           />
                         </svg>
                         <input
-                          class="MuiPrivateSwitchBase-input-266"
+                          class="MuiPrivateSwitchBase-input-77"
                           name="filter"
                           type="radio"
                           value="tv"
@@ -134,7 +134,7 @@ exports[`snapshot of initial component 1`] = `
                       </span>
                     </span>
                     <span
-                      class="MuiTypography-root-285 MuiTypography-body1-294 MuiFormControlLabel-label-257"
+                      class="MuiTypography-root-96 MuiTypography-body1-105 MuiFormControlLabel-label-68"
                     >
                       TV
                     </span>
@@ -142,25 +142,70 @@ exports[`snapshot of initial component 1`] = `
                 </div>
               </fieldset>
               <div
-                class="MuiFormControl-root-239 FilterBar-formControl-192"
+                class="MuiFormControl-root-50 FilterBar-formControl-3"
               >
                 <label
-                  class="MuiFormLabel-root-243 MuiFormLabel-filled-247 MuiInputLabel-root-320 MuiInputLabel-formControl-325 MuiInputLabel-animated-328 MuiInputLabel-shrink-327"
+                  class="MuiFormLabel-root-54 MuiFormLabel-filled-58 MuiInputLabel-root-131 MuiInputLabel-formControl-136 MuiInputLabel-animated-139 MuiInputLabel-shrink-138"
+                  data-shrink="true"
+                  for="filterYear"
+                >
+                  Year
+                </label>
+                <div
+                  class="MuiInputBase-root-162 MuiInput-root-149 MuiInput-underline-153 MuiInputBase-formControl-163 MuiInput-formControl-150"
+                >
+                  <div
+                    class="MuiSelect-root-142"
+                  >
+                    <div
+                      aria-haspopup="true"
+                      aria-pressed="false"
+                      class="MuiSelect-select-143 MuiSelect-selectMenu-146 MuiInputBase-input-172 MuiInput-input-157"
+                      role="button"
+                      tabindex="0"
+                    >
+                      All
+                    </div>
+                    <input
+                      id="filterYear"
+                      name="year"
+                      type="hidden"
+                      value="All"
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-87 MuiSelect-icon-148"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M7 10l5 5 5-5z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiFormControl-root-50 FilterBar-formControl-3"
+              >
+                <label
+                  class="MuiFormLabel-root-54 MuiFormLabel-filled-58 MuiInputLabel-root-131 MuiInputLabel-formControl-136 MuiInputLabel-animated-139 MuiInputLabel-shrink-138"
                   data-shrink="true"
                   for="filterGenre"
                 >
                   Genre
                 </label>
                 <div
-                  class="MuiInputBase-root-351 MuiInput-root-338 MuiInput-underline-342 MuiInputBase-formControl-352 MuiInput-formControl-339"
+                  class="MuiInputBase-root-162 MuiInput-root-149 MuiInput-underline-153 MuiInputBase-formControl-163 MuiInput-formControl-150"
                 >
                   <div
-                    class="MuiSelect-root-331"
+                    class="MuiSelect-root-142"
                   >
                     <div
                       aria-haspopup="true"
                       aria-pressed="false"
-                      class="MuiSelect-select-332 MuiSelect-selectMenu-335 MuiInputBase-input-361 MuiInput-input-346"
+                      class="MuiSelect-select-143 MuiSelect-selectMenu-146 MuiInputBase-input-172 MuiInput-input-157"
                       role="button"
                       tabindex="0"
                     >
@@ -174,7 +219,7 @@ exports[`snapshot of initial component 1`] = `
                     />
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-276 MuiSelect-icon-337"
+                      class="MuiSvgIcon-root-87 MuiSelect-icon-148"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -187,25 +232,25 @@ exports[`snapshot of initial component 1`] = `
                 </div>
               </div>
               <div
-                class="MuiFormControl-root-239 FilterBar-formControl-192"
+                class="MuiFormControl-root-50 FilterBar-formControl-3"
               >
                 <label
-                  class="MuiFormLabel-root-243 MuiFormLabel-filled-247 MuiInputLabel-root-320 MuiInputLabel-formControl-325 MuiInputLabel-animated-328 MuiInputLabel-shrink-327"
+                  class="MuiFormLabel-root-54 MuiFormLabel-filled-58 MuiInputLabel-root-131 MuiInputLabel-formControl-136 MuiInputLabel-animated-139 MuiInputLabel-shrink-138"
                   data-shrink="true"
                   for="filterOrder"
                 >
                   Sort
                 </label>
                 <div
-                  class="MuiInputBase-root-351 MuiInput-root-338 MuiInput-underline-342 MuiInputBase-formControl-352 MuiInput-formControl-339"
+                  class="MuiInputBase-root-162 MuiInput-root-149 MuiInput-underline-153 MuiInputBase-formControl-163 MuiInput-formControl-150"
                 >
                   <div
-                    class="MuiSelect-root-331"
+                    class="MuiSelect-root-142"
                   >
                     <div
                       aria-haspopup="true"
                       aria-pressed="false"
-                      class="MuiSelect-select-332 MuiSelect-selectMenu-335 MuiInputBase-input-361 MuiInput-input-346"
+                      class="MuiSelect-select-143 MuiSelect-selectMenu-146 MuiInputBase-input-172 MuiInput-input-157"
                       role="button"
                       tabindex="0"
                     >
@@ -219,7 +264,7 @@ exports[`snapshot of initial component 1`] = `
                     />
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-276 MuiSelect-icon-337"
+                      class="MuiSvgIcon-root-87 MuiSelect-icon-148"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"

@@ -1,6 +1,3 @@
-import React from 'react';
-import { render, mount } from 'enzyme';
-
 import Footer from '../../components/footer';
 import Typography from '@material-ui/core/Typography';
 

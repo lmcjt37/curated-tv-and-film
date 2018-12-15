@@ -2,89 +2,89 @@
 
 exports[`snapshot of initial component 1`] = `
 <div
-  class="MuiPaper-root-142 MuiPaper-elevation1-145 MuiPaper-rounded-143 MuiCard-root-141 SingleCard-card-132"
+  class="MuiPaper-root-11 MuiPaper-elevation1-14 MuiPaper-rounded-12 MuiCard-root-10 SingleCard-card-1"
 >
   <div
-    class="SingleCard-innerContainer-133"
+    class="SingleCard-innerContainer-2"
   >
     <div
-      class="MuiCardMedia-root-169 SingleCard-media-134"
+      class="MuiCardMedia-root-38 SingleCard-media-3"
       style="background-image:url(\\"./assets/images/game-of-thrones.jpg\\")"
       title="Mock of Thrones"
     />
     <img
       alt="Mock of Thrones"
-      class="SingleCard-thumbnail-135"
+      class="SingleCard-thumbnail-4"
       src="./assets/images/game-of-thrones.jpg"
     />
     <div
-      class="MuiCardContent-root-171"
+      class="MuiCardContent-root-40"
     >
       <h2
-        class="MuiTypography-root-172 MuiTypography-h6-189 MuiTypography-gutterBottom-199"
+        class="MuiTypography-root-41 MuiTypography-h6-58 MuiTypography-gutterBottom-68"
       >
         Mock of Thrones 
       </h2>
       <div>
         <h3
-          class="MuiTypography-root-172 MuiTypography-subtitle1-190 MuiTypography-gutterBottom-199"
+          class="MuiTypography-root-41 MuiTypography-subtitle1-59 MuiTypography-gutterBottom-68"
         >
           To kill a mockingbird
         </h3>
         <p
-          class="MuiTypography-root-172 MuiTypography-body1-181 MuiTypography-colorTextSecondary-205"
+          class="MuiTypography-root-41 MuiTypography-body1-50 MuiTypography-colorTextSecondary-74"
         >
           Season: 1 | Episode: 1
         </p>
       </div>
       <div
-        class="SingleCard-chips-136"
+        class="SingleCard-chips-5"
       >
         <div
-          class="MuiChip-root-207 SingleCard-chip-137"
+          class="MuiChip-root-76 SingleCard-chip-6"
           role="button"
           tabindex="-1"
         >
           <span
-            class="MuiChip-label-226"
+            class="MuiChip-label-95"
           >
             Action
           </span>
         </div>
         <div
-          class="MuiChip-root-207 SingleCard-chip-137"
+          class="MuiChip-root-76 SingleCard-chip-6"
           role="button"
           tabindex="-1"
         >
           <span
-            class="MuiChip-label-226"
+            class="MuiChip-label-95"
           >
             Adventure
           </span>
         </div>
         <div
-          class="MuiChip-root-207 SingleCard-chip-137"
+          class="MuiChip-root-76 SingleCard-chip-6"
           role="button"
           tabindex="-1"
         >
           <span
-            class="MuiChip-label-226"
+            class="MuiChip-label-95"
           >
             Drama
           </span>
         </div>
       </div>
       <p
-        class="MuiTypography-root-172 MuiTypography-body1-181"
+        class="MuiTypography-root-41 MuiTypography-body1-50"
       >
         You know nothing
       </p>
       <div
-        class="MuiCardActions-root-232"
+        class="MuiCardActions-root-101"
       >
         <a
           aria-label="IMDB"
-          class="MuiButtonBase-root-244 MuiFab-root-234 MuiFab-extended-238 MuiFab-primary-236 SingleCard-fab-138 MuiCardActions-action-233"
+          class="MuiButtonBase-root-113 MuiFab-root-103 MuiFab-extended-107 MuiFab-primary-105 SingleCard-fab-7 MuiCardActions-action-102"
           href="https://www.lmcjt.com"
           rel="noopener noreferrer"
           role="button"
@@ -92,11 +92,11 @@ exports[`snapshot of initial component 1`] = `
           target="_blank"
         >
           <span
-            class="MuiFab-label-235"
+            class="MuiFab-label-104"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-247 SingleCard-localPlayIcon-140"
+              class="MuiSvgIcon-root-116 SingleCard-localPlayIcon-9"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
@@ -114,7 +114,7 @@ exports[`snapshot of initial component 1`] = `
         </a>
         <a
           aria-label="View Scene"
-          class="MuiButtonBase-root-244 MuiFab-root-234 MuiFab-extended-238 MuiFab-primary-236 SingleCard-fab-138 MuiCardActions-action-233"
+          class="MuiButtonBase-root-113 MuiFab-root-103 MuiFab-extended-107 MuiFab-primary-105 SingleCard-fab-7 MuiCardActions-action-102"
           href="https://www.lmcjt.com"
           rel="noopener noreferrer"
           role="button"
@@ -122,11 +122,11 @@ exports[`snapshot of initial component 1`] = `
           target="_blank"
         >
           <span
-            class="MuiFab-label-235"
+            class="MuiFab-label-104"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-247 SingleCard-playCircleOutlineIcon-139"
+              class="MuiSvgIcon-root-116 SingleCard-playCircleOutlineIcon-8"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"

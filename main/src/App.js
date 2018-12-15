@@ -122,7 +122,7 @@ class App extends React.Component {
       filterYear: 'All'
     });
 
-    if (!this.state.filterTV) {
+    if (event.target.value !== 'tv') {
       let filteredMovies = this.state.content.filter(
         value => value.type === 'movie'
       );
@@ -250,7 +250,7 @@ class App extends React.Component {
           ) : this.state.search ? (
             <div className={classes.error}>
               <ErrorIcon fontSize="large" />
-              <p>No search result</p>
+              <p>No search result.</p>
             </div>
           ) : (
             <div className={classes.error}>
