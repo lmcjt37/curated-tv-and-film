@@ -68,15 +68,29 @@ var content = [
   {
     type: 'tv_show',
     title: 'Game of Thrones',
-    description:
-      'In Winterfell, Jon Snow, Sansa, Davos and Tormund meet with Ramsay, and Jon Snow proposes a dispute between them instead of sacrificing lives in a battle. Ramsay does not accept and they schedule the battle in the morning. Jon Snow plots a scheme with Davos and Tormund and Sansa warns that Ramsay plays dirty. When both armies are ready to battle, Ramsay brings a surprise.',
-    season: 6,
-    episode: 9,
-    episode_title: 'Battle of the Bastards',
-    imdb: 'https://www.imdb.com/title/tt4283088/?ref_=ttep_ep9',
-    url: 'https://www.youtube.com/watch?v=m8rURwkvOx0',
-    thumbnail: './assets/images/game-of-thrones.jpg',
-    genre: ['Action', 'Adventure', 'Drama']
+    genre: ['Action', 'Adventure', 'Drama'],
+    content: [
+      {
+        description:
+          'In Winterfell, Jon Snow, Sansa, Davos and Tormund meet with Ramsay, and Jon Snow proposes a dispute between them instead of sacrificing lives in a battle. Ramsay does not accept and they schedule the battle in the morning. Jon Snow plots a scheme with Davos and Tormund and Sansa warns that Ramsay plays dirty. When both armies are ready to battle, Ramsay brings a surprise.',
+        season: 6,
+        episode: 9,
+        episode_title: 'Battle of the Bastards',
+        imdb: 'https://www.imdb.com/title/tt4283088/',
+        url: 'https://www.youtube.com/watch?v=m8rURwkvOx0',
+        thumbnail: './assets/images/game-of-thrones_6_9.jpg'
+      },
+      {
+        description:
+          "Jon Snow fights off and kills a White Walker with Valyrian Steel in Hardhome along with the Army of the Dead. A white walker strides into the burning hall. Thenn moves to fight him while Jon Snow finds the glass. The Walker's weapon shatters Thenn's axe, and the White Walker kills him. The Walker moves to attack Jon. Jon picks up a sword from the ground, but the White Walker shatters it and knocks Jon down. Jon picks up Longclaw, made of Valyrian Steel, and it withstands the White Walker’s attack. Jon uses it to kill the Walker. The Night’s King sees this happen. After a moments respite, the Night’s King sends a legion of Wights tumbling over the mountain to continue the attack in the battle of Hardhome.",
+        season: 5,
+        episode: 8,
+        episode_title: 'Hardhome',
+        imdb: 'https://www.imdb.com/title/tt3866850/',
+        url: 'https://www.youtube.com/watch?v=fC1dVsTkmSI',
+        thumbnail: './assets/images/game-of-thrones_5_8.jpg'
+      }
+    ]
   },
   {
     type: 'movie',
