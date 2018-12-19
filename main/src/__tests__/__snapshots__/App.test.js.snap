@@ -1131,90 +1131,98 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 MultiCard-card-245"
         >
           <div
-            class="SingleCard-innerContainer-196"
+            class="MuiCardHeader-root-254"
           >
             <div
-              class="MuiCardMedia-root-205 SingleCard-media-197"
-              style="background-image:url(\\"./assets/images/game-of-thrones.jpg\\")"
-              title="Game of Thrones"
+              class="MuiCardHeader-content-257"
+            >
+              <h2
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiCardHeader-title-258"
+              >
+                Game of Thrones
+              </h2>
+            </div>
+          </div>
+          <div
+            class="MuiCardContent-root-207"
+          >
+            <div
+              class="MuiChip-root-208 MultiCard-chip-250"
+              role="button"
+              tabindex="-1"
+            >
+              <span
+                class="MuiChip-label-227"
+              >
+                Action
+              </span>
+            </div>
+            <div
+              class="MuiChip-root-208 MultiCard-chip-250"
+              role="button"
+              tabindex="-1"
+            >
+              <span
+                class="MuiChip-label-227"
+              >
+                Adventure
+              </span>
+            </div>
+            <div
+              class="MuiChip-root-208 MultiCard-chip-250"
+              role="button"
+              tabindex="-1"
+            >
+              <span
+                class="MuiChip-label-227"
+              >
+                Drama
+              </span>
+            </div>
+          </div>
+          <div
+            class="MultiCard-innerContainer-246"
+          >
+            <div
+              class="MuiCardMedia-root-205 MultiCard-media-247"
+              style="background-image:url(\\"./assets/images/game-of-thrones_6_9.jpg\\")"
             />
             <img
-              alt="Game of Thrones"
-              class="SingleCard-thumbnail-198"
-              src="./assets/images/game-of-thrones.jpg"
+              class="MultiCard-thumbnail-249"
+              src="./assets/images/game-of-thrones_6_9.jpg"
             />
             <div
               class="MuiCardContent-root-207"
             >
-              <h2
-                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
-              >
-                Game of Thrones 
-              </h2>
               <div>
-                <h3
-                  class="MuiTypography-root-48 MuiTypography-subtitle1-66 MuiTypography-gutterBottom-75"
-                >
-                  Battle of the Bastards
-                </h3>
+                <div>
+                  <h2
+                    class="MuiTypography-root-48 MuiTypography-subtitle1-66 MuiTypography-gutterBottom-75"
+                  >
+                    Battle of the Bastards
+                  </h2>
+                  <p
+                    class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81 MuiTypography-gutterBottom-75"
+                  >
+                    Season: 6 | Episode: 9
+                  </p>
+                </div>
                 <p
-                  class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81"
+                  class="MuiTypography-root-48 MuiTypography-body1-57 MultiCard-description-248"
                 >
-                  Season: 6 | Episode: 9
+                  In Winterfell, Jon Snow, Sansa, Davos and Tormund meet with Ramsay, and Jon Snow proposes a dispute between them instead of sacrificing lives in a battle. Ramsay does not accept and they schedule the battle in the morning. Jon Snow plots a scheme with Davos and Tormund and Sansa warns that Ramsay plays dirty. When both armies are ready to battle, Ramsay brings a surprise.
                 </p>
               </div>
-              <div
-                class="SingleCard-chips-199"
-              >
-                <div
-                  class="MuiChip-root-208 SingleCard-chip-200"
-                  role="button"
-                  tabindex="-1"
-                >
-                  <span
-                    class="MuiChip-label-227"
-                  >
-                    Action
-                  </span>
-                </div>
-                <div
-                  class="MuiChip-root-208 SingleCard-chip-200"
-                  role="button"
-                  tabindex="-1"
-                >
-                  <span
-                    class="MuiChip-label-227"
-                  >
-                    Adventure
-                  </span>
-                </div>
-                <div
-                  class="MuiChip-root-208 SingleCard-chip-200"
-                  role="button"
-                  tabindex="-1"
-                >
-                  <span
-                    class="MuiChip-label-227"
-                  >
-                    Drama
-                  </span>
-                </div>
-              </div>
-              <p
-                class="MuiTypography-root-48 MuiTypography-body1-57"
-              >
-                In Winterfell, Jon Snow, Sansa, Davos and Tormund meet with Ramsay, and Jon Snow proposes a dispute between them instead of sacrificing lives in a battle. Ramsay does not accept and they schedule the battle in the morning. Jon Snow plots a scheme with Davos and Tormund and Sansa warns that Ramsay plays dirty. When both armies are ready to battle, Ramsay brings a surprise.
-              </p>
               <div
                 class="MuiCardActions-root-233"
               >
                 <a
                   aria-label="IMDB"
-                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
-                  href="https://www.imdb.com/title/tt4283088/?ref_=ttep_ep9"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 MultiCard-fab-251 MuiCardActions-action-234"
+                  href="https://www.imdb.com/title/tt4283088/"
                   rel="noopener noreferrer"
                   role="button"
                   tabindex="0"
@@ -1225,7 +1233,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
+                      class="MuiSvgIcon-root-83 MultiCard-localPlayIcon-253"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1243,7 +1251,7 @@ exports[`snapshot changes when input change 1`] = `
                 </a>
                 <a
                   aria-label="View Scene"
-                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 MultiCard-fab-251 MuiCardActions-action-234"
                   href="https://www.youtube.com/watch?v=m8rURwkvOx0"
                   rel="noopener noreferrer"
                   role="button"
@@ -1255,7 +1263,106 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
+                      class="MuiSvgIcon-root-83 MultiCard-playCircleOutlineIcon-252"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                      />
+                    </svg>
+                    View Scene
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MultiCard-innerContainer-246"
+          >
+            <div
+              class="MuiCardMedia-root-205 MultiCard-media-247"
+              style="background-image:url(\\"./assets/images/game-of-thrones_5_8.jpg\\")"
+            />
+            <img
+              class="MultiCard-thumbnail-249"
+              src="./assets/images/game-of-thrones_5_8.jpg"
+            />
+            <div
+              class="MuiCardContent-root-207"
+            >
+              <div>
+                <div>
+                  <h2
+                    class="MuiTypography-root-48 MuiTypography-subtitle1-66 MuiTypography-gutterBottom-75"
+                  >
+                    Hardhome
+                  </h2>
+                  <p
+                    class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81 MuiTypography-gutterBottom-75"
+                  >
+                    Season: 5 | Episode: 8
+                  </p>
+                </div>
+                <p
+                  class="MuiTypography-root-48 MuiTypography-body1-57 MultiCard-description-248"
+                >
+                  Jon Snow fights off and kills a White Walker with Valyrian Steel in Hardhome along with the Army of the Dead. A white walker strides into the burning hall. Thenn moves to fight him while Jon Snow finds the glass. The Walker's weapon shatters Thenn's axe, and the White Walker kills him. The Walker moves to attack Jon. Jon picks up a sword from the ground, but the White Walker shatters it and knocks Jon down. Jon picks up Longclaw, made of Valyrian Steel, and it withstands the White Walker’s attack. Jon uses it to kill the Walker. The Night’s King sees this happen. After a moments respite, the Night’s King sends a legion of Wights tumbling over the mountain to continue the attack in the battle of Hardhome.
+                </p>
+              </div>
+              <div
+                class="MuiCardActions-root-233"
+              >
+                <a
+                  aria-label="IMDB"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 MultiCard-fab-251 MuiCardActions-action-234"
+                  href="https://www.imdb.com/title/tt3866850/"
+                  rel="noopener noreferrer"
+                  role="button"
+                  tabindex="0"
+                  target="_blank"
+                >
+                  <span
+                    class="MuiFab-label-236"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-83 MultiCard-localPlayIcon-253"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M20 12c0-1.1.9-2 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-1.99.9-1.99 2v4c1.1 0 1.99.9 1.99 2s-.89 2-2 2v4c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-4c-1.1 0-2-.9-2-2zm-4.42 4.8L12 14.5l-3.58 2.3 1.08-4.12-3.29-2.69 4.24-.25L12 5.8l1.54 3.95 4.24.25-3.29 2.69 1.09 4.11z"
+                      />
+                    </svg>
+                    IMDB
+                  </span>
+                </a>
+                <a
+                  aria-label="View Scene"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 MultiCard-fab-251 MuiCardActions-action-234"
+                  href="https://www.youtube.com/watch?v=fC1dVsTkmSI"
+                  rel="noopener noreferrer"
+                  role="button"
+                  tabindex="0"
+                  target="_blank"
+                >
+                  <span
+                    class="MuiFab-label-236"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-83 MultiCard-playCircleOutlineIcon-252"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
