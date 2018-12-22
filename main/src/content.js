@@ -348,6 +348,17 @@ var content = [
     url: 'https://www.youtube.com/watch?v=cCHf8FxqzJc',
     thumbnail: './assets/images/braveheart.jpg',
     genre: ['Biography', 'Drama', 'History']
+  },
+  {
+    type: 'movie',
+    title: 'I, Robot',
+    description:
+      "While searching for clues at Dr. Lanning's house, a giant demolition robot almost kills Spooner (Will Smith)",
+    year: 2004,
+    imdb: 'https://www.imdb.com/title/tt0343818/',
+    url: 'https://www.youtube.com/watch?v=KBuvlaycAXs',
+    thumbnail: './assets/images/i-robot.jpg',
+    genre: ['Action', 'Crime', 'Drama']
   }
 ];
 
