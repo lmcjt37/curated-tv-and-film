@@ -127,6 +127,7 @@ it('calls handleFilter correctly for Movies', () => {
     2014,
     2013,
     2007,
+    2004,
     2003,
     2001,
     1999,
