@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f463ab1d85a608f98e67",
+    "revision": "7040f98e686efc899703",
     "url": "/curated-tv-and-film/static/css/main.71b35ddf.chunk.css"
   },
   {
-    "revision": "f463ab1d85a608f98e67",
-    "url": "/curated-tv-and-film/static/js/main.f463ab1d.chunk.js"
+    "revision": "7040f98e686efc899703",
+    "url": "/curated-tv-and-film/static/js/main.7040f98e.chunk.js"
   },
   {
     "revision": "e755dee31c8481a0bd9c",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/curated-tv-and-film/static/js/runtime~main.5a549d00.js"
   },
   {
-    "revision": "285bfd31eea230b857e004e0896db791",
+    "revision": "b5763ea7b0c08b1d13d9d2a6269b0af3",
     "url": "/curated-tv-and-film/index.html"
   }
 ];
