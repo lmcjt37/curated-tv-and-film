@@ -359,6 +359,17 @@ var content = [
     url: 'https://www.youtube.com/watch?v=KBuvlaycAXs',
     thumbnail: './assets/images/i-robot.jpg',
     genre: ['Action', 'Crime', 'Drama']
+  },
+  {
+    type: 'movie',
+    title: 'Nightmare before Christmas',
+    description:
+      "Jack Skellington stumbles across a circle of holiday tress and gets sucked into Christmas Town, which leads him to perform 'What's This?' as he explores this alternate holiday town which seems so unique and inspiring to him.",
+    year: 1993,
+    imdb: 'https://www.imdb.com/title/tt0107688/',
+    url: 'https://www.youtube.com/watch?v=Z7uJMyPOBGA',
+    thumbnail: './assets/images/nightmare-before-christmas.jpg',
+    genre: ['Animation', 'Family', 'Fantasy']
   }
 ];
 
