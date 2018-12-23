@@ -134,6 +134,7 @@ it('calls handleFilter correctly for Movies', () => {
     1998,
     1995,
     1994,
+    1993,
     1972
   ]);
   expect(wrapper.state('filterYear')).toEqual('All');
