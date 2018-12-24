@@ -370,6 +370,17 @@ var content = [
     url: 'https://www.youtube.com/watch?v=Z7uJMyPOBGA',
     thumbnail: './assets/images/nightmare-before-christmas.jpg',
     genre: ['Animation', 'Family', 'Fantasy']
+  },
+  {
+    type: 'movie',
+    title: 'Love Actually',
+    description:
+      "After Juliet finds out that Mark's focus at her and his best mates wedding, is solely on her. She realises that his coldness towards her is actually his obsession. Mark finally expresses his hidden, unrequited love for Juliet.",
+    year: 2003,
+    imdb: 'https://www.imdb.com/title/tt0314331/',
+    url: 'https://www.youtube.com/watch?v=B7u6bMBlCXw',
+    thumbnail: './assets/images/love-actually.jpg',
+    genre: ['Comedy', 'Drama', 'Romance']
   }
 ];
 
