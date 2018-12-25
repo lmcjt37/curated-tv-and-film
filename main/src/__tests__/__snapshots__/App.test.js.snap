@@ -3173,6 +3173,141 @@ exports[`snapshot changes when input change 1`] = `
           >
             <div
               class="MuiCardMedia-root-205 SingleCard-media-197"
+              style="background-image:url(\\"./assets/images/serenity.jpg\\")"
+              title="Serenity"
+            />
+            <img
+              alt="Serenity"
+              class="SingleCard-thumbnail-198"
+              src="./assets/images/serenity.jpg"
+            />
+            <div
+              class="MuiCardContent-root-207"
+            >
+              <h2
+                class="MuiTypography-root-48 MuiTypography-h6-65 MuiTypography-gutterBottom-75"
+              >
+                Serenity  (2005)
+              </h2>
+              <div
+                class="SingleCard-chips-199"
+              >
+                <div
+                  class="MuiChip-root-208 SingleCard-chip-200"
+                  role="button"
+                  tabindex="-1"
+                >
+                  <span
+                    class="MuiChip-label-227"
+                  >
+                    Action
+                  </span>
+                </div>
+                <div
+                  class="MuiChip-root-208 SingleCard-chip-200"
+                  role="button"
+                  tabindex="-1"
+                >
+                  <span
+                    class="MuiChip-label-227"
+                  >
+                    Adventure
+                  </span>
+                </div>
+                <div
+                  class="MuiChip-root-208 SingleCard-chip-200"
+                  role="button"
+                  tabindex="-1"
+                >
+                  <span
+                    class="MuiChip-label-227"
+                  >
+                    Sci-Fi
+                  </span>
+                </div>
+              </div>
+              <p
+                class="MuiTypography-root-48 MuiTypography-body1-57"
+              >
+                River hears the words 'Miranda', which we find out is a trigger word for turning her into a weapon. She starts to fight the entire bar until her brother intervenes.
+              </p>
+              <div
+                class="MuiCardActions-root-233"
+              >
+                <a
+                  aria-label="IMDB"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
+                  href="https://www.imdb.com/title/tt0379786/"
+                  rel="noopener noreferrer"
+                  role="button"
+                  tabindex="0"
+                  target="_blank"
+                >
+                  <span
+                    class="MuiFab-label-236"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-83 SingleCard-localPlayIcon-203"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M20 12c0-1.1.9-2 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-1.99.9-1.99 2v4c1.1 0 1.99.9 1.99 2s-.89 2-2 2v4c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-4c-1.1 0-2-.9-2-2zm-4.42 4.8L12 14.5l-3.58 2.3 1.08-4.12-3.29-2.69 4.24-.25L12 5.8l1.54 3.95 4.24.25-3.29 2.69 1.09 4.11z"
+                      />
+                    </svg>
+                    IMDB
+                  </span>
+                </a>
+                <a
+                  aria-label="View Scene"
+                  class="MuiButtonBase-root-120 MuiFab-root-235 MuiFab-extended-239 MuiFab-primary-237 SingleCard-fab-201 MuiCardActions-action-234"
+                  href="https://www.youtube.com/watch?v=3FJatsqNdf4"
+                  rel="noopener noreferrer"
+                  role="button"
+                  tabindex="0"
+                  target="_blank"
+                >
+                  <span
+                    class="MuiFab-label-236"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-83 SingleCard-playCircleOutlineIcon-202"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                      />
+                    </svg>
+                    View Scene
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div
+          class="MuiPaper-root-17 MuiPaper-elevation1-20 MuiPaper-rounded-18 MuiCard-root-204 SingleCard-card-195"
+        >
+          <div
+            class="SingleCard-innerContainer-196"
+          >
+            <div
+              class="MuiCardMedia-root-205 SingleCard-media-197"
               style="background-image:url(\\"./assets/images/sherlock.jpg\\")"
               title="Sherlock"
             />

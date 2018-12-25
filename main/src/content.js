@@ -381,6 +381,17 @@ var content = [
     url: 'https://www.youtube.com/watch?v=B7u6bMBlCXw',
     thumbnail: './assets/images/love-actually.jpg',
     genre: ['Comedy', 'Drama', 'Romance']
+  },
+  {
+    type: 'movie',
+    title: 'Serenity',
+    description:
+      "River hears the words 'Miranda', which we find out is a trigger word for turning her into a weapon. She starts to fight the entire bar until her brother intervenes.",
+    year: 2005,
+    imdb: 'https://www.imdb.com/title/tt0379786/',
+    url: 'https://www.youtube.com/watch?v=3FJatsqNdf4',
+    thumbnail: './assets/images/serenity.jpg',
+    genre: ['Action', 'Adventure', 'Sci-Fi']
   }
 ];
 
