@@ -392,6 +392,17 @@ var content = [
     url: 'https://www.youtube.com/watch?v=3FJatsqNdf4',
     thumbnail: './assets/images/serenity.jpg',
     genre: ['Action', 'Adventure', 'Sci-Fi']
+  },
+  {
+    type: 'movie',
+    title: 'Now You See Me 2',
+    description:
+      'The scene where the four Horsemen successfully attempt to steal the chip from tight security.',
+    year: 2016,
+    imdb: 'https://www.imdb.com/title/tt3110958/',
+    url: 'https://www.youtube.com/watch?v=_4rndwJWiSE',
+    thumbnail: './assets/images/now-you-see-me-2.jpg',
+    genre: ['Action', 'Adventure', 'Comedy']
   }
 ];
 
