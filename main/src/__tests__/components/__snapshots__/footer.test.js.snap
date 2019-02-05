@@ -10,6 +10,28 @@ exports[`snapshot of initial component 1`] = `
     <li
       class="Footer-links-3"
     >
+      <p
+        class="MuiTypography-root-5 MuiTypography-body1-14 MuiTypography-colorTextSecondary-38"
+      >
+        Made with ♥ by  
+        <a
+          class="Footer-anchor-4"
+          href="https://lmcjt.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Luke Taylor
+        </a>
+          © 2018-2019
+      </p>
+    </li>
+  </ul>
+  <ul
+    class="Footer-list-2"
+  >
+    <li
+      class="Footer-links-3"
+    >
       <a
         class="Footer-anchor-4"
         href="https://github.com/lmcjt37/curated-tv-and-film"

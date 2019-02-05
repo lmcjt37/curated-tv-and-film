@@ -13,7 +13,7 @@ const styles = theme => ({
     margin: theme.spacing.unit * 2,
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'space-between'
   },
   list: {
     display: 'block',
@@ -38,6 +38,23 @@ function Footer(props) {
   const { classes } = props;
   return (
     <footer className={classes.footer}>
+      <ul className={classes.list}>
+        <li className={classes.links}>
+          <Typography color="textSecondary">
+            Made with &hearts; by &nbsp;
+            <a
+              className={classes.anchor}
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://lmcjt.com"
+            >
+              Luke Taylor
+            </a>
+            &nbsp; &copy; 2018-
+            {new Date().getUTCFullYear()}
+          </Typography>
+        </li>
+      </ul>
       <ul className={classes.list}>
         <li className={classes.links}>
           <a

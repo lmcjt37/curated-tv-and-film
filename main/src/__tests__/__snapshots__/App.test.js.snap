@@ -4988,6 +4988,28 @@ exports[`snapshot changes when input change 1`] = `
       <li
         class="Footer-links-262"
       >
+        <p
+          class="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-colorTextSecondary-81"
+        >
+          Made with ♥ by  
+          <a
+            class="Footer-anchor-263"
+            href="https://lmcjt.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Luke Taylor
+          </a>
+            © 2018-2019
+        </p>
+      </li>
+    </ul>
+    <ul
+      class="Footer-list-261"
+    >
+      <li
+        class="Footer-links-262"
+      >
         <a
           class="Footer-anchor-263"
           href="https://github.com/lmcjt37/curated-tv-and-film"
