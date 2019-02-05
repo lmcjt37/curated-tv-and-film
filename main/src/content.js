@@ -403,6 +403,17 @@ var content = [
     url: 'https://www.youtube.com/watch?v=_4rndwJWiSE',
     thumbnail: './assets/images/now-you-see-me-2.jpg',
     genre: ['Action', 'Adventure', 'Comedy']
+  },
+  {
+    type: 'movie',
+    title: 'Polar',
+    description:
+      "The world's top assassin, Duncan Vizla, is settling into retirement when his former employer marks him as a liability to the firm. Against his will, he finds himself back in the game going head to head with an army of younger killers.",
+    year: 2019,
+    imdb: 'https://www.imdb.com/title/tt4139588/',
+    url: 'https://www.youtube.com/watch?v=ooqhwWWnlu8',
+    thumbnail: './assets/images/polar.jpg',
+    genre: ['Action', 'Crime']
   }
 ];
 
