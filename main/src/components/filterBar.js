@@ -25,7 +25,8 @@ const styles = theme => ({
     top: '54px',
     [theme.breakpoints.up('sm')]: {
       top: '64px'
-    }
+    },
+    zIndex: 1
   },
   grow: {
     flexGrow: 1
