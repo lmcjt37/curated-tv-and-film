@@ -123,6 +123,7 @@ it('calls handleFilter correctly for Movies', () => {
 
   expect(wrapper.state('filterResults')).toEqual('movies');
   expect(wrapper.state('years')).toEqual([
+    2019,
     2017,
     2016,
     2014,
