@@ -17,11 +17,10 @@ These scenes are carefully picked out moments, ignoring bias of any opinions or 
 ### Dependencies
 
 * [node.js](https://nodejs.org)
-* [yarn](https://yarnpkg.com)
 
 ```
 git clone https://github.com/lmcjt37/curated-tv-and-film.git
-yarn install
+npm install
 ```
 
 ### Development
@@ -31,7 +30,7 @@ Make sure you are in the `./main` directory.
 Start the local development server by running
 
 ```
-yarn start
+npm start
 ```
 
 The webpage will open automatically, otherwise navigate to http://localhost:3000/ in your browser.
