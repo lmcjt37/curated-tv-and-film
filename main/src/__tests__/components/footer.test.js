@@ -5,10 +5,10 @@ it('render all initial child components', () => {
   const wrapper = mount(<Footer />);
 
   expect(wrapper.find(Footer)).toHaveLength(1);
-  expect(wrapper.find(Typography)).toHaveLength(3);
-  expect(wrapper.find('ul')).toHaveLength(1);
-  expect(wrapper.find('li')).toHaveLength(3);
-  expect(wrapper.find('a')).toHaveLength(3);
+  expect(wrapper.find(Typography)).toHaveLength(4);
+  expect(wrapper.find('ul')).toHaveLength(2);
+  expect(wrapper.find('li')).toHaveLength(4);
+  expect(wrapper.find('a')).toHaveLength(4);
 });
 
 it('snapshot of initial component', () => {
