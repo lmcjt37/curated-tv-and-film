@@ -1,13 +1,21 @@
 {
-  "main.css": "/curated-tv-and-film/static/css/main.71b35ddf.chunk.css",
-  "main.js": "/curated-tv-and-film/static/js/main.fb659785.chunk.js",
-  "main.js.map": "/curated-tv-and-film/static/js/main.fb659785.chunk.js.map",
-  "static/js/1.fc272b8b.chunk.js": "/curated-tv-and-film/static/js/1.fc272b8b.chunk.js",
-  "static/js/1.fc272b8b.chunk.js.map": "/curated-tv-and-film/static/js/1.fc272b8b.chunk.js.map",
-  "runtime~main.js": "/curated-tv-and-film/static/js/runtime~main.5a549d00.js",
-  "runtime~main.js.map": "/curated-tv-and-film/static/js/runtime~main.5a549d00.js.map",
-  "static/css/main.71b35ddf.chunk.css.map": "/curated-tv-and-film/static/css/main.71b35ddf.chunk.css.map",
-  "index.html": "/curated-tv-and-film/index.html",
-  "precache-manifest.d71d6c9614c4081c937d10c90ad119f0.js": "/curated-tv-and-film/precache-manifest.d71d6c9614c4081c937d10c90ad119f0.js",
-  "service-worker.js": "/curated-tv-and-film/service-worker.js"
+  "files": {
+    "main.css": "/curated-tv-and-film/static/css/main.c230518c.chunk.css",
+    "main.js": "/curated-tv-and-film/static/js/main.e9b19298.chunk.js",
+    "main.js.map": "/curated-tv-and-film/static/js/main.e9b19298.chunk.js.map",
+    "runtime-main.js": "/curated-tv-and-film/static/js/runtime-main.3639dfd0.js",
+    "runtime-main.js.map": "/curated-tv-and-film/static/js/runtime-main.3639dfd0.js.map",
+    "static/js/2.e292a958.chunk.js": "/curated-tv-and-film/static/js/2.e292a958.chunk.js",
+    "static/js/2.e292a958.chunk.js.map": "/curated-tv-and-film/static/js/2.e292a958.chunk.js.map",
+    "index.html": "/curated-tv-and-film/index.html",
+    "precache-manifest.e0f690b43c3ae2956294c4c3a710dc2c.js": "/curated-tv-and-film/precache-manifest.e0f690b43c3ae2956294c4c3a710dc2c.js",
+    "service-worker.js": "/curated-tv-and-film/service-worker.js",
+    "static/css/main.c230518c.chunk.css.map": "/curated-tv-and-film/static/css/main.c230518c.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3639dfd0.js",
+    "static/js/2.e292a958.chunk.js",
+    "static/css/main.c230518c.chunk.css",
+    "static/js/main.e9b19298.chunk.js"
+  ]
 }
