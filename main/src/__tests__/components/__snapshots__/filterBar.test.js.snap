@@ -145,22 +145,23 @@ exports[`snapshot of initial component 1`] = `
                 class="MuiFormControl-root-50 FilterBar-formControl-3"
               >
                 <label
-                  class="MuiFormLabel-root-54 MuiFormLabel-filled-58 MuiInputLabel-root-131 MuiInputLabel-formControl-136 MuiInputLabel-animated-139 MuiInputLabel-shrink-138"
+                  class="MuiFormLabel-root-54 MuiFormLabel-filled-58 MuiInputLabel-root-132 MuiInputLabel-formControl-137 MuiInputLabel-animated-140 MuiInputLabel-shrink-139"
                   data-shrink="true"
                   for="filterYear"
                 >
                   Year
                 </label>
                 <div
-                  class="MuiInputBase-root-162 MuiInput-root-149 MuiInput-underline-153 MuiInputBase-formControl-163 MuiInput-formControl-150"
+                  class="MuiInputBase-root-163 MuiInput-root-150 MuiInput-underline-154 MuiInputBase-formControl-164 MuiInput-formControl-151"
                 >
                   <div
-                    class="MuiSelect-root-142"
+                    class="MuiSelect-root-143"
                   >
                     <div
                       aria-haspopup="true"
                       aria-pressed="false"
-                      class="MuiSelect-select-143 MuiSelect-selectMenu-146 MuiInputBase-input-172 MuiInput-input-157"
+                      class="MuiSelect-select-144 MuiSelect-selectMenu-147 MuiInputBase-input-173 MuiInput-input-158"
+                      id="select-year"
                       role="button"
                       tabindex="0"
                     >
@@ -174,7 +175,7 @@ exports[`snapshot of initial component 1`] = `
                     />
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-87 MuiSelect-icon-148"
+                      class="MuiSvgIcon-root-87 MuiSelect-icon-149"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -190,22 +191,23 @@ exports[`snapshot of initial component 1`] = `
                 class="MuiFormControl-root-50 FilterBar-formControl-3"
               >
                 <label
-                  class="MuiFormLabel-root-54 MuiFormLabel-filled-58 MuiInputLabel-root-131 MuiInputLabel-formControl-136 MuiInputLabel-animated-139 MuiInputLabel-shrink-138"
+                  class="MuiFormLabel-root-54 MuiFormLabel-filled-58 MuiInputLabel-root-132 MuiInputLabel-formControl-137 MuiInputLabel-animated-140 MuiInputLabel-shrink-139"
                   data-shrink="true"
                   for="filterGenre"
                 >
                   Genre
                 </label>
                 <div
-                  class="MuiInputBase-root-162 MuiInput-root-149 MuiInput-underline-153 MuiInputBase-formControl-163 MuiInput-formControl-150"
+                  class="MuiInputBase-root-163 MuiInput-root-150 MuiInput-underline-154 MuiInputBase-formControl-164 MuiInput-formControl-151"
                 >
                   <div
-                    class="MuiSelect-root-142"
+                    class="MuiSelect-root-143"
                   >
                     <div
                       aria-haspopup="true"
                       aria-pressed="false"
-                      class="MuiSelect-select-143 MuiSelect-selectMenu-146 MuiInputBase-input-172 MuiInput-input-157"
+                      class="MuiSelect-select-144 MuiSelect-selectMenu-147 MuiInputBase-input-173 MuiInput-input-158"
+                      id="select-genre"
                       role="button"
                       tabindex="0"
                     >
@@ -219,7 +221,7 @@ exports[`snapshot of initial component 1`] = `
                     />
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-87 MuiSelect-icon-148"
+                      class="MuiSvgIcon-root-87 MuiSelect-icon-149"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -235,22 +237,23 @@ exports[`snapshot of initial component 1`] = `
                 class="MuiFormControl-root-50 FilterBar-formControl-3"
               >
                 <label
-                  class="MuiFormLabel-root-54 MuiFormLabel-filled-58 MuiInputLabel-root-131 MuiInputLabel-formControl-136 MuiInputLabel-animated-139 MuiInputLabel-shrink-138"
+                  class="MuiFormLabel-root-54 MuiFormLabel-filled-58 MuiInputLabel-root-132 MuiInputLabel-formControl-137 MuiInputLabel-animated-140 MuiInputLabel-shrink-139"
                   data-shrink="true"
                   for="filterOrder"
                 >
                   Sort
                 </label>
                 <div
-                  class="MuiInputBase-root-162 MuiInput-root-149 MuiInput-underline-153 MuiInputBase-formControl-163 MuiInput-formControl-150"
+                  class="MuiInputBase-root-163 MuiInput-root-150 MuiInput-underline-154 MuiInputBase-formControl-164 MuiInput-formControl-151"
                 >
                   <div
-                    class="MuiSelect-root-142"
+                    class="MuiSelect-root-143"
                   >
                     <div
                       aria-haspopup="true"
                       aria-pressed="false"
-                      class="MuiSelect-select-143 MuiSelect-selectMenu-146 MuiInputBase-input-172 MuiInput-input-157"
+                      class="MuiSelect-select-144 MuiSelect-selectMenu-147 MuiInputBase-input-173 MuiInput-input-158"
+                      id="select-order"
                       role="button"
                       tabindex="0"
                     >
@@ -264,7 +267,7 @@ exports[`snapshot of initial component 1`] = `
                     />
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-87 MuiSelect-icon-148"
+                      class="MuiSvgIcon-root-87 MuiSelect-icon-149"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"

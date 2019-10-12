@@ -18,37 +18,37 @@ exports[`snapshot of initial component with multiple items 1`] = `
     </div>
   </div>
   <div
-    class="MuiCardContent-root-79"
+    class="MuiCardContent-root-80"
   >
     <div
-      class="MuiChip-root-80 MultiCard-chip-6"
+      class="MuiChip-root-81 MultiCard-chip-6"
       role="button"
       tabindex="-1"
     >
       <span
-        class="MuiChip-label-99"
+        class="MuiChip-label-100"
       >
         Drama
       </span>
     </div>
     <div
-      class="MuiChip-root-80 MultiCard-chip-6"
+      class="MuiChip-root-81 MultiCard-chip-6"
       role="button"
       tabindex="-1"
     >
       <span
-        class="MuiChip-label-99"
+        class="MuiChip-label-100"
       >
         Horror
       </span>
     </div>
     <div
-      class="MuiChip-root-80 MultiCard-chip-6"
+      class="MuiChip-root-81 MultiCard-chip-6"
       role="button"
       tabindex="-1"
     >
       <span
-        class="MuiChip-label-99"
+        class="MuiChip-label-100"
       >
         Action
       </span>
@@ -58,7 +58,7 @@ exports[`snapshot of initial component with multiple items 1`] = `
     class="MultiCard-innerContainer-2"
   >
     <div
-      class="MuiCardMedia-root-105 MultiCard-media-3"
+      class="MuiCardMedia-root-106 MultiCard-media-3"
       style="background-image:url(\\"./assets/images/walking-dead.jpg\\")"
     />
     <img
@@ -66,7 +66,7 @@ exports[`snapshot of initial component with multiple items 1`] = `
       src="./assets/images/walking-dead.jpg"
     />
     <div
-      class="MuiCardContent-root-79"
+      class="MuiCardContent-root-80"
     >
       <div>
         <div>
@@ -88,11 +88,11 @@ exports[`snapshot of initial component with multiple items 1`] = `
         </p>
       </div>
       <div
-        class="MuiCardActions-root-107"
+        class="MuiCardActions-root-108"
       >
         <a
           aria-label="IMDB"
-          class="MuiButtonBase-root-119 MuiFab-root-109 MuiFab-extended-113 MuiFab-primary-111 MultiCard-fab-7 MuiCardActions-action-108"
+          class="MuiButtonBase-root-121 MuiFab-root-111 MuiFab-extended-115 MuiFab-primary-113 MultiCard-fab-7 MuiCardActions-action-110"
           href="https://www.imdb.com/title/tt1628064/?ref_=ttep_ep2"
           rel="noopener noreferrer"
           role="button"
@@ -100,11 +100,11 @@ exports[`snapshot of initial component with multiple items 1`] = `
           target="_blank"
         >
           <span
-            class="MuiFab-label-110"
+            class="MuiFab-label-112"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-122 MultiCard-localPlayIcon-9"
+              class="MuiSvgIcon-root-124 MultiCard-localPlayIcon-9"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
@@ -122,7 +122,7 @@ exports[`snapshot of initial component with multiple items 1`] = `
         </a>
         <a
           aria-label="View Scene"
-          class="MuiButtonBase-root-119 MuiFab-root-109 MuiFab-extended-113 MuiFab-primary-111 MultiCard-fab-7 MuiCardActions-action-108"
+          class="MuiButtonBase-root-121 MuiFab-root-111 MuiFab-extended-115 MuiFab-primary-113 MultiCard-fab-7 MuiCardActions-action-110"
           href="https://www.youtube.com/watch?v=ZxmWhlidAZ8"
           rel="noopener noreferrer"
           role="button"
@@ -130,11 +130,11 @@ exports[`snapshot of initial component with multiple items 1`] = `
           target="_blank"
         >
           <span
-            class="MuiFab-label-110"
+            class="MuiFab-label-112"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-122 MultiCard-playCircleOutlineIcon-8"
+              class="MuiSvgIcon-root-124 MultiCard-playCircleOutlineIcon-8"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
@@ -157,7 +157,7 @@ exports[`snapshot of initial component with multiple items 1`] = `
     class="MultiCard-innerContainer-2"
   >
     <div
-      class="MuiCardMedia-root-105 MultiCard-media-3"
+      class="MuiCardMedia-root-106 MultiCard-media-3"
       style="background-image:url(\\"./assets/images/walking-dead.jpg\\")"
     />
     <img
@@ -165,7 +165,7 @@ exports[`snapshot of initial component with multiple items 1`] = `
       src="./assets/images/walking-dead.jpg"
     />
     <div
-      class="MuiCardContent-root-79"
+      class="MuiCardContent-root-80"
     >
       <div>
         <div>
@@ -187,11 +187,11 @@ exports[`snapshot of initial component with multiple items 1`] = `
         </p>
       </div>
       <div
-        class="MuiCardActions-root-107"
+        class="MuiCardActions-root-108"
       >
         <a
           aria-label="IMDB"
-          class="MuiButtonBase-root-119 MuiFab-root-109 MuiFab-extended-113 MuiFab-primary-111 MultiCard-fab-7 MuiCardActions-action-108"
+          class="MuiButtonBase-root-121 MuiFab-root-111 MuiFab-extended-115 MuiFab-primary-113 MultiCard-fab-7 MuiCardActions-action-110"
           href="https://www.imdb.com/title/tt5164772/?ref_=ttep_ep1"
           rel="noopener noreferrer"
           role="button"
@@ -199,11 +199,11 @@ exports[`snapshot of initial component with multiple items 1`] = `
           target="_blank"
         >
           <span
-            class="MuiFab-label-110"
+            class="MuiFab-label-112"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-122 MultiCard-localPlayIcon-9"
+              class="MuiSvgIcon-root-124 MultiCard-localPlayIcon-9"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
@@ -221,7 +221,7 @@ exports[`snapshot of initial component with multiple items 1`] = `
         </a>
         <a
           aria-label="View Scene"
-          class="MuiButtonBase-root-119 MuiFab-root-109 MuiFab-extended-113 MuiFab-primary-111 MultiCard-fab-7 MuiCardActions-action-108"
+          class="MuiButtonBase-root-121 MuiFab-root-111 MuiFab-extended-115 MuiFab-primary-113 MultiCard-fab-7 MuiCardActions-action-110"
           href="https://www.youtube.com/watch?v=d3LDG5CCOPQ"
           rel="noopener noreferrer"
           role="button"
@@ -229,11 +229,11 @@ exports[`snapshot of initial component with multiple items 1`] = `
           target="_blank"
         >
           <span
-            class="MuiFab-label-110"
+            class="MuiFab-label-112"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-122 MultiCard-playCircleOutlineIcon-8"
+              class="MuiSvgIcon-root-124 MultiCard-playCircleOutlineIcon-8"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
