@@ -4,6 +4,8 @@ import Adapter from 'enzyme-adapter-react-16';
 
 Enzyme.configure({ adapter: new Adapter() });
 
+React.useLayoutEffect = React.useEffect;
+
 global.React = React;
 global.shallow = shallow;
 global.render = render;

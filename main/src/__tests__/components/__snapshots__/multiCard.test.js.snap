@@ -2,53 +2,47 @@
 
 exports[`snapshot of initial component with multiple items 1`] = `
 <div
-  class="MuiPaper-root-11 MuiPaper-elevation1-14 MuiPaper-rounded-12 MuiCard-root-10 MultiCard-card-1"
+  class="MuiPaper-root MuiPaper-elevation1 MuiCard-root MultiCard-card-1 MuiPaper-rounded"
 >
   <div
-    class="MuiCardHeader-root-38"
+    class="MuiCardHeader-root"
   >
     <div
-      class="MuiCardHeader-content-41"
+      class="MuiCardHeader-content"
     >
       <h2
-        class="MuiTypography-root-44 MuiTypography-h6-61 MuiCardHeader-title-42"
+        class="MuiTypography-root MuiCardHeader-title MuiTypography-h6 MuiTypography-displayBlock"
       >
         The Walking Dead
       </h2>
     </div>
   </div>
   <div
-    class="MuiCardContent-root-80"
+    class="MuiCardContent-root"
   >
     <div
-      class="MuiChip-root-81 MultiCard-chip-6"
-      role="button"
-      tabindex="-1"
+      class="MuiChip-root MultiCard-chip-6"
     >
       <span
-        class="MuiChip-label-100"
+        class="MuiChip-label"
       >
         Drama
       </span>
     </div>
     <div
-      class="MuiChip-root-81 MultiCard-chip-6"
-      role="button"
-      tabindex="-1"
+      class="MuiChip-root MultiCard-chip-6"
     >
       <span
-        class="MuiChip-label-100"
+        class="MuiChip-label"
       >
         Horror
       </span>
     </div>
     <div
-      class="MuiChip-root-81 MultiCard-chip-6"
-      role="button"
-      tabindex="-1"
+      class="MuiChip-root MultiCard-chip-6"
     >
       <span
-        class="MuiChip-label-100"
+        class="MuiChip-label"
       >
         Action
       </span>
@@ -58,7 +52,7 @@ exports[`snapshot of initial component with multiple items 1`] = `
     class="MultiCard-innerContainer-2"
   >
     <div
-      class="MuiCardMedia-root-106 MultiCard-media-3"
+      class="MuiCardMedia-root MultiCard-media-3"
       style="background-image:url(\\"./assets/images/walking-dead.jpg\\")"
     />
     <img
@@ -66,53 +60,49 @@ exports[`snapshot of initial component with multiple items 1`] = `
       src="./assets/images/walking-dead.jpg"
     />
     <div
-      class="MuiCardContent-root-80"
+      class="MuiCardContent-root"
     >
       <div>
         <div>
           <h2
-            class="MuiTypography-root-44 MuiTypography-subtitle1-62 MuiTypography-gutterBottom-71"
+            class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom"
           >
             Guts
           </h2>
           <p
-            class="MuiTypography-root-44 MuiTypography-body1-53 MuiTypography-colorTextSecondary-77 MuiTypography-gutterBottom-71"
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
           >
             Season: 1 | Episode: 2
           </p>
         </div>
         <p
-          class="MuiTypography-root-44 MuiTypography-body1-53 MultiCard-description-4"
+          class="MuiTypography-root MultiCard-description-4 MuiTypography-body1"
         >
           Following on from where Rick Grimes wakes up from a coma and tries to find his family. He gets to Atlanta, surrounded by walkers, he is thrown from his horse and ends up in a tank. This is where someone on the walkie talkie, Glenn, helps him out of the tight situation.
         </p>
       </div>
       <div
-        class="MuiCardActions-root-108"
+        class="MuiCardActions-root MuiCardActions-spacing"
       >
         <a
+          aria-disabled="false"
           aria-label="IMDB"
-          class="MuiButtonBase-root-121 MuiFab-root-111 MuiFab-extended-115 MuiFab-primary-113 MultiCard-fab-7 MuiCardActions-action-110"
+          class="MuiButtonBase-root MuiFab-root MultiCard-fab-7 MuiFab-extended MuiFab-primary"
           href="https://www.imdb.com/title/tt1628064/?ref_=ttep_ep2"
           rel="noopener noreferrer"
-          role="button"
           tabindex="0"
           target="_blank"
         >
           <span
-            class="MuiFab-label-112"
+            class="MuiFab-label"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-124 MultiCard-localPlayIcon-9"
+              class="MuiSvgIcon-root MultiCard-localPlayIcon-9"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
             >
-              <path
-                d="M0 0h24v24H0z"
-                fill="none"
-              />
               <path
                 d="M20 12c0-1.1.9-2 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-1.99.9-1.99 2v4c1.1 0 1.99.9 1.99 2s-.89 2-2 2v4c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-4c-1.1 0-2-.9-2-2zm-4.42 4.8L12 14.5l-3.58 2.3 1.08-4.12-3.29-2.69 4.24-.25L12 5.8l1.54 3.95 4.24.25-3.29 2.69 1.09 4.11z"
               />
@@ -121,28 +111,24 @@ exports[`snapshot of initial component with multiple items 1`] = `
           </span>
         </a>
         <a
+          aria-disabled="false"
           aria-label="View Scene"
-          class="MuiButtonBase-root-121 MuiFab-root-111 MuiFab-extended-115 MuiFab-primary-113 MultiCard-fab-7 MuiCardActions-action-110"
+          class="MuiButtonBase-root MuiFab-root MultiCard-fab-7 MuiFab-extended MuiFab-primary"
           href="https://www.youtube.com/watch?v=ZxmWhlidAZ8"
           rel="noopener noreferrer"
-          role="button"
           tabindex="0"
           target="_blank"
         >
           <span
-            class="MuiFab-label-112"
+            class="MuiFab-label"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-124 MultiCard-playCircleOutlineIcon-8"
+              class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-8"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
             >
-              <path
-                d="M0 0h24v24H0z"
-                fill="none"
-              />
               <path
                 d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
               />
@@ -157,7 +143,7 @@ exports[`snapshot of initial component with multiple items 1`] = `
     class="MultiCard-innerContainer-2"
   >
     <div
-      class="MuiCardMedia-root-106 MultiCard-media-3"
+      class="MuiCardMedia-root MultiCard-media-3"
       style="background-image:url(\\"./assets/images/walking-dead.jpg\\")"
     />
     <img
@@ -165,53 +151,49 @@ exports[`snapshot of initial component with multiple items 1`] = `
       src="./assets/images/walking-dead.jpg"
     />
     <div
-      class="MuiCardContent-root-80"
+      class="MuiCardContent-root"
     >
       <div>
         <div>
           <h2
-            class="MuiTypography-root-44 MuiTypography-subtitle1-62 MuiTypography-gutterBottom-71"
+            class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom"
           >
             The Day Will Come When You Won't Be
           </h2>
           <p
-            class="MuiTypography-root-44 MuiTypography-body1-53 MuiTypography-colorTextSecondary-77 MuiTypography-gutterBottom-71"
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
           >
             Season: 7 | Episode: 1
           </p>
         </div>
         <p
-          class="MuiTypography-root-44 MuiTypography-body1-53 MultiCard-description-4"
+          class="MuiTypography-root MultiCard-description-4 MuiTypography-body1"
         >
           The Saviours have captured Rick and the group. They kneel at the mercy of Negan who makes an example of 2 of the groups members. Not for the faint of heart.
         </p>
       </div>
       <div
-        class="MuiCardActions-root-108"
+        class="MuiCardActions-root MuiCardActions-spacing"
       >
         <a
+          aria-disabled="false"
           aria-label="IMDB"
-          class="MuiButtonBase-root-121 MuiFab-root-111 MuiFab-extended-115 MuiFab-primary-113 MultiCard-fab-7 MuiCardActions-action-110"
+          class="MuiButtonBase-root MuiFab-root MultiCard-fab-7 MuiFab-extended MuiFab-primary"
           href="https://www.imdb.com/title/tt5164772/?ref_=ttep_ep1"
           rel="noopener noreferrer"
-          role="button"
           tabindex="0"
           target="_blank"
         >
           <span
-            class="MuiFab-label-112"
+            class="MuiFab-label"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-124 MultiCard-localPlayIcon-9"
+              class="MuiSvgIcon-root MultiCard-localPlayIcon-9"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
             >
-              <path
-                d="M0 0h24v24H0z"
-                fill="none"
-              />
               <path
                 d="M20 12c0-1.1.9-2 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-1.99.9-1.99 2v4c1.1 0 1.99.9 1.99 2s-.89 2-2 2v4c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-4c-1.1 0-2-.9-2-2zm-4.42 4.8L12 14.5l-3.58 2.3 1.08-4.12-3.29-2.69 4.24-.25L12 5.8l1.54 3.95 4.24.25-3.29 2.69 1.09 4.11z"
               />
@@ -220,28 +202,24 @@ exports[`snapshot of initial component with multiple items 1`] = `
           </span>
         </a>
         <a
+          aria-disabled="false"
           aria-label="View Scene"
-          class="MuiButtonBase-root-121 MuiFab-root-111 MuiFab-extended-115 MuiFab-primary-113 MultiCard-fab-7 MuiCardActions-action-110"
+          class="MuiButtonBase-root MuiFab-root MultiCard-fab-7 MuiFab-extended MuiFab-primary"
           href="https://www.youtube.com/watch?v=d3LDG5CCOPQ"
           rel="noopener noreferrer"
-          role="button"
           tabindex="0"
           target="_blank"
         >
           <span
-            class="MuiFab-label-112"
+            class="MuiFab-label"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-124 MultiCard-playCircleOutlineIcon-8"
+              class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-8"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
             >
-              <path
-                d="M0 0h24v24H0z"
-                fill="none"
-              />
               <path
                 d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
               />

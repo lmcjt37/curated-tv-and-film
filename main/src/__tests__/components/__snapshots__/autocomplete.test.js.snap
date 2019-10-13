@@ -9,13 +9,13 @@ exports[`snapshot of initial component 1`] = `
   role="combobox"
 >
   <div
-    class="MuiInputBase-root-6 Autocomplete-inputRoot-3 MuiInputBase-fullWidth-15"
+    class="MuiInputBase-root Autocomplete-inputRoot-3 MuiInputBase-fullWidth"
   >
     <input
       aria-autocomplete="list"
       aria-labelledby="downshift-simple-label"
       autocomplete="off"
-      class="MuiInputBase-input-16 Autocomplete-inputInput-4"
+      class="MuiInputBase-input Autocomplete-inputInput-4"
       id="downshift-simple-input"
       placeholder="Search..."
       spellcheck="false"
