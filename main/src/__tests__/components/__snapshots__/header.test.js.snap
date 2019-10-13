@@ -23,7 +23,7 @@ exports[`snapshot of initial component 1`] = `
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root-81"
+            class="MuiSvgIcon-root-82"
             focusable="false"
             role="presentation"
             viewBox="0 0 24 24"
@@ -41,17 +41,17 @@ exports[`snapshot of initial component 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-labelledby="downshift-simple-label"
-          class="Autocomplete-container-90"
+          class="Autocomplete-container-91"
           role="combobox"
         >
           <div
-            class="MuiInputBase-root-95 Autocomplete-inputRoot-92 MuiInputBase-fullWidth-104"
+            class="MuiInputBase-root-96 Autocomplete-inputRoot-93 MuiInputBase-fullWidth-105"
           >
             <input
               aria-autocomplete="list"
               aria-labelledby="downshift-simple-label"
               autocomplete="off"
-              class="MuiInputBase-input-105 Autocomplete-inputInput-93"
+              class="MuiInputBase-input-106 Autocomplete-inputInput-94"
               id="downshift-simple-input"
               placeholder="Search..."
               spellcheck="false"
@@ -70,16 +70,16 @@ exports[`snapshot of initial component 1`] = `
         class="Header-grow-2"
       />
       <button
-        class="MuiButtonBase-root-118 MuiIconButton-root-112 MuiIconButton-colorInherit-113"
+        class="MuiButtonBase-root-119 MuiIconButton-root-113 MuiIconButton-colorInherit-114"
         tabindex="0"
         type="button"
       >
         <span
-          class="MuiIconButton-label-117"
+          class="MuiIconButton-label-118"
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root-81"
+            class="MuiSvgIcon-root-82"
             focusable="false"
             role="presentation"
             viewBox="0 0 24 24"
