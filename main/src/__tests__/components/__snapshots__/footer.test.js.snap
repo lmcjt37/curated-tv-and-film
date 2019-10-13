@@ -11,7 +11,7 @@ exports[`snapshot of initial component 1`] = `
       class="Footer-links-3"
     >
       <p
-        class="MuiTypography-root-5 MuiTypography-body1-14 MuiTypography-colorTextSecondary-38"
+        class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
       >
         Made with ♥ by  
         <a
@@ -39,7 +39,7 @@ exports[`snapshot of initial component 1`] = `
         target="_blank"
       >
         <p
-          class="MuiTypography-root-5 MuiTypography-body1-14 MuiTypography-colorTextSecondary-38"
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
         >
           Repository
         </p>
@@ -55,7 +55,7 @@ exports[`snapshot of initial component 1`] = `
         target="_blank"
       >
         <p
-          class="MuiTypography-root-5 MuiTypography-body1-14 MuiTypography-colorTextSecondary-38"
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
         >
           Contributors
         </p>
@@ -70,7 +70,7 @@ exports[`snapshot of initial component 1`] = `
         target="_blank"
       >
         <p
-          class="MuiTypography-root-5 MuiTypography-body1-14 MuiTypography-colorTextSecondary-38"
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
         >
           build debug
         </p>

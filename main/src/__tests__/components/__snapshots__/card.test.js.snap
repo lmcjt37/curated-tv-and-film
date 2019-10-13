@@ -2,13 +2,13 @@
 
 exports[`snapshot of initial component 1`] = `
 <div
-  class="MuiPaper-root-11 MuiPaper-elevation1-14 MuiPaper-rounded-12 MuiCard-root-10 SingleCard-card-1"
+  class="MuiPaper-root MuiPaper-elevation1 MuiCard-root SingleCard-card-1 MuiPaper-rounded"
 >
   <div
     class="SingleCard-innerContainer-2"
   >
     <div
-      class="MuiCardMedia-root-38 SingleCard-media-3"
+      class="MuiCardMedia-root SingleCard-media-3"
       style="background-image:url(\\"./assets/images/game-of-thrones.jpg\\")"
       title="Mock of Thrones"
     />
@@ -18,21 +18,21 @@ exports[`snapshot of initial component 1`] = `
       src="./assets/images/game-of-thrones.jpg"
     />
     <div
-      class="MuiCardContent-root-40"
+      class="MuiCardContent-root"
     >
       <h2
-        class="MuiTypography-root-41 MuiTypography-h6-58 MuiTypography-gutterBottom-68"
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom"
       >
         Mock of Thrones 
       </h2>
       <div>
         <h3
-          class="MuiTypography-root-41 MuiTypography-subtitle1-59 MuiTypography-gutterBottom-68"
+          class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom"
         >
           To kill a mockingbird
         </h3>
         <p
-          class="MuiTypography-root-41 MuiTypography-body1-50 MuiTypography-colorTextSecondary-74"
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
         >
           Season: 1 | Episode: 1
         </p>
@@ -41,70 +41,60 @@ exports[`snapshot of initial component 1`] = `
         class="SingleCard-chips-5"
       >
         <div
-          class="MuiChip-root-76 SingleCard-chip-6"
-          role="button"
-          tabindex="-1"
+          class="MuiChip-root SingleCard-chip-6"
         >
           <span
-            class="MuiChip-label-95"
+            class="MuiChip-label"
           >
             Action
           </span>
         </div>
         <div
-          class="MuiChip-root-76 SingleCard-chip-6"
-          role="button"
-          tabindex="-1"
+          class="MuiChip-root SingleCard-chip-6"
         >
           <span
-            class="MuiChip-label-95"
+            class="MuiChip-label"
           >
             Adventure
           </span>
         </div>
         <div
-          class="MuiChip-root-76 SingleCard-chip-6"
-          role="button"
-          tabindex="-1"
+          class="MuiChip-root SingleCard-chip-6"
         >
           <span
-            class="MuiChip-label-95"
+            class="MuiChip-label"
           >
             Drama
           </span>
         </div>
       </div>
       <p
-        class="MuiTypography-root-41 MuiTypography-body1-50"
+        class="MuiTypography-root MuiTypography-body1"
       >
         You know nothing
       </p>
       <div
-        class="MuiCardActions-root-101"
+        class="MuiCardActions-root MuiCardActions-spacing"
       >
         <a
+          aria-disabled="false"
           aria-label="IMDB"
-          class="MuiButtonBase-root-113 MuiFab-root-103 MuiFab-extended-107 MuiFab-primary-105 SingleCard-fab-7 MuiCardActions-action-102"
+          class="MuiButtonBase-root MuiFab-root SingleCard-fab-7 MuiFab-extended MuiFab-primary"
           href="https://www.lmcjt.com"
           rel="noopener noreferrer"
-          role="button"
           tabindex="0"
           target="_blank"
         >
           <span
-            class="MuiFab-label-104"
+            class="MuiFab-label"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-116 SingleCard-localPlayIcon-9"
+              class="MuiSvgIcon-root SingleCard-localPlayIcon-9"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
             >
-              <path
-                d="M0 0h24v24H0z"
-                fill="none"
-              />
               <path
                 d="M20 12c0-1.1.9-2 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-1.99.9-1.99 2v4c1.1 0 1.99.9 1.99 2s-.89 2-2 2v4c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-4c-1.1 0-2-.9-2-2zm-4.42 4.8L12 14.5l-3.58 2.3 1.08-4.12-3.29-2.69 4.24-.25L12 5.8l1.54 3.95 4.24.25-3.29 2.69 1.09 4.11z"
               />
@@ -113,28 +103,24 @@ exports[`snapshot of initial component 1`] = `
           </span>
         </a>
         <a
+          aria-disabled="false"
           aria-label="View Scene"
-          class="MuiButtonBase-root-113 MuiFab-root-103 MuiFab-extended-107 MuiFab-primary-105 SingleCard-fab-7 MuiCardActions-action-102"
+          class="MuiButtonBase-root MuiFab-root SingleCard-fab-7 MuiFab-extended MuiFab-primary"
           href="https://www.lmcjt.com"
           rel="noopener noreferrer"
-          role="button"
           tabindex="0"
           target="_blank"
         >
           <span
-            class="MuiFab-label-104"
+            class="MuiFab-label"
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root-116 SingleCard-playCircleOutlineIcon-8"
+              class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-8"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
             >
-              <path
-                d="M0 0h24v24H0z"
-                fill="none"
-              />
               <path
                 d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
               />
