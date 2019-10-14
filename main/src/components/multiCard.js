@@ -19,7 +19,7 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = theme => ({
   card: {
-    margin: theme.spacing.unit * 2
+    margin: theme.spacing(2)
   },
   innerContainer: {
     display: 'block',
@@ -35,7 +35,7 @@ const styles = theme => ({
     }
   },
   description: {
-    marginTop: theme.spacing.unit
+    marginTop: theme.spacing(1)
   },
   thumbnail: {
     display: 'none',
@@ -44,20 +44,20 @@ const styles = theme => ({
       maxWidth: '100%',
       height: '9.375em',
       width: '16.625em',
-      margin: theme.spacing.unit * 2
+      margin: theme.spacing(2)
     }
   },
   chip: {
-    margin: theme.spacing.unit
+    margin: theme.spacing(1)
   },
   fab: {
-    margin: theme.spacing.unit
+    margin: theme.spacing(1)
   },
   playCircleOutlineIcon: {
-    marginRight: theme.spacing.unit
+    marginRight: theme.spacing(1)
   },
   localPlayIcon: {
-    marginRight: theme.spacing.unit
+    marginRight: theme.spacing(1)
   }
 });
 

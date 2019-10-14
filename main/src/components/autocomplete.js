@@ -20,7 +20,7 @@ const styles = theme => ({
   paper: {
     position: 'absolute',
     zIndex: 1,
-    marginTop: theme.spacing.unit,
+    marginTop: theme.spacing(1),
     left: 0,
     right: 0
   },
@@ -31,14 +31,14 @@ const styles = theme => ({
   inputInput: {
     width: 'auto',
     flexGrow: 1,
-    paddingTop: theme.spacing.unit,
-    paddingRight: theme.spacing.unit,
-    paddingBottom: theme.spacing.unit,
-    paddingLeft: theme.spacing.unit * 10,
+    paddingTop: theme.spacing(1),
+    paddingRight: theme.spacing(1),
+    paddingBottom: theme.spacing(1),
+    paddingLeft: theme.spacing(10),
     transition: theme.transitions.create('width')
   },
   divider: {
-    height: theme.spacing.unit * 2
+    height: theme.spacing(2)
   }
 });
 
