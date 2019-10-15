@@ -19,9 +19,9 @@ var data = content;
 
 const styles = theme => ({
   content: {
-    marginTop: `${theme.spacing.unit * 2 + 54}px`,
+    marginTop: `${theme.spacing(2) + 54}px`,
     [theme.breakpoints.up('sm')]: {
-      marginTop: `${theme.spacing.unit * 2 + 64}px`
+      marginTop: `${theme.spacing(2) + 64}px`
     }
   },
   error: {

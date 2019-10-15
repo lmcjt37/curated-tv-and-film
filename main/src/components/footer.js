@@ -10,7 +10,7 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = theme => ({
   footer: {
-    margin: theme.spacing.unit * 2,
+    margin: theme.spacing(2),
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between'
@@ -24,7 +24,7 @@ const styles = theme => ({
     }
   },
   links: {
-    margin: theme.spacing.unit
+    margin: theme.spacing(1)
   },
   anchor: {
     textDecoration: 'none',
