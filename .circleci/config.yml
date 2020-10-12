@@ -8,18 +8,18 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "main/package.json" }}
+          - v1-dependencies-{{ checksum "package.json" }}
           - v1-dependencies-
       - run:
           name: Install dependencies
-          command: cd main && npm install
+          command: npm install
       - save_cache:
           paths:
-            - main/node_modules
-          key: v1-dependencies-{{ checksum "main/package.json" }}
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
       - run:
           name: Run linting
-          command: cd main && npm run lint
+          command: npm run lint
 
   test:
     docker:
@@ -28,18 +28,18 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "main/package.json" }}
+          - v1-dependencies-{{ checksum "package.json" }}
           - v1-dependencies-
       - run:
           name: Install dependencies
-          command: cd main && npm install
+          command: npm install
       - save_cache:
           paths:
-            - main/node_modules
-          key: v1-dependencies-{{ checksum "main/package.json" }}
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
       - run:
           name: Run tests
-          command: cd main && npm run test::CI
+          command: npm run test::CI
 
   build_and_deploy:
     docker:
@@ -48,7 +48,7 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "main/package.json" }}
+          - v1-dependencies-{{ checksum "package.json" }}
           - v1-dependencies-
       - run:
           name: Build and deploy to gh-pages
@@ -59,13 +59,11 @@ jobs:
             export REACT_APP_BUILD=$CIRCLE_SHA1
             export REACT_APP_BUILD_URL=$CIRCLE_BUILD_URL
 
-            cd main
-
             npm run build
 
             mkdir build/.circleci
 
-            cp -a ../.circleci/. build/.circleci
+            cp -a .circleci/. build/.circleci
 
             npm run deploy
 

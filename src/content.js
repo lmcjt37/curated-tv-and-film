@@ -12,7 +12,7 @@ var content = [
         episode_title: 'Guts',
         imdb: 'https://www.imdb.com/title/tt1628064/?ref_=ttep_ep2',
         url: 'https://www.youtube.com/watch?v=ZxmWhlidAZ8',
-        thumbnail: './assets/images/walking-dead_1_2.jpg'
+        thumbnail: '/assets/images/walking-dead_1_2.jpg'
       },
       {
         description:
@@ -22,7 +22,7 @@ var content = [
         episode_title: "The Day Will Come When You Won't Be",
         imdb: 'https://www.imdb.com/title/tt5164772/?ref_=ttep_ep1',
         url: 'https://www.youtube.com/watch?v=d3LDG5CCOPQ',
-        thumbnail: './assets/images/walking-dead_7_1.jpg'
+        thumbnail: '/assets/images/walking-dead_7_1.jpg'
       }
     ]
   },
@@ -36,7 +36,7 @@ var content = [
     episode_title: 'We Just Decided To',
     imdb: 'http://www.imdb.com/title/tt1870479/',
     url: 'https://www.youtube.com/watch?v=wTjMqda19wk',
-    thumbnail: './assets/images/the-newsroom.jpg',
+    thumbnail: '/assets/images/the-newsroom.jpg',
     genre: ['Drama', 'History']
   },
   {
@@ -49,7 +49,7 @@ var content = [
     episode_title: 'eps2.1_k3rnel-pan1c.ksd',
     imdb: 'http://www.imdb.com/title/tt4158110/',
     url: 'https://www.youtube.com/watch?v=AZeLHD-725o',
-    thumbnail: './assets/images/mr-robot.jpg',
+    thumbnail: '/assets/images/mr-robot.jpg',
     genre: ['Crime', 'Drama', 'Thriller']
   },
   {
@@ -62,7 +62,7 @@ var content = [
     episode_title: 'Optimal Tip-To-Top Efficiency',
     imdb: 'http://www.imdb.com/title/tt2575988/',
     url: 'https://www.youtube.com/watch?v=mMeqEDEfniA',
-    thumbnail: './assets/images/silicon-valley.jpg',
+    thumbnail: '/assets/images/silicon-valley.jpg',
     genre: ['Comedy']
   },
   {
@@ -78,7 +78,7 @@ var content = [
         episode_title: 'Battle of the Bastards',
         imdb: 'https://www.imdb.com/title/tt4283088/',
         url: 'https://www.youtube.com/watch?v=m8rURwkvOx0',
-        thumbnail: './assets/images/game-of-thrones_6_9.jpg'
+        thumbnail: '/assets/images/game-of-thrones_6_9.jpg'
       },
       {
         description:
@@ -88,7 +88,7 @@ var content = [
         episode_title: 'Hardhome',
         imdb: 'https://www.imdb.com/title/tt3866850/',
         url: 'https://www.youtube.com/watch?v=fC1dVsTkmSI',
-        thumbnail: './assets/images/game-of-thrones_5_8.jpg'
+        thumbnail: '/assets/images/game-of-thrones_5_8.jpg'
       }
     ]
   },
@@ -100,7 +100,7 @@ var content = [
     year: 2003,
     imdb: 'http://www.imdb.com/title/tt0364569/',
     url: 'https://www.youtube.com/watch?v=VwIIDzrVVdc',
-    thumbnail: './assets/images/oldboy.jpg',
+    thumbnail: '/assets/images/oldboy.jpg',
     genre: ['Action', 'Drama', 'Mystery']
   },
   {
@@ -111,7 +111,7 @@ var content = [
     year: 2013,
     imdb: 'https://www.imdb.com/title/tt2302755/',
     url: 'https://www.youtube.com/watch?v=N8WXitDnA_U',
-    thumbnail: './assets/images/olympus.jpg',
+    thumbnail: '/assets/images/olympus.jpg',
     genre: ['Action', 'Thriller']
   },
   {
@@ -124,7 +124,7 @@ var content = [
     episode_title: 'Rickshank Redemption',
     imdb: 'https://www.imdb.com/title/tt2861424/',
     url: 'https://www.youtube.com/watch?v=uzeODC-_IHw&t=81',
-    thumbnail: './assets/images/rick-and-morty.jpg',
+    thumbnail: '/assets/images/rick-and-morty.jpg',
     genre: ['Animation', 'Adventure', 'Comedy', 'Sci-Fi']
   },
   {
@@ -135,7 +135,7 @@ var content = [
     year: 2014,
     imdb: 'https://www.imdb.com/title/tt2802144/',
     url: 'https://www.youtube.com/watch?v=z7-tkkcC6d0',
-    thumbnail: './assets/images/kingsman.jpg',
+    thumbnail: '/assets/images/kingsman.jpg',
     genre: ['Action', 'Adventure', 'Comedy']
   },
   {
@@ -146,7 +146,7 @@ var content = [
     year: 2003,
     imdb: 'https://www.imdb.com/title/tt0266697/',
     url: 'https://www.youtube.com/watch?v=_B_1IMstVzs',
-    thumbnail: './assets/images/kill-bill.jpg',
+    thumbnail: '/assets/images/kill-bill.jpg',
     genre: ['Action', 'Crime', 'Thriller']
   },
   {
@@ -157,7 +157,7 @@ var content = [
     year: 2014,
     imdb: 'https://www.imdb.com/title/tt0816692/',
     url: 'https://www.youtube.com/watch?v=p3PfKf0ndik',
-    thumbnail: './assets/images/interstellar.jpg',
+    thumbnail: '/assets/images/interstellar.jpg',
     genre: ['Adventure', 'Drama', 'Sci-Fi']
   },
   {
@@ -168,7 +168,7 @@ var content = [
     year: 2007,
     imdb: 'https://www.imdb.com/title/tt0469494/',
     url: 'https://www.youtube.com/watch?v=ugTbwvVuLKA',
-    thumbnail: './assets/images/there-will-be-blood.jpg',
+    thumbnail: '/assets/images/there-will-be-blood.jpg',
     genre: ['Drama']
   },
   {
@@ -179,7 +179,7 @@ var content = [
     year: 1999,
     imdb: 'https://www.imdb.com/title/tt0137523/',
     url: 'https://www.youtube.com/watch?v=VC6Z_kdQoHw',
-    thumbnail: './assets/images/fight-club.jpg',
+    thumbnail: '/assets/images/fight-club.jpg',
     genre: ['Drama']
   },
   {
@@ -192,7 +192,7 @@ var content = [
     episode_title: 'A Study in Pink',
     imdb: 'https://www.imdb.com/title/tt1665071/',
     url: 'https://www.youtube.com/watch?v=VaT7IYQgyqo',
-    thumbnail: './assets/images/sherlock.jpg',
+    thumbnail: '/assets/images/sherlock.jpg',
     genre: ['Crime', 'Drama', 'Mystery']
   },
   {
@@ -205,7 +205,7 @@ var content = [
     episode_title: 'Pilot',
     imdb: 'https://www.imdb.com/title/tt1632701/',
     url: 'https://www.youtube.com/watch?v=Z5FgMCTreXE',
-    thumbnail: './assets/images/suits.jpg',
+    thumbnail: '/assets/images/suits.jpg',
     genre: ['Comedy', 'Drama']
   },
   {
@@ -218,7 +218,7 @@ var content = [
     episode_title: 'Pilot',
     imdb: 'https://www.imdb.com/title/tt0460649/',
     url: 'https://www.youtube.com/watch?v=GAx0DYI3los',
-    thumbnail: './assets/images/how-i-met-your-mother.jpg',
+    thumbnail: '/assets/images/how-i-met-your-mother.jpg',
     genre: ['Comedy', 'Romance']
   },
   {
@@ -231,7 +231,7 @@ var content = [
     episode_title: 'The One Where It All Began',
     imdb: 'https://www.imdb.com/title/tt0108778/',
     url: 'https://www.youtube.com/watch?v=IzfZf1kxxI4',
-    thumbnail: './assets/images/friends.jpg',
+    thumbnail: '/assets/images/friends.jpg',
     genre: ['Comedy', 'Romance']
   },
   {
@@ -242,7 +242,7 @@ var content = [
     year: 1972,
     imdb: 'https://www.imdb.com/title/tt0068646/',
     url: 'https://www.youtube.com/watch?v=fmX2VzsB25s',
-    thumbnail: './assets/images/the-godfather.jpg',
+    thumbnail: '/assets/images/the-godfather.jpg',
     genre: ['Crime', 'Drama']
   },
   {
@@ -253,7 +253,7 @@ var content = [
     year: 1999,
     imdb: 'https://www.imdb.com/title/tt0133093/',
     url: 'https://www.youtube.com/watch?v=2oHOv9p9dHQ',
-    thumbnail: './assets/images/the-matrix.jpg',
+    thumbnail: '/assets/images/the-matrix.jpg',
     genre: ['Action', 'Sci-Fi']
   },
   {
@@ -266,7 +266,7 @@ var content = [
     episode_title: 'Wilson',
     imdb: 'https://www.imdb.com/title/tt0412142/',
     url: 'https://www.youtube.com/watch?v=tLMzEOoSjc4',
-    thumbnail: './assets/images/house.jpg',
+    thumbnail: '/assets/images/house.jpg',
     genre: ['Drama', 'Mystery']
   },
   {
@@ -279,7 +279,7 @@ var content = [
     episode_title: 'Casino Night ',
     imdb: 'https://www.imdb.com/title/tt0800604/',
     url: 'https://www.youtube.com/watch?v=ZymIQU4e1W4',
-    thumbnail: './assets/images/the-office.jpg',
+    thumbnail: '/assets/images/the-office.jpg',
     genre: ['Comedy']
   },
   {
@@ -289,7 +289,7 @@ var content = [
     year: 2017,
     imdb: 'https://www.imdb.com/title/tt5052448/',
     url: 'https://www.youtube.com/watch?v=kBwVWrBk_uo',
-    thumbnail: './assets/images/get-out.jpg',
+    thumbnail: '/assets/images/get-out.jpg',
     genre: ['Horror', 'Mystery', 'Thriller']
   },
   {
@@ -300,7 +300,7 @@ var content = [
     year: 1994,
     imdb: 'https://www.imdb.com/title/tt0109830/',
     url: 'https://www.youtube.com/watch?v=v3qlBM9vAW8',
-    thumbnail: './assets/images/forrest-gump.jpg',
+    thumbnail: '/assets/images/forrest-gump.jpg',
     genre: ['Drama', 'Romance']
   },
   {
@@ -311,7 +311,7 @@ var content = [
     year: 2001,
     imdb: 'https://www.imdb.com/title/tt0126029/',
     url: 'https://www.youtube.com/watch?v=vKTd-N4djSY',
-    thumbnail: './assets/images/shrek.jpg',
+    thumbnail: '/assets/images/shrek.jpg',
     genre: ['Animation', 'Adventure', 'Comedy']
   },
   {
@@ -322,7 +322,7 @@ var content = [
     year: 1998,
     imdb: 'https://www.imdb.com/title/tt0120591/',
     url: 'https://www.youtube.com/watch?v=OYcTmiCtCv8',
-    thumbnail: './assets/images/armageddon.jpg',
+    thumbnail: '/assets/images/armageddon.jpg',
     genre: ['Action', 'Adventure', 'Sci-Fi']
   },
   {
@@ -335,7 +335,7 @@ var content = [
     episode_title: 'Placebo Effect',
     imdb: 'https://www.imdb.com/title/tt1883469/',
     url: 'https://www.youtube.com/watch?v=UeBt26IHIzU',
-    thumbnail: './assets/images/archer.jpg',
+    thumbnail: '/assets/images/archer.jpg',
     genre: ['Animation', 'Action', 'Comedy']
   },
   {
@@ -346,7 +346,7 @@ var content = [
     year: 1995,
     imdb: 'https://www.imdb.com/title/tt0112573/',
     url: 'https://www.youtube.com/watch?v=cCHf8FxqzJc',
-    thumbnail: './assets/images/braveheart.jpg',
+    thumbnail: '/assets/images/braveheart.jpg',
     genre: ['Biography', 'Drama', 'History']
   },
   {
@@ -357,7 +357,7 @@ var content = [
     year: 2004,
     imdb: 'https://www.imdb.com/title/tt0343818/',
     url: 'https://www.youtube.com/watch?v=KBuvlaycAXs',
-    thumbnail: './assets/images/i-robot.jpg',
+    thumbnail: '/assets/images/i-robot.jpg',
     genre: ['Action', 'Crime', 'Drama']
   },
   {
@@ -368,7 +368,7 @@ var content = [
     year: 1993,
     imdb: 'https://www.imdb.com/title/tt0107688/',
     url: 'https://www.youtube.com/watch?v=Z7uJMyPOBGA',
-    thumbnail: './assets/images/nightmare-before-christmas.jpg',
+    thumbnail: '/assets/images/nightmare-before-christmas.jpg',
     genre: ['Animation', 'Family', 'Fantasy']
   },
   {
@@ -379,7 +379,7 @@ var content = [
     year: 2003,
     imdb: 'https://www.imdb.com/title/tt0314331/',
     url: 'https://www.youtube.com/watch?v=B7u6bMBlCXw',
-    thumbnail: './assets/images/love-actually.jpg',
+    thumbnail: '/assets/images/love-actually.jpg',
     genre: ['Comedy', 'Drama', 'Romance']
   },
   {
@@ -390,7 +390,7 @@ var content = [
     year: 2005,
     imdb: 'https://www.imdb.com/title/tt0379786/',
     url: 'https://www.youtube.com/watch?v=3FJatsqNdf4',
-    thumbnail: './assets/images/serenity.jpg',
+    thumbnail: '/assets/images/serenity.jpg',
     genre: ['Action', 'Adventure', 'Sci-Fi']
   },
   {
@@ -401,7 +401,7 @@ var content = [
     year: 2016,
     imdb: 'https://www.imdb.com/title/tt3110958/',
     url: 'https://www.youtube.com/watch?v=_4rndwJWiSE',
-    thumbnail: './assets/images/now-you-see-me-2.jpg',
+    thumbnail: '/assets/images/now-you-see-me-2.jpg',
     genre: ['Action', 'Adventure', 'Comedy']
   },
   {
@@ -412,7 +412,7 @@ var content = [
     year: 2019,
     imdb: 'https://www.imdb.com/title/tt4139588/',
     url: 'https://www.youtube.com/watch?v=ooqhwWWnlu8',
-    thumbnail: './assets/images/polar.jpg',
+    thumbnail: '/assets/images/polar.jpg',
     genre: ['Action', 'Crime']
   }
 ];

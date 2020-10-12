@@ -8,15 +8,15 @@ These scenes are carefully picked out moments, ignoring bias of any opinions or 
 
 ## Features
 
-* React and Javascript(built with Create-React-App).
-* Development server with Hot module reload.
-* Jest testing with snapshot testing.
+- React and Javascript(built with Create-React-App).
+- Development server with Hot module reload.
+- Jest testing with snapshot testing.
 
 ## Local Installation
 
 ### Dependencies
 
-* [node.js](https://nodejs.org)
+- [node.js](https://nodejs.org)
 
 ```
 git clone https://github.com/lmcjt37/curated-tv-and-film.git
@@ -24,8 +24,6 @@ npm install
 ```
 
 ### Development
-
-Make sure you are in the `./main` directory.
 
 Start the local development server by running
 
@@ -39,39 +37,39 @@ _Hot Module reload causes the server to automatically detect file changes and re
 
 ## Project structure
 
-The boilerplate structure is the same as what is created in Create-React-App, but the working directory for the project lives inside `./main`
+The boilerplate structure is the same as what is created in Create-React-App.
 
 ```
-./main
+./
 |
 ├── public/
 │   ├── assets/ - Other assets, thumbnail images.
 │   ├── index.html - Defines root html for app.
 │   └── manifest.json - Tells the browser about your web application and how it should behave when 'installed'.
 |
-├── src/
-│   ├── _tests_/ - Contains test environment (Jest + Enzyme).
-│   ├── assets/ - Other assets, icons.
-│   ├── fonts/ - Font files.
-│   ├── App.js - Core app functionality.
-│   ├── App.css - Styling.
-│   ├── content.js - Contains the data for tv shows and films for the project.
-│   ├── index.js - Project entry point.
-│   ├── index.css - Styling.
-│   └── serviceWorker.js - (not registered) Defines registration for PWA usage.
-|
-└── package.json - Defines dependencies and package scripts for project, plus project information.
+└── src/
+    ├── _tests_/ - Contains test environment (Jest + Enzyme).
+    ├── assets/ - Other assets, icons.
+    ├── fonts/ - Font files.
+    ├── App.js - Core app functionality.
+    ├── App.css - Styling.
+    ├── content.js - Contains the data for tv shows and films for the project.
+    ├── index.js - Project entry point.
+    ├── index.css - Styling.
+    ├── package.json - Defines dependencies and package scripts for project, plus project information.
+    └── serviceWorker.js - (not registered) Defines registration for PWA usage.
+
 ```
 
 ## Prettier linting
 
 The JavaScript files can be prettyfied using [Prettier](https://github.com/prettier/prettier) with the following command:
 
-``` bash
+```bash
 npm run lint (yarn run lint)
 ```
 
-Configuration for Prettier is found in [.prettierrc](./main/.prettierrc).
+Configuration for Prettier is found in [.prettierrc](.prettierrc).
 
 The project also has pre-commit hooks for when code is commited to your local branches that will trigger this linting across the project.
 
@@ -79,9 +77,9 @@ The project also has pre-commit hooks for when code is commited to your local br
 
 ### Jest
 
-Tests are found in `./main/src/__tests__` and to run tests across the project use the following command:
+Tests are found in `./src/__tests__` and to run tests across the project use the following command:
 
-``` bash
+```bash
 npm test (yarn test)
 ```
 
@@ -114,3 +112,5 @@ It is themed with [Material UI](https://material-ui.com/), React components that
 Images are sourced via search engines and are not owned by this site.
 
 This site is not endorsed by or affiliated with [IMDB](https://www.imdb.com/).
+
+Further help in running the project [here](MORE.md)

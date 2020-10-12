@@ -78,11 +78,10 @@ class App extends React.Component {
 
       var autoComplete = [];
       autoComplete = data
-        .map(
-          el =>
-            el.title.toLowerCase().match(searchString)
-              ? { label: el.title }
-              : null
+        .map(el =>
+          el.title.toLowerCase().match(searchString)
+            ? { label: el.title }
+            : null
         )
         .filter(item => item !== null);
 
