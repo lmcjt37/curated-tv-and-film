@@ -15,7 +15,7 @@ exports[`snapshot of initial component 1`] = `
         class="MuiCollapse-wrapperInner"
       >
         <header
-          class="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionRelative FilterBar-filterBar-5 MuiAppBar-colorSecondary"
+          class="MuiPaper-root MuiAppBar-root MuiAppBar-positionRelative MuiAppBar-colorSecondary FilterBar-filterBar-5 MuiPaper-elevation4"
         >
           <div
             class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -41,25 +41,24 @@ exports[`snapshot of initial component 1`] = `
                   >
                     <span
                       aria-disabled="false"
-                      class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-75 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
+                      class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-6 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
                     >
                       <span
                         class="MuiIconButton-label"
                       >
                         <input
-                          class="PrivateSwitchBase-input-78"
+                          class="PrivateSwitchBase-input-9"
                           name="filter"
                           type="radio"
                           value="all"
                         />
                         <div
-                          class="PrivateRadioButtonIcon-root-91"
+                          class="PrivateRadioButtonIcon-root-10"
                         >
                           <svg
                             aria-hidden="true"
                             class="MuiSvgIcon-root"
                             focusable="false"
-                            role="presentation"
                             viewBox="0 0 24 24"
                           >
                             <path
@@ -68,9 +67,8 @@ exports[`snapshot of initial component 1`] = `
                           </svg>
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-92"
+                            class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-11"
                             focusable="false"
-                            role="presentation"
                             viewBox="0 0 24 24"
                           >
                             <path
@@ -91,26 +89,25 @@ exports[`snapshot of initial component 1`] = `
                   >
                     <span
                       aria-disabled="false"
-                      class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-75 MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-checked-76 Mui-checked MuiIconButton-colorPrimary"
+                      class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-6 MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-checked-7 Mui-checked MuiIconButton-colorPrimary"
                     >
                       <span
                         class="MuiIconButton-label"
                       >
                         <input
                           checked=""
-                          class="PrivateSwitchBase-input-78"
+                          class="PrivateSwitchBase-input-9"
                           name="filter"
                           type="radio"
                           value="movies"
                         />
                         <div
-                          class="PrivateRadioButtonIcon-root-91 PrivateRadioButtonIcon-checked-93"
+                          class="PrivateRadioButtonIcon-root-10 PrivateRadioButtonIcon-checked-12"
                         >
                           <svg
                             aria-hidden="true"
                             class="MuiSvgIcon-root"
                             focusable="false"
-                            role="presentation"
                             viewBox="0 0 24 24"
                           >
                             <path
@@ -119,9 +116,8 @@ exports[`snapshot of initial component 1`] = `
                           </svg>
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-92"
+                            class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-11"
                             focusable="false"
-                            role="presentation"
                             viewBox="0 0 24 24"
                           >
                             <path
@@ -142,25 +138,24 @@ exports[`snapshot of initial component 1`] = `
                   >
                     <span
                       aria-disabled="false"
-                      class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-75 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
+                      class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-6 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
                     >
                       <span
                         class="MuiIconButton-label"
                       >
                         <input
-                          class="PrivateSwitchBase-input-78"
+                          class="PrivateSwitchBase-input-9"
                           name="filter"
                           type="radio"
                           value="tv"
                         />
                         <div
-                          class="PrivateRadioButtonIcon-root-91"
+                          class="PrivateRadioButtonIcon-root-10"
                         >
                           <svg
                             aria-hidden="true"
                             class="MuiSvgIcon-root"
                             focusable="false"
-                            role="presentation"
                             viewBox="0 0 24 24"
                           >
                             <path
@@ -169,9 +164,8 @@ exports[`snapshot of initial component 1`] = `
                           </svg>
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-92"
+                            class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-11"
                             focusable="false"
-                            role="presentation"
                             viewBox="0 0 24 24"
                           >
                             <path
@@ -204,24 +198,26 @@ exports[`snapshot of initial component 1`] = `
                 >
                   <div
                     aria-haspopup="listbox"
-                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input MuiInputBase-inputSelect"
-                    id="select-year"
+                    aria-labelledby="mui-component-select-year"
+                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                    id="mui-component-select-year"
                     role="button"
                     tabindex="0"
                   >
                     All
                   </div>
                   <input
+                    aria-hidden="true"
+                    class="MuiSelect-nativeInput"
                     id="filterYear"
                     name="year"
-                    type="hidden"
+                    tabindex="-1"
                     value="All"
                   />
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSelect-icon"
                     focusable="false"
-                    role="presentation"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -245,24 +241,26 @@ exports[`snapshot of initial component 1`] = `
                 >
                   <div
                     aria-haspopup="listbox"
-                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input MuiInputBase-inputSelect"
-                    id="select-genre"
+                    aria-labelledby="mui-component-select-genre"
+                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                    id="mui-component-select-genre"
                     role="button"
                     tabindex="0"
                   >
                     All
                   </div>
                   <input
+                    aria-hidden="true"
+                    class="MuiSelect-nativeInput"
                     id="filterGenre"
                     name="genre"
-                    type="hidden"
+                    tabindex="-1"
                     value="All"
                   />
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSelect-icon"
                     focusable="false"
-                    role="presentation"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -286,24 +284,26 @@ exports[`snapshot of initial component 1`] = `
                 >
                   <div
                     aria-haspopup="listbox"
-                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input MuiInputBase-inputSelect"
-                    id="select-order"
+                    aria-labelledby="mui-component-select-order"
+                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                    id="mui-component-select-order"
                     role="button"
                     tabindex="0"
                   >
                     Ascending
                   </div>
                   <input
+                    aria-hidden="true"
+                    class="MuiSelect-nativeInput"
                     id="filterOrder"
                     name="order"
-                    type="hidden"
+                    tabindex="-1"
                     value="Ascending"
                   />
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSelect-icon"
                     focusable="false"
-                    role="presentation"
                     viewBox="0 0 24 24"
                   >
                     <path

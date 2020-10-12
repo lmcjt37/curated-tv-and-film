@@ -2,7 +2,7 @@
 
 exports[`snapshot of initial component 1`] = `
 <div
-  class="MuiPaper-root MuiPaper-elevation1 MuiCard-root SingleCard-card-1 MuiPaper-rounded"
+  class="MuiPaper-root MuiCard-root SingleCard-card-1 MuiPaper-elevation1 MuiPaper-rounded"
 >
   <div
     class="SingleCard-innerContainer-2"
@@ -92,7 +92,6 @@ exports[`snapshot of initial component 1`] = `
               aria-hidden="true"
               class="MuiSvgIcon-root SingleCard-localPlayIcon-9"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -118,7 +117,6 @@ exports[`snapshot of initial component 1`] = `
               aria-hidden="true"
               class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-8"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path

@@ -2,7 +2,7 @@
 
 exports[`snapshot of initial component with multiple items 1`] = `
 <div
-  class="MuiPaper-root MuiPaper-elevation1 MuiCard-root MultiCard-card-1 MuiPaper-rounded"
+  class="MuiPaper-root MuiCard-root MultiCard-card-1 MuiPaper-elevation1 MuiPaper-rounded"
 >
   <div
     class="MuiCardHeader-root"
@@ -100,7 +100,6 @@ exports[`snapshot of initial component with multiple items 1`] = `
               aria-hidden="true"
               class="MuiSvgIcon-root MultiCard-localPlayIcon-9"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -126,7 +125,6 @@ exports[`snapshot of initial component with multiple items 1`] = `
               aria-hidden="true"
               class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-8"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -191,7 +189,6 @@ exports[`snapshot of initial component with multiple items 1`] = `
               aria-hidden="true"
               class="MuiSvgIcon-root MultiCard-localPlayIcon-9"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -217,7 +214,6 @@ exports[`snapshot of initial component with multiple items 1`] = `
               aria-hidden="true"
               class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-8"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path

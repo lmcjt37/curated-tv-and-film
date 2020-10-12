@@ -1,11 +1,11 @@
 # Contributing
 
-* Fork the repository
-* Append your changes to the `main/src/content.js` file, following the guide for each section below.
-* Commit your changes with an appropriate message including #{ID} of the issue it solves.
-* Push your changes to your repository.
-* Create a pull request from your forked repository to the main repository.
-* Make sure that your branch is up-to-date with the `master` by fetching any changes and rebasing using `git fetch upstream && git rebase upstream/master`. Otherwise you will need to resolve your conflicts before it gets approved and merged.
+- Fork the repository
+- Append your changes to the `/src/content.js` file, following the guide for each section below.
+- Commit your changes with an appropriate message including #{ID} of the issue it solves.
+- Push your changes to your repository.
+- Create a pull request from your forked repository to the main repository.
+- Make sure that your branch is up-to-date with the `master` by fetching any changes and rebasing using `git fetch upstream && git rebase upstream/master`. Otherwise you will need to resolve your conflicts before it gets approved and merged.
 
 _Please make sure you include all necessary fields and try to stick to the format given below. Replace any [] or {} tokens with the relevant information stated_
 
@@ -17,23 +17,23 @@ Remember that the video URLs should reference snippets or clips from your favour
 
 Also, bear in mind that that only one entry to the content will be accepted at a time. You should raise additional PR's for extra content. This allows us to validate each PR in isolation.
 
-The image that is added to support the content should be a JPEG and added to the `main/public/assets/images` folder. Make sure the quality of the image is decent and preferably represents the scene from the video you are referencing rather than title screens. The images are resampled to be 600(w)x~350(h) with a resolution of 300ppi. This helps to keep the image sizes down.
+The image that is added to support the content should be a JPEG and added to the `/public/assets/images` folder. Make sure the quality of the image is decent and preferably represents the scene from the video you are referencing rather than title screens. The images are resampled to be 600(w)x~350(h) with a resolution of 300ppi. This helps to keep the image sizes down.
 
 ## Genres supported
 
-* All
-* Action
-* Adventure
-* Animation
-* Comedy
-* Crime
-* Drama
-* History
-* Mystery
-* Romance
-* Sci-Fi
-* Thriller
-* Horror
+- All
+- Action
+- Adventure
+- Animation
+- Comedy
+- Crime
+- Drama
+- History
+- Mystery
+- Romance
+- Sci-Fi
+- Thriller
+- Horror
 
 ## Individual cards
 

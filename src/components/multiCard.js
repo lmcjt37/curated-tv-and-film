@@ -83,12 +83,12 @@ function MultiCard(props) {
           <div key={index} className={classes.innerContainer}>
             <CardMedia
               className={classes.media}
-              image={row.thumbnail}
+              image={process.env.PUBLIC_URL + row.thumbnail}
               title={row.title}
             />
             <img
               className={classes.thumbnail}
-              src={row.thumbnail}
+              src={process.env.PUBLIC_URL + row.thumbnail}
               alt={row.title}
             />
             <CardContent>

@@ -68,12 +68,12 @@ function SingleCard(props) {
       <div className={classes.innerContainer}>
         <CardMedia
           className={classes.media}
-          image={props.thumbnail}
+          image={process.env.PUBLIC_URL + props.thumbnail}
           title={props.title}
         />
         <img
           className={classes.thumbnail}
-          src={props.thumbnail}
+          src={process.env.PUBLIC_URL + props.thumbnail}
           alt={props.title}
         />
         <CardContent>
