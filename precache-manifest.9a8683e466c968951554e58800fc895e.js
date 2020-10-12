@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c21654a57854a056c18c5fe461f4df8",
+    "revision": "384f5fdffb4ed115aff7e681a54820fa",
     "url": "/curated-tv-and-film/index.html"
   },
   {
-    "revision": "7a516734d6230945e314",
+    "revision": "003a48eda7c2373730e9",
     "url": "/curated-tv-and-film/static/css/main.c230518c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/curated-tv-and-film/static/js/2.4580c7ab.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a516734d6230945e314",
-    "url": "/curated-tv-and-film/static/js/main.399b7a0d.chunk.js"
+    "revision": "003a48eda7c2373730e9",
+    "url": "/curated-tv-and-film/static/js/main.303d8324.chunk.js"
   },
   {
     "revision": "fb32109f0fcb45a7dee6",
