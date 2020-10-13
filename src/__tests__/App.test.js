@@ -147,25 +147,87 @@ it('calls handleFilter correctly for Movies', () => {
   expect(cardCount).toBeLessThan(allContentLength);
 });
 
-it('calls handleGenre correctly', () => {
+it('calls handleToggleChip correctly', () => {
   const wrapper = shallow(<App />).dive();
 
-  expect(wrapper.state('filterGenre')).toEqual('All');
+  expect(wrapper.state('filterGenre')).toEqual({
+    available: [
+      'Action',
+      'Adventure',
+      'Animation',
+      'Biography',
+      'Comedy',
+      'Crime',
+      'Drama',
+      'Family',
+      'Fantasy',
+      'History',
+      'Horror',
+      'Mystery',
+      'Romance',
+      'Sci-Fi',
+      'Thriller'
+    ],
+    on: []
+  });
 
   let allContentLength = wrapper.state('content').length;
   expect(allContentLength).toBeGreaterThan(1);
 
-  wrapper.instance().handleGenre({
-    target: {
-      value: 'Action'
-    }
-  });
+  wrapper.instance().handleToggleChip('Action');
 
-  expect(wrapper.state('filterGenre')).toEqual('Action');
+  expect(wrapper.state('filterGenre')).toEqual({
+    available: [
+      'Action',
+      'Adventure',
+      'Animation',
+      'Biography',
+      'Comedy',
+      'Crime',
+      'Drama',
+      'Family',
+      'Fantasy',
+      'History',
+      'Horror',
+      'Mystery',
+      'Romance',
+      'Sci-Fi',
+      'Thriller'
+    ],
+    on: ['Action']
+  });
 
   const cardCount = wrapper.find(Card).length + wrapper.find(MultiCard).length;
 
   expect(cardCount).toBeLessThan(allContentLength);
+
+  wrapper.instance().handleToggleChip('Action');
+
+  expect(wrapper.state('filterGenre')).toEqual({
+    available: [
+      'Action',
+      'Adventure',
+      'Animation',
+      'Biography',
+      'Comedy',
+      'Crime',
+      'Drama',
+      'Family',
+      'Fantasy',
+      'History',
+      'Horror',
+      'Mystery',
+      'Romance',
+      'Sci-Fi',
+      'Thriller'
+    ],
+    on: []
+  });
+
+  const cardCountTwo =
+    wrapper.find(Card).length + wrapper.find(MultiCard).length;
+
+  expect(cardCountTwo).toEqual(allContentLength);
 });
 
 it('calls handleOrder correctly', () => {

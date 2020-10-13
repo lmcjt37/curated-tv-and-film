@@ -14,6 +14,10 @@ import RadioGroup from '@material-ui/core/RadioGroup';
 import InputLabel from '@material-ui/core/InputLabel';
 import Select from '@material-ui/core/Select';
 import Collapse from '@material-ui/core/Collapse';
+import Chip from '@material-ui/core/Chip';
+
+// Material icons
+import DoneIcon from '@material-ui/icons/Done';
 
 // Material Core - Styles
 import { withStyles } from '@material-ui/core/styles';
@@ -40,36 +44,37 @@ const styles = theme => ({
   },
   filterBar: {
     zIndex: 1
+  },
+  chipContainer: {
+    display: 'flex',
+    justifyContent: 'center',
+    flexWrap: 'wrap',
+    '& > *': {
+      margin: theme.spacing(0.5)
+    },
+    marginBottom: `${theme.spacing(2)}px`
   }
 });
 
 class FilterBar extends React.Component {
   render() {
-    const { classes, years } = this.props;
+    const { classes, years, filterGenre } = this.props;
 
-    let genres = [
-      'All',
-      'Action',
-      'Adventure',
-      'Animation',
-      'Biography',
-      'Comedy',
-      'Crime',
-      'Drama',
-      'Family',
-      'Fantasy',
-      'History',
-      'Horror',
-      'Mystery',
-      'Romance',
-      'Sci-Fi',
-      'Thriller'
-    ];
-    let genreOptions = genres.map((genre, idx) => (
-      <MenuItem key={idx} value={genre}>
-        {genre}
-      </MenuItem>
-    ));
+    let genreChips = filterGenre.available.map((genre, idx) => {
+      let isActive =
+        filterGenre.on.length === 0 || filterGenre.on.indexOf(genre) > -1;
+      return (
+        <Chip
+          key={idx}
+          size="small"
+          label={genre}
+          onClick={() => this.props.handleToggleChip(genre)}
+          onDelete={() => this.props.handleToggleChip(genre)}
+          deleteIcon={isActive ? <DoneIcon /> : null}
+          color="primary"
+        />
+      );
+    });
 
     let orders = ['Ascending', 'Descending'];
     let orderOptions = orders.map((order, idx) => (
@@ -142,19 +147,6 @@ class FilterBar extends React.Component {
                   </FormControl>
                 ) : null}
                 <FormControl className={classes.formControl}>
-                  <InputLabel htmlFor="filterGenre">Genre</InputLabel>
-                  <Select
-                    value={this.props.filterGenre}
-                    onChange={this.props.handleGenre}
-                    inputProps={{
-                      name: 'genre',
-                      id: 'filterGenre'
-                    }}
-                  >
-                    {genreOptions}
-                  </Select>
-                </FormControl>
-                <FormControl className={classes.formControl}>
                   <InputLabel htmlFor="filterOrder">Sort</InputLabel>
                   <Select
                     value={this.props.filterOrder}
@@ -167,6 +159,12 @@ class FilterBar extends React.Component {
                     {orderOptions}
                   </Select>
                 </FormControl>
+                <div
+                  id="chipContainer_testOnly"
+                  className={classes.chipContainer}
+                >
+                  {genreChips}
+                </div>
               </form>
             </Toolbar>
           </AppBar>
