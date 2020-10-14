@@ -18,7 +18,71 @@ it('render all initial child components for all', () => {
     years: [],
     filterResults: 'all',
     filterYear: 'All',
-    filterGenre: 'All',
+    filterGenre: {
+      available: [
+        'Action',
+        'Adventure',
+        'Animation',
+        'Biography',
+        'Comedy',
+        'Crime',
+        'Drama',
+        'Family',
+        'Fantasy',
+        'History',
+        'Horror',
+        'Mystery',
+        'Romance',
+        'Sci-Fi',
+        'Thriller'
+      ],
+      on: []
+    },
+    filterOrder: 'Ascending'
+  };
+
+  const wrapper = mount(<FilterBar {...state} handleFilter={mockFunction} />);
+
+  expect(wrapper.find(AppBar)).toHaveLength(1);
+  expect(wrapper.find(Toolbar)).toHaveLength(1);
+  expect(wrapper.find('form')).toHaveLength(1);
+  expect(wrapper.find(MenuItem)).toHaveLength(0); //TODO - No menu items being rendered?
+  expect(wrapper.find(FormControl)).toHaveLength(2);
+  expect(wrapper.find(FormLabel)).toHaveLength(2);
+  expect(wrapper.find(FormControlLabel)).toHaveLength(3);
+  expect(wrapper.find(Radio)).toHaveLength(3);
+  expect(wrapper.find(RadioGroup)).toHaveLength(1);
+  expect(wrapper.find(InputLabel)).toHaveLength(1);
+  expect(wrapper.find(Select)).toHaveLength(1);
+  expect(wrapper.find(Collapse)).toHaveLength(1);
+  expect(wrapper.find('#chipContainer_testOnly')).toHaveLength(1);
+});
+
+it('render all initial child components for movies', () => {
+  var state = {
+    years: [2017, 2018, 2019, 2020],
+    filterResults: 'movies',
+    filterYear: 'All',
+    filterGenre: {
+      available: [
+        'Action',
+        'Adventure',
+        'Animation',
+        'Biography',
+        'Comedy',
+        'Crime',
+        'Drama',
+        'Family',
+        'Fantasy',
+        'History',
+        'Horror',
+        'Mystery',
+        'Romance',
+        'Sci-Fi',
+        'Thriller'
+      ],
+      on: []
+    },
     filterOrder: 'Ascending'
   };
 
@@ -36,31 +100,7 @@ it('render all initial child components for all', () => {
   expect(wrapper.find(InputLabel)).toHaveLength(2);
   expect(wrapper.find(Select)).toHaveLength(2);
   expect(wrapper.find(Collapse)).toHaveLength(1);
-});
-
-it('render all initial child components for movies', () => {
-  var state = {
-    years: [2017, 2018, 2019, 2020],
-    filterResults: 'movies',
-    filterYear: 'All',
-    filterGenre: 'All',
-    filterOrder: 'Ascending'
-  };
-
-  const wrapper = mount(<FilterBar {...state} handleFilter={mockFunction} />);
-
-  expect(wrapper.find(AppBar)).toHaveLength(1);
-  expect(wrapper.find(Toolbar)).toHaveLength(1);
-  expect(wrapper.find('form')).toHaveLength(1);
-  expect(wrapper.find(MenuItem)).toHaveLength(0); //TODO - No menu items being rendered?
-  expect(wrapper.find(FormControl)).toHaveLength(4);
-  expect(wrapper.find(FormLabel)).toHaveLength(4);
-  expect(wrapper.find(FormControlLabel)).toHaveLength(3);
-  expect(wrapper.find(Radio)).toHaveLength(3);
-  expect(wrapper.find(RadioGroup)).toHaveLength(1);
-  expect(wrapper.find(InputLabel)).toHaveLength(3);
-  expect(wrapper.find(Select)).toHaveLength(3);
-  expect(wrapper.find(Collapse)).toHaveLength(1);
+  expect(wrapper.find('#chipContainer_testOnly')).toHaveLength(1);
 });
 
 it('snapshot of initial component', () => {
@@ -68,7 +108,26 @@ it('snapshot of initial component', () => {
     years: [2017, 2018, 2019, 2020],
     filterResults: 'movies',
     filterYear: 'All',
-    filterGenre: 'All',
+    filterGenre: {
+      available: [
+        'Action',
+        'Adventure',
+        'Animation',
+        'Biography',
+        'Comedy',
+        'Crime',
+        'Drama',
+        'Family',
+        'Fantasy',
+        'History',
+        'Horror',
+        'Mystery',
+        'Romance',
+        'Sci-Fi',
+        'Thriller'
+      ],
+      on: []
+    },
     filterOrder: 'Ascending'
   };
 

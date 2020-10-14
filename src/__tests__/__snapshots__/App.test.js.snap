@@ -128,20 +128,20 @@ exports[`snapshot changes when input change 1`] = `
                     >
                       <span
                         aria-disabled="false"
-                        class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-18 MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-checked-19 Mui-checked MuiIconButton-colorPrimary"
+                        class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-19 MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-checked-20 Mui-checked MuiIconButton-colorPrimary"
                       >
                         <span
                           class="MuiIconButton-label"
                         >
                           <input
                             checked=""
-                            class="PrivateSwitchBase-input-21"
+                            class="PrivateSwitchBase-input-22"
                             name="filter"
                             type="radio"
                             value="all"
                           />
                           <div
-                            class="PrivateRadioButtonIcon-root-22 PrivateRadioButtonIcon-checked-24"
+                            class="PrivateRadioButtonIcon-root-23 PrivateRadioButtonIcon-checked-25"
                           >
                             <svg
                               aria-hidden="true"
@@ -155,7 +155,7 @@ exports[`snapshot changes when input change 1`] = `
                             </svg>
                             <svg
                               aria-hidden="true"
-                              class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-23"
+                              class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-24"
                               focusable="false"
                               viewBox="0 0 24 24"
                             >
@@ -177,19 +177,19 @@ exports[`snapshot changes when input change 1`] = `
                     >
                       <span
                         aria-disabled="false"
-                        class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-18 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
+                        class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-19 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
                       >
                         <span
                           class="MuiIconButton-label"
                         >
                           <input
-                            class="PrivateSwitchBase-input-21"
+                            class="PrivateSwitchBase-input-22"
                             name="filter"
                             type="radio"
                             value="movies"
                           />
                           <div
-                            class="PrivateRadioButtonIcon-root-22"
+                            class="PrivateRadioButtonIcon-root-23"
                           >
                             <svg
                               aria-hidden="true"
@@ -203,7 +203,7 @@ exports[`snapshot changes when input change 1`] = `
                             </svg>
                             <svg
                               aria-hidden="true"
-                              class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-23"
+                              class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-24"
                               focusable="false"
                               viewBox="0 0 24 24"
                             >
@@ -225,19 +225,19 @@ exports[`snapshot changes when input change 1`] = `
                     >
                       <span
                         aria-disabled="false"
-                        class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-18 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
+                        class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-19 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
                       >
                         <span
                           class="MuiIconButton-label"
                         >
                           <input
-                            class="PrivateSwitchBase-input-21"
+                            class="PrivateSwitchBase-input-22"
                             name="filter"
                             type="radio"
                             value="tv"
                           />
                           <div
-                            class="PrivateRadioButtonIcon-root-22"
+                            class="PrivateRadioButtonIcon-root-23"
                           >
                             <svg
                               aria-hidden="true"
@@ -251,7 +251,7 @@ exports[`snapshot changes when input change 1`] = `
                             </svg>
                             <svg
                               aria-hidden="true"
-                              class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-23"
+                              class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-24"
                               focusable="false"
                               viewBox="0 0 24 24"
                             >
@@ -270,49 +270,6 @@ exports[`snapshot changes when input change 1`] = `
                     </label>
                   </div>
                 </fieldset>
-                <div
-                  class="MuiFormControl-root FilterBar-formControl-15"
-                >
-                  <label
-                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
-                    data-shrink="true"
-                    for="filterGenre"
-                  >
-                    Genre
-                  </label>
-                  <div
-                    class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-                  >
-                    <div
-                      aria-haspopup="listbox"
-                      aria-labelledby="mui-component-select-genre"
-                      class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
-                      id="mui-component-select-genre"
-                      role="button"
-                      tabindex="0"
-                    >
-                      All
-                    </div>
-                    <input
-                      aria-hidden="true"
-                      class="MuiSelect-nativeInput"
-                      id="filterGenre"
-                      name="genre"
-                      tabindex="-1"
-                      value="All"
-                    />
-                    <svg
-                      aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSelect-icon"
-                      focusable="false"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M7 10l5 5 5-5z"
-                      />
-                    </svg>
-                  </div>
-                </div>
                 <div
                   class="MuiFormControl-root FilterBar-formControl-15"
                 >
@@ -356,6 +313,326 @@ exports[`snapshot changes when input change 1`] = `
                     </svg>
                   </div>
                 </div>
+                <div
+                  class="FilterBar-chipContainer-18"
+                  id="chipContainer_testOnly"
+                >
+                  <div
+                    class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiChip-label MuiChip-labelSmall"
+                    >
+                      Action
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiChip-label MuiChip-labelSmall"
+                    >
+                      Adventure
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiChip-label MuiChip-labelSmall"
+                    >
+                      Animation
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiChip-label MuiChip-labelSmall"
+                    >
+                      Biography
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiChip-label MuiChip-labelSmall"
+                    >
+                      Comedy
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiChip-label MuiChip-labelSmall"
+                    >
+                      Crime
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiChip-label MuiChip-labelSmall"
+                    >
+                      Drama
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiChip-label MuiChip-labelSmall"
+                    >
+                      Family
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiChip-label MuiChip-labelSmall"
+                    >
+                      Fantasy
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiChip-label MuiChip-labelSmall"
+                    >
+                      History
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiChip-label MuiChip-labelSmall"
+                    >
+                      Horror
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiChip-label MuiChip-labelSmall"
+                    >
+                      Mystery
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiChip-label MuiChip-labelSmall"
+                    >
+                      Romance
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiChip-label MuiChip-labelSmall"
+                    >
+                      Sci-Fi
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiChip-label MuiChip-labelSmall"
+                    >
+                      Thriller
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                      />
+                    </svg>
+                  </div>
+                </div>
               </form>
             </div>
           </header>
@@ -369,19 +646,19 @@ exports[`snapshot changes when input change 1`] = `
     <ul>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/archer.jpg\\")"
               title="Archer"
             />
             <img
               alt="Archer"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/archer.jpg"
             />
             <div
@@ -405,10 +682,10 @@ exports[`snapshot changes when input change 1`] = `
                 </p>
               </div>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -417,7 +694,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -426,7 +703,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -446,7 +723,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt1883469/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -457,7 +734,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -471,7 +748,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=UeBt26IHIzU"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -482,7 +759,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -500,19 +777,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/armageddon.jpg\\")"
               title="Armageddon"
             />
             <img
               alt="Armageddon"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/armageddon.jpg"
             />
             <div
@@ -524,10 +801,10 @@ exports[`snapshot changes when input change 1`] = `
                 Armageddon  (1998)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -536,7 +813,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -545,7 +822,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -565,7 +842,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0120591/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -576,7 +853,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -590,7 +867,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=OYcTmiCtCv8"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -601,7 +878,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -619,19 +896,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/braveheart.jpg\\")"
               title="Braveheart"
             />
             <img
               alt="Braveheart"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/braveheart.jpg"
             />
             <div
@@ -643,10 +920,10 @@ exports[`snapshot changes when input change 1`] = `
                 Braveheart  (1995)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -655,7 +932,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -664,7 +941,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -684,7 +961,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0112573/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -695,7 +972,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -709,7 +986,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=cCHf8FxqzJc"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -720,7 +997,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -738,19 +1015,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/fight-club.jpg\\")"
               title="Fight Club"
             />
             <img
               alt="Fight Club"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/fight-club.jpg"
             />
             <div
@@ -762,10 +1039,10 @@ exports[`snapshot changes when input change 1`] = `
                 Fight Club  (1999)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -785,7 +1062,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0137523/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -796,7 +1073,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -810,7 +1087,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=VC6Z_kdQoHw"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -821,7 +1098,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -839,19 +1116,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/forrest-gump.jpg\\")"
               title="Forrest Gump"
             />
             <img
               alt="Forrest Gump"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/forrest-gump.jpg"
             />
             <div
@@ -863,10 +1140,10 @@ exports[`snapshot changes when input change 1`] = `
                 Forrest Gump  (1994)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -875,7 +1152,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -895,7 +1172,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0109830/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -906,7 +1183,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -920,7 +1197,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=v3qlBM9vAW8"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -931,7 +1208,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -949,19 +1226,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/friends.jpg\\")"
               title="Friends"
             />
             <img
               alt="Friends"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/friends.jpg"
             />
             <div
@@ -985,10 +1262,10 @@ exports[`snapshot changes when input change 1`] = `
                 </p>
               </div>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -997,7 +1274,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -1017,7 +1294,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0108778/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1028,7 +1305,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1042,7 +1319,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=IzfZf1kxxI4"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1053,7 +1330,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1071,7 +1348,7 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root MultiCard-card-34 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root MultiCard-card-35 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
             class="MuiCardHeader-root"
@@ -1090,7 +1367,7 @@ exports[`snapshot changes when input change 1`] = `
             class="MuiCardContent-root"
           >
             <div
-              class="MuiChip-root MultiCard-chip-39"
+              class="MuiChip-root MultiCard-chip-40"
             >
               <span
                 class="MuiChip-label"
@@ -1099,7 +1376,7 @@ exports[`snapshot changes when input change 1`] = `
               </span>
             </div>
             <div
-              class="MuiChip-root MultiCard-chip-39"
+              class="MuiChip-root MultiCard-chip-40"
             >
               <span
                 class="MuiChip-label"
@@ -1108,7 +1385,7 @@ exports[`snapshot changes when input change 1`] = `
               </span>
             </div>
             <div
-              class="MuiChip-root MultiCard-chip-39"
+              class="MuiChip-root MultiCard-chip-40"
             >
               <span
                 class="MuiChip-label"
@@ -1118,14 +1395,14 @@ exports[`snapshot changes when input change 1`] = `
             </div>
           </div>
           <div
-            class="MultiCard-innerContainer-35"
+            class="MultiCard-innerContainer-36"
           >
             <div
-              class="MuiCardMedia-root MultiCard-media-36"
+              class="MuiCardMedia-root MultiCard-media-37"
               style="background-image:url(\\"/assets/images/game-of-thrones_6_9.jpg\\")"
             />
             <img
-              class="MultiCard-thumbnail-38"
+              class="MultiCard-thumbnail-39"
               src="/assets/images/game-of-thrones_6_9.jpg"
             />
             <div
@@ -1145,7 +1422,7 @@ exports[`snapshot changes when input change 1`] = `
                   </p>
                 </div>
                 <p
-                  class="MuiTypography-root MultiCard-description-37 MuiTypography-body1"
+                  class="MuiTypography-root MultiCard-description-38 MuiTypography-body1"
                 >
                   In Winterfell, Jon Snow, Sansa, Davos and Tormund meet with Ramsay, and Jon Snow proposes a dispute between them instead of sacrificing lives in a battle. Ramsay does not accept and they schedule the battle in the morning. Jon Snow plots a scheme with Davos and Tormund and Sansa warns that Ramsay plays dirty. When both armies are ready to battle, Ramsay brings a surprise.
                 </p>
@@ -1156,7 +1433,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-40 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-41 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt4283088/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1167,7 +1444,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MultiCard-localPlayIcon-42"
+                      class="MuiSvgIcon-root MultiCard-localPlayIcon-43"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1181,7 +1458,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-40 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-41 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=m8rURwkvOx0"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1192,7 +1469,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-41"
+                      class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-42"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1207,14 +1484,14 @@ exports[`snapshot changes when input change 1`] = `
             </div>
           </div>
           <div
-            class="MultiCard-innerContainer-35"
+            class="MultiCard-innerContainer-36"
           >
             <div
-              class="MuiCardMedia-root MultiCard-media-36"
+              class="MuiCardMedia-root MultiCard-media-37"
               style="background-image:url(\\"/assets/images/game-of-thrones_5_8.jpg\\")"
             />
             <img
-              class="MultiCard-thumbnail-38"
+              class="MultiCard-thumbnail-39"
               src="/assets/images/game-of-thrones_5_8.jpg"
             />
             <div
@@ -1234,7 +1511,7 @@ exports[`snapshot changes when input change 1`] = `
                   </p>
                 </div>
                 <p
-                  class="MuiTypography-root MultiCard-description-37 MuiTypography-body1"
+                  class="MuiTypography-root MultiCard-description-38 MuiTypography-body1"
                 >
                   Jon Snow fights off and kills a White Walker with Valyrian Steel in Hardhome along with the Army of the Dead. A white walker strides into the burning hall. Thenn moves to fight him while Jon Snow finds the glass. The Walker's weapon shatters Thenn's axe, and the White Walker kills him. The Walker moves to attack Jon. Jon picks up a sword from the ground, but the White Walker shatters it and knocks Jon down. Jon picks up Longclaw, made of Valyrian Steel, and it withstands the White Walker’s attack. Jon uses it to kill the Walker. The Night’s King sees this happen. After a moments respite, the Night’s King sends a legion of Wights tumbling over the mountain to continue the attack in the battle of Hardhome.
                 </p>
@@ -1245,7 +1522,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-40 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-41 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt3866850/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1256,7 +1533,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MultiCard-localPlayIcon-42"
+                      class="MuiSvgIcon-root MultiCard-localPlayIcon-43"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1270,7 +1547,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-40 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-41 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=fC1dVsTkmSI"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1281,7 +1558,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-41"
+                      class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-42"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1299,19 +1576,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/get-out.jpg\\")"
               title="Get Out"
             />
             <img
               alt="Get Out"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/get-out.jpg"
             />
             <div
@@ -1323,10 +1600,10 @@ exports[`snapshot changes when input change 1`] = `
                 Get Out  (2017)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -1335,7 +1612,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -1344,7 +1621,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -1364,7 +1641,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt5052448/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1375,7 +1652,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1389,7 +1666,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=kBwVWrBk_uo"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1400,7 +1677,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1418,19 +1695,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/house.jpg\\")"
               title="House"
             />
             <img
               alt="House"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/house.jpg"
             />
             <div
@@ -1454,10 +1731,10 @@ exports[`snapshot changes when input change 1`] = `
                 </p>
               </div>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -1466,7 +1743,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -1486,7 +1763,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0412142/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1497,7 +1774,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1511,7 +1788,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=tLMzEOoSjc4"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1522,7 +1799,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1540,19 +1817,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/how-i-met-your-mother.jpg\\")"
               title="How I Met Your Mother"
             />
             <img
               alt="How I Met Your Mother"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/how-i-met-your-mother.jpg"
             />
             <div
@@ -1576,10 +1853,10 @@ exports[`snapshot changes when input change 1`] = `
                 </p>
               </div>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -1588,7 +1865,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -1608,7 +1885,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0460649/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1619,7 +1896,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1633,7 +1910,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=GAx0DYI3los"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1644,7 +1921,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1662,19 +1939,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/i-robot.jpg\\")"
               title="I, Robot"
             />
             <img
               alt="I, Robot"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/i-robot.jpg"
             />
             <div
@@ -1686,10 +1963,10 @@ exports[`snapshot changes when input change 1`] = `
                 I, Robot  (2004)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -1698,7 +1975,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -1707,7 +1984,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -1727,7 +2004,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0343818/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1738,7 +2015,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1752,7 +2029,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=KBuvlaycAXs"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1763,7 +2040,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1781,19 +2058,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/interstellar.jpg\\")"
               title="Interstellar"
             />
             <img
               alt="Interstellar"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/interstellar.jpg"
             />
             <div
@@ -1805,10 +2082,10 @@ exports[`snapshot changes when input change 1`] = `
                 Interstellar  (2014)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -1817,7 +2094,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -1826,7 +2103,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -1846,7 +2123,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0816692/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1857,7 +2134,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1871,7 +2148,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=p3PfKf0ndik"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1882,7 +2159,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1900,19 +2177,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/kill-bill.jpg\\")"
               title="Kill Bill: Vol 1"
             />
             <img
               alt="Kill Bill: Vol 1"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/kill-bill.jpg"
             />
             <div
@@ -1924,10 +2201,10 @@ exports[`snapshot changes when input change 1`] = `
                 Kill Bill: Vol 1  (2003)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -1936,7 +2213,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -1945,7 +2222,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -1965,7 +2242,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0266697/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1976,7 +2253,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1990,7 +2267,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=_B_1IMstVzs"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -2001,7 +2278,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2019,19 +2296,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/kingsman.jpg\\")"
               title="Kingsman: The Secret Service"
             />
             <img
               alt="Kingsman: The Secret Service"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/kingsman.jpg"
             />
             <div
@@ -2043,10 +2320,10 @@ exports[`snapshot changes when input change 1`] = `
                 Kingsman: The Secret Service  (2014)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2055,7 +2332,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2064,7 +2341,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2084,7 +2361,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt2802144/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -2095,7 +2372,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2109,7 +2386,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=z7-tkkcC6d0"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -2120,7 +2397,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2138,19 +2415,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/love-actually.jpg\\")"
               title="Love Actually"
             />
             <img
               alt="Love Actually"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/love-actually.jpg"
             />
             <div
@@ -2162,10 +2439,10 @@ exports[`snapshot changes when input change 1`] = `
                 Love Actually  (2003)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2174,7 +2451,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2183,7 +2460,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2203,7 +2480,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0314331/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -2214,7 +2491,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2228,7 +2505,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=B7u6bMBlCXw"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -2239,7 +2516,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2257,19 +2534,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/mr-robot.jpg\\")"
               title="Mr.Robot"
             />
             <img
               alt="Mr.Robot"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/mr-robot.jpg"
             />
             <div
@@ -2293,10 +2570,10 @@ exports[`snapshot changes when input change 1`] = `
                 </p>
               </div>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2305,7 +2582,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2314,7 +2591,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2334,7 +2611,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="http://www.imdb.com/title/tt4158110/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -2345,7 +2622,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2359,7 +2636,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=AZeLHD-725o"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -2370,7 +2647,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2388,19 +2665,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/nightmare-before-christmas.jpg\\")"
               title="Nightmare before Christmas"
             />
             <img
               alt="Nightmare before Christmas"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/nightmare-before-christmas.jpg"
             />
             <div
@@ -2412,10 +2689,10 @@ exports[`snapshot changes when input change 1`] = `
                 Nightmare before Christmas  (1993)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2424,7 +2701,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2433,7 +2710,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2453,7 +2730,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0107688/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -2464,7 +2741,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2478,7 +2755,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=Z7uJMyPOBGA"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -2489,7 +2766,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2507,19 +2784,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/now-you-see-me-2.jpg\\")"
               title="Now You See Me 2"
             />
             <img
               alt="Now You See Me 2"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/now-you-see-me-2.jpg"
             />
             <div
@@ -2531,10 +2808,10 @@ exports[`snapshot changes when input change 1`] = `
                 Now You See Me 2  (2016)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2543,7 +2820,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2552,7 +2829,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2572,7 +2849,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt3110958/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -2583,7 +2860,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2597,7 +2874,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=_4rndwJWiSE"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -2608,7 +2885,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2626,19 +2903,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/oldboy.jpg\\")"
               title="Oldboy"
             />
             <img
               alt="Oldboy"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/oldboy.jpg"
             />
             <div
@@ -2650,10 +2927,10 @@ exports[`snapshot changes when input change 1`] = `
                 Oldboy  (2003)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2662,7 +2939,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2671,7 +2948,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2691,7 +2968,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="http://www.imdb.com/title/tt0364569/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -2702,7 +2979,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2716,7 +2993,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=VwIIDzrVVdc"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -2727,7 +3004,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2745,19 +3022,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/olympus.jpg\\")"
               title="Olympus has fallen"
             />
             <img
               alt="Olympus has fallen"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/olympus.jpg"
             />
             <div
@@ -2769,10 +3046,10 @@ exports[`snapshot changes when input change 1`] = `
                 Olympus has fallen  (2013)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2781,7 +3058,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2801,7 +3078,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt2302755/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -2812,7 +3089,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2826,7 +3103,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=N8WXitDnA_U"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -2837,7 +3114,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2855,19 +3132,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/polar.jpg\\")"
               title="Polar"
             />
             <img
               alt="Polar"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/polar.jpg"
             />
             <div
@@ -2879,10 +3156,10 @@ exports[`snapshot changes when input change 1`] = `
                 Polar  (2019)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2891,7 +3168,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -2911,7 +3188,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt4139588/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -2922,7 +3199,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2936,7 +3213,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=ooqhwWWnlu8"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -2947,7 +3224,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2965,19 +3242,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/rick-and-morty.jpg\\")"
               title="Rick and Morty"
             />
             <img
               alt="Rick and Morty"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/rick-and-morty.jpg"
             />
             <div
@@ -3001,10 +3278,10 @@ exports[`snapshot changes when input change 1`] = `
                 </p>
               </div>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3013,7 +3290,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3022,7 +3299,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3031,7 +3308,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3051,7 +3328,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt2861424/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -3062,7 +3339,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -3076,7 +3353,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=uzeODC-_IHw&t=81"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -3087,7 +3364,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -3105,19 +3382,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/serenity.jpg\\")"
               title="Serenity"
             />
             <img
               alt="Serenity"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/serenity.jpg"
             />
             <div
@@ -3129,10 +3406,10 @@ exports[`snapshot changes when input change 1`] = `
                 Serenity  (2005)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3141,7 +3418,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3150,7 +3427,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3170,7 +3447,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0379786/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -3181,7 +3458,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -3195,7 +3472,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=3FJatsqNdf4"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -3206,7 +3483,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -3224,19 +3501,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/sherlock.jpg\\")"
               title="Sherlock"
             />
             <img
               alt="Sherlock"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/sherlock.jpg"
             />
             <div
@@ -3260,10 +3537,10 @@ exports[`snapshot changes when input change 1`] = `
                 </p>
               </div>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3272,7 +3549,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3281,7 +3558,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3301,7 +3578,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt1665071/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -3312,7 +3589,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -3326,7 +3603,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=VaT7IYQgyqo"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -3337,7 +3614,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -3355,19 +3632,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/shrek.jpg\\")"
               title="Shrek"
             />
             <img
               alt="Shrek"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/shrek.jpg"
             />
             <div
@@ -3379,10 +3656,10 @@ exports[`snapshot changes when input change 1`] = `
                 Shrek  (2001)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3391,7 +3668,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3400,7 +3677,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3420,7 +3697,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0126029/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -3431,7 +3708,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -3445,7 +3722,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=vKTd-N4djSY"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -3456,7 +3733,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -3474,19 +3751,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/silicon-valley.jpg\\")"
               title="Silicon Valley"
             />
             <img
               alt="Silicon Valley"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/silicon-valley.jpg"
             />
             <div
@@ -3510,10 +3787,10 @@ exports[`snapshot changes when input change 1`] = `
                 </p>
               </div>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3533,7 +3810,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="http://www.imdb.com/title/tt2575988/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -3544,7 +3821,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -3558,7 +3835,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=mMeqEDEfniA"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -3569,7 +3846,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -3587,19 +3864,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/suits.jpg\\")"
               title="Suits"
             />
             <img
               alt="Suits"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/suits.jpg"
             />
             <div
@@ -3623,10 +3900,10 @@ exports[`snapshot changes when input change 1`] = `
                 </p>
               </div>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3635,7 +3912,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3655,7 +3932,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt1632701/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -3666,7 +3943,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -3680,7 +3957,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=Z5FgMCTreXE"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -3691,7 +3968,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -3709,19 +3986,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/the-godfather.jpg\\")"
               title="The Godfather"
             />
             <img
               alt="The Godfather"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/the-godfather.jpg"
             />
             <div
@@ -3733,10 +4010,10 @@ exports[`snapshot changes when input change 1`] = `
                 The Godfather  (1972)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3745,7 +4022,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3765,7 +4042,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0068646/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -3776,7 +4053,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -3790,7 +4067,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=fmX2VzsB25s"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -3801,7 +4078,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -3819,19 +4096,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/the-matrix.jpg\\")"
               title="The Matrix"
             />
             <img
               alt="The Matrix"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/the-matrix.jpg"
             />
             <div
@@ -3843,10 +4120,10 @@ exports[`snapshot changes when input change 1`] = `
                 The Matrix  (1999)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3855,7 +4132,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3875,7 +4152,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0133093/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -3886,7 +4163,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -3900,7 +4177,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=2oHOv9p9dHQ"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -3911,7 +4188,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -3929,19 +4206,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/the-newsroom.jpg\\")"
               title="The Newsroom"
             />
             <img
               alt="The Newsroom"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/the-newsroom.jpg"
             />
             <div
@@ -3965,10 +4242,10 @@ exports[`snapshot changes when input change 1`] = `
                 </p>
               </div>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3977,7 +4254,7 @@ exports[`snapshot changes when input change 1`] = `
                   </span>
                 </div>
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -3997,7 +4274,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="http://www.imdb.com/title/tt1870479/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -4008,7 +4285,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -4022,7 +4299,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=wTjMqda19wk"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -4033,7 +4310,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -4051,19 +4328,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/the-office.jpg\\")"
               title="The Office"
             />
             <img
               alt="The Office"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/the-office.jpg"
             />
             <div
@@ -4087,10 +4364,10 @@ exports[`snapshot changes when input change 1`] = `
                 </p>
               </div>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -4110,7 +4387,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0800604/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -4121,7 +4398,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -4135,7 +4412,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=ZymIQU4e1W4"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -4146,7 +4423,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -4164,7 +4441,7 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root MultiCard-card-34 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root MultiCard-card-35 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
             class="MuiCardHeader-root"
@@ -4183,7 +4460,7 @@ exports[`snapshot changes when input change 1`] = `
             class="MuiCardContent-root"
           >
             <div
-              class="MuiChip-root MultiCard-chip-39"
+              class="MuiChip-root MultiCard-chip-40"
             >
               <span
                 class="MuiChip-label"
@@ -4192,7 +4469,7 @@ exports[`snapshot changes when input change 1`] = `
               </span>
             </div>
             <div
-              class="MuiChip-root MultiCard-chip-39"
+              class="MuiChip-root MultiCard-chip-40"
             >
               <span
                 class="MuiChip-label"
@@ -4201,7 +4478,7 @@ exports[`snapshot changes when input change 1`] = `
               </span>
             </div>
             <div
-              class="MuiChip-root MultiCard-chip-39"
+              class="MuiChip-root MultiCard-chip-40"
             >
               <span
                 class="MuiChip-label"
@@ -4211,14 +4488,14 @@ exports[`snapshot changes when input change 1`] = `
             </div>
           </div>
           <div
-            class="MultiCard-innerContainer-35"
+            class="MultiCard-innerContainer-36"
           >
             <div
-              class="MuiCardMedia-root MultiCard-media-36"
+              class="MuiCardMedia-root MultiCard-media-37"
               style="background-image:url(\\"/assets/images/walking-dead_1_2.jpg\\")"
             />
             <img
-              class="MultiCard-thumbnail-38"
+              class="MultiCard-thumbnail-39"
               src="/assets/images/walking-dead_1_2.jpg"
             />
             <div
@@ -4238,7 +4515,7 @@ exports[`snapshot changes when input change 1`] = `
                   </p>
                 </div>
                 <p
-                  class="MuiTypography-root MultiCard-description-37 MuiTypography-body1"
+                  class="MuiTypography-root MultiCard-description-38 MuiTypography-body1"
                 >
                   Following on from where Rick Grimes wakes up from a coma and tries to find his family. He gets to Atlanta, surrounded by walkers, he is thrown from his horse and ends up in a tank. This is where someone on the walkie talkie, Glenn, helps him out of the tight situation.
                 </p>
@@ -4249,7 +4526,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-40 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-41 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt1628064/?ref_=ttep_ep2"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -4260,7 +4537,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MultiCard-localPlayIcon-42"
+                      class="MuiSvgIcon-root MultiCard-localPlayIcon-43"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -4274,7 +4551,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-40 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-41 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=ZxmWhlidAZ8"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -4285,7 +4562,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-41"
+                      class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-42"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -4300,14 +4577,14 @@ exports[`snapshot changes when input change 1`] = `
             </div>
           </div>
           <div
-            class="MultiCard-innerContainer-35"
+            class="MultiCard-innerContainer-36"
           >
             <div
-              class="MuiCardMedia-root MultiCard-media-36"
+              class="MuiCardMedia-root MultiCard-media-37"
               style="background-image:url(\\"/assets/images/walking-dead_7_1.jpg\\")"
             />
             <img
-              class="MultiCard-thumbnail-38"
+              class="MultiCard-thumbnail-39"
               src="/assets/images/walking-dead_7_1.jpg"
             />
             <div
@@ -4327,7 +4604,7 @@ exports[`snapshot changes when input change 1`] = `
                   </p>
                 </div>
                 <p
-                  class="MuiTypography-root MultiCard-description-37 MuiTypography-body1"
+                  class="MuiTypography-root MultiCard-description-38 MuiTypography-body1"
                 >
                   The Saviours have captured Rick and the group. They kneel at the mercy of Negan who makes an example of 2 of the groups members. Not for the faint of heart.
                 </p>
@@ -4338,7 +4615,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-40 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-41 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt5164772/?ref_=ttep_ep1"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -4349,7 +4626,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MultiCard-localPlayIcon-42"
+                      class="MuiSvgIcon-root MultiCard-localPlayIcon-43"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -4363,7 +4640,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-40 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-41 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=d3LDG5CCOPQ"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -4374,7 +4651,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-41"
+                      class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-42"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -4392,19 +4669,19 @@ exports[`snapshot changes when input change 1`] = `
       </li>
       <li>
         <div
-          class="MuiPaper-root MuiCard-root SingleCard-card-25 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="SingleCard-innerContainer-26"
+            class="SingleCard-innerContainer-27"
           >
             <div
-              class="MuiCardMedia-root SingleCard-media-27"
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/there-will-be-blood.jpg\\")"
               title="There Will Be Blood"
             />
             <img
               alt="There Will Be Blood"
-              class="SingleCard-thumbnail-28"
+              class="SingleCard-thumbnail-29"
               src="/assets/images/there-will-be-blood.jpg"
             />
             <div
@@ -4416,10 +4693,10 @@ exports[`snapshot changes when input change 1`] = `
                 There Will Be Blood  (2007)
               </h2>
               <div
-                class="SingleCard-chips-29"
+                class="SingleCard-chips-30"
               >
                 <div
-                  class="MuiChip-root SingleCard-chip-30"
+                  class="MuiChip-root SingleCard-chip-31"
                 >
                   <span
                     class="MuiChip-label"
@@ -4439,7 +4716,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt0469494/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -4450,7 +4727,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-localPlayIcon-33"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -4464,7 +4741,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="View Scene"
-                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-31 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=ugTbwvVuLKA"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -4475,7 +4752,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-32"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -4494,20 +4771,20 @@ exports[`snapshot changes when input change 1`] = `
     </ul>
   </main>
   <footer
-    class="Footer-footer-43"
+    class="Footer-footer-44"
   >
     <ul
-      class="Footer-list-44"
+      class="Footer-list-45"
     >
       <li
-        class="Footer-links-45"
+        class="Footer-links-46"
       >
         <p
           class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
         >
           Made with ♥ by  
           <a
-            class="Footer-anchor-46"
+            class="Footer-anchor-47"
             href="https://lmcjt.com"
             rel="noopener noreferrer"
             target="_blank"
@@ -4519,13 +4796,13 @@ exports[`snapshot changes when input change 1`] = `
       </li>
     </ul>
     <ul
-      class="Footer-list-44"
+      class="Footer-list-45"
     >
       <li
-        class="Footer-links-45"
+        class="Footer-links-46"
       >
         <a
-          class="Footer-anchor-46"
+          class="Footer-anchor-47"
           href="https://github.com/lmcjt37/curated-tv-and-film"
           rel="noopener noreferrer"
           target="_blank"
@@ -4538,10 +4815,10 @@ exports[`snapshot changes when input change 1`] = `
         </a>
       </li>
       <li
-        class="Footer-links-45"
+        class="Footer-links-46"
       >
         <a
-          class="Footer-anchor-46"
+          class="Footer-anchor-47"
           href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors"
           rel="noopener noreferrer"
           target="_blank"
@@ -4554,10 +4831,10 @@ exports[`snapshot changes when input change 1`] = `
         </a>
       </li>
       <li
-        class="Footer-links-45"
+        class="Footer-links-46"
       >
         <a
-          class="Footer-anchor-46"
+          class="Footer-anchor-47"
           rel="noopener noreferrer"
           target="_blank"
         >

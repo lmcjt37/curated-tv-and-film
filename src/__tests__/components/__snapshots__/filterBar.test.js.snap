@@ -41,19 +41,19 @@ exports[`snapshot of initial component 1`] = `
                   >
                     <span
                       aria-disabled="false"
-                      class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-6 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
+                      class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-7 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
                     >
                       <span
                         class="MuiIconButton-label"
                       >
                         <input
-                          class="PrivateSwitchBase-input-9"
+                          class="PrivateSwitchBase-input-10"
                           name="filter"
                           type="radio"
                           value="all"
                         />
                         <div
-                          class="PrivateRadioButtonIcon-root-10"
+                          class="PrivateRadioButtonIcon-root-11"
                         >
                           <svg
                             aria-hidden="true"
@@ -67,7 +67,7 @@ exports[`snapshot of initial component 1`] = `
                           </svg>
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-11"
+                            class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-12"
                             focusable="false"
                             viewBox="0 0 24 24"
                           >
@@ -89,20 +89,20 @@ exports[`snapshot of initial component 1`] = `
                   >
                     <span
                       aria-disabled="false"
-                      class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-6 MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-checked-7 Mui-checked MuiIconButton-colorPrimary"
+                      class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-7 MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-checked-8 Mui-checked MuiIconButton-colorPrimary"
                     >
                       <span
                         class="MuiIconButton-label"
                       >
                         <input
                           checked=""
-                          class="PrivateSwitchBase-input-9"
+                          class="PrivateSwitchBase-input-10"
                           name="filter"
                           type="radio"
                           value="movies"
                         />
                         <div
-                          class="PrivateRadioButtonIcon-root-10 PrivateRadioButtonIcon-checked-12"
+                          class="PrivateRadioButtonIcon-root-11 PrivateRadioButtonIcon-checked-13"
                         >
                           <svg
                             aria-hidden="true"
@@ -116,7 +116,7 @@ exports[`snapshot of initial component 1`] = `
                           </svg>
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-11"
+                            class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-12"
                             focusable="false"
                             viewBox="0 0 24 24"
                           >
@@ -138,19 +138,19 @@ exports[`snapshot of initial component 1`] = `
                   >
                     <span
                       aria-disabled="false"
-                      class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-6 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
+                      class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-7 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
                     >
                       <span
                         class="MuiIconButton-label"
                       >
                         <input
-                          class="PrivateSwitchBase-input-9"
+                          class="PrivateSwitchBase-input-10"
                           name="filter"
                           type="radio"
                           value="tv"
                         />
                         <div
-                          class="PrivateRadioButtonIcon-root-10"
+                          class="PrivateRadioButtonIcon-root-11"
                         >
                           <svg
                             aria-hidden="true"
@@ -164,7 +164,7 @@ exports[`snapshot of initial component 1`] = `
                           </svg>
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-11"
+                            class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-12"
                             focusable="false"
                             viewBox="0 0 24 24"
                           >
@@ -232,49 +232,6 @@ exports[`snapshot of initial component 1`] = `
                 <label
                   class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
                   data-shrink="true"
-                  for="filterGenre"
-                >
-                  Genre
-                </label>
-                <div
-                  class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-                >
-                  <div
-                    aria-haspopup="listbox"
-                    aria-labelledby="mui-component-select-genre"
-                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
-                    id="mui-component-select-genre"
-                    role="button"
-                    tabindex="0"
-                  >
-                    All
-                  </div>
-                  <input
-                    aria-hidden="true"
-                    class="MuiSelect-nativeInput"
-                    id="filterGenre"
-                    name="genre"
-                    tabindex="-1"
-                    value="All"
-                  />
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSelect-icon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M7 10l5 5 5-5z"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div
-                class="MuiFormControl-root FilterBar-formControl-3"
-              >
-                <label
-                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
-                  data-shrink="true"
                   for="filterOrder"
                 >
                   Sort
@@ -308,6 +265,326 @@ exports[`snapshot of initial component 1`] = `
                   >
                     <path
                       d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="FilterBar-chipContainer-6"
+                id="chipContainer_testOnly"
+              >
+                <div
+                  class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall"
+                  >
+                    Action
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall"
+                  >
+                    Adventure
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall"
+                  >
+                    Animation
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall"
+                  >
+                    Biography
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall"
+                  >
+                    Comedy
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall"
+                  >
+                    Crime
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall"
+                  >
+                    Drama
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall"
+                  >
+                    Family
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall"
+                  >
+                    Fantasy
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall"
+                  >
+                    History
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall"
+                  >
+                    Horror
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall"
+                  >
+                    Mystery
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall"
+                  >
+                    Romance
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall"
+                  >
+                    Sci-Fi
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-deletableColorPrimary MuiChip-sizeSmall MuiChip-clickable MuiChip-deletable"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall"
+                  >
+                    Thriller
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary MuiChip-deleteIconSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
                     />
                   </svg>
                 </div>

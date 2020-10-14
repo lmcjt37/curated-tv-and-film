@@ -16,8 +16,6 @@ it('render all initial child components, where isOpen is false', () => {
 xit('render all initial child components, where isOpen is true', () => {
   const wrapper = shallow(<Autocomplete />).dive();
 
-  console.log(wrapper.instance());
-
   expect(wrapper.find(Downshift)).toHaveLength(1);
   expect(wrapper.find(Paper)).toHaveLength(0);
   expect(wrapper.find(MenuItem)).toHaveLength(0);

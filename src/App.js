@@ -41,7 +41,26 @@ class App extends React.Component {
       showFilters: false,
       filterResults: 'all',
       filterYear: 'All',
-      filterGenre: 'All',
+      filterGenre: {
+        available: [
+          'Action',
+          'Adventure',
+          'Animation',
+          'Biography',
+          'Comedy',
+          'Crime',
+          'Drama',
+          'Family',
+          'Fantasy',
+          'History',
+          'Horror',
+          'Mystery',
+          'Romance',
+          'Sci-Fi',
+          'Thriller'
+        ],
+        on: []
+      },
       filterOrder: 'Ascending',
       onlyMovies: [],
       years: [],
@@ -51,7 +70,7 @@ class App extends React.Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleFilter = this.handleFilter.bind(this);
     this.handleYear = this.handleYear.bind(this);
-    this.handleGenre = this.handleGenre.bind(this);
+    this.handleToggleChip = this.handleToggleChip.bind(this);
     this.handleOrder = this.handleOrder.bind(this);
     this.toggleFilter = this.toggleFilter.bind(this);
   }
@@ -135,8 +154,16 @@ class App extends React.Component {
     }
   };
 
-  handleGenre = event => {
-    this.setState({ filterGenre: event.target.value });
+  handleToggleChip = chip => {
+    const { filterGenre } = this.state;
+    let index = filterGenre.on.indexOf(chip);
+
+    if (index > -1) {
+      filterGenre.on.splice(index, 1);
+    } else {
+      filterGenre.on.push(chip);
+    }
+    this.setState({ filterGenre });
   };
 
   handleOrder = event => {
@@ -182,7 +209,7 @@ class App extends React.Component {
             years,
             showFilters
           }}
-          handleGenre={this.handleGenre}
+          handleToggleChip={this.handleToggleChip}
           handleFilter={this.handleFilter}
           handleYear={this.handleYear}
           handleOrder={this.handleOrder}
@@ -223,17 +250,19 @@ class App extends React.Component {
                   this.state.filterResults === 'movies' &&
                   item.type !== 'movie'
                 )
-                  return '';
+                  return null;
                 if (
                   this.state.filterResults === 'tv' &&
                   item.type !== 'tv_show'
                 )
-                  return '';
+                  return null;
                 if (
-                  this.state.filterGenre !== 'All' &&
-                  !item.genre.some(genre => genre === this.state.filterGenre)
+                  this.state.filterGenre.on.length !== 0 &&
+                  !item.genre.some(
+                    genre => this.state.filterGenre.on.indexOf(genre) !== -1
+                  )
                 )
-                  return '';
+                  return null;
 
                 return (
                   <li key={index}>
