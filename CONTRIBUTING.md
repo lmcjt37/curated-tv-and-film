@@ -44,6 +44,7 @@ The image that is added to support the content should be a JPEG and added to the
   type: "tv_show",
   title: "{TV_TITLE}",
   description: "{DESCRIPTION}",
+  short: "{SHORT_DESCRIPTION}",
   season: {SEASON_NUMBER},
   episode: {EPISODE_NUMBER},
   episode_title: "{EPISODE_TITLE}",
@@ -61,6 +62,7 @@ The image that is added to support the content should be a JPEG and added to the
   type: "movie",
   title: "{FILM TITLE HERE}",
   description: "{DESCRIPTION}",
+  short: "{SHORT_DESCRIPTION}",
   year: {FILM_YEAR},
   imdb: "{IMDB_URL_HERE}",
   url: "https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE}",
@@ -80,6 +82,7 @@ The image that is added to support the content should be a JPEG and added to the
   genre: [<genre>],
   content: [
     description: "{DESCRIPTION}",
+    short: "{SHORT_DESCRIPTION}",
     season: {SEASON_NUMBER},
     episode: {EPISODE_NUMBER},
     episode_title: "{EPISODE_TITLE}",
@@ -99,6 +102,7 @@ The image that is added to support the content should be a JPEG and added to the
   genre: [<genre>],
   content: [
     description: "{DESCRIPTION}",
+    short: "{SHORT_DESCRIPTION}",
     year: {FILM_YEAR},
     imdb: "{IMDB_URL_HERE}",
     url: "https://www.youtube.com/watch?v={YOUTUBE_VIDEO_ID_HERE}",
