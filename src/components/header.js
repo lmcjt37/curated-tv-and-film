@@ -16,6 +16,8 @@ import { withStyles } from '@material-ui/core/styles';
 import SearchIcon from '@material-ui/icons/Search';
 import TuneIcon from '@material-ui/icons/Tune';
 import CloseIcon from '@material-ui/icons/HighlightOff';
+import GridIcon from '@material-ui/icons/ViewModule';
+import RowIcon from '@material-ui/icons/ViewStream';
 
 // Components
 import Autocomplete from './autocomplete';
@@ -89,6 +91,15 @@ class Header extends React.Component {
             ) : (
               <IconButton color="inherit" onClick={this.props.toggleFilter}>
                 <TuneIcon />
+              </IconButton>
+            )}
+            {this.props.showGrid ? (
+              <IconButton color="inherit" onClick={this.props.toggleGrid}>
+                <RowIcon />
+              </IconButton>
+            ) : (
+              <IconButton color="inherit" onClick={this.props.toggleGrid}>
+                <GridIcon />
               </IconButton>
             )}
           </Toolbar>

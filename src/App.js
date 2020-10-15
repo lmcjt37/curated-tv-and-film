@@ -10,6 +10,10 @@ import Footer from './components/footer.js';
 import FilterBar from './components/filterBar.js';
 import Card from './components/card.js';
 import MultiCard from './components/multiCard';
+import Tile from './components/tile';
+
+// Material UI - Core
+import Grid from '@material-ui/core/Grid';
 
 // Material UI
 import ErrorIcon from '@material-ui/icons/Error';
@@ -39,6 +43,7 @@ class App extends React.Component {
       search: false,
       content: data,
       showFilters: false,
+      showGrid: false,
       filterResults: 'all',
       filterYear: 'All',
       filterGenre: {
@@ -73,6 +78,7 @@ class App extends React.Component {
     this.handleToggleChip = this.handleToggleChip.bind(this);
     this.handleOrder = this.handleOrder.bind(this);
     this.toggleFilter = this.toggleFilter.bind(this);
+    this.toggleGrid = this.toggleGrid.bind(this);
   }
 
   componentDidMount() {
@@ -174,6 +180,10 @@ class App extends React.Component {
     this.setState({ showFilters: !this.state.showFilters });
   };
 
+  toggleGrid = () => {
+    this.setState({ showGrid: !this.state.showGrid });
+  };
+
   goTop = () => {
     scroll.scrollToTop();
   };
@@ -181,6 +191,7 @@ class App extends React.Component {
   render() {
     const {
       showFilters,
+      showGrid,
       search,
       filterResults,
       filterYear,
@@ -195,10 +206,11 @@ class App extends React.Component {
     return (
       <div>
         <Header
-          {...{ showFilters, search, autoComplete }}
+          {...{ showFilters, search, autoComplete, showGrid }}
           handleChange={this.handleChange}
           goTop={this.goTop}
           toggleFilter={this.toggleFilter}
+          toggleGrid={this.toggleGrid}
         />
         <FilterBar
           {...{
@@ -216,7 +228,7 @@ class App extends React.Component {
         />
         <main className={classes.content}>
           {mContent.length ? (
-            <ul>
+            <Grid container spacing={1}>
               {this.state.filterOrder === 'Ascending' &&
                 //sort alphabetically ascending
                 mContent
@@ -264,17 +276,33 @@ class App extends React.Component {
                 )
                   return null;
 
+                if (this.state.showGrid) {
+                  if (item.content) {
+                    return item.content.map((child, idx) => (
+                      <Grid key={index * idx} item xs={12} sm={6} md={4}>
+                        <Tile {...{ ...item, ...child }} />
+                      </Grid>
+                    ));
+                  }
+
+                  return (
+                    <Grid key={index} item xs={12} sm={6} md={4}>
+                      <Tile {...item} />
+                    </Grid>
+                  );
+                }
+
                 return (
-                  <li key={index}>
+                  <Grid key={index} item xs={12}>
                     {item.content ? (
                       <MultiCard {...item} />
                     ) : (
                       <Card {...item} />
                     )}
-                  </li>
+                  </Grid>
                 );
               })}
-            </ul>
+            </Grid>
           ) : this.state.search ? (
             <div className={classes.error}>
               <ErrorIcon fontSize="large" />

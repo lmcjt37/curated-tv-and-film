@@ -126,7 +126,7 @@ function MultiCard(props) {
                 </Fab>
                 <Fab
                   color="primary"
-                  aria-label="View Scene"
+                  aria-label="Watch"
                   className={classes.fab}
                   href={row.url}
                   target="_blank"
@@ -136,7 +136,7 @@ function MultiCard(props) {
                   <PlayCircleOutlineIcon
                     className={classes.playCircleOutlineIcon}
                   />
-                  View Scene
+                  Watch
                 </Fab>
               </CardActions>
             </CardContent>
