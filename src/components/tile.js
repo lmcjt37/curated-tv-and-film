@@ -22,7 +22,8 @@ const styles = theme => ({
     position: 'relative'
   },
   media: {
-    height: 250
+    height: 320,
+    filter: `contrast(0.8)`
   },
   content: {
     position: 'absolute',
@@ -74,14 +75,21 @@ function Tile(props) {
       <CardContent className={classes.content}>
         <div className={classes.chips}>
           {props.genre.map((genre, idx) => {
-            return <Chip key={idx} label={genre} className={classes.chip} />;
+            return (
+              <Chip
+                key={idx}
+                label={genre}
+                className={classes.chip}
+                color="secondary"
+              />
+            );
           })}
         </div>
         <Typography
           className={classes.title}
           gutterBottom
-          variant="h6"
-          component="h2"
+          variant="h4"
+          component="h1"
         >
           {props.title} {props.year ? ' (' + props.year + ')' : ''}
         </Typography>
@@ -91,20 +99,17 @@ function Tile(props) {
               className={classes.subtitle}
               gutterBottom
               variant="subtitle1"
-              component="h1"
+              component="h3"
             >
-              {props.episode_title}
-            </Typography>
-            <Typography className={classes.body} component="p">
-              Season: {props.season} | Episode: {props.episode}
+              {props.episode_title} S{props.season} | E{props.episode}
             </Typography>
           </div>
         )}
         <Typography className={classes.body} component="p">
-          {props.description}
+          {props.short}
         </Typography>
       </CardContent>
-      <CardActions className={classes.actions}>
+      <CardActions className={classes.actions} disableSpacing>
         <Fab
           color="primary"
           aria-label="IMDB"

@@ -277,6 +277,14 @@ class App extends React.Component {
                   return null;
 
                 if (this.state.showGrid) {
+                  if (item.content) {
+                    return item.content.map((child, idx) => (
+                      <Grid key={index * idx} item xs={12} sm={6} md={4}>
+                        <Tile {...{ ...item, ...child }} />
+                      </Grid>
+                    ));
+                  }
+
                   return (
                     <Grid key={index} item xs={12} sm={6} md={4}>
                       <Tile {...item} />
