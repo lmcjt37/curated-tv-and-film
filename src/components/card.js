@@ -111,7 +111,7 @@ function SingleCard(props) {
             </Fab>
             <Fab
               color="primary"
-              aria-label="View Scene"
+              aria-label="Watch"
               className={classes.fab}
               href={props.url}
               target="_blank"
@@ -121,7 +121,7 @@ function SingleCard(props) {
               <PlayCircleOutlineIcon
                 className={classes.playCircleOutlineIcon}
               />
-              View Scene
+              Watch
             </Fab>
           </CardActions>
         </CardContent>
