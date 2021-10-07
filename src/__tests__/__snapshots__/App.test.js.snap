@@ -3947,6 +3947,139 @@ exports[`snapshot changes when input change 1`] = `
           >
             <div
               class="MuiCardMedia-root SingleCard-media-28"
+              style="background-image:url(\\"/assets/images/squidgame.jpg\\")"
+              title="Squid Game"
+            />
+            <img
+              alt="Squid Game"
+              class="SingleCard-thumbnail-29"
+              src="/assets/images/squidgame.jpg"
+            />
+            <div
+              class="MuiCardContent-root"
+            >
+              <h2
+                class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom"
+              >
+                Squid Game 
+              </h2>
+              <div>
+                <h3
+                  class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom"
+                >
+                  Red light, green light
+                </h3>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+                >
+                  Season: 1 | Episode: 1
+                </p>
+              </div>
+              <div
+                class="SingleCard-chips-30"
+              >
+                <div
+                  class="MuiChip-root SingleCard-chip-31"
+                >
+                  <span
+                    class="MuiChip-label"
+                  >
+                    Action
+                  </span>
+                </div>
+                <div
+                  class="MuiChip-root SingleCard-chip-31"
+                >
+                  <span
+                    class="MuiChip-label"
+                  >
+                    Adventure
+                  </span>
+                </div>
+                <div
+                  class="MuiChip-root SingleCard-chip-31"
+                >
+                  <span
+                    class="MuiChip-label"
+                  >
+                    Drama
+                  </span>
+                </div>
+              </div>
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                Hoping to win easy money, a broke and desperate Gi-hun agrees to take part in an enigmatic game. Not long into the first round, unforeseen horrors unfold.
+              </p>
+              <div
+                class="MuiCardActions-root MuiCardActions-spacing"
+              >
+                <a
+                  aria-disabled="false"
+                  aria-label="IMDB"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
+                  href="https://www.imdb.com/title/tt11979940/"
+                  rel="noopener noreferrer"
+                  tabindex="0"
+                  target="_blank"
+                >
+                  <span
+                    class="MuiFab-label"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root SingleCard-localPlayIcon-34"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M20 12c0-1.1.9-2 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-1.99.9-1.99 2v4c1.1 0 1.99.9 1.99 2s-.89 2-2 2v4c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-4c-1.1 0-2-.9-2-2zm-4.42 4.8L12 14.5l-3.58 2.3 1.08-4.12-3.29-2.69 4.24-.25L12 5.8l1.54 3.95 4.24.25-3.29 2.69 1.09 4.11z"
+                      />
+                    </svg>
+                    IMDB
+                  </span>
+                </a>
+                <a
+                  aria-disabled="false"
+                  aria-label="Watch"
+                  class="MuiButtonBase-root MuiFab-root SingleCard-fab-32 MuiFab-extended MuiFab-primary"
+                  href="https://www.youtube.com/watch?v=EQj00Y2sOi8"
+                  rel="noopener noreferrer"
+                  tabindex="0"
+                  target="_blank"
+                >
+                  <span
+                    class="MuiFab-label"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root SingleCard-playCircleOutlineIcon-33"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                      />
+                    </svg>
+                    Watch
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root SingleCard-card-26 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            class="SingleCard-innerContainer-27"
+          >
+            <div
+              class="MuiCardMedia-root SingleCard-media-28"
               style="background-image:url(\\"/assets/images/suits.jpg\\")"
               title="Suits"
             />

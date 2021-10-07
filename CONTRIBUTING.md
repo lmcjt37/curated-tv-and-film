@@ -5,7 +5,7 @@
 - Commit your changes with an appropriate message including #{ID} of the issue it solves.
 - Push your changes to your repository.
 - Create a pull request from your forked repository to the main repository.
-- Make sure that your branch is up-to-date with the `master` by fetching any changes and rebasing using `git fetch upstream && git rebase upstream/master`. Otherwise you will need to resolve your conflicts before it gets approved and merged.
+- Make sure that your branch is up-to-date with the `main` by fetching any changes and rebasing using `git fetch upstream && git rebase upstream/main`. Otherwise you will need to resolve your conflicts before it gets approved and merged.
 
 _Please make sure you include all necessary fields and try to stick to the format given below. Replace any [] or {} tokens with the relevant information stated_
 
