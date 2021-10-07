@@ -482,6 +482,21 @@ var content = [
     url: 'https://www.youtube.com/watch?v=ooqhwWWnlu8',
     thumbnail: '/assets/images/polar.jpg',
     genre: ['Action', 'Crime']
+  },
+  {
+    type: 'tv_show',
+    title: 'Squid Game',
+    description:
+      'Hoping to win easy money, a broke and desperate Gi-hun agrees to take part in an enigmatic game. Not long into the first round, unforeseen horrors unfold.',
+    short:
+      'A broke man takes part in a game that quickly turns into a horror show.',
+    season: 1,
+    episode: 1,
+    episode_title: 'Red light, green light',
+    imdb: 'https://www.imdb.com/title/tt11979940/',
+    url: 'https://www.youtube.com/watch?v=EQj00Y2sOi8',
+    thumbnail: '/assets/images/squidgame.jpg',
+    genre: ['Action', 'Adventure', 'Drama']
   }
 ];
 
