@@ -36,10 +36,12 @@ const styles = theme => ({
   thumbnail: {
     display: 'none',
     [theme.breakpoints.up('sm')]: {
+      borderRadius: '0.5em',
       display: 'inherit',
       maxWidth: '100%',
-      height: '9.375em',
+      minHeight: '9.375em',
       width: '16.625em',
+      objectFit: 'cover',
       margin: theme.spacing(2)
     }
   },
