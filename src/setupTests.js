@@ -10,3 +10,6 @@ global.React = React;
 global.shallow = shallow;
 global.render = render;
 global.mount = mount;
+
+jest.useFakeTimers('modern');
+jest.setSystemTime(new Date(2021, 1, 1));
