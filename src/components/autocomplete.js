@@ -42,9 +42,7 @@ const styles = theme => ({
   }
 });
 
-function renderInput(inputProps) {
-  const { InputProps, classes, ...other } = inputProps;
-
+const renderInput = ({ InputProps, classes, ...other }) => {
   return (
     <InputBase
       classes={{
@@ -57,9 +55,14 @@ function renderInput(inputProps) {
       {...other}
     />
   );
-}
+};
 
-function renderSuggestion({ suggestion, index, itemProps, highlightedIndex }) {
+const renderSuggestion = ({
+  suggestion,
+  index,
+  itemProps,
+  highlightedIndex
+}) => {
   const isHighlighted = highlightedIndex === index;
 
   return (
@@ -75,7 +78,7 @@ function renderSuggestion({ suggestion, index, itemProps, highlightedIndex }) {
       {suggestion.label}
     </MenuItem>
   );
-}
+};
 renderSuggestion.propTypes = {
   highlightedIndex: PropTypes.number,
   index: PropTypes.number,
@@ -83,7 +86,7 @@ renderSuggestion.propTypes = {
   suggestion: PropTypes.shape({ label: PropTypes.string }).isRequired
 };
 
-function getSuggestions(value, suggestions) {
+const getSuggestions = (value, suggestions) => {
   const inputValue = deburr(value.trim()).toLowerCase();
   const inputLength = inputValue.length;
   let count = 0;
@@ -100,11 +103,9 @@ function getSuggestions(value, suggestions) {
         }
         return keep;
       });
-}
+};
 
-function Autocomplete(props) {
-  const { classes, autoComplete, handleChange } = props;
-
+const Autocomplete = ({ classes, autoComplete, handleChange }) => {
   const onValueChange = (value, state) => {
     handleChange({
       target: {
@@ -155,7 +156,7 @@ function Autocomplete(props) {
       )}
     </Downshift>
   );
-}
+};
 
 Autocomplete.propTypes = {
   classes: PropTypes.object.isRequired
