@@ -63,18 +63,30 @@ const styles = theme => ({
   }
 });
 
-function Tile(props) {
-  const { classes } = props;
+const Tile = ({
+  classes,
+  thumbnail,
+  title,
+  genre,
+  year,
+  type,
+  episode_title,
+  season,
+  episode,
+  short,
+  imdb,
+  url
+}) => {
   return (
     <Card className={classes.card}>
       <CardMedia
         className={classes.media}
-        image={process.env.PUBLIC_URL + props.thumbnail}
-        title={props.title}
+        image={process.env.PUBLIC_URL + thumbnail}
+        title={title}
       />
       <CardContent className={classes.content}>
         <div className={classes.chips}>
-          {props.genre.map((genre, idx) => {
+          {genre.map((genre, idx) => {
             return (
               <Chip
                 key={idx}
@@ -91,9 +103,9 @@ function Tile(props) {
           variant="h4"
           component="h1"
         >
-          {props.title} {props.year ? ' (' + props.year + ')' : ''}
+          {title} {year ? ' (' + year + ')' : ''}
         </Typography>
-        {props.type === 'tv_show' && (
+        {type === 'tv_show' && (
           <div>
             <Typography
               className={classes.subtitle}
@@ -101,12 +113,12 @@ function Tile(props) {
               variant="subtitle1"
               component="h3"
             >
-              {props.episode_title} S{props.season} | E{props.episode}
+              {episode_title} S{season} | E{episode}
             </Typography>
           </div>
         )}
         <Typography className={classes.body} component="p">
-          {props.short}
+          {short}
         </Typography>
       </CardContent>
       <CardActions className={classes.actions} disableSpacing>
@@ -114,7 +126,7 @@ function Tile(props) {
           color="primary"
           aria-label="IMDB"
           className={classes.fab}
-          href={props.imdb}
+          href={imdb}
           target="_blank"
           rel="noopener noreferrer"
           variant="extended"
@@ -126,7 +138,7 @@ function Tile(props) {
           color="primary"
           aria-label="Watch"
           className={classes.fab}
-          href={props.url}
+          href={url}
           target="_blank"
           rel="noopener noreferrer"
           variant="extended"
@@ -137,7 +149,7 @@ function Tile(props) {
       </CardActions>
     </Card>
   );
-}
+};
 
 Tile.propTypes = {
   classes: PropTypes.object.isRequired
