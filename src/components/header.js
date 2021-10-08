@@ -58,56 +58,57 @@ const styles = theme => ({
   }
 });
 
-class Header extends React.Component {
-  render() {
-    const { classes, autoComplete } = this.props;
-
-    return (
-      <div className={classes.root}>
-        <AppBar position="fixed">
-          <Toolbar>
-            <Typography
-              className={classes.title}
-              variant="h6"
-              color="inherit"
-              noWrap
-            >
-              Curated TV and Films
-            </Typography>
-            <div className={classes.search}>
-              <div className={classes.searchIcon}>
-                <SearchIcon />
-              </div>
-              <Autocomplete
-                {...{ autoComplete }}
-                handleChange={this.props.handleChange}
-              />
+const Header = ({
+  classes,
+  autoComplete,
+  handleChange,
+  showFilters,
+  toggleFilter,
+  showGrid,
+  toggleGrid
+}) => {
+  return (
+    <div className={classes.root}>
+      <AppBar position="fixed">
+        <Toolbar>
+          <Typography
+            className={classes.title}
+            variant="h6"
+            color="inherit"
+            noWrap
+          >
+            Curated TV and Films
+          </Typography>
+          <div className={classes.search}>
+            <div className={classes.searchIcon}>
+              <SearchIcon />
             </div>
-            <div className={classes.grow} />
-            {this.props.showFilters ? (
-              <IconButton color="inherit" onClick={this.props.toggleFilter}>
-                <CloseIcon />
-              </IconButton>
-            ) : (
-              <IconButton color="inherit" onClick={this.props.toggleFilter}>
-                <TuneIcon />
-              </IconButton>
-            )}
-            {this.props.showGrid ? (
-              <IconButton color="inherit" onClick={this.props.toggleGrid}>
-                <RowIcon />
-              </IconButton>
-            ) : (
-              <IconButton color="inherit" onClick={this.props.toggleGrid}>
-                <GridIcon />
-              </IconButton>
-            )}
-          </Toolbar>
-        </AppBar>
-      </div>
-    );
-  }
-}
+            <Autocomplete {...{ autoComplete }} handleChange={handleChange} />
+          </div>
+          <div className={classes.grow} />
+          {showFilters ? (
+            <IconButton color="inherit" onClick={toggleFilter}>
+              <CloseIcon />
+            </IconButton>
+          ) : (
+            <IconButton color="inherit" onClick={toggleFilter}>
+              <TuneIcon />
+            </IconButton>
+          )}
+          {showGrid ? (
+            <IconButton color="inherit" onClick={toggleGrid}>
+              <RowIcon />
+            </IconButton>
+          ) : (
+            <IconButton color="inherit" onClick={toggleGrid}>
+              <GridIcon />
+            </IconButton>
+          )}
+        </Toolbar>
+      </AppBar>
+    </div>
+  );
+};
 
 Header.propTypes = {
   classes: PropTypes.object.isRequired,
