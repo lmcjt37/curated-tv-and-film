@@ -63,8 +63,7 @@ const styles = theme => ({
   }
 });
 
-function MultiCard(props) {
-  const { classes } = props;
+const MultiCard = ({ classes, title, year, genre, content, type }) => {
   const typoProps = {
     variant: 'h6',
     component: 'h2'
@@ -72,15 +71,15 @@ function MultiCard(props) {
   return (
     <Card className={classes.card}>
       <CardHeader
-        title={props.title + (props.year ? '(' + props.year + ')' : '')}
+        title={title + (year ? '(' + year + ')' : '')}
         titleTypographyProps={typoProps}
       />
       <CardContent>
-        {props.genre.map((genre, idx) => {
+        {genre.map((genre, idx) => {
           return <Chip key={idx} label={genre} className={classes.chip} />;
         })}
       </CardContent>
-      {props.content.map((row, index) => {
+      {content.map((row, index) => {
         return (
           <div key={index} className={classes.innerContainer}>
             <CardMedia
@@ -95,7 +94,7 @@ function MultiCard(props) {
             />
             <CardContent>
               <div className={classes.details}>
-                {props.type === 'tv_show' && (
+                {type === 'tv_show' && (
                   <div>
                     <Typography variant="subtitle1" component="h2" gutterBottom>
                       {row.episode_title}
@@ -147,7 +146,7 @@ function MultiCard(props) {
       })}
     </Card>
   );
-}
+};
 
 MultiCard.propTypes = {
   classes: PropTypes.object.isRequired

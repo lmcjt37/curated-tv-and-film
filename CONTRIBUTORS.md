@@ -84,3 +84,8 @@
 - Role: Contributor
 - Place: Markham, ON, Canada
 - GitHub: [CometS1](https://github.com/CometS1)
+
+#### Name: [Jason Garey](https://github.com/jason1985)
+- Role: Contributor
+- Place: Las Vegas, NV
+- GitHub: [jason1985](https://github.com/jason1985)

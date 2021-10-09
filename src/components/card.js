@@ -63,47 +63,59 @@ const styles = theme => ({
   }
 });
 
-function SingleCard(props) {
-  const { classes } = props;
+const SingleCard = ({
+  classes,
+  thumbnail,
+  title,
+  year,
+  type,
+  episode_title,
+  season,
+  episode,
+  genre,
+  description,
+  imdb,
+  url
+}) => {
   return (
     <Card className={classes.card}>
       <div className={classes.innerContainer}>
         <CardMedia
           className={classes.media}
-          image={process.env.PUBLIC_URL + props.thumbnail}
-          title={props.title}
+          image={process.env.PUBLIC_URL + thumbnail}
+          title={title}
         />
         <img
           className={classes.thumbnail}
-          src={process.env.PUBLIC_URL + props.thumbnail}
-          alt={props.title}
+          src={process.env.PUBLIC_URL + thumbnail}
+          alt={title}
         />
         <CardContent>
           <Typography gutterBottom variant="h6" component="h2">
-            {props.title} {props.year ? ' (' + props.year + ')' : ''}
+            {title} {year ? ' (' + year + ')' : ''}
           </Typography>
-          {props.type === 'tv_show' && (
+          {type === 'tv_show' && (
             <div>
               <Typography gutterBottom variant="subtitle1" component="h3">
-                {props.episode_title}
+                {episode_title}
               </Typography>
               <Typography component="p" color="textSecondary">
-                Season: {props.season} | Episode: {props.episode}
+                Season: {season} | Episode: {episode}
               </Typography>
             </div>
           )}
           <div className={classes.chips}>
-            {props.genre.map((genre, idx) => {
+            {genre.map((genre, idx) => {
               return <Chip key={idx} label={genre} className={classes.chip} />;
             })}
           </div>
-          <Typography component="p">{props.description}</Typography>
+          <Typography component="p">{description}</Typography>
           <CardActions>
             <Fab
               color="primary"
               aria-label="IMDB"
               className={classes.fab}
-              href={props.imdb}
+              href={imdb}
               target="_blank"
               rel="noopener noreferrer"
               variant="extended"
@@ -115,7 +127,7 @@ function SingleCard(props) {
               color="primary"
               aria-label="Watch"
               className={classes.fab}
-              href={props.url}
+              href={url}
               target="_blank"
               rel="noopener noreferrer"
               variant="extended"
@@ -130,7 +142,7 @@ function SingleCard(props) {
       </div>
     </Card>
   );
-}
+};
 
 SingleCard.propTypes = {
   classes: PropTypes.object.isRequired
