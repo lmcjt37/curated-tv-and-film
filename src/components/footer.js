@@ -34,8 +34,7 @@ const styles = theme => ({
   }
 });
 
-function Footer(props) {
-  const { classes } = props;
+const Footer = ({ classes }) => {
   return (
     <footer className={classes.footer}>
       <ul className={classes.list}>
@@ -91,7 +90,7 @@ function Footer(props) {
       </ul>
     </footer>
   );
-}
+};
 
 Footer.propTypes = {
   classes: PropTypes.object.isRequired
