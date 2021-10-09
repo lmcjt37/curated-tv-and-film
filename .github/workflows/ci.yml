@@ -75,6 +75,9 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
 
+      - name: Install dependencies
+        run: npm install
+
       - name: Build
         run: |
           export REACT_APP_BUILD=$GITHUB_SHA
