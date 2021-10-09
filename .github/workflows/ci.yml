@@ -80,8 +80,11 @@ jobs:
 
       - name: Build
         run: |
-          export REACT_APP_BUILD=$GITHUB_SHA
-          export REACT_APP_BUILD_URL=https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID
+          git config user.email "lmcjt@outlook.com"
+          git config user.name "Luke Taylor"
+
+          export REACT_APP_BUILD="$GITHUB_SHA"
+          export REACT_APP_BUILD_URL="https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
 
           npm run build
 
