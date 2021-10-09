@@ -1,4 +1,4 @@
-var content = [
+const content = [
   {
     type: 'tv_show',
     title: 'The Walking Dead',
