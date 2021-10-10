@@ -130,6 +130,10 @@ export const toggleFilter = (setShowFilters, showFilters) => {
   setShowFilters(!showFilters);
 };
 
+export const goTop = () => {
+  scroll.scrollToTop();
+};
+
 const App = ({ classes, testing = false, testType = null }) => {
   const [search, setSearch] = useState(false);
   const [content, setContent] = useState(data);
@@ -210,10 +214,6 @@ const App = ({ classes, testing = false, testType = null }) => {
 
   const toggleGrid = () => {
     setShowGrid(!showGrid);
-  };
-
-  const goTop = () => {
-    scroll.scrollToTop();
   };
 
   let mContent = content;

@@ -12,7 +12,8 @@ import {
   handleFilter,
   handleToggleChip,
   handleOrder,
-  toggleFilter
+  toggleFilter,
+  goTop
 } from '../App';
 import content from '../content';
 
@@ -290,13 +291,10 @@ it('calls toggleFilter correctly', () => {
   expect(setShowFiltersArg).toBeTruthy();
 });
 
-xit('calls goTop correctly', () => {
+it('calls goTop correctly', () => {
   scroll.scrollToTop = jest.fn();
 
-  const wrapper = shallow(<App />).dive();
-
-  wrapper.instance().goTop();
-
+  goTop();
   expect(scroll.scrollToTop).toHaveBeenCalledTimes(1);
 });
 
