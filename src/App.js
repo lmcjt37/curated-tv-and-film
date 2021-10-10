@@ -104,6 +104,24 @@ export const handleFilter = (
   }
 };
 
+export const handleToggleChip = (
+  chip,
+  filterGenre,
+  setFilterGenre,
+  setShowFilters
+) => {
+  let _filterGenre = filterGenre;
+
+  let index = _filterGenre.on.indexOf(chip);
+  if (index > -1) {
+    _filterGenre.on.splice(index, 1);
+  } else {
+    _filterGenre.on.push(chip);
+  }
+  setFilterGenre({ ..._filterGenre });
+  setShowFilters(true);
+};
+
 const App = ({ classes, testing = false, testType = null }) => {
   const [search, setSearch] = useState(false);
   const [content, setContent] = useState(data);
@@ -173,32 +191,9 @@ const App = ({ classes, testing = false, testType = null }) => {
       setOnlyMovies
     );
   };
-  // const handleFilter = event => {
-  //   setFilterResults(event.target.value);
-  //   setContent(data);
-  //   setYears([]);
-  //   setFilterYear('All');
 
-  //   if (event.target.value !== 'tv') {
-  //     let filteredMovies = content.filter(value => value.type === 'movie');
-  //     let onlyYears = new Set(filteredMovies.map(movie => movie.year));
-  //     setYears([...onlyYears].sort((a, b) => b - a));
-  //     setOnlyMovies(filteredMovies);
-  //   }
-  // };
-
-  const handleToggleChip = chip => {
-    let abc = filterGenre;
-    let _filterGenre = abc;
-
-    let index = _filterGenre.on.indexOf(chip);
-    if (index > -1) {
-      _filterGenre.on.splice(index, 1);
-    } else {
-      _filterGenre.on.push(chip);
-    }
-    setFilterGenre({ ..._filterGenre });
-    setShowFilters(true);
+  const callHandleToggleChip = chip => {
+    handleToggleChip(chip, filterGenre, setFilterGenre, setShowFilters);
   };
 
   const handleOrder = event => {
@@ -235,7 +230,7 @@ const App = ({ classes, testing = false, testType = null }) => {
         filterOrder={filterOrder}
         years={years}
         showFilters={showFilters}
-        handleToggleChip={handleToggleChip}
+        handleToggleChip={callHandleToggleChip}
         handleFilter={callHandleFilter}
         handleYear={callHandleYear}
         handleOrder={handleOrder}

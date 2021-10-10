@@ -6,7 +6,12 @@ import Card from '../components/card.js';
 import MultiCard from '../components/multiCard';
 import ErrorIcon from '@material-ui/icons/Error';
 import { animateScroll as scroll } from 'react-scroll';
-import { handleYear, handleChange, handleFilter } from '../App';
+import {
+  handleYear,
+  handleChange,
+  handleFilter,
+  handleToggleChip
+} from '../App';
 import content from '../content';
 
 it('render all initial child components', () => {
@@ -181,10 +186,8 @@ it('calls handleFilter correctly for Movies', () => {
   expect(mockSetOnlyMovies).toHaveBeenCalledTimes(1);
 });
 
-xit('calls handleToggleChip correctly', () => {
-  const wrapper = shallow(<App />).dive();
-
-  expect(wrapper.state('filterGenre')).toEqual({
+it('calls handleToggleChip correctly', () => {
+  const filterGenre = {
     available: [
       'Action',
       'Adventure',
@@ -203,14 +206,16 @@ xit('calls handleToggleChip correctly', () => {
       'Thriller'
     ],
     on: []
-  });
+  };
+  let setFilterGenreArg;
+  let setShowFiltersArg;
+  const mockSetFilterGenre = arg => (setFilterGenreArg = arg);
+  const mockSetShowFilters = arg => (setShowFiltersArg = arg);
 
-  let allContentLength = wrapper.state('content').length;
-  expect(allContentLength).toBeGreaterThan(1);
+  let chip = 'Action';
+  handleToggleChip(chip, filterGenre, mockSetFilterGenre, mockSetShowFilters);
 
-  wrapper.instance().handleToggleChip('Action');
-
-  expect(wrapper.state('filterGenre')).toEqual({
+  expect(setFilterGenreArg).toEqual({
     available: [
       'Action',
       'Adventure',
@@ -231,13 +236,10 @@ xit('calls handleToggleChip correctly', () => {
     on: ['Action']
   });
 
-  const cardCount = wrapper.find(Card).length + wrapper.find(MultiCard).length;
+  chip = 'Action';
+  handleToggleChip(chip, filterGenre, mockSetFilterGenre, mockSetShowFilters);
 
-  expect(cardCount).toBeLessThan(allContentLength);
-
-  wrapper.instance().handleToggleChip('Action');
-
-  expect(wrapper.state('filterGenre')).toEqual({
+  expect(setFilterGenreArg).toEqual({
     available: [
       'Action',
       'Adventure',
@@ -257,11 +259,7 @@ xit('calls handleToggleChip correctly', () => {
     ],
     on: []
   });
-
-  const cardCountTwo =
-    wrapper.find(Card).length + wrapper.find(MultiCard).length;
-
-  expect(cardCountTwo).toEqual(allContentLength);
+  expect(setShowFiltersArg).toEqual(true);
 });
 
 xit('calls handleOrder correctly', () => {
