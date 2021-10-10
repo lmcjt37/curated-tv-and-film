@@ -12,7 +12,6 @@ import {
   handleFilter,
   handleToggleChip,
   handleOrder,
-  toggleFilter,
   goTop
 } from '../App';
 import content from '../content';
@@ -270,22 +269,6 @@ it('calls handleOrder correctly', () => {
   event.target.value = 'Descending';
   handleOrder(event, mockSetFilterOrder);
   expect(setFilterOrderArg).toEqual('Descending');
-});
-
-it('calls toggleFilter correctly', () => {
-  let setShowFilters = jest.fn().mockImplementation(arg => {
-    expect(arg).toBeFalsy();
-  });
-  let showFilters = true;
-
-  toggleFilter(setShowFilters, showFilters);
-
-  setShowFilters = jest.fn().mockImplementation(arg => {
-    expect(arg).toBeTruthy();
-  });
-  showFilters = false;
-
-  toggleFilter(setShowFilters, showFilters);
 });
 
 it('calls goTop correctly', () => {

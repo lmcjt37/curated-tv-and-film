@@ -126,10 +126,6 @@ export const handleOrder = (event, setFilterOrder) => {
   setFilterOrder(event.target.value);
 };
 
-export const toggleFilter = (setShowFilters, showFilters) => {
-  setShowFilters(!showFilters);
-};
-
 export const goTop = () => {
   scroll.scrollToTop();
 };
@@ -212,6 +208,10 @@ const App = ({ classes, testing = false, testType = null }) => {
     handleOrder(event, setFilterOrder);
   };
 
+  const toggleFilter = () => {
+    setShowFilters(!showFilters);
+  };
+
   const toggleGrid = () => {
     setShowGrid(!showGrid);
   };
@@ -224,7 +224,7 @@ const App = ({ classes, testing = false, testType = null }) => {
         {...{ showFilters, search, autoComplete, showGrid }}
         handleChange={callHandleChange}
         goTop={goTop}
-        toggleFilter={() => toggleFilter(setShowFilters, showFilters)}
+        toggleFilter={toggleFilter}
         toggleGrid={toggleGrid}
       />
       <FilterBar
