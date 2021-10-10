@@ -205,6 +205,52 @@ const App = ({ classes }) => {
   };
 
   return (
+    <ChildApp
+      showFilters={showFilters}
+      search={search}
+      autoComplete={autoComplete}
+      showGrid={showGrid}
+      callHandleChange={callHandleChange}
+      goTop={goTop}
+      toggleFilter={toggleFilter}
+      toggleGrid={toggleGrid}
+      filterResults={filterResults}
+      filterYear={filterYear}
+      filterGenre={filterGenre}
+      filterOrder={filterOrder}
+      years={years}
+      callHandleToggleChip={callHandleToggleChip}
+      callHandleFilter={callHandleFilter}
+      callHandleYear={callHandleYear}
+      callHandleOrder={callHandleOrder}
+      classes={classes}
+      content={content}
+    />
+  );
+};
+
+export const ChildApp = ({
+  showFilters,
+  search,
+  autoComplete,
+  showGrid,
+  callHandleChange,
+  goTop,
+  toggleFilter,
+  toggleGrid,
+  filterResults,
+  filterYear,
+  filterGenre,
+  filterOrder,
+  years,
+  callHandleToggleChip,
+  callHandleFilter,
+  callHandleYear,
+  callHandleOrder,
+  classes,
+  content
+}) => {
+  return (
     <div>
       <Header
         {...{ showFilters, search, autoComplete, showGrid }}
