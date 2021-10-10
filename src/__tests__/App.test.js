@@ -76,22 +76,26 @@ it('calls handleChange correctly', () => {
 
 it('calls handleYear correctly', () => {
   let onlyMovies = content.filter(value => value.type === 'movie');
-  let setContentArg;
-  let setFilterArg;
-  const mockSetContent = arg => (setContentArg = arg.length);
-  const mockSetFilterYear = arg => (setFilterArg = arg);
+  let allContentLength;
 
+  let setFilterYear = jest.fn();
+  let setContent = jest.fn().mockImplementation(arg => {
+    allContentLength = arg.length;
+    expect(allContentLength).toBeGreaterThan(1);
+  });
   const event = { target: { value: 'All' } };
-  handleYear(event, onlyMovies, mockSetFilterYear, mockSetContent);
-  let allContentLength = setContentArg;
 
-  expect(allContentLength).toBeGreaterThan(1);
+  handleYear(event, onlyMovies, setFilterYear, setContent);
 
+  setContent = jest.fn().mockImplementation(arg => {
+    expect(arg.length).toBeLessThan(allContentLength);
+  });
+  setFilterYear = jest.fn().mockImplementation(arg => {
+    expect(arg).toEqual(event.target.value);
+  });
   event.target.value = '2003';
-  handleYear(event, onlyMovies, mockSetFilterYear, mockSetContent);
 
-  expect(setContentArg).toBeLessThan(allContentLength);
-  expect(setFilterArg).toEqual(event.target.value);
+  handleYear(event, onlyMovies, setFilterYear, setContent);
 });
 
 it('calls handleFilter correctly for TV', () => {
