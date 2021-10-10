@@ -6,7 +6,7 @@ import Card from '../components/card.js';
 import MultiCard from '../components/multiCard';
 import ErrorIcon from '@material-ui/icons/Error';
 import { animateScroll as scroll } from 'react-scroll';
-import { handleYear, handleChange } from '../App';
+import { handleYear, handleChange, handleFilter } from '../App';
 import content from '../content';
 
 it('render all initial child components', () => {
@@ -86,54 +86,80 @@ it('calls handleYear correctly', () => {
   expect(setFilterArg).toEqual(event.target.value);
 });
 
-xit('calls handleFilter correctly for TV', () => {
-  const wrapper = mount(<App testing={true} testType="handleYear" />);
+it('calls handleFilter correctly for TV', () => {
+  let data = content;
+  let setFilterResultsArg;
+  let setContentArg;
+  let setYearsArg;
+  let setFilterYearArg;
+  const mockSetFilterResults = arg => (setFilterResultsArg = arg);
+  const mockSetContent = arg => (setContentArg = arg);
+  const mockSetYears = arg => (setYearsArg = arg);
+  const mockSetFilterYear = arg => (setFilterYearArg = arg);
+  const mockSetOnlyMovies = jest.fn();
 
-  expect(wrapper.find('input[label="Movies"]').props().value).toBe('All');
-  // console.log(wrapper.find('.te'));
+  const event = { target: { value: 'all' } };
+  handleFilter(
+    event,
+    data,
+    content,
+    mockSetFilterResults,
+    mockSetContent,
+    mockSetYears,
+    mockSetFilterYear,
+    mockSetOnlyMovies
+  );
 
-  // const wrapper = shallow(<App />).dive();
+  expect(setContentArg.length).toBeGreaterThan(1);
+  expect(setFilterResultsArg).toEqual('all');
+  expect(setFilterYearArg).toEqual('All');
+  expect(setYearsArg.length).toBeGreaterThan(0);
 
-  // const allContentLength = wrapper.state('content').length;
+  event.target.value = 'tv';
+  handleFilter(
+    event,
+    data,
+    content,
+    mockSetFilterResults,
+    mockSetContent,
+    mockSetYears,
+    mockSetFilterYear,
+    mockSetOnlyMovies
+  );
 
-  // expect(allContentLength).toBeGreaterThan(1);
-  // expect(wrapper.state('filterResults')).toEqual('all');
-  // expect(wrapper.state('years')).toEqual([]);
-  // expect(wrapper.state('filterYear')).toEqual('All');
-
-  // wrapper.instance().handleFilter({
-  //   target: {
-  //     value: 'tv'
-  //   }
-  // });
-
-  // expect(wrapper.state('filterResults')).toEqual('tv');
-  // expect(wrapper.state('years')).toEqual([]);
-  // expect(wrapper.state('filterYear')).toEqual('All');
-
-  // const cardCount = wrapper.find(Card).length + wrapper.find(MultiCard).length;
-
-  // expect(cardCount).toBeLessThan(allContentLength);
+  expect(setFilterResultsArg).toEqual('tv');
+  expect(setYearsArg).toEqual([]);
+  expect(setFilterYearArg).toEqual('All');
+  expect(mockSetOnlyMovies).toHaveBeenCalledTimes(1);
 });
 
-xit('calls handleFilter correctly for Movies', () => {
-  const wrapper = shallow(<App />).dive();
+it('calls handleFilter correctly for Movies', () => {
+  let data = content;
+  let setFilterResultsArg;
+  let setContentArg;
+  let setYearsArg;
+  let setFilterYearArg;
+  const mockSetFilterResults = arg => (setFilterResultsArg = arg);
+  const mockSetContent = arg => (setContentArg = arg);
+  const mockSetYears = arg => (setYearsArg = arg);
+  const mockSetFilterYear = arg => (setFilterYearArg = arg);
+  const mockSetOnlyMovies = jest.fn();
 
-  const allContentLength = wrapper.state('content').length;
+  const event = { target: { value: 'movies' } };
+  handleFilter(
+    event,
+    data,
+    content,
+    mockSetFilterResults,
+    mockSetContent,
+    mockSetYears,
+    mockSetFilterYear,
+    mockSetOnlyMovies
+  );
 
-  expect(allContentLength).toBeGreaterThan(1);
-  expect(wrapper.state('filterResults')).toEqual('all');
-  expect(wrapper.state('years')).toEqual([]);
-  expect(wrapper.state('filterYear')).toEqual('All');
-
-  wrapper.instance().handleFilter({
-    target: {
-      value: 'movies'
-    }
-  });
-
-  expect(wrapper.state('filterResults')).toEqual('movies');
-  expect(wrapper.state('years')).toEqual([
+  expect(setContentArg.length).toBeGreaterThan(1);
+  expect(setFilterResultsArg).toEqual('movies');
+  expect(setYearsArg).toEqual([
     2019,
     2017,
     2016,
@@ -151,11 +177,8 @@ xit('calls handleFilter correctly for Movies', () => {
     1993,
     1972
   ]);
-  expect(wrapper.state('filterYear')).toEqual('All');
-
-  const cardCount = wrapper.find(Card).length + wrapper.find(MultiCard).length;
-
-  expect(cardCount).toBeLessThan(allContentLength);
+  expect(setFilterYearArg).toEqual('All');
+  expect(mockSetOnlyMovies).toHaveBeenCalledTimes(1);
 });
 
 xit('calls handleToggleChip correctly', () => {

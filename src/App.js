@@ -81,6 +81,29 @@ export const handleChange = (
   }
 };
 
+export const handleFilter = (
+  event,
+  data,
+  content,
+  setFilterResults,
+  setContent,
+  setYears,
+  setFilterYear,
+  setOnlyMovies
+) => {
+  setFilterResults(event.target.value);
+  setContent(data);
+  setYears([]);
+  setFilterYear('All');
+
+  if (event.target.value !== 'tv') {
+    let filteredMovies = content.filter(value => value.type === 'movie');
+    let onlyYears = new Set(filteredMovies.map(movie => movie.year));
+    setYears([...onlyYears].sort((a, b) => b - a));
+    setOnlyMovies(filteredMovies);
+  }
+};
+
 const App = ({ classes, testing = false, testType = null }) => {
   const [search, setSearch] = useState(false);
   const [content, setContent] = useState(data);
@@ -138,19 +161,31 @@ const App = ({ classes, testing = false, testType = null }) => {
     handleYear(event, onlyMovies, setFilterYear, setContent);
   };
 
-  const handleFilter = event => {
-    setFilterResults(event.target.value);
-    setContent(data);
-    setYears([]);
-    setFilterYear('All');
-
-    if (event.target.value !== 'tv') {
-      let filteredMovies = content.filter(value => value.type === 'movie');
-      let onlyYears = new Set(filteredMovies.map(movie => movie.year));
-      setYears([...onlyYears].sort((a, b) => b - a));
-      setOnlyMovies(filteredMovies);
-    }
+  const callHandleFilter = event => {
+    handleFilter(
+      event,
+      data,
+      content,
+      setFilterResults,
+      setContent,
+      setYears,
+      setFilterYear,
+      setOnlyMovies
+    );
   };
+  // const handleFilter = event => {
+  //   setFilterResults(event.target.value);
+  //   setContent(data);
+  //   setYears([]);
+  //   setFilterYear('All');
+
+  //   if (event.target.value !== 'tv') {
+  //     let filteredMovies = content.filter(value => value.type === 'movie');
+  //     let onlyYears = new Set(filteredMovies.map(movie => movie.year));
+  //     setYears([...onlyYears].sort((a, b) => b - a));
+  //     setOnlyMovies(filteredMovies);
+  //   }
+  // };
 
   const handleToggleChip = chip => {
     let abc = filterGenre;
@@ -201,7 +236,7 @@ const App = ({ classes, testing = false, testType = null }) => {
         years={years}
         showFilters={showFilters}
         handleToggleChip={handleToggleChip}
-        handleFilter={handleFilter}
+        handleFilter={callHandleFilter}
         handleYear={callHandleYear}
         handleOrder={handleOrder}
       />
