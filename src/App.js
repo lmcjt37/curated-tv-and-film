@@ -46,6 +46,41 @@ export const handleYear = (event, onlyMovies, setFilterYear, setContent) => {
   setContent(moviesFilteredByYear);
 };
 
+export const handleChange = (
+  event,
+  data,
+  setAutoComplete,
+  setSearch,
+  setContent
+) => {
+  let searchString = event.target.value.trim().toLowerCase();
+
+  if (searchString) {
+    let searchResult = data.filter(
+      el =>
+        el.title.toLowerCase().match(searchString) ||
+        (el.year && el.year.toString().match(searchString))
+    );
+
+    setAutoComplete(
+      data
+        .map(el =>
+          el.title.toLowerCase().match(searchString)
+            ? { label: el.title }
+            : null
+        )
+        .filter(item => item !== null)
+    );
+
+    setSearch(true);
+    setContent(searchResult);
+  } else {
+    setSearch(false);
+    setContent(data);
+    setAutoComplete([]);
+  }
+};
+
 const App = ({ classes, testing = false, testType = null }) => {
   const [search, setSearch] = useState(false);
   const [content, setContent] = useState(data);
@@ -95,33 +130,8 @@ const App = ({ classes, testing = false, testType = null }) => {
     Events.scrollEvent.register('end', () => {});
   }, [testing, testType]);
 
-  const handleChange = event => {
-    let searchString = event.target.value.trim().toLowerCase();
-
-    if (searchString) {
-      let searchResult = data.filter(
-        el =>
-          el.title.toLowerCase().match(searchString) ||
-          (el.year && el.year.toString().match(searchString))
-      );
-
-      setAutoComplete(
-        data
-          .map(el =>
-            el.title.toLowerCase().match(searchString)
-              ? { label: el.title }
-              : null
-          )
-          .filter(item => item !== null)
-      );
-
-      setSearch(true);
-      setContent(searchResult);
-    } else {
-      setSearch(false);
-      setContent(data);
-      setAutoComplete([]);
-    }
+  const callHandleChange = event => {
+    handleChange(event, data, setAutoComplete, setSearch, setContent);
   };
 
   const callHandleYear = event => {
@@ -178,7 +188,7 @@ const App = ({ classes, testing = false, testType = null }) => {
     <div>
       <Header
         {...{ showFilters, search, autoComplete, showGrid }}
-        handleChange={handleChange}
+        handleChange={callHandleChange}
         goTop={goTop}
         toggleFilter={toggleFilter}
         toggleGrid={toggleGrid}

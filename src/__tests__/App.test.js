@@ -6,7 +6,7 @@ import Card from '../components/card.js';
 import MultiCard from '../components/multiCard';
 import ErrorIcon from '@material-ui/icons/Error';
 import { animateScroll as scroll } from 'react-scroll';
-import { handleYear } from '../App';
+import { handleYear, handleChange } from '../App';
 import content from '../content';
 
 it('render all initial child components', () => {
@@ -42,22 +42,28 @@ it("renders error component when it can't load the data", () => {
   expect(wrapper.find('.test-no-data').text()).toEqual("Can't load the data.");
 });
 
-xit('calls handleChange correctly', () => {
-  const wrapper = shallow(<App />).dive();
+it('calls handleChange correctly', () => {
+  const data = content;
+  let setAutoCompleteArg;
+  let setSearchArg;
+  let setContentArg;
+  const mockSetAutoComplete = arg => (setAutoCompleteArg = arg);
+  const mockSetSearch = arg => (setSearchArg = arg);
+  const mockSetContent = arg => (setContentArg = arg);
 
-  expect(wrapper.state('search')).toBeFalsy();
-  expect(wrapper.state('autoComplete')).toEqual([]);
-  expect(wrapper.state('content').length).toBeGreaterThan(1);
+  const event = { target: { value: '' } };
+  handleChange(event, data, mockSetAutoComplete, mockSetSearch, mockSetContent);
 
-  wrapper.instance().handleChange({
-    target: {
-      value: 'neverToEqualATitle123'
-    }
-  });
+  expect(setSearchArg).toBeFalsy();
+  expect(setAutoCompleteArg).toEqual([]);
+  expect(setContentArg.length).toBeGreaterThan(1);
 
-  expect(wrapper.state('search')).toBeTruthy();
-  expect(wrapper.state('autoComplete')).toEqual([]);
-  expect(wrapper.state('content').length).toEqual(0);
+  event.target.value = 'neverToEqualATitle123';
+  handleChange(event, data, mockSetAutoComplete, mockSetSearch, mockSetContent);
+
+  expect(setSearchArg).toBeTruthy();
+  expect(setAutoCompleteArg).toEqual([]);
+  expect(setContentArg.length).toEqual(0);
 });
 
 it('calls handleYear correctly', () => {
