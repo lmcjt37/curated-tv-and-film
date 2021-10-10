@@ -11,7 +11,8 @@ import {
   handleChange,
   handleFilter,
   handleToggleChip,
-  handleOrder
+  handleOrder,
+  toggleFilter
 } from '../App';
 import content from '../content';
 
@@ -276,14 +277,17 @@ it('calls handleOrder correctly', () => {
   expect(setFilterOrderArg).toEqual('Descending');
 });
 
-xit('calls toggleFilter correctly', () => {
-  const wrapper = shallow(<App />).dive();
+it('calls toggleFilter correctly', () => {
+  let setShowFiltersArg;
+  const setShowFilters = arg => (setShowFiltersArg = arg);
 
-  expect(wrapper.state('showFilters')).toBeFalsy();
+  let showFilters = true;
+  toggleFilter(setShowFilters, showFilters);
+  expect(setShowFiltersArg).toBeFalsy();
 
-  wrapper.instance().toggleFilter();
-
-  expect(wrapper.state('showFilters')).toBeTruthy();
+  showFilters = false;
+  toggleFilter(setShowFilters, showFilters);
+  expect(setShowFiltersArg).toBeTruthy();
 });
 
 xit('calls goTop correctly', () => {

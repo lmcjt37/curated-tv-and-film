@@ -126,6 +126,10 @@ export const handleOrder = (event, setFilterOrder) => {
   setFilterOrder(event.target.value);
 };
 
+export const toggleFilter = (setShowFilters, showFilters) => {
+  setShowFilters(!showFilters);
+};
+
 const App = ({ classes, testing = false, testType = null }) => {
   const [search, setSearch] = useState(false);
   const [content, setContent] = useState(data);
@@ -204,10 +208,6 @@ const App = ({ classes, testing = false, testType = null }) => {
     handleOrder(event, setFilterOrder);
   };
 
-  const toggleFilter = () => {
-    setShowFilters(!showFilters);
-  };
-
   const toggleGrid = () => {
     setShowGrid(!showGrid);
   };
@@ -224,7 +224,7 @@ const App = ({ classes, testing = false, testType = null }) => {
         {...{ showFilters, search, autoComplete, showGrid }}
         handleChange={callHandleChange}
         goTop={goTop}
-        toggleFilter={toggleFilter}
+        toggleFilter={() => toggleFilter(setShowFilters, showFilters)}
         toggleGrid={toggleGrid}
       />
       <FilterBar
