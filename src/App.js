@@ -130,7 +130,7 @@ export const goTop = () => {
   scroll.scrollToTop();
 };
 
-const App = ({ classes, testing = false, testType = null }) => {
+const App = ({ classes }) => {
   const [search, setSearch] = useState(false);
   const [content, setContent] = useState(data);
   const [showFilters, setShowFilters] = useState(false);
@@ -163,21 +163,9 @@ const App = ({ classes, testing = false, testType = null }) => {
   const [autoComplete, setAutoComplete] = useState([]);
 
   useEffect(() => {
-    //testing code
-    if (testing === true) {
-      if (testType === 'no data') {
-        setContent([]); // testing - 'can't load the data'
-      }
-      if (testType === 'handleYear') {
-        setShowFilters(true);
-        setFilterResults('movies');
-      }
-    }
-
-    //end of testing code
     Events.scrollEvent.register('begin', () => {});
     Events.scrollEvent.register('end', () => {});
-  }, [testing, testType]);
+  }, []);
 
   const callHandleChange = event => {
     handleChange(event, data, setAutoComplete, setSearch, setContent);
@@ -307,16 +295,12 @@ const App = ({ classes, testing = false, testType = null }) => {
         ) : search ? (
           <div className={classes.error}>
             <ErrorIcon fontSize="large" />
-            <p className={testing ? 'test-no-result' : null}>
-              No search result.
-            </p>
+            <p>No search result.</p>
           </div>
         ) : (
           <div className={classes.error}>
             <ErrorIcon fontSize="large" />
-            <p className={testing ? 'test-no-data' : null}>
-              Can't load the data.
-            </p>
+            <p>Can't load the data.</p>
           </div>
         )}
       </main>

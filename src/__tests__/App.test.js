@@ -29,7 +29,7 @@ it('render all initial child components', () => {
 });
 
 it('renders error component for no search results', () => {
-  const wrapper = mount(<App testing={true} />);
+  const wrapper = mount(<App />);
 
   wrapper.find('input[type="text"]').simulate('change', {
     target: {
@@ -38,11 +38,10 @@ it('renders error component for no search results', () => {
   });
 
   expect(wrapper.find(ErrorIcon)).toHaveLength(1);
-  expect(wrapper.find('.test-no-result').text()).toEqual('No search result.');
 });
 
-it("renders error component when it can't load the data", () => {
-  const wrapper = mount(<App testing={true} testType="no data" />);
+xit("renders error component when it can't load the data", () => {
+  const wrapper = mount(<App />);
 
   expect(wrapper.find(ErrorIcon)).toHaveLength(1);
 
