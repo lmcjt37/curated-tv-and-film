@@ -4,7 +4,7 @@ import { Events, animateScroll as scroll } from 'react-scroll';
 
 // Components
 import './App.css';
-import content from './content.js';
+import data from './content.js';
 import Header from './components/header.js';
 import Footer from './components/footer.js';
 import FilterBar from './components/filterBar.js';
@@ -19,8 +19,6 @@ import Grid from '@material-ui/core/Grid';
 import ErrorIcon from '@material-ui/icons/Error';
 import { withStyles } from '@material-ui/core/styles';
 
-let data = content;
-
 const styles = theme => ({
   content: {
     marginTop: `${theme.spacing(2) + 54}px`,
@@ -34,6 +32,19 @@ const styles = theme => ({
     margin: '200px auto'
   }
 });
+
+// helper functions
+export const handleYear = (event, onlyMovies, setFilterYear, setContent) => {
+  let year = event.target.value;
+  let moviesFilteredByYear = onlyMovies;
+  if (year !== 'All') {
+    moviesFilteredByYear = onlyMovies.filter(
+      movie => movie.year.toString() === year.toString()
+    );
+  }
+  setFilterYear(year);
+  setContent(moviesFilteredByYear);
+};
 
 const App = ({ classes, testing = false, testType = null }) => {
   const [search, setSearch] = useState(false);
@@ -80,13 +91,8 @@ const App = ({ classes, testing = false, testType = null }) => {
     }
 
     //end of testing code
-    Events.scrollEvent.register('begin', function() {
-      console.log('begin', arguments);
-    });
-
-    Events.scrollEvent.register('end', function() {
-      console.log('end', arguments);
-    });
+    Events.scrollEvent.register('begin', () => {});
+    Events.scrollEvent.register('end', () => {});
   }, [testing, testType]);
 
   const handleChange = event => {
@@ -118,16 +124,8 @@ const App = ({ classes, testing = false, testType = null }) => {
     }
   };
 
-  const handleYear = event => {
-    let year = event.target.value;
-    let moviesFilteredByYear = onlyMovies;
-    if (year !== 'All') {
-      moviesFilteredByYear = onlyMovies.filter(
-        movie => movie.year.toString() === year.toString()
-      );
-    }
-    setFilterYear(year);
-    setContent(moviesFilteredByYear);
+  const callHandleYear = event => {
+    handleYear(event, onlyMovies, setFilterYear, setContent);
   };
 
   const handleFilter = event => {
@@ -194,7 +192,7 @@ const App = ({ classes, testing = false, testType = null }) => {
         showFilters={showFilters}
         handleToggleChip={handleToggleChip}
         handleFilter={handleFilter}
-        handleYear={handleYear}
+        handleYear={callHandleYear}
         handleOrder={handleOrder}
       />
       <main className={classes.content}>

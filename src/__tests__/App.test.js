@@ -5,8 +5,9 @@ import FilterBar from '../components/filterBar.js';
 import Card from '../components/card.js';
 import MultiCard from '../components/multiCard';
 import ErrorIcon from '@material-ui/icons/Error';
-
 import { animateScroll as scroll } from 'react-scroll';
+import { handleYear } from '../App';
+import content from '../content';
 
 it('render all initial child components', () => {
   const wrapper = mount(<App />);
@@ -59,57 +60,54 @@ xit('calls handleChange correctly', () => {
   expect(wrapper.state('content').length).toEqual(0);
 });
 
-xit('calls handleYear correctly', () => {
-  const wrapper = mount(<App testing={true} testType="handleYear" />);
+it('calls handleYear correctly', () => {
+  let onlyMovies = content.filter(value => value.type === 'movie');
+  let setContentArg;
+  let setFilterArg;
+  const mockSetContent = arg => (setContentArg = arg.length);
+  const mockSetFilterYear = arg => (setFilterArg = arg);
 
-  expect(wrapper.find('input[id="filterYear"]').props().value).toBe('All');
+  const event = { target: { value: 'All' } };
+  handleYear(event, onlyMovies, mockSetFilterYear, mockSetContent);
+  let allContentLength = setContentArg;
 
-  wrapper
-    .find('input[id="filterYear"]')
-    .simulate('change', { target: { value: '2016' } }); // doesnt work for some reason
+  expect(allContentLength).toBeGreaterThan(1);
 
-  expect(wrapper.find('input[id="filterYear"]').props().value).toBe('2016');
+  event.target.value = '2003';
+  handleYear(event, onlyMovies, mockSetFilterYear, mockSetContent);
 
-  // const wrapper = shallow(<App />).dive();
-
-  // expect(wrapper.state('filterYear')).toEqual('All');
-
-  // let allContentLength = wrapper.state('content').length;
-  // expect(allContentLength).toBeGreaterThan(1);
-
-  // wrapper.instance().handleYear({
-  //   target: {
-  //     value: '2018'
-  //   }
-  // });
-
-  // expect(wrapper.state('filterYear')).toEqual('2018');
-  // expect(wrapper.state('content').length).toBeLessThan(allContentLength);
+  expect(setContentArg).toBeLessThan(allContentLength);
+  expect(setFilterArg).toEqual(event.target.value);
 });
 
 xit('calls handleFilter correctly for TV', () => {
-  const wrapper = shallow(<App />).dive();
+  const wrapper = mount(<App testing={true} testType="handleYear" />);
 
-  const allContentLength = wrapper.state('content').length;
+  expect(wrapper.find('input[label="Movies"]').props().value).toBe('All');
+  // console.log(wrapper.find('.te'));
 
-  expect(allContentLength).toBeGreaterThan(1);
-  expect(wrapper.state('filterResults')).toEqual('all');
-  expect(wrapper.state('years')).toEqual([]);
-  expect(wrapper.state('filterYear')).toEqual('All');
+  // const wrapper = shallow(<App />).dive();
 
-  wrapper.instance().handleFilter({
-    target: {
-      value: 'tv'
-    }
-  });
+  // const allContentLength = wrapper.state('content').length;
 
-  expect(wrapper.state('filterResults')).toEqual('tv');
-  expect(wrapper.state('years')).toEqual([]);
-  expect(wrapper.state('filterYear')).toEqual('All');
+  // expect(allContentLength).toBeGreaterThan(1);
+  // expect(wrapper.state('filterResults')).toEqual('all');
+  // expect(wrapper.state('years')).toEqual([]);
+  // expect(wrapper.state('filterYear')).toEqual('All');
 
-  const cardCount = wrapper.find(Card).length + wrapper.find(MultiCard).length;
+  // wrapper.instance().handleFilter({
+  //   target: {
+  //     value: 'tv'
+  //   }
+  // });
 
-  expect(cardCount).toBeLessThan(allContentLength);
+  // expect(wrapper.state('filterResults')).toEqual('tv');
+  // expect(wrapper.state('years')).toEqual([]);
+  // expect(wrapper.state('filterYear')).toEqual('All');
+
+  // const cardCount = wrapper.find(Card).length + wrapper.find(MultiCard).length;
+
+  // expect(cardCount).toBeLessThan(allContentLength);
 });
 
 xit('calls handleFilter correctly for Movies', () => {
