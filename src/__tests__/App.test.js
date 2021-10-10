@@ -10,7 +10,8 @@ import {
   handleYear,
   handleChange,
   handleFilter,
-  handleToggleChip
+  handleToggleChip,
+  handleOrder
 } from '../App';
 import content from '../content';
 
@@ -262,25 +263,17 @@ it('calls handleToggleChip correctly', () => {
   expect(setShowFiltersArg).toEqual(true);
 });
 
-xit('calls handleOrder correctly', () => {
-  const wrapper = shallow(<App />).dive();
+it('calls handleOrder correctly', () => {
+  let setFilterOrderArg;
+  const mockSetFilterOrder = arg => (setFilterOrderArg = arg);
 
-  expect(wrapper.state('filterOrder')).toEqual('Ascending');
+  const event = { target: { value: 'Ascending' } };
+  handleOrder(event, mockSetFilterOrder);
+  expect(setFilterOrderArg).toEqual('Ascending');
 
-  let allContentLength = wrapper.state('content').length;
-  expect(allContentLength).toBeGreaterThan(1);
-
-  wrapper.instance().handleOrder({
-    target: {
-      value: 'Descending'
-    }
-  });
-
-  expect(wrapper.state('filterOrder')).toEqual('Descending');
-
-  const cardCount = wrapper.find(Card).length + wrapper.find(MultiCard).length;
-
-  expect(cardCount).toEqual(allContentLength);
+  event.target.value = 'Descending';
+  handleOrder(event, mockSetFilterOrder);
+  expect(setFilterOrderArg).toEqual('Descending');
 });
 
 xit('calls toggleFilter correctly', () => {

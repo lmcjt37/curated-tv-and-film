@@ -122,6 +122,10 @@ export const handleToggleChip = (
   setShowFilters(true);
 };
 
+export const handleOrder = (event, setFilterOrder) => {
+  setFilterOrder(event.target.value);
+};
+
 const App = ({ classes, testing = false, testType = null }) => {
   const [search, setSearch] = useState(false);
   const [content, setContent] = useState(data);
@@ -196,8 +200,8 @@ const App = ({ classes, testing = false, testType = null }) => {
     handleToggleChip(chip, filterGenre, setFilterGenre, setShowFilters);
   };
 
-  const handleOrder = event => {
-    setFilterOrder(event.target.value);
+  const callHandleOrder = event => {
+    handleOrder(event, setFilterOrder);
   };
 
   const toggleFilter = () => {
@@ -233,7 +237,7 @@ const App = ({ classes, testing = false, testType = null }) => {
         handleToggleChip={callHandleToggleChip}
         handleFilter={callHandleFilter}
         handleYear={callHandleYear}
-        handleOrder={handleOrder}
+        handleOrder={callHandleOrder}
       />
       <main className={classes.content}>
         {mContent.length ? (
