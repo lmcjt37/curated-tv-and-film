@@ -245,7 +245,7 @@ const App = ({ classes, testing = false, testType = null }) => {
             {filterOrder === 'Ascending' &&
               //sort alphabetically ascending
               mContent
-                .sort(function(a, b) {
+                .sort((a, b) => {
                   let titleA = a.title.toLowerCase(),
                     titleB = b.title.toLowerCase();
                   if (titleA < titleB) return -1;
@@ -259,7 +259,7 @@ const App = ({ classes, testing = false, testType = null }) => {
             {filterOrder === 'Descending' &&
               //sort alphabetically descending
               mContent
-                .sort(function(a, b) {
+                .sort((a, b) => {
                   let titleA = a.title.toLowerCase(),
                     titleB = b.title.toLowerCase();
                   if (titleA > titleB) return -1;

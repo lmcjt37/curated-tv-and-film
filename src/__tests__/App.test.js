@@ -283,16 +283,19 @@ it('calls handleOrder correctly', () => {
 });
 
 it('calls toggleFilter correctly', () => {
-  let setShowFiltersArg;
-  const setShowFilters = arg => (setShowFiltersArg = arg);
-
+  let setShowFilters = jest.fn().mockImplementation(arg => {
+    expect(arg).toBeFalsy();
+  });
   let showFilters = true;
-  toggleFilter(setShowFilters, showFilters);
-  expect(setShowFiltersArg).toBeFalsy();
 
-  showFilters = false;
   toggleFilter(setShowFilters, showFilters);
-  expect(setShowFiltersArg).toBeTruthy();
+
+  setShowFilters = jest.fn().mockImplementation(arg => {
+    expect(arg).toBeTruthy();
+  });
+  showFilters = false;
+
+  toggleFilter(setShowFilters, showFilters);
 });
 
 it('calls goTop correctly', () => {
