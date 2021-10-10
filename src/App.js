@@ -204,8 +204,6 @@ const App = ({ classes }) => {
     setShowGrid(!showGrid);
   };
 
-  let mContent = content;
-
   return (
     <div>
       <Header
@@ -228,11 +226,11 @@ const App = ({ classes }) => {
         handleOrder={callHandleOrder}
       />
       <main className={classes.content}>
-        {mContent.length ? (
+        {content.length ? (
           <Grid container spacing={1}>
             {filterOrder === 'Ascending' &&
               //sort alphabetically ascending
-              mContent
+              content
                 .sort((a, b) => {
                   let titleA = a.title.toLowerCase(),
                     titleB = b.title.toLowerCase();
@@ -246,7 +244,7 @@ const App = ({ classes }) => {
 
             {filterOrder === 'Descending' &&
               //sort alphabetically descending
-              mContent
+              content
                 .sort((a, b) => {
                   let titleA = a.title.toLowerCase(),
                     titleB = b.title.toLowerCase();
@@ -258,7 +256,7 @@ const App = ({ classes }) => {
                   return '';
                 })}
 
-            {mContent.map((item, index) => {
+            {content.map((item, index) => {
               if (filterResults === 'movies' && item.type !== 'movie')
                 return null;
               if (filterResults === 'tv' && item.type !== 'tv_show')
