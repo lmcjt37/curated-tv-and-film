@@ -1,4 +1,5 @@
 import App from '../App';
+import { ChildApp } from '../App';
 import Header from '../components/header.js';
 import Footer from '../components/footer.js';
 import FilterBar from '../components/filterBar.js';
@@ -40,12 +41,73 @@ it('renders error component for no search results', () => {
   expect(wrapper.find(ErrorIcon)).toHaveLength(1);
 });
 
-xit("renders error component when it can't load the data", () => {
-  const wrapper = mount(<App />);
+it("renders error component when it can't load the data", () => {
+  const callHandleToggleChip = jest.fn();
+  const callHandleFilter = jest.fn();
+  const callHandleYear = jest.fn();
+  const callHandleOrder = jest.fn();
+  const callHandleChange = jest.fn();
+  const goTop = jest.fn();
+  const toggleFilter = jest.fn();
+  const toggleGrid = jest.fn();
+
+  const classes = { content: '', error: 'test-error' };
+  const showFilters = false;
+  const search = false;
+  const autoComplete = [];
+  const showGrid = false;
+  const filterResults = 'all';
+  const filterYear = 'All';
+  const filterOrder = 'Ascending';
+  const years = [];
+  const content = [];
+  const filterGenre = {
+    available: [
+      'Action',
+      'Adventure',
+      'Animation',
+      'Biography',
+      'Comedy',
+      'Crime',
+      'Drama',
+      'Family',
+      'Fantasy',
+      'History',
+      'Horror',
+      'Mystery',
+      'Romance',
+      'Sci-Fi',
+      'Thriller'
+    ],
+    on: []
+  };
+
+  const wrapper = mount(
+    <ChildApp
+      showFilters={showFilters}
+      search={search}
+      autoComplete={autoComplete}
+      showGrid={showGrid}
+      callHandleChange={callHandleChange}
+      goTop={goTop}
+      toggleFilter={toggleFilter}
+      toggleGrid={toggleGrid}
+      filterResults={filterResults}
+      filterYear={filterYear}
+      filterGenre={filterGenre}
+      filterOrder={filterOrder}
+      years={years}
+      callHandleToggleChip={callHandleToggleChip}
+      callHandleFilter={callHandleFilter}
+      callHandleYear={callHandleYear}
+      callHandleOrder={callHandleOrder}
+      classes={classes}
+      content={content}
+    />
+  );
 
   expect(wrapper.find(ErrorIcon)).toHaveLength(1);
-
-  expect(wrapper.find('.test-no-data').text()).toEqual("Can't load the data.");
+  expect(wrapper.find('.test-error').text()).toEqual("Can't load the data.");
 });
 
 it('calls handleChange correctly', () => {
