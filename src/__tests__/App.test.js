@@ -1,5 +1,5 @@
-import App from '../App';
-import { ChildApp } from '../App';
+import ConnectedApp from '../App';
+import { App } from '../App';
 import Header from '../components/header.js';
 import Footer from '../components/footer.js';
 import FilterBar from '../components/filterBar.js';
@@ -18,7 +18,7 @@ import {
 import content from '../content';
 
 it('render all initial child components', () => {
-  const wrapper = mount(<App />);
+  const wrapper = mount(<ConnectedApp />);
 
   expect(wrapper.find(Header)).toHaveLength(1);
   expect(wrapper.find(FilterBar)).toHaveLength(1);
@@ -30,7 +30,7 @@ it('render all initial child components', () => {
 });
 
 it('renders error component for no search results', () => {
-  const wrapper = mount(<App />);
+  const wrapper = mount(<ConnectedApp />);
 
   wrapper.find('input[type="text"]').simulate('change', {
     target: {
@@ -83,7 +83,7 @@ it("renders error component when it can't load the data", () => {
   };
 
   const wrapper = mount(
-    <ChildApp
+    <App
       showFilters={showFilters}
       search={search}
       autoComplete={autoComplete}
@@ -340,6 +340,6 @@ it('calls goTop correctly', () => {
 });
 
 it('snapshot changes when input change', () => {
-  const component = render(<App />);
+  const component = render(<ConnectedApp />);
   expect(component).toMatchSnapshot();
 });

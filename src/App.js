@@ -130,7 +130,7 @@ export const goTop = () => {
   scroll.scrollToTop();
 };
 
-const App = ({ classes }) => {
+const ConnectedApp = ({ classes }) => {
   const [search, setSearch] = useState(false);
   const [content, setContent] = useState(data);
   const [showFilters, setShowFilters] = useState(false);
@@ -205,7 +205,7 @@ const App = ({ classes }) => {
   };
 
   return (
-    <ChildApp
+    <App
       showFilters={showFilters}
       search={search}
       autoComplete={autoComplete}
@@ -229,7 +229,7 @@ const App = ({ classes }) => {
   );
 };
 
-export const ChildApp = ({
+export const App = ({
   showFilters,
   search,
   autoComplete,
@@ -352,4 +352,4 @@ export const ChildApp = ({
     </div>
   );
 };
-export default withStyles(styles)(App);
+export default withStyles(styles)(ConnectedApp);
