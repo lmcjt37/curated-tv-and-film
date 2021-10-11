@@ -1,5 +1,3 @@
-import ConnectedApp from '../App';
-import { App } from '../App';
 import Header from '../components/header.js';
 import Footer from '../components/footer.js';
 import FilterBar from '../components/filterBar.js';
@@ -7,7 +5,8 @@ import Card from '../components/card.js';
 import MultiCard from '../components/multiCard';
 import ErrorIcon from '@material-ui/icons/Error';
 import { animateScroll as scroll } from 'react-scroll';
-import {
+import ConnectedApp, {
+  App,
   handleYear,
   handleChange,
   handleFilter,
@@ -111,7 +110,6 @@ it("renders error component when it can't load the data", () => {
 });
 
 it('calls handleChange correctly', () => {
-  const data = content;
   let setAutoCompleteArg;
   let setSearchArg;
   let setContentArg;
@@ -120,14 +118,26 @@ it('calls handleChange correctly', () => {
   const mockSetContent = arg => (setContentArg = arg);
 
   const event = { target: { value: '' } };
-  handleChange(event, data, mockSetAutoComplete, mockSetSearch, mockSetContent);
+  handleChange(
+    event,
+    content,
+    mockSetAutoComplete,
+    mockSetSearch,
+    mockSetContent
+  );
 
   expect(setSearchArg).toBeFalsy();
   expect(setAutoCompleteArg).toEqual([]);
   expect(setContentArg.length).toBeGreaterThan(1);
 
   event.target.value = 'neverToEqualATitle123';
-  handleChange(event, data, mockSetAutoComplete, mockSetSearch, mockSetContent);
+  handleChange(
+    event,
+    content,
+    mockSetAutoComplete,
+    mockSetSearch,
+    mockSetContent
+  );
 
   expect(setSearchArg).toBeTruthy();
   expect(setAutoCompleteArg).toEqual([]);
@@ -149,7 +159,6 @@ it('calls handleYear correctly', () => {
 });
 
 it('calls handleFilter correctly for TV', () => {
-  let data = content;
   let setFilterResultsArg;
   let setContentArg;
   let setYearsArg;
@@ -163,7 +172,7 @@ it('calls handleFilter correctly for TV', () => {
   const event = { target: { value: 'all' } };
   handleFilter(
     event,
-    data,
+    content,
     content,
     mockSetFilterResults,
     mockSetContent,
@@ -180,7 +189,7 @@ it('calls handleFilter correctly for TV', () => {
   event.target.value = 'tv';
   handleFilter(
     event,
-    data,
+    content,
     content,
     mockSetFilterResults,
     mockSetContent,
@@ -196,7 +205,6 @@ it('calls handleFilter correctly for TV', () => {
 });
 
 it('calls handleFilter correctly for Movies', () => {
-  let data = content;
   let setFilterResultsArg;
   let setContentArg;
   let setYearsArg;
@@ -210,7 +218,7 @@ it('calls handleFilter correctly for Movies', () => {
   const event = { target: { value: 'movies' } };
   handleFilter(
     event,
-    data,
+    content,
     content,
     mockSetFilterResults,
     mockSetContent,
