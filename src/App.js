@@ -1,10 +1,10 @@
 // React
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Events, animateScroll as scroll } from 'react-scroll';
 
 // Components
 import './App.css';
-import content from './content.js';
+import data from './content.js';
 import Header from './components/header.js';
 import Footer from './components/footer.js';
 import FilterBar from './components/filterBar.js';
@@ -18,8 +18,6 @@ import Grid from '@material-ui/core/Grid';
 // Material UI
 import ErrorIcon from '@material-ui/icons/Error';
 import { withStyles } from '@material-ui/core/styles';
-
-var data = content;
 
 const styles = theme => ({
   content: {
@@ -35,289 +33,323 @@ const styles = theme => ({
   }
 });
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      search: false,
-      content: data,
-      showFilters: false,
-      showGrid: false,
-      filterResults: 'all',
-      filterYear: 'All',
-      filterGenre: {
-        available: [
-          'Action',
-          'Adventure',
-          'Animation',
-          'Biography',
-          'Comedy',
-          'Crime',
-          'Drama',
-          'Family',
-          'Fantasy',
-          'History',
-          'Horror',
-          'Mystery',
-          'Romance',
-          'Sci-Fi',
-          'Thriller'
-        ],
-        on: []
-      },
-      filterOrder: 'Ascending',
-      onlyMovies: [],
-      years: [],
-      autoComplete: []
-    };
-
-    this.handleChange = this.handleChange.bind(this);
-    this.handleFilter = this.handleFilter.bind(this);
-    this.handleYear = this.handleYear.bind(this);
-    this.handleToggleChip = this.handleToggleChip.bind(this);
-    this.handleOrder = this.handleOrder.bind(this);
-    this.toggleFilter = this.toggleFilter.bind(this);
-    this.toggleGrid = this.toggleGrid.bind(this);
+// helper functions
+export const handleYear = (event, onlyMovies, setFilterYear, setContent) => {
+  let year = event.target.value;
+  let moviesFilteredByYear = onlyMovies;
+  if (year !== 'All') {
+    moviesFilteredByYear = onlyMovies.filter(
+      movie => movie.year.toString() === year.toString()
+    );
   }
+  setFilterYear(year);
+  setContent(moviesFilteredByYear);
+};
 
-  componentDidMount() {
-    Events.scrollEvent.register('begin', function() {
-      console.log('begin', arguments);
-    });
+export const handleChange = (
+  event,
+  data,
+  setAutoComplete,
+  setSearch,
+  setContent
+) => {
+  let searchString = event.target.value.trim().toLowerCase();
 
-    Events.scrollEvent.register('end', function() {
-      console.log('end', arguments);
-    });
-  }
+  if (searchString) {
+    let searchResult = data.filter(
+      el =>
+        el.title.toLowerCase().match(searchString) ||
+        (el.year && el.year.toString().match(searchString))
+    );
 
-  handleChange = event => {
-    var searchString = event.target.value.trim().toLowerCase();
-
-    if (searchString) {
-      var searchResult = data.filter(
-        el =>
-          el.title.toLowerCase().match(searchString) ||
-          (el.year && el.year.toString().match(searchString))
-      );
-
-      var autoComplete = [];
-      autoComplete = data
+    setAutoComplete(
+      data
         .map(el =>
           el.title.toLowerCase().match(searchString)
             ? { label: el.title }
             : null
         )
-        .filter(item => item !== null);
+        .filter(item => item !== null)
+    );
 
-      this.setState({
-        search: true,
-        content: searchResult,
-        autoComplete
-      });
-    } else {
-      this.setState({
-        search: false,
-        content: data,
-        autoComplete: []
-      });
-    }
+    setSearch(true);
+    setContent(searchResult);
+  } else {
+    setSearch(false);
+    setContent(data);
+    setAutoComplete([]);
+  }
+};
+
+export const handleFilter = (
+  event,
+  data,
+  content,
+  setFilterResults,
+  setContent,
+  setYears,
+  setFilterYear,
+  setOnlyMovies
+) => {
+  setFilterResults(event.target.value);
+  setContent(data);
+  setYears([]);
+  setFilterYear('All');
+
+  if (event.target.value !== 'tv') {
+    let filteredMovies = content.filter(value => value.type === 'movie');
+    let onlyYears = new Set(filteredMovies.map(movie => movie.year));
+    setYears([...onlyYears].sort((a, b) => b - a));
+    setOnlyMovies(filteredMovies);
+  }
+};
+
+export const handleToggleChip = (
+  chip,
+  filterGenre,
+  setFilterGenre,
+  setShowFilters
+) => {
+  let _filterGenre = filterGenre;
+
+  let index = _filterGenre.on.indexOf(chip);
+  if (index > -1) {
+    _filterGenre.on.splice(index, 1);
+  } else {
+    _filterGenre.on.push(chip);
+  }
+  setFilterGenre({ ..._filterGenre });
+  setShowFilters(true);
+};
+
+export const handleOrder = (event, setFilterOrder) => {
+  setFilterOrder(event.target.value);
+};
+
+export const goTop = () => {
+  scroll.scrollToTop();
+};
+
+const ConnectedApp = ({ classes }) => {
+  const [search, setSearch] = useState(false);
+  const [content, setContent] = useState(data);
+  const [showFilters, setShowFilters] = useState(false);
+  const [showGrid, setShowGrid] = useState(false);
+  const [filterResults, setFilterResults] = useState('all');
+  const [filterYear, setFilterYear] = useState('All');
+  const [filterGenre, setFilterGenre] = useState({
+    available: [
+      'Action',
+      'Adventure',
+      'Animation',
+      'Biography',
+      'Comedy',
+      'Crime',
+      'Drama',
+      'Family',
+      'Fantasy',
+      'History',
+      'Horror',
+      'Mystery',
+      'Romance',
+      'Sci-Fi',
+      'Thriller'
+    ],
+    on: []
+  });
+  const [filterOrder, setFilterOrder] = useState('Ascending');
+  const [onlyMovies, setOnlyMovies] = useState([]);
+  const [years, setYears] = useState([]);
+  const [autoComplete, setAutoComplete] = useState([]);
+
+  useEffect(() => {
+    Events.scrollEvent.register('begin', () => {});
+    Events.scrollEvent.register('end', () => {});
+  }, []);
+
+  const callHandleChange = event => {
+    handleChange(event, data, setAutoComplete, setSearch, setContent);
   };
 
-  handleYear = event => {
-    let year = event.target.value;
-    let moviesFilteredByYear = this.state.onlyMovies;
-    if (year !== 'All') {
-      moviesFilteredByYear = this.state.onlyMovies.filter(
-        movie => movie.year.toString() === year.toString()
-      );
-    }
-    this.setState({
-      filterYear: year,
-      content: moviesFilteredByYear
-    });
+  const callHandleYear = event => {
+    handleYear(event, onlyMovies, setFilterYear, setContent);
   };
 
-  handleFilter = event => {
-    this.setState({
-      filterResults: event.target.value,
-      content: data,
-      years: [],
-      filterYear: 'All'
-    });
-
-    if (event.target.value !== 'tv') {
-      let filteredMovies = this.state.content.filter(
-        value => value.type === 'movie'
-      );
-      let onlyYears = new Set(filteredMovies.map(movie => movie.year));
-      let years = [...onlyYears].sort((a, b) => b - a);
-
-      this.setState({
-        onlyMovies: filteredMovies,
-        years
-      });
-    }
+  const callHandleFilter = event => {
+    handleFilter(
+      event,
+      data,
+      content,
+      setFilterResults,
+      setContent,
+      setYears,
+      setFilterYear,
+      setOnlyMovies
+    );
   };
 
-  handleToggleChip = chip => {
-    const { filterGenre } = this.state;
-    let index = filterGenre.on.indexOf(chip);
-
-    if (index > -1) {
-      filterGenre.on.splice(index, 1);
-    } else {
-      filterGenre.on.push(chip);
-    }
-    this.setState({ filterGenre });
+  const callHandleToggleChip = chip => {
+    handleToggleChip(chip, filterGenre, setFilterGenre, setShowFilters);
   };
 
-  handleOrder = event => {
-    this.setState({ filterOrder: event.target.value });
+  const callHandleOrder = event => {
+    handleOrder(event, setFilterOrder);
   };
 
-  toggleFilter = () => {
-    this.setState({ showFilters: !this.state.showFilters });
+  const toggleFilter = () => {
+    setShowFilters(!showFilters);
   };
 
-  toggleGrid = () => {
-    this.setState({ showGrid: !this.state.showGrid });
+  const toggleGrid = () => {
+    setShowGrid(!showGrid);
   };
 
-  goTop = () => {
-    scroll.scrollToTop();
-  };
+  return (
+    <App
+      showFilters={showFilters}
+      search={search}
+      autoComplete={autoComplete}
+      showGrid={showGrid}
+      callHandleChange={callHandleChange}
+      goTop={goTop}
+      toggleFilter={toggleFilter}
+      toggleGrid={toggleGrid}
+      filterResults={filterResults}
+      filterYear={filterYear}
+      filterGenre={filterGenre}
+      filterOrder={filterOrder}
+      years={years}
+      callHandleToggleChip={callHandleToggleChip}
+      callHandleFilter={callHandleFilter}
+      callHandleYear={callHandleYear}
+      callHandleOrder={callHandleOrder}
+      classes={classes}
+      content={content}
+    />
+  );
+};
 
-  render() {
-    const {
-      showFilters,
-      showGrid,
-      search,
-      filterResults,
-      filterYear,
-      filterGenre,
-      filterOrder,
-      years,
-      autoComplete
-    } = this.state;
-    var mContent = this.state.content;
-    const { classes } = this.props;
+export const App = ({
+  showFilters,
+  search,
+  autoComplete,
+  showGrid,
+  callHandleChange,
+  goTop,
+  toggleFilter,
+  toggleGrid,
+  filterResults,
+  filterYear,
+  filterGenre,
+  filterOrder,
+  years,
+  callHandleToggleChip,
+  callHandleFilter,
+  callHandleYear,
+  callHandleOrder,
+  classes,
+  content
+}) => {
+  return (
+    <div>
+      <Header
+        {...{ showFilters, search, autoComplete, showGrid }}
+        handleChange={callHandleChange}
+        goTop={goTop}
+        toggleFilter={toggleFilter}
+        toggleGrid={toggleGrid}
+      />
+      <FilterBar
+        filterResults={filterResults}
+        filterYear={filterYear}
+        filterGenre={filterGenre}
+        filterOrder={filterOrder}
+        years={years}
+        showFilters={showFilters}
+        handleToggleChip={callHandleToggleChip}
+        handleFilter={callHandleFilter}
+        handleYear={callHandleYear}
+        handleOrder={callHandleOrder}
+      />
+      <main className={classes.content}>
+        {content.length ? (
+          <Grid container spacing={1}>
+            {filterOrder === 'Ascending' &&
+              //sort alphabetically ascending
+              content
+                .sort((a, b) => {
+                  let titleA = a.title.toLowerCase(),
+                    titleB = b.title.toLowerCase();
+                  if (titleA < titleB) return -1;
+                  if (titleA > titleB) return 1;
+                  return 0;
+                })
+                .map(() => {
+                  return '';
+                })}
 
-    return (
-      <div>
-        <Header
-          {...{ showFilters, search, autoComplete, showGrid }}
-          handleChange={this.handleChange}
-          goTop={this.goTop}
-          toggleFilter={this.toggleFilter}
-          toggleGrid={this.toggleGrid}
-        />
-        <FilterBar
-          {...{
-            filterResults,
-            filterYear,
-            filterGenre,
-            filterOrder,
-            years,
-            showFilters
-          }}
-          handleToggleChip={this.handleToggleChip}
-          handleFilter={this.handleFilter}
-          handleYear={this.handleYear}
-          handleOrder={this.handleOrder}
-        />
-        <main className={classes.content}>
-          {mContent.length ? (
-            <Grid container spacing={1}>
-              {this.state.filterOrder === 'Ascending' &&
-                //sort alphabetically ascending
-                mContent
-                  .sort(function(a, b) {
-                    var titleA = a.title.toLowerCase(),
-                      titleB = b.title.toLowerCase();
-                    if (titleA < titleB) return -1;
-                    if (titleA > titleB) return 1;
-                    return 0;
-                  })
-                  .map(() => {
-                    return '';
-                  })}
+            {filterOrder === 'Descending' &&
+              //sort alphabetically descending
+              content
+                .sort((a, b) => {
+                  let titleA = a.title.toLowerCase(),
+                    titleB = b.title.toLowerCase();
+                  if (titleA > titleB) return -1;
+                  if (titleA < titleB) return 1;
+                  return 0;
+                })
+                .map(() => {
+                  return '';
+                })}
 
-              {this.state.filterOrder === 'Descending' &&
-                //sort alphabetically descending
-                mContent
-                  .sort(function(a, b) {
-                    var titleA = a.title.toLowerCase(),
-                      titleB = b.title.toLowerCase();
-                    if (titleA > titleB) return -1;
-                    if (titleA < titleB) return 1;
-                    return 0;
-                  })
-                  .map(() => {
-                    return '';
-                  })}
+            {content.map((item, index) => {
+              if (filterResults === 'movies' && item.type !== 'movie')
+                return null;
+              if (filterResults === 'tv' && item.type !== 'tv_show')
+                return null;
+              if (
+                filterGenre.on.length !== 0 &&
+                !item.genre.some(genre => filterGenre.on.indexOf(genre) !== -1)
+              )
+                return null;
 
-              {mContent.map((item, index) => {
-                if (
-                  this.state.filterResults === 'movies' &&
-                  item.type !== 'movie'
-                )
-                  return null;
-                if (
-                  this.state.filterResults === 'tv' &&
-                  item.type !== 'tv_show'
-                )
-                  return null;
-                if (
-                  this.state.filterGenre.on.length !== 0 &&
-                  !item.genre.some(
-                    genre => this.state.filterGenre.on.indexOf(genre) !== -1
-                  )
-                )
-                  return null;
-
-                if (this.state.showGrid) {
-                  if (item.content) {
-                    return item.content.map((child, idx) => (
-                      <Grid key={index * idx} item xs={12} sm={6} md={4}>
-                        <Tile {...{ ...item, ...child }} />
-                      </Grid>
-                    ));
-                  }
-
-                  return (
-                    <Grid key={index} item xs={12} sm={6} md={4}>
-                      <Tile {...item} />
+              if (showGrid) {
+                if (item.content) {
+                  return item.content.map((child, idx) => (
+                    <Grid key={index * idx} item xs={12} sm={6} md={4}>
+                      <Tile {...{ ...item, ...child }} />
                     </Grid>
-                  );
+                  ));
                 }
 
                 return (
-                  <Grid key={index} item xs={12}>
-                    {item.content ? (
-                      <MultiCard {...item} />
-                    ) : (
-                      <Card {...item} />
-                    )}
+                  <Grid key={index} item xs={12} sm={6} md={4}>
+                    <Tile {...item} />
                   </Grid>
                 );
-              })}
-            </Grid>
-          ) : this.state.search ? (
-            <div className={classes.error}>
-              <ErrorIcon fontSize="large" />
-              <p>No search result.</p>
-            </div>
-          ) : (
-            <div className={classes.error}>
-              <ErrorIcon fontSize="large" />
-              <p>Can't load the data.</p>
-            </div>
-          )}
-        </main>
-        <Footer />
-      </div>
-    );
-  }
-}
-export default withStyles(styles)(App);
+              }
+
+              return (
+                <Grid key={index} item xs={12}>
+                  {item.content ? <MultiCard {...item} /> : <Card {...item} />}
+                </Grid>
+              );
+            })}
+          </Grid>
+        ) : search ? (
+          <div className={classes.error}>
+            <ErrorIcon fontSize="large" />
+            <p>No search result.</p>
+          </div>
+        ) : (
+          <div className={classes.error}>
+            <ErrorIcon fontSize="large" />
+            <p>Can't load the data.</p>
+          </div>
+        )}
+      </main>
+      <Footer />
+    </div>
+  );
+};
+export default withStyles(styles)(ConnectedApp);

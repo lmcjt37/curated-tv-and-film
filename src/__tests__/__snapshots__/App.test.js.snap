@@ -661,7 +661,7 @@ exports[`snapshot changes when input change 1`] = `
     </div>
   </div>
   <main
-    class="App-content-1"
+    class="ConnectedApp-content-1"
   >
     <div
       class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1"

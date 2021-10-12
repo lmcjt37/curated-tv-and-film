@@ -1,15 +1,23 @@
-import App from '../App';
 import Header from '../components/header.js';
 import Footer from '../components/footer.js';
 import FilterBar from '../components/filterBar.js';
 import Card from '../components/card.js';
 import MultiCard from '../components/multiCard';
 import ErrorIcon from '@material-ui/icons/Error';
-
 import { animateScroll as scroll } from 'react-scroll';
+import ConnectedApp, {
+  App,
+  handleYear,
+  handleChange,
+  handleFilter,
+  handleToggleChip,
+  handleOrder,
+  goTop
+} from '../App';
+import content from '../content';
 
 it('render all initial child components', () => {
-  const wrapper = mount(<App />);
+  const wrapper = mount(<ConnectedApp />);
 
   expect(wrapper.find(Header)).toHaveLength(1);
   expect(wrapper.find(FilterBar)).toHaveLength(1);
@@ -21,136 +29,38 @@ it('render all initial child components', () => {
 });
 
 it('renders error component for no search results', () => {
-  const wrapper = shallow(<App />).dive();
+  const wrapper = mount(<ConnectedApp />);
 
-  wrapper.setState({
-    search: true,
-    content: []
+  wrapper.find('input[type="text"]').simulate('change', {
+    target: {
+      value: 'random text with no search result'
+    }
   });
 
   expect(wrapper.find(ErrorIcon)).toHaveLength(1);
-  expect(wrapper.find('p').text()).toEqual('No search result.');
 });
 
 it("renders error component when it can't load the data", () => {
-  const wrapper = shallow(<App />).dive();
+  const callHandleToggleChip = jest.fn();
+  const callHandleFilter = jest.fn();
+  const callHandleYear = jest.fn();
+  const callHandleOrder = jest.fn();
+  const callHandleChange = jest.fn();
+  const goTop = jest.fn();
+  const toggleFilter = jest.fn();
+  const toggleGrid = jest.fn();
 
-  wrapper.setState({
-    search: false,
-    content: []
-  });
-
-  expect(wrapper.find(ErrorIcon)).toHaveLength(1);
-  expect(wrapper.find('p').text()).toEqual("Can't load the data.");
-});
-
-it('calls handleChange correctly', () => {
-  const wrapper = shallow(<App />).dive();
-
-  expect(wrapper.state('search')).toBeFalsy();
-  expect(wrapper.state('autoComplete')).toEqual([]);
-  expect(wrapper.state('content').length).toBeGreaterThan(1);
-
-  wrapper.instance().handleChange({
-    target: {
-      value: 'neverToEqualATitle123'
-    }
-  });
-
-  expect(wrapper.state('search')).toBeTruthy();
-  expect(wrapper.state('autoComplete')).toEqual([]);
-  expect(wrapper.state('content').length).toEqual(0);
-});
-
-it('calls handleYear correctly', () => {
-  const wrapper = shallow(<App />).dive();
-
-  expect(wrapper.state('filterYear')).toEqual('All');
-
-  let allContentLength = wrapper.state('content').length;
-  expect(allContentLength).toBeGreaterThan(1);
-
-  wrapper.instance().handleYear({
-    target: {
-      value: '2018'
-    }
-  });
-
-  expect(wrapper.state('filterYear')).toEqual('2018');
-  expect(wrapper.state('content').length).toBeLessThan(allContentLength);
-});
-
-it('calls handleFilter correctly for TV', () => {
-  const wrapper = shallow(<App />).dive();
-
-  const allContentLength = wrapper.state('content').length;
-
-  expect(allContentLength).toBeGreaterThan(1);
-  expect(wrapper.state('filterResults')).toEqual('all');
-  expect(wrapper.state('years')).toEqual([]);
-  expect(wrapper.state('filterYear')).toEqual('All');
-
-  wrapper.instance().handleFilter({
-    target: {
-      value: 'tv'
-    }
-  });
-
-  expect(wrapper.state('filterResults')).toEqual('tv');
-  expect(wrapper.state('years')).toEqual([]);
-  expect(wrapper.state('filterYear')).toEqual('All');
-
-  const cardCount = wrapper.find(Card).length + wrapper.find(MultiCard).length;
-
-  expect(cardCount).toBeLessThan(allContentLength);
-});
-
-it('calls handleFilter correctly for Movies', () => {
-  const wrapper = shallow(<App />).dive();
-
-  const allContentLength = wrapper.state('content').length;
-
-  expect(allContentLength).toBeGreaterThan(1);
-  expect(wrapper.state('filterResults')).toEqual('all');
-  expect(wrapper.state('years')).toEqual([]);
-  expect(wrapper.state('filterYear')).toEqual('All');
-
-  wrapper.instance().handleFilter({
-    target: {
-      value: 'movies'
-    }
-  });
-
-  expect(wrapper.state('filterResults')).toEqual('movies');
-  expect(wrapper.state('years')).toEqual([
-    2019,
-    2017,
-    2016,
-    2014,
-    2013,
-    2007,
-    2005,
-    2004,
-    2003,
-    2001,
-    1999,
-    1998,
-    1995,
-    1994,
-    1993,
-    1972
-  ]);
-  expect(wrapper.state('filterYear')).toEqual('All');
-
-  const cardCount = wrapper.find(Card).length + wrapper.find(MultiCard).length;
-
-  expect(cardCount).toBeLessThan(allContentLength);
-});
-
-it('calls handleToggleChip correctly', () => {
-  const wrapper = shallow(<App />).dive();
-
-  expect(wrapper.state('filterGenre')).toEqual({
+  const classes = { content: '', error: 'test-error' };
+  const showFilters = false;
+  const search = false;
+  const autoComplete = [];
+  const showGrid = false;
+  const filterResults = 'all';
+  const filterYear = 'All';
+  const filterOrder = 'Ascending';
+  const years = [];
+  const content = [];
+  const filterGenre = {
     available: [
       'Action',
       'Adventure',
@@ -169,14 +79,208 @@ it('calls handleToggleChip correctly', () => {
       'Thriller'
     ],
     on: []
+  };
+
+  const wrapper = mount(
+    <App
+      showFilters={showFilters}
+      search={search}
+      autoComplete={autoComplete}
+      showGrid={showGrid}
+      callHandleChange={callHandleChange}
+      goTop={goTop}
+      toggleFilter={toggleFilter}
+      toggleGrid={toggleGrid}
+      filterResults={filterResults}
+      filterYear={filterYear}
+      filterGenre={filterGenre}
+      filterOrder={filterOrder}
+      years={years}
+      callHandleToggleChip={callHandleToggleChip}
+      callHandleFilter={callHandleFilter}
+      callHandleYear={callHandleYear}
+      callHandleOrder={callHandleOrder}
+      classes={classes}
+      content={content}
+    />
+  );
+
+  expect(wrapper.find(ErrorIcon)).toHaveLength(1);
+  expect(wrapper.find('.test-error').text()).toEqual("Can't load the data.");
+});
+
+it('calls handleChange correctly', () => {
+  let setAutoCompleteArg;
+  let setSearchArg;
+  let setContentArg;
+  const mockSetAutoComplete = arg => (setAutoCompleteArg = arg);
+  const mockSetSearch = arg => (setSearchArg = arg);
+  const mockSetContent = arg => (setContentArg = arg);
+
+  const event = { target: { value: '' } };
+  handleChange(
+    event,
+    content,
+    mockSetAutoComplete,
+    mockSetSearch,
+    mockSetContent
+  );
+
+  expect(setSearchArg).toBeFalsy();
+  expect(setAutoCompleteArg).toEqual([]);
+  expect(setContentArg.length).toBeGreaterThan(1);
+
+  event.target.value = 'neverToEqualATitle123';
+  handleChange(
+    event,
+    content,
+    mockSetAutoComplete,
+    mockSetSearch,
+    mockSetContent
+  );
+
+  expect(setSearchArg).toBeTruthy();
+  expect(setAutoCompleteArg).toEqual([]);
+  expect(setContentArg.length).toEqual(0);
+});
+
+it('calls handleYear correctly', () => {
+  let onlyMovies = content.filter(value => value.type === 'movie');
+  let allContentLength = onlyMovies.length;
+  const event = { target: { value: '2003' } };
+  const setContent = jest.fn().mockImplementation(arg => {
+    expect(arg.length).toBeLessThan(allContentLength);
+  });
+  const setFilterYear = jest.fn().mockImplementation(arg => {
+    expect(arg).toEqual(event.target.value);
   });
 
-  let allContentLength = wrapper.state('content').length;
-  expect(allContentLength).toBeGreaterThan(1);
+  handleYear(event, onlyMovies, setFilterYear, setContent);
+});
 
-  wrapper.instance().handleToggleChip('Action');
+it('calls handleFilter correctly for TV', () => {
+  let setFilterResultsArg;
+  let setContentArg;
+  let setYearsArg;
+  let setFilterYearArg;
+  const mockSetFilterResults = arg => (setFilterResultsArg = arg);
+  const mockSetContent = arg => (setContentArg = arg);
+  const mockSetYears = arg => (setYearsArg = arg);
+  const mockSetFilterYear = arg => (setFilterYearArg = arg);
+  const mockSetOnlyMovies = jest.fn();
 
-  expect(wrapper.state('filterGenre')).toEqual({
+  const event = { target: { value: 'all' } };
+  handleFilter(
+    event,
+    content,
+    content,
+    mockSetFilterResults,
+    mockSetContent,
+    mockSetYears,
+    mockSetFilterYear,
+    mockSetOnlyMovies
+  );
+
+  expect(setContentArg.length).toBeGreaterThan(1);
+  expect(setFilterResultsArg).toEqual('all');
+  expect(setFilterYearArg).toEqual('All');
+  expect(setYearsArg.length).toBeGreaterThan(0);
+
+  event.target.value = 'tv';
+  handleFilter(
+    event,
+    content,
+    content,
+    mockSetFilterResults,
+    mockSetContent,
+    mockSetYears,
+    mockSetFilterYear,
+    mockSetOnlyMovies
+  );
+
+  expect(setFilterResultsArg).toEqual('tv');
+  expect(setYearsArg).toEqual([]);
+  expect(setFilterYearArg).toEqual('All');
+  expect(mockSetOnlyMovies).toHaveBeenCalledTimes(1);
+});
+
+it('calls handleFilter correctly for Movies', () => {
+  let setFilterResultsArg;
+  let setContentArg;
+  let setYearsArg;
+  let setFilterYearArg;
+  const mockSetFilterResults = arg => (setFilterResultsArg = arg);
+  const mockSetContent = arg => (setContentArg = arg);
+  const mockSetYears = arg => (setYearsArg = arg);
+  const mockSetFilterYear = arg => (setFilterYearArg = arg);
+  const mockSetOnlyMovies = jest.fn();
+
+  const event = { target: { value: 'movies' } };
+  handleFilter(
+    event,
+    content,
+    content,
+    mockSetFilterResults,
+    mockSetContent,
+    mockSetYears,
+    mockSetFilterYear,
+    mockSetOnlyMovies
+  );
+
+  expect(setContentArg.length).toBeGreaterThan(1);
+  expect(setFilterResultsArg).toEqual('movies');
+  expect(setYearsArg).toEqual([
+    2019,
+    2017,
+    2016,
+    2014,
+    2013,
+    2007,
+    2005,
+    2004,
+    2003,
+    2001,
+    1999,
+    1998,
+    1995,
+    1994,
+    1993,
+    1972
+  ]);
+  expect(setFilterYearArg).toEqual('All');
+  expect(mockSetOnlyMovies).toHaveBeenCalledTimes(1);
+});
+
+it('calls handleToggleChip correctly', () => {
+  const filterGenre = {
+    available: [
+      'Action',
+      'Adventure',
+      'Animation',
+      'Biography',
+      'Comedy',
+      'Crime',
+      'Drama',
+      'Family',
+      'Fantasy',
+      'History',
+      'Horror',
+      'Mystery',
+      'Romance',
+      'Sci-Fi',
+      'Thriller'
+    ],
+    on: []
+  };
+  let setFilterGenreArg;
+  let setShowFiltersArg;
+  const mockSetFilterGenre = arg => (setFilterGenreArg = arg);
+  const mockSetShowFilters = arg => (setShowFiltersArg = arg);
+
+  let chip = 'Action';
+  handleToggleChip(chip, filterGenre, mockSetFilterGenre, mockSetShowFilters);
+
+  expect(setFilterGenreArg).toEqual({
     available: [
       'Action',
       'Adventure',
@@ -197,13 +301,10 @@ it('calls handleToggleChip correctly', () => {
     on: ['Action']
   });
 
-  const cardCount = wrapper.find(Card).length + wrapper.find(MultiCard).length;
+  chip = 'Action';
+  handleToggleChip(chip, filterGenre, mockSetFilterGenre, mockSetShowFilters);
 
-  expect(cardCount).toBeLessThan(allContentLength);
-
-  wrapper.instance().handleToggleChip('Action');
-
-  expect(wrapper.state('filterGenre')).toEqual({
+  expect(setFilterGenreArg).toEqual({
     available: [
       'Action',
       'Adventure',
@@ -223,55 +324,30 @@ it('calls handleToggleChip correctly', () => {
     ],
     on: []
   });
-
-  const cardCountTwo =
-    wrapper.find(Card).length + wrapper.find(MultiCard).length;
-
-  expect(cardCountTwo).toEqual(allContentLength);
+  expect(setShowFiltersArg).toEqual(true);
 });
 
 it('calls handleOrder correctly', () => {
-  const wrapper = shallow(<App />).dive();
+  let setFilterOrderArg;
+  const mockSetFilterOrder = arg => (setFilterOrderArg = arg);
 
-  expect(wrapper.state('filterOrder')).toEqual('Ascending');
+  const event = { target: { value: 'Ascending' } };
+  handleOrder(event, mockSetFilterOrder);
+  expect(setFilterOrderArg).toEqual('Ascending');
 
-  let allContentLength = wrapper.state('content').length;
-  expect(allContentLength).toBeGreaterThan(1);
-
-  wrapper.instance().handleOrder({
-    target: {
-      value: 'Descending'
-    }
-  });
-
-  expect(wrapper.state('filterOrder')).toEqual('Descending');
-
-  const cardCount = wrapper.find(Card).length + wrapper.find(MultiCard).length;
-
-  expect(cardCount).toEqual(allContentLength);
-});
-
-it('calls toggleFilter correctly', () => {
-  const wrapper = shallow(<App />).dive();
-
-  expect(wrapper.state('showFilters')).toBeFalsy();
-
-  wrapper.instance().toggleFilter();
-
-  expect(wrapper.state('showFilters')).toBeTruthy();
+  event.target.value = 'Descending';
+  handleOrder(event, mockSetFilterOrder);
+  expect(setFilterOrderArg).toEqual('Descending');
 });
 
 it('calls goTop correctly', () => {
   scroll.scrollToTop = jest.fn();
 
-  const wrapper = shallow(<App />).dive();
-
-  wrapper.instance().goTop();
-
+  goTop();
   expect(scroll.scrollToTop).toHaveBeenCalledTimes(1);
 });
 
 it('snapshot changes when input change', () => {
-  const component = render(<App />);
+  const component = render(<ConnectedApp />);
   expect(component).toMatchSnapshot();
 });
