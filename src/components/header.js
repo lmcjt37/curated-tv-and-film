@@ -18,6 +18,7 @@ import TuneIcon from '@material-ui/icons/Tune';
 import CloseIcon from '@material-ui/icons/HighlightOff';
 import GridIcon from '@material-ui/icons/ViewModule';
 import RowIcon from '@material-ui/icons/ViewStream';
+import ClearIcon from '@material-ui/icons/Clear'; //Clear Search-bar Icon
 
 // Components
 import Autocomplete from './autocomplete';
@@ -45,12 +46,21 @@ const styles = theme => ({
     },
     marginRight: theme.spacing(2),
     marginLeft: theme.spacing(2),
-    width: '100%'
+    width: '100%',
+    display: 'flex'
   },
   searchIcon: {
     width: theme.spacing(9),
     height: '100%',
     position: 'absolute',
+    pointerEvents: 'none',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  //Clear Icon Style
+  clearIcon: {
+    width: theme.spacing(9),
     pointerEvents: 'none',
     display: 'flex',
     alignItems: 'center',
@@ -65,7 +75,8 @@ const Header = ({
   showFilters,
   toggleFilter,
   showGrid,
-  toggleGrid
+  toggleGrid,
+  toggleClear //Clear Search func
 }) => {
   return (
     <div className={classes.root}>
@@ -84,6 +95,9 @@ const Header = ({
               <SearchIcon />
             </div>
             <Autocomplete {...{ autoComplete }} handleChange={handleChange} />
+            <div className={classes.clearIcon} onClick={toggleClear}>
+              <ClearIcon />
+            </div>
           </div>
           <div className={classes.grow} />
           {showFilters ? (

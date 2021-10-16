@@ -167,6 +167,10 @@ const ConnectedApp = ({ classes }) => {
     Events.scrollEvent.register('end', () => {});
   }, []);
 
+  const toggleClear = () => {
+    setAutoComplete([]);
+  };
+
   const callHandleChange = event => {
     handleChange(event, data, setAutoComplete, setSearch, setContent);
   };
@@ -225,6 +229,7 @@ const ConnectedApp = ({ classes }) => {
       callHandleOrder={callHandleOrder}
       classes={classes}
       content={content}
+      toggleClear={toggleClear}
     />
   );
 };
