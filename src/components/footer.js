@@ -13,14 +13,29 @@ const styles = theme => ({
     margin: theme.spacing(2),
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    [theme.breakpoints.down('sm')]: {
+      flexWrap: 'wrap',
+      display: 'block'
+    }
   },
-  list: {
+  inlineList: {
     display: 'block',
+    flexWrap: 'wrap',
     textAlign: 'center',
     [theme.breakpoints.up('sm')]: {
       height: 50,
       display: 'inline-flex'
+    }
+  },
+  stackedList: {
+    display: 'block',
+    flexWrap: 'wrap',
+    [theme.breakpoints.down('sm')]: {
+      textAlign: 'center'
+    },
+    [theme.breakpoints.up('sm')]: {
+      height: 50
     }
   },
   links: {
@@ -37,10 +52,16 @@ const styles = theme => ({
 const Footer = ({ classes }) => {
   return (
     <footer className={classes.footer}>
-      <ul className={classes.list}>
+      <ul className={classes.stackedList}>
         <li className={classes.links}>
           <Typography color="textSecondary">
-            Made with ☕️ by &nbsp;
+            Made for Hacktoberfest 🎃 &nbsp; &copy; 2018-
+            {new Date().getUTCFullYear()}
+          </Typography>
+        </li>
+        <li className={classes.links}>
+          <Typography color="textSecondary">
+            Owner &nbsp;
             <a
               className={classes.anchor}
               target="_blank"
@@ -49,12 +70,10 @@ const Footer = ({ classes }) => {
             >
               Luke Taylor
             </a>
-            &nbsp; &copy; 2018-
-            {new Date().getUTCFullYear()}
           </Typography>
         </li>
       </ul>
-      <ul className={classes.list}>
+      <ul className={classes.inlineList}>
         <li className={classes.links}>
           <a
             className={classes.anchor}
