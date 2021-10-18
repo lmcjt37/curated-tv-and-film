@@ -5009,35 +5009,43 @@ exports[`snapshot changes when input change 1`] = `
     class="Footer-footer-47"
   >
     <ul
-      class="Footer-list-48"
+      class="Footer-stackedList-49"
     >
       <li
-        class="Footer-links-49"
+        class="Footer-links-50"
       >
         <p
           class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
         >
-          Made with ☕️ by  
+          Made for Hacktoberfest 🎃   © 2018-2021
+        </p>
+      </li>
+      <li
+        class="Footer-links-50"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+        >
+          Owner  
           <a
-            class="Footer-anchor-50"
+            class="Footer-anchor-51"
             href="https://lmcjt.co.uk"
             rel="noopener noreferrer"
             target="_blank"
           >
             Luke Taylor
           </a>
-            © 2018-2021
         </p>
       </li>
     </ul>
     <ul
-      class="Footer-list-48"
+      class="Footer-inlineList-48"
     >
       <li
-        class="Footer-links-49"
+        class="Footer-links-50"
       >
         <a
-          class="Footer-anchor-50"
+          class="Footer-anchor-51"
           href="https://github.com/lmcjt37/curated-tv-and-film"
           rel="noopener noreferrer"
           target="_blank"
@@ -5050,10 +5058,10 @@ exports[`snapshot changes when input change 1`] = `
         </a>
       </li>
       <li
-        class="Footer-links-49"
+        class="Footer-links-50"
       >
         <a
-          class="Footer-anchor-50"
+          class="Footer-anchor-51"
           href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors"
           rel="noopener noreferrer"
           target="_blank"
@@ -5066,10 +5074,10 @@ exports[`snapshot changes when input change 1`] = `
         </a>
       </li>
       <li
-        class="Footer-links-49"
+        class="Footer-links-50"
       >
         <a
-          class="Footer-anchor-50"
+          class="Footer-anchor-51"
           rel="noopener noreferrer"
           target="_blank"
         >

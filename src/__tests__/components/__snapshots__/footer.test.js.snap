@@ -5,35 +5,43 @@ exports[`snapshot of initial component 1`] = `
   class="Footer-footer-1"
 >
   <ul
-    class="Footer-list-2"
+    class="Footer-stackedList-3"
   >
     <li
-      class="Footer-links-3"
+      class="Footer-links-4"
     >
       <p
         class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
       >
-        Made with ☕️ by  
+        Made for Hacktoberfest 🎃   © 2018-2021
+      </p>
+    </li>
+    <li
+      class="Footer-links-4"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+      >
+        Owner  
         <a
-          class="Footer-anchor-4"
+          class="Footer-anchor-5"
           href="https://lmcjt.co.uk"
           rel="noopener noreferrer"
           target="_blank"
         >
           Luke Taylor
         </a>
-          © 2018-2021
       </p>
     </li>
   </ul>
   <ul
-    class="Footer-list-2"
+    class="Footer-inlineList-2"
   >
     <li
-      class="Footer-links-3"
+      class="Footer-links-4"
     >
       <a
-        class="Footer-anchor-4"
+        class="Footer-anchor-5"
         href="https://github.com/lmcjt37/curated-tv-and-film"
         rel="noopener noreferrer"
         target="_blank"
@@ -46,10 +54,10 @@ exports[`snapshot of initial component 1`] = `
       </a>
     </li>
     <li
-      class="Footer-links-3"
+      class="Footer-links-4"
     >
       <a
-        class="Footer-anchor-4"
+        class="Footer-anchor-5"
         href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors"
         rel="noopener noreferrer"
         target="_blank"
@@ -62,10 +70,10 @@ exports[`snapshot of initial component 1`] = `
       </a>
     </li>
     <li
-      class="Footer-links-3"
+      class="Footer-links-4"
     >
       <a
-        class="Footer-anchor-4"
+        class="Footer-anchor-5"
         rel="noopener noreferrer"
         target="_blank"
       >
