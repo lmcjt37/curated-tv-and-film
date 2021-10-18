@@ -83,7 +83,6 @@ const Header = ({
   }
   return (
     <div className={classes.root}>
-      <ClearIcon id="12"></ClearIcon>
       <AppBar position="fixed">
         <Toolbar>
           <Typography
