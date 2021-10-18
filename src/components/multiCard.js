@@ -50,16 +50,22 @@ const styles = theme => ({
     }
   },
   chip: {
-    margin: theme.spacing(1)
+    marginRight: theme.spacing(1)
   },
   fab: {
-    margin: theme.spacing(1)
+    marginRight: theme.spacing(1)
   },
   playCircleOutlineIcon: {
     marginRight: theme.spacing(1)
   },
   localPlayIcon: {
     marginRight: theme.spacing(1)
+  },
+  actions: {
+    marginTop: theme.spacing(2),
+    padding: 0, // override default
+    paddingBottom: theme.spacing(1),
+    paddingTop: theme.spacing(1)
   }
 });
 
@@ -112,7 +118,7 @@ const MultiCard = ({ classes, title, year, genre, content, type }) => {
                   {row.description}
                 </Typography>
               </div>
-              <CardActions>
+              <CardActions classes={{ root: classes.actions }}>
                 <Fab
                   color="primary"
                   aria-label="IMDB"
