@@ -1,7 +1,6 @@
 // React
 import React, { useState, useEffect } from 'react';
 import { Events, animateScroll as scroll } from 'react-scroll';
-
 // Components
 import './App.css';
 import data from './content.js';
@@ -30,6 +29,13 @@ const styles = theme => ({
     textAlign: 'center',
     width: '100%',
     margin: '200px auto'
+  },
+  clearIcon: {
+    width: theme.spacing(9),
+    pointerEvents: 'none',
+    display: 'none',
+    alignItems: 'center',
+    justifyContent: 'center'
   }
 });
 
@@ -44,41 +50,6 @@ export const handleYear = (event, onlyMovies, setFilterYear, setContent) => {
   }
   setFilterYear(year);
   setContent(moviesFilteredByYear);
-};
-
-export const handleChange = (
-  event,
-  data,
-  setAutoComplete,
-  setSearch,
-  setContent
-) => {
-  let searchString = event.target.value.trim().toLowerCase();
-
-  if (searchString) {
-    let searchResult = data.filter(
-      el =>
-        el.title.toLowerCase().match(searchString) ||
-        (el.year && el.year.toString().match(searchString))
-    );
-
-    setAutoComplete(
-      data
-        .map(el =>
-          el.title.toLowerCase().match(searchString)
-            ? { label: el.title }
-            : null
-        )
-        .filter(item => item !== null)
-    );
-
-    setSearch(true);
-    setContent(searchResult);
-  } else {
-    setSearch(false);
-    setContent(data);
-    setAutoComplete([]);
-  }
 };
 
 export const handleFilter = (
@@ -357,4 +328,39 @@ export const App = ({
     </div>
   );
 };
+
+export const handleChange = (
+  event,
+  data,
+  setAutoComplete,
+  setSearch,
+  setContent
+) => {
+  let searchString = event.target.value.trim().toLowerCase();
+  if (searchString) {
+    let searchResult = data.filter(
+      el =>
+        el.title.toLowerCase().match(searchString) ||
+        (el.year && el.year.toString().match(searchString))
+    );
+
+    setAutoComplete(
+      data
+        .map(el =>
+          el.title.toLowerCase().match(searchString)
+            ? { label: el.title }
+            : null
+        )
+        .filter(item => item !== null)
+    );
+
+    setSearch(true);
+    setContent(searchResult);
+  } else {
+    setSearch(false);
+    setContent(data);
+    setAutoComplete([]);
+  }
+};
+
 export default withStyles(styles)(ConnectedApp);

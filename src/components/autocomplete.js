@@ -105,8 +105,13 @@ const getSuggestions = (value, suggestions) => {
       });
 };
 
-const Autocomplete = ({ classes, autoComplete, handleChange }) => {
+const Autocomplete = ({ classes, autoComplete, handleChange, changeStyle }) => {
   const onValueChange = (value, state) => {
+    if (!value) {
+      changeStyle('two');
+    } else {
+      changeStyle('one');
+    }
     handleChange({
       target: {
         value: value

@@ -1,5 +1,5 @@
 // React
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 // Material Core
@@ -11,7 +11,6 @@ import Typography from '@material-ui/core/Typography';
 // Material Core - Styles
 import { fade } from '@material-ui/core/styles/colorManipulator';
 import { withStyles } from '@material-ui/core/styles';
-
 // Material Core - Icons
 import SearchIcon from '@material-ui/icons/Search';
 import TuneIcon from '@material-ui/icons/Tune';
@@ -78,8 +77,13 @@ const Header = ({
   toggleGrid,
   toggleClear //Clear Search func
 }) => {
+  const [style, setStyle] = useState('two');
+  function changeStyle(value) {
+    setStyle(value);
+  }
   return (
     <div className={classes.root}>
+      <ClearIcon id="12"></ClearIcon>
       <AppBar position="fixed">
         <Toolbar>
           <Typography
@@ -94,8 +98,12 @@ const Header = ({
             <div className={classes.searchIcon}>
               <SearchIcon />
             </div>
-            <Autocomplete {...{ autoComplete }} handleChange={handleChange} />
-            <div className={classes.clearIcon} onClick={toggleClear}>
+            <Autocomplete
+              {...{ autoComplete }}
+              changeStyle={changeStyle}
+              handleChange={handleChange}
+            />
+            <div className={style} onClick={toggleClear}>
               <ClearIcon />
             </div>
           </div>
