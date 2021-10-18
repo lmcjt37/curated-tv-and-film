@@ -40,12 +40,12 @@ const Footer = ({ classes }) => {
       <ul className={classes.list}>
         <li className={classes.links}>
           <Typography color="textSecondary">
-            Made with &hearts; by &nbsp;
+            Made with ☕️ by &nbsp;
             <a
               className={classes.anchor}
               target="_blank"
               rel="noopener noreferrer"
-              href="https://lmcjt.com"
+              href="https://lmcjt.co.uk"
             >
               Luke Taylor
             </a>

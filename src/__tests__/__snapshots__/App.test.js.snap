@@ -756,7 +756,7 @@ exports[`snapshot changes when input change 1`] = `
                 When Archer discovers the chemotherapy drugs he's been taking for his breast cancer are counterfeit, he sets out to destroy the criminals behind the scheme.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -877,7 +877,7 @@ exports[`snapshot changes when input change 1`] = `
                 After drawing straws with A.J. (Ben Affleck) at the losing end, Harry (Bruce Willis) turns the tables and decides to sacrifice himself instead.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -998,7 +998,7 @@ exports[`snapshot changes when input change 1`] = `
                 William Wallace is captured and brought for execution for his crimes of treason against the English crown. In his final moments he screams out the word "Freedom" as a final act of defiance before being executed.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -1101,7 +1101,7 @@ exports[`snapshot changes when input change 1`] = `
                 The movie all comes to a culmination as Tyler Durden and Marla singer watch all of the buildings around them explode.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -1213,7 +1213,7 @@ exports[`snapshot changes when input change 1`] = `
                 A young Forrest Gump, still sporting his leg braces, get's picked on and chased by some local bullies. As he's chased, his childhood friend Jenny shouts the iconic quote "Run, Forrest! Run!
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -1337,7 +1337,7 @@ exports[`snapshot changes when input change 1`] = `
                 Rachel Green, Ross Geller, Monica Geller, Joey Tribbiani, Chandler Bing and Phoebe Buffay are six 20 something year-olds, living off of one another in the heart of New York City. Over the course of ten years, this average group of buddies goes through massive mayhem, family trouble, past and future romances, fights, laughs, tears and surprises as they learn what it really means to be a friend.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -1398,7 +1398,7 @@ exports[`snapshot changes when input change 1`] = `
         class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
       >
         <div
-          class="MuiPaper-root MuiCard-root MultiCard-card-36 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root MultiCard-card-37 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
             class="MuiCardHeader-root"
@@ -1417,7 +1417,7 @@ exports[`snapshot changes when input change 1`] = `
             class="MuiCardContent-root"
           >
             <div
-              class="MuiChip-root MultiCard-chip-41"
+              class="MuiChip-root MultiCard-chip-42"
             >
               <span
                 class="MuiChip-label"
@@ -1426,7 +1426,7 @@ exports[`snapshot changes when input change 1`] = `
               </span>
             </div>
             <div
-              class="MuiChip-root MultiCard-chip-41"
+              class="MuiChip-root MultiCard-chip-42"
             >
               <span
                 class="MuiChip-label"
@@ -1435,7 +1435,7 @@ exports[`snapshot changes when input change 1`] = `
               </span>
             </div>
             <div
-              class="MuiChip-root MultiCard-chip-41"
+              class="MuiChip-root MultiCard-chip-42"
             >
               <span
                 class="MuiChip-label"
@@ -1445,14 +1445,14 @@ exports[`snapshot changes when input change 1`] = `
             </div>
           </div>
           <div
-            class="MultiCard-innerContainer-37"
+            class="MultiCard-innerContainer-38"
           >
             <div
-              class="MuiCardMedia-root MultiCard-media-38"
+              class="MuiCardMedia-root MultiCard-media-39"
               style="background-image:url(\\"/assets/images/game-of-thrones_6_9.jpg\\")"
             />
             <img
-              class="MultiCard-thumbnail-40"
+              class="MultiCard-thumbnail-41"
               src="/assets/images/game-of-thrones_6_9.jpg"
             />
             <div
@@ -1472,18 +1472,18 @@ exports[`snapshot changes when input change 1`] = `
                   </p>
                 </div>
                 <p
-                  class="MuiTypography-root MultiCard-description-39 MuiTypography-body1"
+                  class="MuiTypography-root MultiCard-description-40 MuiTypography-body1"
                 >
                   In Winterfell, Jon Snow, Sansa, Davos and Tormund meet with Ramsay, and Jon Snow proposes a dispute between them instead of sacrificing lives in a battle. Ramsay does not accept and they schedule the battle in the morning. Jon Snow plots a scheme with Davos and Tormund and Sansa warns that Ramsay plays dirty. When both armies are ready to battle, Ramsay brings a surprise.
                 </p>
               </div>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root MultiCard-actions-46 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-42 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-43 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt4283088/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1494,7 +1494,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MultiCard-localPlayIcon-44"
+                      class="MuiSvgIcon-root MultiCard-localPlayIcon-45"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1508,7 +1508,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="Watch"
-                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-42 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-43 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=m8rURwkvOx0"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1519,7 +1519,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-43"
+                      class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-44"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1534,14 +1534,14 @@ exports[`snapshot changes when input change 1`] = `
             </div>
           </div>
           <div
-            class="MultiCard-innerContainer-37"
+            class="MultiCard-innerContainer-38"
           >
             <div
-              class="MuiCardMedia-root MultiCard-media-38"
+              class="MuiCardMedia-root MultiCard-media-39"
               style="background-image:url(\\"/assets/images/game-of-thrones_5_8.jpg\\")"
             />
             <img
-              class="MultiCard-thumbnail-40"
+              class="MultiCard-thumbnail-41"
               src="/assets/images/game-of-thrones_5_8.jpg"
             />
             <div
@@ -1561,18 +1561,18 @@ exports[`snapshot changes when input change 1`] = `
                   </p>
                 </div>
                 <p
-                  class="MuiTypography-root MultiCard-description-39 MuiTypography-body1"
+                  class="MuiTypography-root MultiCard-description-40 MuiTypography-body1"
                 >
                   Jon Snow fights off and kills a White Walker with Valyrian Steel in Hardhome along with the Army of the Dead. A white walker strides into the burning hall. Thenn moves to fight him while Jon Snow finds the glass. The Walker's weapon shatters Thenn's axe, and the White Walker kills him. The Walker moves to attack Jon. Jon picks up a sword from the ground, but the White Walker shatters it and knocks Jon down. Jon picks up Longclaw, made of Valyrian Steel, and it withstands the White Walker’s attack. Jon uses it to kill the Walker. The Night’s King sees this happen. After a moments respite, the Night’s King sends a legion of Wights tumbling over the mountain to continue the attack in the battle of Hardhome.
                 </p>
               </div>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root MultiCard-actions-46 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-42 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-43 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt3866850/"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1583,7 +1583,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MultiCard-localPlayIcon-44"
+                      class="MuiSvgIcon-root MultiCard-localPlayIcon-45"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1597,7 +1597,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="Watch"
-                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-42 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-43 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=fC1dVsTkmSI"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -1608,7 +1608,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-43"
+                      class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-44"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -1688,7 +1688,7 @@ exports[`snapshot changes when input change 1`] = `
                 A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -1812,7 +1812,7 @@ exports[`snapshot changes when input change 1`] = `
                 Gregory House, M.D., often construed as a misanthropic medical genius, heads a team of diagnosticians at the Princeton–Plainsboro Teaching Hospital in New Jersey.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -1936,7 +1936,7 @@ exports[`snapshot changes when input change 1`] = `
                 It's the year 2030 and an older Ted Mosby is telling the story to his son and daughter about how he met and will eventually marry their mother. This is where we meet for the first time Ted, Lily, Marshall, Barney and Robin.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -2057,7 +2057,7 @@ exports[`snapshot changes when input change 1`] = `
                 While searching for clues at Dr. Lanning's house, a giant demolition robot almost kills Spooner (Will Smith)
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -2178,7 +2178,7 @@ exports[`snapshot changes when input change 1`] = `
                 A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -2299,7 +2299,7 @@ exports[`snapshot changes when input change 1`] = `
                 The Bride (Uma Thurman) must defeat O-Ren Ishii's (Lucy Liu) personal army, The Crazy 88's, before she can strike off the first name on her death list.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -2420,7 +2420,7 @@ exports[`snapshot changes when input change 1`] = `
                 Colin Firth’s character, an impossibly cool secret agent named Harry Hart, ends up in a church participating in a gigantic killing free-for-all. It happens because the main bad guy in the movie, Samuel L. Jackson’s Richmond Valentine, inserts SIM cards into free cellphones he gives away that, when activated, emit a sound that turns everybody within earshot super violent. In a little under four minutes, Harry kills nearly 40 people, some of whom are killed in quick and obvious ways (like shooting them in the head), others of whom are killed in impromptu and gruesome ways (like breaking a wooden rod in half and then stabbing a guy in the chest with it).
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -2541,7 +2541,7 @@ exports[`snapshot changes when input change 1`] = `
                 After Juliet finds out that Mark's focus at her and his best mates wedding, is solely on her. She realises that his coldness towards her is actually his obsession. Mark finally expresses his hidden, unrequited love for Juliet.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -2674,7 +2674,7 @@ exports[`snapshot changes when input change 1`] = `
                 Elliot Alderson's powerful speech about control and the effects that religion and mindless following create.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -2795,7 +2795,7 @@ exports[`snapshot changes when input change 1`] = `
                 Jack Skellington stumbles across a circle of holiday tress and gets sucked into Christmas Town, which leads him to perform 'What's This?' as he explores this alternate holiday town which seems so unique and inspiring to him.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -2916,7 +2916,7 @@ exports[`snapshot changes when input change 1`] = `
                 The scene where the four Horsemen successfully attempt to steal the chip from tight security.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -3037,7 +3037,7 @@ exports[`snapshot changes when input change 1`] = `
                 The corridor fight scene took seventeen takes in three days to perfect, and was one continuous take -- there was no editing of any sort except for the knife that was stabbed in Oh Dae-su's back, which was computer-generated imagery. Though the scene has often been compared visually to side scrolling beat 'em up video games, director Park Chan-wook has stated that the similarity was unintentional.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -3149,7 +3149,7 @@ exports[`snapshot changes when input change 1`] = `
                 During a diplomatic talk between Korea and the United States, a secret Korean organisation has plotted a takeover of the White House with little resistance due to being caught off guard.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -3261,7 +3261,7 @@ exports[`snapshot changes when input change 1`] = `
                 The world's top assassin, Duncan Vizla, is settling into retirement when his former employer marks him as a liability to the firm. Against his will, he finds himself back in the game going head to head with an army of younger killers.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -3403,7 +3403,7 @@ exports[`snapshot changes when input change 1`] = `
                 Rick, still in galactic prison, puts an intricate escape plan into action. Which then leads to a standoff in which he kills the council of Ricks.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -3524,7 +3524,7 @@ exports[`snapshot changes when input change 1`] = `
                 River hears the words 'Miranda', which we find out is a trigger word for turning her into a weapon. She starts to fight the entire bar until her brother intervenes.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -3657,7 +3657,7 @@ exports[`snapshot changes when input change 1`] = `
                 A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -3778,7 +3778,7 @@ exports[`snapshot changes when input change 1`] = `
                 Shrek and Donkey arrive at Duloc to demand Farquaad gives Shrek his swamp back. With hardly anyone around they go to the information booth.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -3893,7 +3893,7 @@ exports[`snapshot changes when input change 1`] = `
                 The guys start calculating how most efficiently a mass jerk-off session can be carried out, which eventually also leads to a finding a new solution for Pied Piper's problems.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -4026,7 +4026,7 @@ exports[`snapshot changes when input change 1`] = `
                 Hoping to win easy money, a broke and desperate Gi-hun agrees to take part in an enigmatic game. Not long into the first round, unforeseen horrors unfold.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -4150,7 +4150,7 @@ exports[`snapshot changes when input change 1`] = `
                 On the run from a drug deal gone bad, Mike Ross, a brilliant college dropout, finds himself a job working with Harvey Specter, one of New York City's best lawyers.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -4262,7 +4262,7 @@ exports[`snapshot changes when input change 1`] = `
                 Don Corleone's dialogue - I'll make you an offer you can't refuse
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -4374,7 +4374,7 @@ exports[`snapshot changes when input change 1`] = `
                 Neo stops the bullets and agent Smith realises he's got to up his game by like a million.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -4498,7 +4498,7 @@ exports[`snapshot changes when input change 1`] = `
                 Will McAvoy (Jeff Daniels) hits the nail straight on the head in the opening minutes on HBO's new series 'The Newsroom'. He is asked by a college student a simple question during a campus debate. 'What makes America the greatest country in the world?'. Daniels initially goes the politically correct route then at the last minute goes with a honest, bold, straight forward answer that sums up a lot of the worlds problems that so many are afraid to accept because we all want to believe in our system and that it is our system that works. The evidence that is out there today is to the contrary and he discloses such information in his argument. We used to be the worlds best of the best and now we are just pretending. The first step to solving a problem is to admit there is one.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -4613,7 +4613,7 @@ exports[`snapshot changes when input change 1`] = `
                 The Dunder Mifflin crew holds a casino party at the warehouse and Michael has two dates.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -4674,7 +4674,7 @@ exports[`snapshot changes when input change 1`] = `
         class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
       >
         <div
-          class="MuiPaper-root MuiCard-root MultiCard-card-36 MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root MultiCard-card-37 MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
             class="MuiCardHeader-root"
@@ -4693,7 +4693,7 @@ exports[`snapshot changes when input change 1`] = `
             class="MuiCardContent-root"
           >
             <div
-              class="MuiChip-root MultiCard-chip-41"
+              class="MuiChip-root MultiCard-chip-42"
             >
               <span
                 class="MuiChip-label"
@@ -4702,7 +4702,7 @@ exports[`snapshot changes when input change 1`] = `
               </span>
             </div>
             <div
-              class="MuiChip-root MultiCard-chip-41"
+              class="MuiChip-root MultiCard-chip-42"
             >
               <span
                 class="MuiChip-label"
@@ -4711,7 +4711,7 @@ exports[`snapshot changes when input change 1`] = `
               </span>
             </div>
             <div
-              class="MuiChip-root MultiCard-chip-41"
+              class="MuiChip-root MultiCard-chip-42"
             >
               <span
                 class="MuiChip-label"
@@ -4721,14 +4721,14 @@ exports[`snapshot changes when input change 1`] = `
             </div>
           </div>
           <div
-            class="MultiCard-innerContainer-37"
+            class="MultiCard-innerContainer-38"
           >
             <div
-              class="MuiCardMedia-root MultiCard-media-38"
+              class="MuiCardMedia-root MultiCard-media-39"
               style="background-image:url(\\"/assets/images/walking-dead_1_2.jpg\\")"
             />
             <img
-              class="MultiCard-thumbnail-40"
+              class="MultiCard-thumbnail-41"
               src="/assets/images/walking-dead_1_2.jpg"
             />
             <div
@@ -4748,18 +4748,18 @@ exports[`snapshot changes when input change 1`] = `
                   </p>
                 </div>
                 <p
-                  class="MuiTypography-root MultiCard-description-39 MuiTypography-body1"
+                  class="MuiTypography-root MultiCard-description-40 MuiTypography-body1"
                 >
                   Following on from where Rick Grimes wakes up from a coma and tries to find his family. He gets to Atlanta, surrounded by walkers, he is thrown from his horse and ends up in a tank. This is where someone on the walkie talkie, Glenn, helps him out of the tight situation.
                 </p>
               </div>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root MultiCard-actions-46 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-42 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-43 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt1628064/?ref_=ttep_ep2"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -4770,7 +4770,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MultiCard-localPlayIcon-44"
+                      class="MuiSvgIcon-root MultiCard-localPlayIcon-45"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -4784,7 +4784,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="Watch"
-                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-42 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-43 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=ZxmWhlidAZ8"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -4795,7 +4795,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-43"
+                      class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-44"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -4810,14 +4810,14 @@ exports[`snapshot changes when input change 1`] = `
             </div>
           </div>
           <div
-            class="MultiCard-innerContainer-37"
+            class="MultiCard-innerContainer-38"
           >
             <div
-              class="MuiCardMedia-root MultiCard-media-38"
+              class="MuiCardMedia-root MultiCard-media-39"
               style="background-image:url(\\"/assets/images/walking-dead_7_1.jpg\\")"
             />
             <img
-              class="MultiCard-thumbnail-40"
+              class="MultiCard-thumbnail-41"
               src="/assets/images/walking-dead_7_1.jpg"
             />
             <div
@@ -4837,18 +4837,18 @@ exports[`snapshot changes when input change 1`] = `
                   </p>
                 </div>
                 <p
-                  class="MuiTypography-root MultiCard-description-39 MuiTypography-body1"
+                  class="MuiTypography-root MultiCard-description-40 MuiTypography-body1"
                 >
                   The Saviours have captured Rick and the group. They kneel at the mercy of Negan who makes an example of 2 of the groups members. Not for the faint of heart.
                 </p>
               </div>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root MultiCard-actions-46 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
                   aria-label="IMDB"
-                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-42 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-43 MuiFab-extended MuiFab-primary"
                   href="https://www.imdb.com/title/tt5164772/?ref_=ttep_ep1"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -4859,7 +4859,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MultiCard-localPlayIcon-44"
+                      class="MuiSvgIcon-root MultiCard-localPlayIcon-45"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -4873,7 +4873,7 @@ exports[`snapshot changes when input change 1`] = `
                 <a
                   aria-disabled="false"
                   aria-label="Watch"
-                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-42 MuiFab-extended MuiFab-primary"
+                  class="MuiButtonBase-root MuiFab-root MultiCard-fab-43 MuiFab-extended MuiFab-primary"
                   href="https://www.youtube.com/watch?v=d3LDG5CCOPQ"
                   rel="noopener noreferrer"
                   tabindex="0"
@@ -4884,7 +4884,7 @@ exports[`snapshot changes when input change 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-43"
+                      class="MuiSvgIcon-root MultiCard-playCircleOutlineIcon-44"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -4946,7 +4946,7 @@ exports[`snapshot changes when input change 1`] = `
                 A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.
               </p>
               <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCardActions-root SingleCard-actions-36 MuiCardActions-spacing"
               >
                 <a
                   aria-disabled="false"
@@ -5006,21 +5006,21 @@ exports[`snapshot changes when input change 1`] = `
     </div>
   </main>
   <footer
-    class="Footer-footer-45"
+    class="Footer-footer-47"
   >
     <ul
-      class="Footer-list-46"
+      class="Footer-list-48"
     >
       <li
-        class="Footer-links-47"
+        class="Footer-links-49"
       >
         <p
           class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
         >
-          Made with ♥ by  
+          Made with ☕️ by  
           <a
-            class="Footer-anchor-48"
-            href="https://lmcjt.com"
+            class="Footer-anchor-50"
+            href="https://lmcjt.co.uk"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -5031,13 +5031,13 @@ exports[`snapshot changes when input change 1`] = `
       </li>
     </ul>
     <ul
-      class="Footer-list-46"
+      class="Footer-list-48"
     >
       <li
-        class="Footer-links-47"
+        class="Footer-links-49"
       >
         <a
-          class="Footer-anchor-48"
+          class="Footer-anchor-50"
           href="https://github.com/lmcjt37/curated-tv-and-film"
           rel="noopener noreferrer"
           target="_blank"
@@ -5050,10 +5050,10 @@ exports[`snapshot changes when input change 1`] = `
         </a>
       </li>
       <li
-        class="Footer-links-47"
+        class="Footer-links-49"
       >
         <a
-          class="Footer-anchor-48"
+          class="Footer-anchor-50"
           href="https://github.com/lmcjt37/curated-tv-and-film/graphs/contributors"
           rel="noopener noreferrer"
           target="_blank"
@@ -5066,10 +5066,10 @@ exports[`snapshot changes when input change 1`] = `
         </a>
       </li>
       <li
-        class="Footer-links-47"
+        class="Footer-links-49"
       >
         <a
-          class="Footer-anchor-48"
+          class="Footer-anchor-50"
           rel="noopener noreferrer"
           target="_blank"
         >

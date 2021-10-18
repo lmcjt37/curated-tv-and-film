@@ -50,16 +50,22 @@ const styles = theme => ({
     marginBottom: theme.spacing(2)
   },
   chip: {
-    margin: theme.spacing(1)
+    marginRight: theme.spacing(1)
   },
   fab: {
-    margin: theme.spacing(1)
+    marginRight: theme.spacing(1)
   },
   playCircleOutlineIcon: {
     marginRight: theme.spacing(1)
   },
   localPlayIcon: {
     marginRight: theme.spacing(1)
+  },
+  actions: {
+    marginTop: theme.spacing(2),
+    padding: 0, // override default
+    paddingBottom: theme.spacing(1),
+    paddingTop: theme.spacing(1)
   }
 });
 
@@ -110,7 +116,7 @@ const SingleCard = ({
             })}
           </div>
           <Typography component="p">{description}</Typography>
-          <CardActions>
+          <CardActions classes={{ root: classes.actions }}>
             <Fab
               color="primary"
               aria-label="IMDB"

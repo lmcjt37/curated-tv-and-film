@@ -40,8 +40,7 @@ const styles = theme => ({
   },
   actions: {
     backgroundColor: '#fff',
-    height: theme.spacing(4),
-    margin: theme.spacing(3)
+    justifyContent: 'center'
   },
   fab: {
     margin: theme.spacing(1)

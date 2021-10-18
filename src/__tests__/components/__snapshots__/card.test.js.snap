@@ -74,7 +74,7 @@ exports[`snapshot of initial component 1`] = `
         You know nothing
       </p>
       <div
-        class="MuiCardActions-root MuiCardActions-spacing"
+        class="MuiCardActions-root SingleCard-actions-10 MuiCardActions-spacing"
       >
         <a
           aria-disabled="false"
