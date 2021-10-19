@@ -77,9 +77,9 @@ const Header = ({
   toggleGrid,
   toggleClear //Clear Search func
 }) => {
-  const [style, setStyle] = useState('two');
-  function changeStyle(value) {
-    setStyle(value);
+  const [showDelete, setShowDelete] = useState(false);
+  function changeState(booleanValue) {
+    setShowDelete(booleanValue);
   }
   return (
     <div className={classes.root}>
@@ -99,12 +99,14 @@ const Header = ({
             </div>
             <Autocomplete
               {...{ autoComplete }}
-              changeStyle={changeStyle}
+              changeState={changeState}
               handleChange={handleChange}
             />
-            <div className={style} onClick={toggleClear}>
-              <ClearIcon />
-            </div>
+            {showDelete && (
+              <div className={classes.clearIcon} onClick={toggleClear}>
+                <ClearIcon />
+              </div>
+            )}
           </div>
           <div className={classes.grow} />
           {showFilters ? (
