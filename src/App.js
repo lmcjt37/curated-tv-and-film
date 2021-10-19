@@ -29,13 +29,6 @@ const styles = theme => ({
     textAlign: 'center',
     width: '100%',
     margin: '200px auto'
-  },
-  clearIcon: {
-    width: theme.spacing(9),
-    pointerEvents: 'none',
-    display: 'none',
-    alignItems: 'center',
-    justifyContent: 'center'
   }
 });
 

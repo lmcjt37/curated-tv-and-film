@@ -107,11 +107,8 @@ const getSuggestions = (value, suggestions) => {
 
 const Autocomplete = ({ classes, autoComplete, handleChange, changeState }) => {
   const onValueChange = (value, state) => {
-    if (!value) {
-      changeState(false);
-    } else {
-      changeState(true);
-    }
+    !value ? changeState(false) : changeState(true);
+
     handleChange({
       target: {
         value: value

@@ -78,9 +78,6 @@ const Header = ({
   toggleClear //Clear Search func
 }) => {
   const [showDelete, setShowDelete] = useState(false);
-  function changeState(booleanValue) {
-    setShowDelete(booleanValue);
-  }
   return (
     <div className={classes.root}>
       <AppBar position="fixed">
@@ -99,7 +96,7 @@ const Header = ({
             </div>
             <Autocomplete
               {...{ autoComplete }}
-              changeState={changeState}
+              changeState={setShowDelete}
               handleChange={handleChange}
             />
             {showDelete && (
