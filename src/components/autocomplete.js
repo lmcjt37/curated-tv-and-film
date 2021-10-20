@@ -105,8 +105,9 @@ const getSuggestions = (value, suggestions) => {
       });
 };
 
-const Autocomplete = ({ classes, autoComplete, handleChange }) => {
+const Autocomplete = ({ classes, autoComplete, handleChange, changeState }) => {
   const onValueChange = (value, state) => {
+    !value ? changeState(false) : changeState(true);
     handleChange({
       target: {
         value: value

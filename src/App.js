@@ -1,7 +1,6 @@
 // React
 import React, { useState, useEffect } from 'react';
 import { Events, animateScroll as scroll } from 'react-scroll';
-
 // Components
 import './App.css';
 import data from './content.js';
@@ -54,7 +53,6 @@ export const handleChange = (
   setContent
 ) => {
   let searchString = event.target.value.trim().toLowerCase();
-
   if (searchString) {
     let searchResult = data.filter(
       el =>
@@ -357,4 +355,5 @@ export const App = ({
     </div>
   );
 };
+
 export default withStyles(styles)(ConnectedApp);

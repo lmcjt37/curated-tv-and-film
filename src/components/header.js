@@ -1,5 +1,5 @@
 // React
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 // Material Core
@@ -11,7 +11,6 @@ import Typography from '@material-ui/core/Typography';
 // Material Core - Styles
 import { fade } from '@material-ui/core/styles/colorManipulator';
 import { withStyles } from '@material-ui/core/styles';
-
 // Material Core - Icons
 import SearchIcon from '@material-ui/icons/Search';
 import TuneIcon from '@material-ui/icons/Tune';
@@ -78,6 +77,7 @@ const Header = ({
   toggleGrid,
   toggleClear //Clear Search func
 }) => {
+  const [showDelete, setShowDelete] = useState(false);
   return (
     <div className={classes.root}>
       <AppBar position="fixed">
@@ -94,10 +94,16 @@ const Header = ({
             <div className={classes.searchIcon}>
               <SearchIcon />
             </div>
-            <Autocomplete {...{ autoComplete }} handleChange={handleChange} />
-            <div className={classes.clearIcon} onClick={toggleClear}>
-              <ClearIcon />
-            </div>
+            <Autocomplete
+              {...{ autoComplete }}
+              changeState={setShowDelete}
+              handleChange={handleChange}
+            />
+            {showDelete && (
+              <div className={classes.clearIcon} onClick={toggleClear}>
+                <ClearIcon />
+              </div>
+            )}
           </div>
           <div className={classes.grow} />
           {showFilters ? (
