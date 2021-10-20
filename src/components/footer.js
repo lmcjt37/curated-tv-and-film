@@ -66,7 +66,7 @@ const Footer = ({ classes }) => {
               className={classes.anchor}
               target="_blank"
               rel="noopener noreferrer"
-              href="https://lmcjt.co.uk"
+              href="https://lmcjt.dev"
             >
               Luke Taylor
             </a>
