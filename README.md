@@ -39,7 +39,7 @@ The purpose of the project is to show a curated list of Modern TV shows or Films
 These scenes are carefully picked out moments, ignoring bias of any opinions or beliefs. So please be aware that because of this, certain links may cause offense.
 <br>
 ## 🏁 Getting Started <a name = "getting_started"></a>
-To get Started clone this repository or Frok it.
+To get started clone this repository or fork it.
 To clone follow this command
 ```sh
 git clone https://github.com/lmcjt37/curated-tv-and-film.git
