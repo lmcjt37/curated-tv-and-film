@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="" rel="noopener">
+  <a href="https://lmcjt37.github.io/curated-tv-and-film/" rel="noopener">
  <img width=200px height=200px src="./public/assets/images/logo.png"></a>
 </p>
 
