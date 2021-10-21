@@ -89,3 +89,8 @@
 - Role: Contributor
 - Place: Las Vegas, NV
 - GitHub: [jason1985](https://github.com/jason1985)
+
+#### Name: [Vinay Kanase](https://github.com/VinayKanase)
+- Role: Contributor
+- Place: Mumbai, India
+- GitHub: [Vinay Kanase](https://github.com/VinayKanase)
