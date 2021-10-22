@@ -1,65 +1,69 @@
+<p align="center">
+  <a href="https://lmcjt37.github.io/curated-tv-and-film/" rel="noopener">
+ <img width=200px height=200px src="./public/assets/images/logo.png"></a>
+</p>
+
+<h2 align="center">curated-tv-and-film</h2>
+<br>
+<div align="center">
+
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/lmcjt37/curated-tv-and-film/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/lmcjt37/curated-tv-and-film/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 ![github-actions](https://github.com/lmcjt37/curated-tv-and-film/actions/workflows/ci.yml/badge.svg?branch=main) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/lmcjt37/curated-tv-and-film/issues)
 
-# Curated-TV-and-Film
+</div>
 
+---
+
+<p align="center"> 
+The purpose of the project is to show a curated list of Modern TV shows or Films, where iconic scenes that include speeches, action scenes, classic quotes, etc.
+</p>
+
+## 📝 Table of Contents
+
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Tests](#tests)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [Contributing](CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
+
+## 🧐 About <a name = "about"></a>
 The purpose of the project is to show a curated list of Modern TV shows or Films, where iconic scenes that include speeches, action scenes, classic quotes, etc. These can all be viewed easily and quickly to help in reference. Especially useful in arguments.
 
 These scenes are carefully picked out moments, ignoring bias of any opinions or beliefs. So please be aware that because of this, certain links may cause offense.
-
-## Features
-
-- React and Javascript(built with Create-React-App).
-- Development server with Hot module reload.
-- Jest testing with snapshot testing.
-
-## Local Installation
-
-### Dependencies
-
-- [node.js](https://nodejs.org)
-
-```
+<br>
+## 🏁 Getting Started <a name = "getting_started"></a>
+To get started clone this repository or fork it.
+To clone follow this command
+```sh
 git clone https://github.com/lmcjt37/curated-tv-and-film.git
-npm install
+``` 
+
+## 🔧 Running the tests <a name = "tests"></a>
+
+### Jest
+
+Tests are found in `./src/__tests__` and to run tests across the project use the following command:
+
+```bash
+npm test (yarn test)
 ```
 
-### Development
+_Tests are also run on a pre-commit hook to make sure tests are updated along with commits and don't break the build._
 
-Start the local development server by running
+To know more about testing go to [MORE](MORE.md)
 
-```
-npm start
-```
+### Snapshots
 
-The webpage will open automatically, otherwise navigate to http://localhost:3000/ in your browser.
+Along with the Jest tests are snapshots. These are essentially for UI testing how your components are rendered. Any unexpected changes to your components will cause the snapshot tests to fail.
 
-_Hot Module reload causes the server to automatically detect file changes and reload the project._
-
-## Project structure
-
-The boilerplate structure is the same as what is created in Create-React-App.
-
-```
-./
-|
-├── public/
-│   ├── assets/ - Other assets, thumbnail images.
-│   ├── index.html - Defines root html for app.
-│   └── manifest.json - Tells the browser about your web application and how it should behave when 'installed'.
-|
-└── src/
-    ├── _tests_/ - Contains test environment (Jest + Enzyme).
-    ├── assets/ - Other assets, icons.
-    ├── fonts/ - Font files.
-    ├── App.js - Core app functionality.
-    ├── App.css - Styling.
-    ├── content.js - Contains the data for tv shows and films for the project.
-    ├── index.js - Project entry point.
-    ├── index.css - Styling.
-    ├── package.json - Defines dependencies and package scripts for project, plus project information.
-    └── serviceWorker.js - (not registered) Defines registration for PWA usage.
-
-```
+Provided that the components have been rendered correctly, you can fix and update the snapshot tests by pressing 'u' whilst the watch mode is being run. This will then update and re-run the tests to show you the passing state of your tests.
 
 ## Prettier linting
 
@@ -73,37 +77,43 @@ Configuration for Prettier is found in [.prettierrc](.prettierrc).
 
 The project also has pre-commit hooks for when code is commited to your local branches that will trigger this linting across the project.
 
-## Testing
+## 🎈 Usage <a name="usage"></a>
 
-### Jest
-
-Tests are found in `./src/__tests__` and to run tests across the project use the following command:
-
-```bash
-npm test (yarn test)
+After installing this repository to your local machine to Start the local development server by running the following commands
+```sh
+$ npm install 
+$ npm start
 ```
+The webpage will open automatically, otherwise navigate to http://localhost:3000/ in your browser.
 
-This will start the tests with watch mode active, meaning it will automatically detect file changes and re-test. Initially it will only test files which have changed, to test all files you will be prompted to press 'a'.
+_Hot Module reload causes the server to automatically detect file changes and reload the project._
 
-You can navigate the command prompt by pressing 'w', which will present you with the available commands.
 
-### Snapshots
+## 🚀 Deployment <a name = "deployment"></a>
 
-Along with the Jest tests are snapshots. These are essentially for UI testing how your components are rendered. Any unexpected changes to your components will cause the snapshot tests to fail.
+This site is deployed at GitHub Pages - https://lmcjt37.github.io/curated-tv-and-film/
 
-Provided that the components have been rendered correctly, you can fix and update the snapshot tests by pressing 'u' whilst the watch mode is being run. This will then update and re-run the tests to show you the passing state of your tests.
+## ⛏️ Built Using <a name = "built_using"></a>
 
-_Tests are also run on a pre-commit hook to make sure tests are updated along with commits and don't break the build._
+- [HTML](https://www.w3schools.com/html/) - Structural Language
+- [CSS](https://www.w3schools.com/css/) - Styling Language
+- [JavaScript](https://www.w3schools.com/js/) - Programming Language
+- [React](https://reactjs.org/) - Frontend Framework
+- [Material UI](https://mui.com/) - React UI Library
+- [Lodash](https://lodash.com/) - JavaScript Library
+- [Jest](https://jestjs.io/) - Testing Library
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [@lmcjt37](https://github.com/lmcjt37)
+
+Visit here for contributors list - [Contributors](CONTRIBUTORS.md)
 
 ## Contribution
 
 Feel free to contribute by reading the guidelines - [Contributing](CONTRIBUTING.md)
 
-## Contributors
-
-Visit here for contributors list - [Contributors](CONTRIBUTORS.md)
-
-## Acknowledgements
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
 This site is built with a number of tools, the main one being [Create React App](https://facebook.github.io/create-react-app/).
 
