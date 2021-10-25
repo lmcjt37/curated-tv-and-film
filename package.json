@@ -3,6 +3,9 @@
   "version": "1.3.0",
   "private": true,
   "homepage": "https://lmcjt37.github.io/curated-tv-and-film/",
+  "engines": {
+    "npm": ">=7"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
