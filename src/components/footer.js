@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 // Material Core - Styles
 import { withStyles } from '@material-ui/core/styles';
 
-const styles = theme => ({
+const styles = (theme) => ({
   footer: {
     margin: theme.spacing(2),
     display: 'flex',

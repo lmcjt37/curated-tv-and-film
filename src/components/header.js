@@ -22,7 +22,7 @@ import ClearIcon from '@material-ui/icons/Clear'; //Clear Search-bar Icon
 // Components
 import Autocomplete from './autocomplete';
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {
     width: '100%'
   },

@@ -112,7 +112,7 @@ exports[`snapshot changes when input change 1`] = `
     class="FilterBar-root-14"
   >
     <div
-      class="MuiCollapse-container MuiCollapse-hidden"
+      class="MuiCollapse-root MuiCollapse-hidden"
       style="min-height:0px"
     >
       <div

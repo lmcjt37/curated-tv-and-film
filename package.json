@@ -6,6 +6,14 @@
   "engines": {
     "npm": ">=7"
   },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test::CI": "CI=true react-scripts test",
+    "lint": "prettier --write 'src/**/*.js'",
+    "deploy": "gh-pages -d build --dotfiles"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
@@ -22,13 +30,14 @@
     "react-scroll": "^1.7.14",
     "reactstrap": "^8.0.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "test::CI": "CI=true react-scripts test",
-    "lint": "prettier --write 'src/**/*.js'",
-    "deploy": "gh-pages -d build --dotfiles"
+  "devDependencies": {
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.6",
+    "enzyme-to-json": "3.6.2",
+    "eslint-plugin-prettier": "4.2.1",
+    "husky": "8.0.1",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1"
   },
   "husky": {
     "hooks": {
@@ -50,15 +59,6 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.15.1",
-    "enzyme-to-json": "^3.4.2",
-    "eslint-plugin-prettier": "^3.1.1",
-    "husky": "^3.0.9",
-    "lint-staged": "^9.4.2",
-    "prettier": "1.18.2"
-  },
   "jest": {
     "snapshotSerializers": [
       "enzyme-to-json/serializer"

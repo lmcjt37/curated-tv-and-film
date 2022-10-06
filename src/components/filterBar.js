@@ -22,7 +22,7 @@ import DoneIcon from '@material-ui/icons/Done';
 // Material Core - Styles
 import { withStyles } from '@material-ui/core/styles';
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {
     width: '100%',
     position: 'fixed',

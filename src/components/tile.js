@@ -16,7 +16,7 @@ import LocalPlayIcon from '@material-ui/icons/LocalPlay';
 // Material Core - Styles
 import { withStyles } from '@material-ui/core/styles';
 
-const styles = theme => ({
+const styles = (theme) => ({
   card: {
     margin: theme.spacing(2),
     position: 'relative'

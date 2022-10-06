@@ -12,7 +12,7 @@ import Paper from '@material-ui/core/Paper';
 import MenuItem from '@material-ui/core/MenuItem';
 import InputBase from '@material-ui/core/InputBase';
 
-const styles = theme => ({
+const styles = (theme) => ({
   container: {
     flexGrow: 1,
     position: 'relative'
@@ -93,7 +93,7 @@ const getSuggestions = (value, suggestions) => {
 
   return inputLength === 0
     ? []
-    : suggestions.filter(suggestion => {
+    : suggestions.filter((suggestion) => {
         const keep =
           count < 5 &&
           suggestion.label.slice(0, inputLength).toLowerCase() === inputValue;

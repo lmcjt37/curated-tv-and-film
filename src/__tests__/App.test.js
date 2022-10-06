@@ -113,9 +113,9 @@ it('calls handleChange correctly', () => {
   let setAutoCompleteArg;
   let setSearchArg;
   let setContentArg;
-  const mockSetAutoComplete = arg => (setAutoCompleteArg = arg);
-  const mockSetSearch = arg => (setSearchArg = arg);
-  const mockSetContent = arg => (setContentArg = arg);
+  const mockSetAutoComplete = (arg) => (setAutoCompleteArg = arg);
+  const mockSetSearch = (arg) => (setSearchArg = arg);
+  const mockSetContent = (arg) => (setContentArg = arg);
 
   const event = { target: { value: '' } };
   handleChange(
@@ -145,13 +145,13 @@ it('calls handleChange correctly', () => {
 });
 
 it('calls handleYear correctly', () => {
-  let onlyMovies = content.filter(value => value.type === 'movie');
+  let onlyMovies = content.filter((value) => value.type === 'movie');
   let allContentLength = onlyMovies.length;
   const event = { target: { value: '2003' } };
-  const setContent = jest.fn().mockImplementation(arg => {
+  const setContent = jest.fn().mockImplementation((arg) => {
     expect(arg.length).toBeLessThan(allContentLength);
   });
-  const setFilterYear = jest.fn().mockImplementation(arg => {
+  const setFilterYear = jest.fn().mockImplementation((arg) => {
     expect(arg).toEqual(event.target.value);
   });
 
@@ -163,10 +163,10 @@ it('calls handleFilter correctly for TV', () => {
   let setContentArg;
   let setYearsArg;
   let setFilterYearArg;
-  const mockSetFilterResults = arg => (setFilterResultsArg = arg);
-  const mockSetContent = arg => (setContentArg = arg);
-  const mockSetYears = arg => (setYearsArg = arg);
-  const mockSetFilterYear = arg => (setFilterYearArg = arg);
+  const mockSetFilterResults = (arg) => (setFilterResultsArg = arg);
+  const mockSetContent = (arg) => (setContentArg = arg);
+  const mockSetYears = (arg) => (setYearsArg = arg);
+  const mockSetFilterYear = (arg) => (setFilterYearArg = arg);
   const mockSetOnlyMovies = jest.fn();
 
   const event = { target: { value: 'all' } };
@@ -209,10 +209,10 @@ it('calls handleFilter correctly for Movies', () => {
   let setContentArg;
   let setYearsArg;
   let setFilterYearArg;
-  const mockSetFilterResults = arg => (setFilterResultsArg = arg);
-  const mockSetContent = arg => (setContentArg = arg);
-  const mockSetYears = arg => (setYearsArg = arg);
-  const mockSetFilterYear = arg => (setFilterYearArg = arg);
+  const mockSetFilterResults = (arg) => (setFilterResultsArg = arg);
+  const mockSetContent = (arg) => (setContentArg = arg);
+  const mockSetYears = (arg) => (setYearsArg = arg);
+  const mockSetFilterYear = (arg) => (setFilterYearArg = arg);
   const mockSetOnlyMovies = jest.fn();
 
   const event = { target: { value: 'movies' } };
@@ -230,22 +230,8 @@ it('calls handleFilter correctly for Movies', () => {
   expect(setContentArg.length).toBeGreaterThan(1);
   expect(setFilterResultsArg).toEqual('movies');
   expect(setYearsArg).toEqual([
-    2019,
-    2017,
-    2016,
-    2014,
-    2013,
-    2007,
-    2005,
-    2004,
-    2003,
-    2001,
-    1999,
-    1998,
-    1995,
-    1994,
-    1993,
-    1972
+    2019, 2017, 2016, 2014, 2013, 2007, 2005, 2004, 2003, 2001, 1999, 1998,
+    1995, 1994, 1993, 1972
   ]);
   expect(setFilterYearArg).toEqual('All');
   expect(mockSetOnlyMovies).toHaveBeenCalledTimes(1);
@@ -274,8 +260,8 @@ it('calls handleToggleChip correctly', () => {
   };
   let setFilterGenreArg;
   let setShowFiltersArg;
-  const mockSetFilterGenre = arg => (setFilterGenreArg = arg);
-  const mockSetShowFilters = arg => (setShowFiltersArg = arg);
+  const mockSetFilterGenre = (arg) => (setFilterGenreArg = arg);
+  const mockSetShowFilters = (arg) => (setShowFiltersArg = arg);
 
   let chip = 'Action';
   handleToggleChip(chip, filterGenre, mockSetFilterGenre, mockSetShowFilters);
@@ -329,7 +315,7 @@ it('calls handleToggleChip correctly', () => {
 
 it('calls handleOrder correctly', () => {
   let setFilterOrderArg;
-  const mockSetFilterOrder = arg => (setFilterOrderArg = arg);
+  const mockSetFilterOrder = (arg) => (setFilterOrderArg = arg);
 
   const event = { target: { value: 'Ascending' } };
   handleOrder(event, mockSetFilterOrder);

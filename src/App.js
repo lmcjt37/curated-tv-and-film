@@ -18,7 +18,7 @@ import Grid from '@material-ui/core/Grid';
 import ErrorIcon from '@material-ui/icons/Error';
 import { withStyles } from '@material-ui/core/styles';
 
-const styles = theme => ({
+const styles = (theme) => ({
   content: {
     marginTop: `${theme.spacing(2) + 54}px`,
     [theme.breakpoints.up('sm')]: {
@@ -38,7 +38,7 @@ export const handleYear = (event, onlyMovies, setFilterYear, setContent) => {
   let moviesFilteredByYear = onlyMovies;
   if (year !== 'All') {
     moviesFilteredByYear = onlyMovies.filter(
-      movie => movie.year.toString() === year.toString()
+      (movie) => movie.year.toString() === year.toString()
     );
   }
   setFilterYear(year);
@@ -55,19 +55,19 @@ export const handleChange = (
   let searchString = event.target.value.trim().toLowerCase();
   if (searchString) {
     let searchResult = data.filter(
-      el =>
+      (el) =>
         el.title.toLowerCase().match(searchString) ||
         (el.year && el.year.toString().match(searchString))
     );
 
     setAutoComplete(
       data
-        .map(el =>
+        .map((el) =>
           el.title.toLowerCase().match(searchString)
             ? { label: el.title }
             : null
         )
-        .filter(item => item !== null)
+        .filter((item) => item !== null)
     );
 
     setSearch(true);
@@ -95,8 +95,8 @@ export const handleFilter = (
   setFilterYear('All');
 
   if (event.target.value !== 'tv') {
-    let filteredMovies = content.filter(value => value.type === 'movie');
-    let onlyYears = new Set(filteredMovies.map(movie => movie.year));
+    let filteredMovies = content.filter((value) => value.type === 'movie');
+    let onlyYears = new Set(filteredMovies.map((movie) => movie.year));
     setYears([...onlyYears].sort((a, b) => b - a));
     setOnlyMovies(filteredMovies);
   }
@@ -169,15 +169,15 @@ const ConnectedApp = ({ classes }) => {
     setAutoComplete([]);
   };
 
-  const callHandleChange = event => {
+  const callHandleChange = (event) => {
     handleChange(event, data, setAutoComplete, setSearch, setContent);
   };
 
-  const callHandleYear = event => {
+  const callHandleYear = (event) => {
     handleYear(event, onlyMovies, setFilterYear, setContent);
   };
 
-  const callHandleFilter = event => {
+  const callHandleFilter = (event) => {
     handleFilter(
       event,
       data,
@@ -190,11 +190,11 @@ const ConnectedApp = ({ classes }) => {
     );
   };
 
-  const callHandleToggleChip = chip => {
+  const callHandleToggleChip = (chip) => {
     handleToggleChip(chip, filterGenre, setFilterGenre, setShowFilters);
   };
 
-  const callHandleOrder = event => {
+  const callHandleOrder = (event) => {
     handleOrder(event, setFilterOrder);
   };
 
@@ -312,7 +312,9 @@ export const App = ({
                 return null;
               if (
                 filterGenre.on.length !== 0 &&
-                !item.genre.some(genre => filterGenre.on.indexOf(genre) !== -1)
+                !item.genre.some(
+                  (genre) => filterGenre.on.indexOf(genre) !== -1
+                )
               )
                 return null;
 
