@@ -12,7 +12,8 @@
     "test": "react-scripts test",
     "test::CI": "CI=true react-scripts test",
     "lint": "prettier --write 'src/**/*.js'",
-    "deploy": "gh-pages -d build --dotfiles"
+    "deploy": "gh-pages -d build --dotfiles",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
