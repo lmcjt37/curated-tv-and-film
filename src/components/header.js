@@ -9,8 +9,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 
 // Material Core - Styles
-import { fade } from '@material-ui/core/styles/colorManipulator';
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles, alpha } from '@material-ui/core/styles';
 // Material Core - Icons
 import SearchIcon from '@material-ui/icons/Search';
 import TuneIcon from '@material-ui/icons/Tune';
@@ -22,7 +21,7 @@ import ClearIcon from '@material-ui/icons/Clear'; //Clear Search-bar Icon
 // Components
 import Autocomplete from './autocomplete';
 
-const styles = (theme) => ({
+const styles = theme => ({
   root: {
     width: '100%'
   },
@@ -39,9 +38,9 @@ const styles = (theme) => ({
   search: {
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
-    backgroundColor: fade(theme.palette.common.white, 0.15),
+    backgroundColor: alpha(theme.palette.common.white, 0.15),
     '&:hover': {
-      backgroundColor: fade(theme.palette.common.white, 0.25)
+      backgroundColor: alpha(theme.palette.common.white, 0.25)
     },
     marginRight: theme.spacing(2),
     marginLeft: theme.spacing(2),
