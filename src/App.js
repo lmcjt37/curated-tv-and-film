@@ -349,7 +349,7 @@ export const App = ({
         ) : (
           <div className={classes.error}>
             <ErrorIcon fontSize="large" />
-            <p>Can't load the data.</p>
+            <p>{"Can't load the data."}</p>
           </div>
         )}
       </main>
