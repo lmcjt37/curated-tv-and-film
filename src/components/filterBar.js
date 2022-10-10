@@ -81,6 +81,7 @@ const FilterBar = ({
         onDelete={() => handleToggleChip(genre)}
         deleteIcon={isActive ? <DoneIcon /> : null}
         color="primary"
+        data-testid={`chip`}
       />
     );
   });
@@ -99,7 +100,7 @@ const FilterBar = ({
   ));
 
   return (
-    <div className={classes.root}>
+    <div data-testid="filter-bar" className={classes.root}>
       <Collapse in={showFilters}>
         <AppBar
           position="relative"
@@ -126,21 +127,27 @@ const FilterBar = ({
                     value="all"
                     control={<Radio color="primary" />}
                     label="All"
+                    data-testid="form-control-label"
                   />
                   <FormControlLabel
                     value="movies"
                     control={<Radio color="primary" />}
                     label="Movies"
+                    data-testid="form-control-label"
                   />
                   <FormControlLabel
                     value="tv"
                     control={<Radio color="primary" />}
                     label="TV"
+                    data-testid="form-control-label"
                   />
                 </RadioGroup>
               </FormControl>
               {filterResults === 'movies' ? (
-                <FormControl className={classes.formControl}>
+                <FormControl
+                  data-testid="form-control-years"
+                  className={classes.formControl}
+                >
                   <InputLabel htmlFor="filterYear">Year</InputLabel>
                   <Select
                     value={filterYear}
@@ -155,7 +162,10 @@ const FilterBar = ({
                   </Select>
                 </FormControl>
               ) : null}
-              <FormControl className={classes.formControl}>
+              <FormControl
+                data-testid="form-control-sort"
+                className={classes.formControl}
+              >
                 <InputLabel htmlFor="filterOrder">Sort</InputLabel>
                 <Select
                   value={filterOrder}
@@ -169,7 +179,7 @@ const FilterBar = ({
                 </Select>
               </FormControl>
               <div
-                id="chipContainer_testOnly"
+                data-testid="chip-container"
                 className={classes.chipContainer}
               >
                 {genreChips}

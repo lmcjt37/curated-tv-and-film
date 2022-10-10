@@ -1,13 +1,7 @@
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+
 import Card from '../../components/card';
-import MuiCard from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Typography from '@material-ui/core/Typography';
-import Chip from '@material-ui/core/Chip';
-import Fab from '@material-ui/core/Fab';
-import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
-import LocalPlayIcon from '@material-ui/icons/LocalPlay';
 
 const itemMock = {
   type: 'tv_show',
@@ -23,21 +17,26 @@ const itemMock = {
 };
 
 it('render all initial child components', () => {
-  const wrapper = mount(<Card {...itemMock} />);
+  render(<Card {...itemMock} />);
 
-  expect(wrapper.find(MuiCard)).toHaveLength(1);
-  expect(wrapper.find(CardActions)).toHaveLength(1);
-  expect(wrapper.find(CardContent)).toHaveLength(1);
-  expect(wrapper.find(CardMedia)).toHaveLength(1);
-  expect(wrapper.find(Typography)).toHaveLength(4);
-  expect(wrapper.find(Chip)).toHaveLength(3);
-  expect(wrapper.find(CardActions)).toHaveLength(1);
-  expect(wrapper.find(Fab)).toHaveLength(2);
-  expect(wrapper.find(LocalPlayIcon)).toHaveLength(1);
-  expect(wrapper.find(PlayCircleOutlineIcon)).toHaveLength(1);
+  expect(screen.getByTestId('card')).toBeTruthy();
+  expect(screen.getByTestId('card-media')).toBeTruthy();
+  expect(screen.getByTestId('card-image')).toBeTruthy();
+  expect(screen.getByTestId('card-content')).toBeTruthy();
+  expect(screen.getByTestId('card-content-title')).toBeTruthy();
+  expect(screen.getByTestId('card-content-subtitle-1')).toBeTruthy();
+  expect(screen.getByTestId('card-content-subtitle-2')).toBeTruthy();
+  expect(screen.getByTestId('card-content-chip-container')).toBeTruthy();
+  expect(
+    screen.getAllByTestId('card-content-chip-container-item').length
+  ).toEqual(3);
+  expect(screen.getByTestId('card-content-description')).toBeTruthy();
+  expect(screen.getByTestId('card-content-actions')).toBeTruthy();
+  expect(screen.getByTestId('card-action-imdb')).toBeTruthy();
+  expect(screen.getByTestId('card-action-watch')).toBeTruthy();
 });
 
 it('snapshot of initial component', () => {
-  const component = render(<Card {...itemMock} />);
-  expect(component).toMatchSnapshot();
+  const { asFragment } = render(<Card {...itemMock} />);
+  expect(asFragment).toMatchSnapshot();
 });

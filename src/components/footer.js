@@ -51,15 +51,15 @@ const styles = (theme) => ({
 
 const Footer = ({ classes }) => {
   return (
-    <footer className={classes.footer}>
+    <footer data-testid="footer" className={classes.footer}>
       <ul className={classes.stackedList}>
-        <li className={classes.links}>
+        <li data-testid="footer-link-one" className={classes.links}>
           <Typography color="textSecondary">
             Made for Hacktoberfest 🎃 &nbsp; &copy; 2018-
             {new Date().getUTCFullYear()}
           </Typography>
         </li>
-        <li className={classes.links}>
+        <li data-testid="footer-link-two" className={classes.links}>
           <Typography color="textSecondary">
             Owner &nbsp;
             <a
@@ -74,7 +74,7 @@ const Footer = ({ classes }) => {
         </li>
       </ul>
       <ul className={classes.inlineList}>
-        <li className={classes.links}>
+        <li data-testid="footer-link-three" className={classes.links}>
           <a
             className={classes.anchor}
             target="_blank"
@@ -84,7 +84,7 @@ const Footer = ({ classes }) => {
             <Typography color="textSecondary">Repository</Typography>
           </a>
         </li>
-        <li className={classes.links}>
+        <li data-testid="footer-link-four" className={classes.links}>
           <a
             className={classes.anchor}
             target="_blank"
@@ -94,7 +94,7 @@ const Footer = ({ classes }) => {
             <Typography color="textSecondary">Contributors</Typography>
           </a>
         </li>
-        <li className={classes.links}>
+        <li data-testid="footer-link-five" className={classes.links}>
           <a
             className={classes.anchor}
             target="_blank"

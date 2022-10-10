@@ -74,11 +74,11 @@ const Header = ({
   toggleFilter,
   showGrid,
   toggleGrid,
-  toggleClear //Clear Search func
+  toggleClear // Clear Search func
 }) => {
   const [showDelete, setShowDelete] = useState(false);
   return (
-    <div className={classes.root}>
+    <div data-testid="header" className={classes.root}>
       <AppBar position="fixed">
         <Toolbar>
           <Typography
@@ -90,7 +90,7 @@ const Header = ({
             Curated TV and Films
           </Typography>
           <div className={classes.search}>
-            <div className={classes.searchIcon}>
+            <div data-testid="search-icon" className={classes.searchIcon}>
               <SearchIcon />
             </div>
             <Autocomplete
@@ -99,27 +99,47 @@ const Header = ({
               handleChange={handleChange}
             />
             {showDelete && (
-              <div className={classes.clearIcon} onClick={toggleClear}>
+              <div
+                data-testid="clear-icon"
+                className={classes.clearIcon}
+                onClick={toggleClear}
+              >
                 <ClearIcon />
               </div>
             )}
           </div>
           <div className={classes.grow} />
           {showFilters ? (
-            <IconButton color="inherit" onClick={toggleFilter}>
+            <IconButton
+              data-testid="close-icon"
+              color="inherit"
+              onClick={toggleFilter}
+            >
               <CloseIcon />
             </IconButton>
           ) : (
-            <IconButton color="inherit" onClick={toggleFilter}>
+            <IconButton
+              data-testid="tune-icon"
+              color="inherit"
+              onClick={toggleFilter}
+            >
               <TuneIcon />
             </IconButton>
           )}
           {showGrid ? (
-            <IconButton color="inherit" onClick={toggleGrid}>
+            <IconButton
+              data-testid="row-icon"
+              color="inherit"
+              onClick={toggleGrid}
+            >
               <RowIcon />
             </IconButton>
           ) : (
-            <IconButton color="inherit" onClick={toggleGrid}>
+            <IconButton
+              data-testid="grid-icon"
+              color="inherit"
+              onClick={toggleGrid}
+            >
               <GridIcon />
             </IconButton>
           )}

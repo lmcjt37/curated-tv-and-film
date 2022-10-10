@@ -77,7 +77,7 @@ const Tile = ({
   url
 }) => {
   return (
-    <Card className={classes.card}>
+    <Card data-testid="tile" className={classes.card}>
       <CardMedia
         className={classes.media}
         image={process.env.PUBLIC_URL + thumbnail}

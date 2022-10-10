@@ -1,9 +1,7 @@
-import Header from '../components/header.js';
-import Footer from '../components/footer.js';
-import FilterBar from '../components/filterBar.js';
-import Card from '../components/card.js';
-import MultiCard from '../components/multiCard';
-import ErrorIcon from '@material-ui/icons/Error';
+import React from 'react';
+import { render, screen, within } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+
 import { animateScroll as scroll } from 'react-scroll';
 import ConnectedApp, {
   App,
@@ -16,40 +14,35 @@ import ConnectedApp, {
 } from '../App';
 import content from '../content';
 
-it('render all initial child components', () => {
-  const wrapper = mount(<ConnectedApp />);
+it('render all initial child components', async () => {
+  render(<ConnectedApp />);
 
-  expect(wrapper.find(Header)).toHaveLength(1);
-  expect(wrapper.find(FilterBar)).toHaveLength(1);
-  expect(wrapper.find('main')).toHaveLength(1);
-  expect(wrapper.find(Footer)).toHaveLength(1);
-  expect(wrapper.find(Card).length).toBeGreaterThan(0);
-  expect(wrapper.find(MultiCard).length).toBeGreaterThan(0);
-  expect(wrapper.find(ErrorIcon)).toHaveLength(0);
+  expect(screen.getByTestId('header')).toBeTruthy();
+  expect(screen.getByTestId('filter-bar')).toBeTruthy();
+  expect(screen.getByTestId('main')).toBeTruthy();
+  expect(screen.getByTestId('footer')).toBeTruthy();
+  expect(screen.getAllByTestId('card').length).toBeGreaterThan(0);
+  expect(screen.getAllByTestId('multi-card').length).toBeGreaterThan(0);
+  expect(screen.queryByTestId('error-no-result')).toBeFalsy();
+  expect(screen.queryByTestId('error-load')).toBeFalsy();
 });
 
-it('renders error component for no search results', () => {
-  const wrapper = mount(<ConnectedApp />);
+it('renders error component for no search results', async () => {
+  render(<ConnectedApp />);
 
-  wrapper.find('input[type="text"]').simulate('change', {
-    target: {
-      value: 'random text with no search result'
-    }
-  });
+  await userEvent.type(
+    screen.getByTestId('auto-complete-input'),
+    'random text with no search result'
+  );
 
-  expect(wrapper.find(ErrorIcon)).toHaveLength(1);
+  expect(screen.getByTestId('error-no-result')).toBeDefined();
+  const text = within(screen.getByTestId('error-no-result')).getByText(
+    'No search result.'
+  );
+  expect(text).toBeTruthy();
 });
 
-it("renders error component when it can't load the data", () => {
-  const callHandleToggleChip = jest.fn();
-  const callHandleFilter = jest.fn();
-  const callHandleYear = jest.fn();
-  const callHandleOrder = jest.fn();
-  const callHandleChange = jest.fn();
-  const goTop = jest.fn();
-  const toggleFilter = jest.fn();
-  const toggleGrid = jest.fn();
-
+it("renders error component when it can't load the data", async () => {
   const classes = { content: '', error: 'test-error' };
   const showFilters = false;
   const search = false;
@@ -81,32 +74,35 @@ it("renders error component when it can't load the data", () => {
     on: []
   };
 
-  const wrapper = mount(
+  render(
     <App
       showFilters={showFilters}
       search={search}
       autoComplete={autoComplete}
       showGrid={showGrid}
-      callHandleChange={callHandleChange}
-      goTop={goTop}
-      toggleFilter={toggleFilter}
-      toggleGrid={toggleGrid}
+      callHandleChange={jest.fn()}
+      goTop={jest.fn()}
+      toggleFilter={jest.fn()}
+      toggleGrid={jest.fn()}
       filterResults={filterResults}
       filterYear={filterYear}
       filterGenre={filterGenre}
       filterOrder={filterOrder}
       years={years}
-      callHandleToggleChip={callHandleToggleChip}
-      callHandleFilter={callHandleFilter}
-      callHandleYear={callHandleYear}
-      callHandleOrder={callHandleOrder}
+      callHandleToggleChip={jest.fn()}
+      callHandleFilter={jest.fn()}
+      callHandleYear={jest.fn()}
+      callHandleOrder={jest.fn()}
       classes={classes}
       content={content}
     />
   );
 
-  expect(wrapper.find(ErrorIcon)).toHaveLength(1);
-  expect(wrapper.find('.test-error').text()).toEqual("Can't load the data.");
+  expect(screen.getByTestId('error-load')).toBeDefined();
+  const text = within(screen.getByTestId('error-load')).getByText(
+    "Can't load the data."
+  );
+  expect(text).toBeTruthy();
 });
 
 it('calls handleChange correctly', () => {
@@ -334,6 +330,6 @@ it('calls goTop correctly', () => {
 });
 
 it('snapshot changes when input change', () => {
-  const component = render(<ConnectedApp />);
-  expect(component).toMatchSnapshot();
+  const { asFragment } = render(<ConnectedApp />);
+  expect(asFragment).toMatchSnapshot();
 });

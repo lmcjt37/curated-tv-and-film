@@ -1,14 +1,7 @@
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+
 import MultiCard from '../../components/multiCard';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Typography from '@material-ui/core/Typography';
-import Chip from '@material-ui/core/Chip';
-import Fab from '@material-ui/core/Fab';
-import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
-import LocalPlayIcon from '@material-ui/icons/LocalPlay';
 
 const itemMockOne = {
   type: 'tv_show',
@@ -57,36 +50,50 @@ const itemMockTwo = {
 };
 
 it('render all initial child components with one items', () => {
-  const wrapper = mount(<MultiCard {...itemMockOne} />);
+  render(<MultiCard {...itemMockOne} />);
 
-  expect(wrapper.find(Card)).toHaveLength(1);
-  expect(wrapper.find(CardHeader)).toHaveLength(1);
-  expect(wrapper.find(CardContent)).toHaveLength(2);
-  expect(wrapper.find(CardMedia)).toHaveLength(1);
-  expect(wrapper.find(Typography)).toHaveLength(4);
-  expect(wrapper.find(Chip)).toHaveLength(3);
-  expect(wrapper.find(CardActions)).toHaveLength(1);
-  expect(wrapper.find(Fab)).toHaveLength(2);
-  expect(wrapper.find(LocalPlayIcon)).toHaveLength(1);
-  expect(wrapper.find(PlayCircleOutlineIcon)).toHaveLength(1);
+  expect(screen.getByTestId('multi-card')).toBeTruthy();
+  expect(screen.getByTestId('multi-card-title')).toBeTruthy();
+  expect(screen.getByTestId('multi-card-chip-container')).toBeTruthy();
+  expect(
+    screen.getAllByTestId('multi-card-chip-container-item').length
+  ).toEqual(3);
+
+  expect(screen.getAllByTestId('multi-card-item').length).toEqual(1);
+  expect(screen.getAllByTestId('multi-card-media').length).toEqual(1);
+  expect(screen.getAllByTestId('multi-card-image').length).toEqual(1);
+  expect(screen.getAllByTestId('multi-card-content').length).toEqual(1);
+  expect(screen.getAllByTestId('multi-card-subtitle-1').length).toEqual(1);
+  expect(screen.getAllByTestId('multi-card-subtitle-2').length).toEqual(1);
+  expect(screen.getAllByTestId('multi-card-description').length).toEqual(1);
+  expect(screen.getAllByTestId('multi-card-actions').length).toEqual(1);
+  expect(screen.getAllByTestId('multi-card-action-imdb').length).toEqual(1);
+  expect(screen.getAllByTestId('multi-card-action-watch').length).toEqual(1);
 });
 
 it('render all initial child components with two items', () => {
-  const wrapper = mount(<MultiCard {...itemMockTwo} />);
+  render(<MultiCard {...itemMockTwo} />);
 
-  expect(wrapper.find(Card)).toHaveLength(1);
-  expect(wrapper.find(CardHeader)).toHaveLength(1);
-  expect(wrapper.find(CardContent)).toHaveLength(3);
-  expect(wrapper.find(CardMedia)).toHaveLength(2);
-  expect(wrapper.find(Typography)).toHaveLength(7);
-  expect(wrapper.find(Chip)).toHaveLength(3);
-  expect(wrapper.find(CardActions)).toHaveLength(2);
-  expect(wrapper.find(Fab)).toHaveLength(4);
-  expect(wrapper.find(LocalPlayIcon)).toHaveLength(2);
-  expect(wrapper.find(PlayCircleOutlineIcon)).toHaveLength(2);
+  expect(screen.getByTestId('multi-card')).toBeTruthy();
+  expect(screen.getByTestId('multi-card-title')).toBeTruthy();
+  expect(screen.getByTestId('multi-card-chip-container')).toBeTruthy();
+  expect(
+    screen.getAllByTestId('multi-card-chip-container-item').length
+  ).toEqual(3);
+
+  expect(screen.getAllByTestId('multi-card-item').length).toEqual(2);
+  expect(screen.getAllByTestId('multi-card-media').length).toEqual(2);
+  expect(screen.getAllByTestId('multi-card-image').length).toEqual(2);
+  expect(screen.getAllByTestId('multi-card-content').length).toEqual(2);
+  expect(screen.getAllByTestId('multi-card-subtitle-1').length).toEqual(2);
+  expect(screen.getAllByTestId('multi-card-subtitle-2').length).toEqual(2);
+  expect(screen.getAllByTestId('multi-card-description').length).toEqual(2);
+  expect(screen.getAllByTestId('multi-card-actions').length).toEqual(2);
+  expect(screen.getAllByTestId('multi-card-action-imdb').length).toEqual(2);
+  expect(screen.getAllByTestId('multi-card-action-watch').length).toEqual(2);
 });
 
 it('snapshot of initial component with multiple items', () => {
-  const component = render(<MultiCard {...itemMockTwo} />);
-  expect(component).toMatchSnapshot();
+  const { asFragment } = render(<MultiCard {...itemMockTwo} />);
+  expect(asFragment).toMatchSnapshot();
 });

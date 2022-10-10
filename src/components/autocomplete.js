@@ -50,7 +50,8 @@ const renderInput = ({ InputProps, classes, ...other }) => {
         input: classes.inputInput
       }}
       inputProps={{
-        ...InputProps
+        ...InputProps,
+        'data-testid': 'auto-complete-input'
       }}
       {...other}
     />
@@ -117,7 +118,11 @@ const Autocomplete = ({ classes, autoComplete, handleChange, changeState }) => {
   };
 
   return (
-    <Downshift id="downshift-simple" onInputValueChange={onValueChange}>
+    <Downshift
+      data-testid="auto-complete"
+      id="downshift-simple"
+      onInputValueChange={onValueChange}
+    >
       {({
         getInputProps,
         getItemProps,
@@ -139,7 +144,7 @@ const Autocomplete = ({ classes, autoComplete, handleChange, changeState }) => {
           })}
           <div {...getMenuProps()}>
             {isOpen ? (
-              <Paper className={classes.paper} square>
+              <Paper data-testid="suggestions" className={classes.paper} square>
                 {getSuggestions(inputValue, autoComplete).map(
                   (suggestion, index) =>
                     renderSuggestion({

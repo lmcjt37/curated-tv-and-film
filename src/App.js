@@ -274,7 +274,7 @@ export const App = ({
         handleYear={callHandleYear}
         handleOrder={callHandleOrder}
       />
-      <main className={classes.content}>
+      <main data-testid="main" className={classes.content}>
         {content.length ? (
           <Grid container spacing={1}>
             {filterOrder === 'Ascending' &&
@@ -342,12 +342,12 @@ export const App = ({
             })}
           </Grid>
         ) : search ? (
-          <div className={classes.error}>
+          <div data-testid="error-no-result" className={classes.error}>
             <ErrorIcon fontSize="large" />
             <p>No search result.</p>
           </div>
         ) : (
-          <div className={classes.error}>
+          <div data-testid="error-load" className={classes.error}>
             <ErrorIcon fontSize="large" />
             <p>{"Can't load the data."}</p>
           </div>
