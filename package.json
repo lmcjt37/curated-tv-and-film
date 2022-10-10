@@ -10,7 +10,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test::CI": "CI=true react-scripts test",
+    "test:ci": "CI=true react-scripts test",
     "lint": "eslint src/**/*.js",
     "deploy": "gh-pages -d build --dotfiles",
     "prepare": "husky install"
@@ -45,6 +45,10 @@
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
     "prettier": "2.7.1"
+  },
+  "resolutions": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "lint-staged": {
     "*.{js,json,css,md}": [
