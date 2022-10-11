@@ -17,7 +17,7 @@ import LocalPlayIcon from '@material-ui/icons/LocalPlay';
 // Material Core - Styles
 import { withStyles } from '@material-ui/core/styles';
 
-const styles = theme => ({
+const styles = (theme) => ({
   card: {
     margin: theme.spacing(2)
   },
@@ -75,50 +75,77 @@ const MultiCard = ({ classes, title, year, genre, content, type }) => {
     component: 'h2'
   };
   return (
-    <Card className={classes.card}>
+    <Card data-testid="multi-card" className={classes.card}>
       <CardHeader
         title={title + (year ? '(' + year + ')' : '')}
         titleTypographyProps={typoProps}
+        data-testid="multi-card-title"
       />
-      <CardContent>
+      <CardContent data-testid="multi-card-chip-container">
         {genre.map((genre, idx) => {
-          return <Chip key={idx} label={genre} className={classes.chip} />;
+          return (
+            <Chip
+              key={idx}
+              label={genre}
+              className={classes.chip}
+              data-testid="multi-card-chip-container-item"
+            />
+          );
         })}
       </CardContent>
       {content.map((row, index) => {
         return (
-          <div key={index} className={classes.innerContainer}>
+          <div
+            key={index}
+            className={classes.innerContainer}
+            data-testid="multi-card-item"
+          >
             <CardMedia
               className={classes.media}
               image={process.env.PUBLIC_URL + row.thumbnail}
               title={row.title}
+              data-testid="multi-card-media"
             />
             <img
               className={classes.thumbnail}
               src={process.env.PUBLIC_URL + row.thumbnail}
               alt={row.title}
+              data-testid="multi-card-image"
             />
-            <CardContent>
+            <CardContent data-testid="multi-card-content">
               <div className={classes.details}>
                 {type === 'tv_show' && (
                   <div>
-                    <Typography variant="subtitle1" component="h2" gutterBottom>
+                    <Typography
+                      variant="subtitle1"
+                      component="h2"
+                      data-testid="multi-card-subtitle-1"
+                      gutterBottom
+                    >
                       {row.episode_title}
                     </Typography>
                     <Typography
                       gutterBottom
                       component="p"
                       color="textSecondary"
+                      data-testid="multi-card-subtitle-2"
                     >
                       Season: {row.season} | Episode: {row.episode}
                     </Typography>
                   </div>
                 )}
-                <Typography className={classes.description} component="p">
+                <Typography
+                  className={classes.description}
+                  component="p"
+                  data-testid="multi-card-description"
+                >
                   {row.description}
                 </Typography>
               </div>
-              <CardActions classes={{ root: classes.actions }}>
+              <CardActions
+                classes={{ root: classes.actions }}
+                data-testid="multi-card-actions"
+              >
                 <Fab
                   color="primary"
                   aria-label="IMDB"
@@ -127,6 +154,7 @@ const MultiCard = ({ classes, title, year, genre, content, type }) => {
                   target="_blank"
                   rel="noopener noreferrer"
                   variant="extended"
+                  data-testid="multi-card-action-imdb"
                 >
                   <LocalPlayIcon className={classes.localPlayIcon} />
                   IMDB
@@ -139,6 +167,7 @@ const MultiCard = ({ classes, title, year, genre, content, type }) => {
                   target="_blank"
                   rel="noopener noreferrer"
                   variant="extended"
+                  data-testid="multi-card-action-watch"
                 >
                   <PlayCircleOutlineIcon
                     className={classes.playCircleOutlineIcon}

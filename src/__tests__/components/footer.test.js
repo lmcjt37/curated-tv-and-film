@@ -1,17 +1,20 @@
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+
 import Footer from '../../components/footer';
-import Typography from '@material-ui/core/Typography';
 
-it('render all initial child components', () => {
-  const wrapper = mount(<Footer />);
+it('render all initial child components', async () => {
+  render(<Footer />);
 
-  expect(wrapper.find(Footer)).toHaveLength(1);
-  expect(wrapper.find(Typography)).toHaveLength(5);
-  expect(wrapper.find('ul')).toHaveLength(2);
-  expect(wrapper.find('li')).toHaveLength(5);
-  expect(wrapper.find('a')).toHaveLength(4);
+  expect(screen.getByTestId('footer')).toBeTruthy();
+  expect(screen.getByTestId('footer-link-one')).toBeTruthy();
+  expect(screen.getByTestId('footer-link-two')).toBeTruthy();
+  expect(screen.getByTestId('footer-link-three')).toBeTruthy();
+  expect(screen.getByTestId('footer-link-four')).toBeTruthy();
+  expect(screen.getByTestId('footer-link-five')).toBeTruthy();
 });
 
 it('snapshot of initial component', () => {
-  const component = render(<Footer />);
-  expect(component).toMatchSnapshot();
+  const { asFragment } = render(<Footer />);
+  expect(asFragment).toMatchSnapshot();
 });

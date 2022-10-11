@@ -9,8 +9,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 
 // Material Core - Styles
-import { fade } from '@material-ui/core/styles/colorManipulator';
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles, alpha } from '@material-ui/core/styles';
 // Material Core - Icons
 import SearchIcon from '@material-ui/icons/Search';
 import TuneIcon from '@material-ui/icons/Tune';
@@ -22,7 +21,7 @@ import ClearIcon from '@material-ui/icons/Clear'; //Clear Search-bar Icon
 // Components
 import Autocomplete from './autocomplete';
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {
     width: '100%'
   },
@@ -39,9 +38,9 @@ const styles = theme => ({
   search: {
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
-    backgroundColor: fade(theme.palette.common.white, 0.15),
+    backgroundColor: alpha(theme.palette.common.white, 0.15),
     '&:hover': {
-      backgroundColor: fade(theme.palette.common.white, 0.25)
+      backgroundColor: alpha(theme.palette.common.white, 0.25)
     },
     marginRight: theme.spacing(2),
     marginLeft: theme.spacing(2),
@@ -75,11 +74,11 @@ const Header = ({
   toggleFilter,
   showGrid,
   toggleGrid,
-  toggleClear //Clear Search func
+  toggleClear // Clear Search func
 }) => {
   const [showDelete, setShowDelete] = useState(false);
   return (
-    <div className={classes.root}>
+    <div data-testid="header" className={classes.root}>
       <AppBar position="fixed">
         <Toolbar>
           <Typography
@@ -91,7 +90,7 @@ const Header = ({
             Curated TV and Films
           </Typography>
           <div className={classes.search}>
-            <div className={classes.searchIcon}>
+            <div data-testid="search-icon" className={classes.searchIcon}>
               <SearchIcon />
             </div>
             <Autocomplete
@@ -100,27 +99,47 @@ const Header = ({
               handleChange={handleChange}
             />
             {showDelete && (
-              <div className={classes.clearIcon} onClick={toggleClear}>
+              <div
+                data-testid="clear-icon"
+                className={classes.clearIcon}
+                onClick={toggleClear}
+              >
                 <ClearIcon />
               </div>
             )}
           </div>
           <div className={classes.grow} />
           {showFilters ? (
-            <IconButton color="inherit" onClick={toggleFilter}>
+            <IconButton
+              data-testid="close-icon"
+              color="inherit"
+              onClick={toggleFilter}
+            >
               <CloseIcon />
             </IconButton>
           ) : (
-            <IconButton color="inherit" onClick={toggleFilter}>
+            <IconButton
+              data-testid="tune-icon"
+              color="inherit"
+              onClick={toggleFilter}
+            >
               <TuneIcon />
             </IconButton>
           )}
           {showGrid ? (
-            <IconButton color="inherit" onClick={toggleGrid}>
+            <IconButton
+              data-testid="row-icon"
+              color="inherit"
+              onClick={toggleGrid}
+            >
               <RowIcon />
             </IconButton>
           ) : (
-            <IconButton color="inherit" onClick={toggleGrid}>
+            <IconButton
+              data-testid="grid-icon"
+              color="inherit"
+              onClick={toggleGrid}
+            >
               <GridIcon />
             </IconButton>
           )}

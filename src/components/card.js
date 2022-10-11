@@ -16,7 +16,7 @@ import LocalPlayIcon from '@material-ui/icons/LocalPlay';
 // Material Core - Styles
 import { withStyles } from '@material-ui/core/styles';
 
-const styles = theme => ({
+const styles = (theme) => ({
   card: {
     margin: theme.spacing(2)
   },
@@ -84,39 +84,70 @@ const SingleCard = ({
   url
 }) => {
   return (
-    <Card className={classes.card}>
+    <Card data-testid="card" className={classes.card}>
       <div className={classes.innerContainer}>
         <CardMedia
           className={classes.media}
           image={process.env.PUBLIC_URL + thumbnail}
           title={title}
+          data-testid="card-media"
         />
         <img
           className={classes.thumbnail}
           src={process.env.PUBLIC_URL + thumbnail}
           alt={title}
+          data-testid="card-image"
         />
-        <CardContent>
-          <Typography gutterBottom variant="h6" component="h2">
+        <CardContent data-testid="card-content">
+          <Typography
+            gutterBottom
+            variant="h6"
+            component="h2"
+            data-testid="card-content-title"
+          >
             {title} {year ? ' (' + year + ')' : ''}
           </Typography>
           {type === 'tv_show' && (
             <div>
-              <Typography gutterBottom variant="subtitle1" component="h3">
+              <Typography
+                gutterBottom
+                variant="subtitle1"
+                component="h3"
+                data-testid="card-content-subtitle-1"
+              >
                 {episode_title}
               </Typography>
-              <Typography component="p" color="textSecondary">
+              <Typography
+                component="p"
+                color="textSecondary"
+                data-testid="card-content-subtitle-2"
+              >
                 Season: {season} | Episode: {episode}
               </Typography>
             </div>
           )}
-          <div className={classes.chips}>
+          <div
+            className={classes.chips}
+            data-testid="card-content-chip-container"
+          >
             {genre.map((genre, idx) => {
-              return <Chip key={idx} label={genre} className={classes.chip} />;
+              return (
+                <Chip
+                  key={idx}
+                  label={genre}
+                  className={classes.chip}
+                  data-testid="card-content-chip-container-item"
+                />
+              );
             })}
           </div>
-          <Typography component="p">{description}</Typography>
-          <CardActions classes={{ root: classes.actions }}>
+          <Typography component="p" data-testid="card-content-description">
+            {description}
+          </Typography>
+          <CardActions
+            classes={{ root: classes.actions }}
+            data-testid="card-content-actions"
+          >
             <Fab
               color="primary"
               aria-label="IMDB"
@@ -125,6 +156,7 @@ const SingleCard = ({
               target="_blank"
               rel="noopener noreferrer"
               variant="extended"
+              data-testid="card-action-imdb"
             >
               <LocalPlayIcon className={classes.localPlayIcon} />
               IMDB
@@ -137,6 +169,7 @@ const SingleCard = ({
               target="_blank"
               rel="noopener noreferrer"
               variant="extended"
+              data-testid="card-action-watch"
             >
               <PlayCircleOutlineIcon
                 className={classes.playCircleOutlineIcon}

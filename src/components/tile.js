@@ -16,7 +16,7 @@ import LocalPlayIcon from '@material-ui/icons/LocalPlay';
 // Material Core - Styles
 import { withStyles } from '@material-ui/core/styles';
 
-const styles = theme => ({
+const styles = (theme) => ({
   card: {
     margin: theme.spacing(2),
     position: 'relative'
@@ -77,7 +77,7 @@ const Tile = ({
   url
 }) => {
   return (
-    <Card className={classes.card}>
+    <Card data-testid="tile" className={classes.card}>
       <CardMedia
         className={classes.media}
         image={process.env.PUBLIC_URL + thumbnail}

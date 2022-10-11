@@ -1,52 +1,61 @@
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+
 import Header from '../../components/header';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
-import SearchIcon from '@material-ui/icons/Search';
-import TuneIcon from '@material-ui/icons/Tune';
-import CloseIcon from '@material-ui/icons/HighlightOff';
-import RowIcon from '@material-ui/icons/ViewStream';
-import GridIcon from '@material-ui/icons/ViewModule';
-import Autocomplete from '../../components/autocomplete';
+
+const TestComponent = () => {
+  const [showFilters, toggleFilter] = React.useState(false);
+  const [showGrid, toggleGrid] = React.useState(false);
+
+  return (
+    <Header
+      autoComplete={[]}
+      showFilters={showFilters}
+      toggleFilter={() => toggleFilter(!showFilters)}
+      showGrid={showGrid}
+      toggleGrid={() => toggleGrid(!showGrid)}
+    />
+  );
+};
 
 it('render all initial child components', () => {
-  const wrapper = mount(<Header autoComplete={[]} />);
+  render(<Header autoComplete={[]} />);
 
-  expect(wrapper.find(AppBar)).toHaveLength(1);
-  expect(wrapper.find(Toolbar)).toHaveLength(1);
-  expect(wrapper.find(Typography)).toHaveLength(1);
-  expect(wrapper.find(SearchIcon)).toHaveLength(1);
-  expect(wrapper.find(Autocomplete)).toHaveLength(1);
-  expect(wrapper.find(IconButton)).toHaveLength(2);
-  expect(wrapper.find(TuneIcon)).toHaveLength(1);
+  expect(screen.getByTestId('search-icon')).toBeTruthy();
+  expect(screen.getByTestId('auto-complete-input')).toBeTruthy();
+  expect(screen.getByTestId('tune-icon')).toBeTruthy();
+  expect(screen.getByTestId('grid-icon')).toBeTruthy();
+  expect(screen.queryByTestId('clear-icon')).toBeFalsy();
+  expect(screen.queryByTestId('close-icon')).toBeFalsy();
+  expect(screen.queryByTestId('row-icon')).toBeFalsy();
 });
 
-it('changes icon when showFilters props changes', () => {
-  const wrapper = mount(<Header autoComplete={[]} />);
+it('filter menu appears when user clicks to show', async () => {
+  render(<TestComponent />);
 
-  expect(wrapper.find(CloseIcon)).toHaveLength(0);
-  expect(wrapper.find(TuneIcon)).toHaveLength(1);
+  expect(screen.queryByTestId('close-icon')).toBeFalsy();
+  expect(screen.getByTestId('tune-icon')).toBeTruthy();
 
-  wrapper.setProps({ showFilters: true });
+  await userEvent.click(screen.getByTestId('tune-icon'));
 
-  expect(wrapper.find(CloseIcon)).toHaveLength(1);
-  expect(wrapper.find(TuneIcon)).toHaveLength(0);
+  expect(screen.queryByTestId('tune-icon')).toBeFalsy();
+  expect(screen.getByTestId('close-icon')).toBeTruthy();
 });
 
-it('changes icon when showGrid props changes', () => {
-  const wrapper = mount(<Header autoComplete={[]} />);
+it('layout icons update when user clicks either icon', async () => {
+  render(<TestComponent />);
 
-  expect(wrapper.find(RowIcon)).toHaveLength(0);
-  expect(wrapper.find(GridIcon)).toHaveLength(1);
+  expect(screen.queryByTestId('row-icon')).toBeFalsy();
+  expect(screen.getByTestId('grid-icon')).toBeTruthy();
 
-  wrapper.setProps({ showGrid: true });
+  await userEvent.click(screen.getByTestId('grid-icon'));
 
-  expect(wrapper.find(RowIcon)).toHaveLength(1);
-  expect(wrapper.find(GridIcon)).toHaveLength(0);
+  expect(screen.getByTestId('row-icon')).toBeTruthy();
+  expect(screen.queryByTestId('grid-icon')).toBeFalsy();
 });
 
 it('snapshot of initial component', () => {
-  const component = render(<Header autoComplete={[]} />);
-  expect(component).toMatchSnapshot();
+  const { asFragment } = render(<Header autoComplete={[]} />);
+  expect(asFragment).toMatchSnapshot();
 });
