@@ -25,25 +25,47 @@ The purpose of the project is to show a curated list of Modern TV shows or Films
 
 - [About](#about)
 - [Getting Started](#getting_started)
+- [Usage](#usage)
 - [Tests](#tests)
 - [Deployment](#deployment)
-- [Usage](#usage)
 - [Built Using](#built_using)
 - [Contributing](CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
+
 The purpose of the project is to show a curated list of Modern TV shows or Films, where iconic scenes that include speeches, action scenes, classic quotes, etc. These can all be viewed easily and quickly to help in reference. Especially useful in arguments.
 
 These scenes are carefully picked out moments, ignoring bias of any opinions or beliefs. So please be aware that because of this, certain links may cause offense.
 <br>
+
 ## 🏁 Getting Started <a name = "getting_started"></a>
+
 To get started clone this repository or fork it.
 To clone follow this command
+
 ```sh
 git clone https://github.com/lmcjt37/curated-tv-and-film.git
-``` 
+```
+
+Install dependencies
+
+```sh
+yarn install
+```
+
+## 🎈 Usage <a name="usage"></a>
+
+After cloning this repository and installing it's dpendencies, you can start the local development server by running the following command
+
+```sh
+yarn start
+```
+
+The webpage will open automatically, otherwise navigate to http://localhost:3000/ in your browser.
+
+_Hot Module reload causes the server to automatically detect file changes and reload the project._
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
@@ -52,7 +74,7 @@ git clone https://github.com/lmcjt37/curated-tv-and-film.git
 Tests are found in `./src/__tests__` and to run tests across the project use the following command:
 
 ```bash
-npm test (yarn test)
+yarn test
 ```
 
 _Tests are also run on a pre-commit hook to make sure tests are updated along with commits and don't break the build._
@@ -70,24 +92,12 @@ Provided that the components have been rendered correctly, you can fix and updat
 The JavaScript files can be prettyfied using [Prettier](https://github.com/prettier/prettier) with the following command:
 
 ```bash
-npm run lint (yarn run lint)
+yarn lint
 ```
 
 Configuration for Prettier is found in [.prettierrc](.prettierrc).
 
 The project also has pre-commit hooks for when code is commited to your local branches that will trigger this linting across the project.
-
-## 🎈 Usage <a name="usage"></a>
-
-After installing this repository to your local machine to Start the local development server by running the following commands
-```sh
-$ npm install 
-$ npm start
-```
-The webpage will open automatically, otherwise navigate to http://localhost:3000/ in your browser.
-
-_Hot Module reload causes the server to automatically detect file changes and reload the project._
-
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
