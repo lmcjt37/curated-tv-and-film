@@ -7,7 +7,6 @@
     "react-app",
     "react-app/jest",
     "eslint:recommended",
-    "plugin:react/recommended",
     "plugin:prettier/recommended"
   ],
   "settings": {
@@ -27,7 +26,6 @@
       "presets": ["@babel/preset-react"]
     }
   },
-  "plugins": ["react"],
   "rules": {
     "react/prop-types": 0
   }
