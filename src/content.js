@@ -497,6 +497,20 @@ const content = [
     url: 'https://www.youtube.com/watch?v=EQj00Y2sOi8',
     thumbnail: '/assets/images/squidgame.jpg',
     genre: ['Action', 'Adventure', 'Drama']
+  },
+  {
+    type: 'tv_show',
+    title: 'House of the Dragon',
+    description:
+      "Daemon and the Sea Snake battle the Crabfeeder. The realm celebrates Aegon's second nameday. Rhaenyra faces the prospect of marriage.",
+    short: 'Daemon and the Sea Snake battle the Crabfeeder.',
+    season: 1,
+    episode: 3,
+    episode_title: 'Second of his name',
+    imdb: 'https://www.imdb.com/title/tt11198338/',
+    url: 'https://www.youtube.com/watch?v=WeQrIVHWEDQ',
+    thumbnail: '/assets/images/house-of-the-dragon.jpg',
+    genre: ['Action', 'Adventure', 'Drama']
   }
 ];
 
