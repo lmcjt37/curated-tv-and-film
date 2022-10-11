@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/curated-tv-and-film/static/css/main.78f60f1d.css",
-    "main.js": "/curated-tv-and-film/static/js/main.e4b7d176.js",
+    "main.js": "/curated-tv-and-film/static/js/main.ee1a116e.js",
     "index.html": "/curated-tv-and-film/index.html",
     "main.78f60f1d.css.map": "/curated-tv-and-film/static/css/main.78f60f1d.css.map",
-    "main.e4b7d176.js.map": "/curated-tv-and-film/static/js/main.e4b7d176.js.map"
+    "main.ee1a116e.js.map": "/curated-tv-and-film/static/js/main.ee1a116e.js.map"
   },
   "entrypoints": [
     "static/css/main.78f60f1d.css",
-    "static/js/main.e4b7d176.js"
+    "static/js/main.ee1a116e.js"
   ]
 }
