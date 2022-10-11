@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.78f60f1d.css","mappings":"AAAA,KACE,6BAAiC,CACjC,iBACF,CAEA,GACE,oBAAqB,CACrB,SACF","sources":["App.css"],"sourcesContent":["body {\n  font-family: 'Roboto', sans-serif;\n  overflow-x: hidden;\n}\n\nul {\n  list-style-type: none;\n  padding: 0;\n}\n"],"names":[],"sourceRoot":""}

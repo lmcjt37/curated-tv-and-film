@@ -1,20 +1,13 @@
 {
   "files": {
-    "main.css": "/curated-tv-and-film/static/css/main.61616400.chunk.css",
-    "main.js": "/curated-tv-and-film/static/js/main.178ae07b.chunk.js",
-    "main.js.map": "/curated-tv-and-film/static/js/main.178ae07b.chunk.js.map",
-    "runtime-main.js": "/curated-tv-and-film/static/js/runtime-main.4aaf0c4a.js",
-    "runtime-main.js.map": "/curated-tv-and-film/static/js/runtime-main.4aaf0c4a.js.map",
-    "static/js/2.9b85430b.chunk.js": "/curated-tv-and-film/static/js/2.9b85430b.chunk.js",
-    "static/js/2.9b85430b.chunk.js.map": "/curated-tv-and-film/static/js/2.9b85430b.chunk.js.map",
+    "main.css": "/curated-tv-and-film/static/css/main.78f60f1d.css",
+    "main.js": "/curated-tv-and-film/static/js/main.c650ddc6.js",
     "index.html": "/curated-tv-and-film/index.html",
-    "static/css/main.61616400.chunk.css.map": "/curated-tv-and-film/static/css/main.61616400.chunk.css.map",
-    "static/js/2.9b85430b.chunk.js.LICENSE.txt": "/curated-tv-and-film/static/js/2.9b85430b.chunk.js.LICENSE.txt"
+    "main.78f60f1d.css.map": "/curated-tv-and-film/static/css/main.78f60f1d.css.map",
+    "main.c650ddc6.js.map": "/curated-tv-and-film/static/js/main.c650ddc6.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.4aaf0c4a.js",
-    "static/js/2.9b85430b.chunk.js",
-    "static/css/main.61616400.chunk.css",
-    "static/js/main.178ae07b.chunk.js"
+    "static/css/main.78f60f1d.css",
+    "static/js/main.c650ddc6.js"
   ]
 }
